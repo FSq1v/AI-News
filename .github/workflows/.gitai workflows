@@ -1,0 +1,32 @@
+name: Daily AI News Update
+
+on:
+  schedule:
+    - cron: '0 22 * * *' # 毎日JST朝7時（UTC 22:00）に実行
+  workflow_dispatch: # 手動でもボタン一つで実行できるようにする
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install feedparser
+
+      - name: Run update script
+        run: python update.py
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add news.json
+          git commit -m "Auto-update AI news [skip ci]" || exit 0
+          git push
