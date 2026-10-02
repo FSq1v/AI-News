@@ -1,0 +1,17 @@
+<div class="container">
+    <header>
+        <h1>🤖 マイAIニュース・ハブ</h1>
+        <div id="status"></div>
+    </header>
+
+    <!-- ナビゲーションタブ -->
+    <div class="tabs">
+        <button class="tab-btn active" onclick="switchTab('global')">海外ニュース</button>
+        <button class="tab-btn" onclick="switchTab('japan')">国内ニュース</button>
+        <button class="tab-btn" onclick="switchTab('bookmarks')">ブックマーク</button>
+        <button class="tab-btn" onclick="switchTab('history')">閲覧履歴</button>
+    </div>
+
+    <!-- ニュース表示エリア -->
+    <div id="news-container" class="news-list"></div>
+</div>
