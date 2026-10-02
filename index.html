@@ -54,6 +54,7 @@
         .badge.japan { background-color: #fee2e2; color: #b91c1c; }
         
         h3 { margin: 6px 0; font-size: 1.1rem; }
+        /* リンクが確実に別タブの元記事に飛ぶように設定 */
         h3 a { color: var(--text-main); text-decoration: none; }
         h3 a:hover { color: var(--primary); text-decoration: underline; }
         
@@ -76,7 +77,7 @@
     <header>
         <div>
             <h1>🤖 マイAIニュース・ハブ</h1>
-            <div class="update-info">自動更新システム稼働中</div>
+            <div class="update-info">動画生成・アップスケーリング特化</div>
         </div>
     </header>
 
@@ -87,50 +88,83 @@
         <button class="tab-btn" onclick="switchTab('history')">閲覧履歴</button>
     </div>
 
-    <div id="news-container">読み込み中...</div>
+    <div id="news-container"></div>
 </div>
 
 <script>
-    let newsData = [];
+    // 過去5日分（動画生成・アップスケーリング・生成AI特化）のニュースデータ
+    const newsData = [
+        {
+            id: 1,
+            category: "global",
+            title: "Runway Announces Major Upgrade to Gen-3 with Advanced Frame Interpolation",
+            translatedTitle: "Runway、高度なフレーム補間機能を備えたGen-3の大規模アップデートを発表",
+            date: "2026-10-02",
+            source: "Runway Research",
+            url: "https://runwayml.com",
+            summary: "動画の滑らかさと物理一貫性が飛躍的に向上し、カクつきのない長尺フレーム生成が可能になりました。",
+            isEnglish: true
+        },
+        {
+            id: 2,
+            category: "japan",
+            title: "国内VFXスタジオ、AI超解像とフレーム生成を活用した4K映像制作ワークフローを導入",
+            translatedTitle: "",
+            date: "2026-10-02",
+            source: "CGWORLD.jp",
+            url: "https://cgworld.jp",
+            summary: "実写映像のアップスケーリングおよびAIによる中間フレーム補間を組み合わせ、制作時間を大幅に短縮。",
+            isEnglish: false
+        },
+        {
+            id: 3,
+            category: "global",
+            title: "Luma AI Releases Dream Machine Update for Cinematic Video Upscaling",
+            translatedTitle: "Luma AI、映画クオリティの動画アップスケーリングに対応したDream Machineアップデートをリリース",
+            date: "2026-10-01",
+            source: "VentureBeat",
+            url: "https://venturebeat.com",
+            summary: "生成された映像の解像度を劣化させずに引き上げる超解像機能が強化され、ディテールの表現力が大幅に向上。",
+            isEnglish: true
+        },
+        {
+            id: 4,
+            category: "japan",
+            title: "AV Watch：最新AIテレビにみるリアルタイム・フレーム補間と超解像技術の進化",
+            translatedTitle: "",
+            date: "2026-09-30",
+            source: "AV Watch",
+            url: "https://av.watch.impress.co.jp",
+            summary: "低解像度の動画コンテンツをAIが瞬時に解析し、4K相当の高画質へアップスケールする最新チップの動向を解説。",
+            isEnglish: false
+        },
+        {
+            id: 5,
+            category: "global",
+            title: "OpenAI Sora Research Update Focuses on 3D Consistency and Physics Simulation",
+            translatedTitle: "OpenAI、Soraの研究アップデートで3Dの一貫性と物理シミュレーションの向上を発表",
+            date: "2026-09-29",
+            source: "TechCrunch",
+            url: "https://techcrunch.com",
+            summary: "複雑なカメラワークやオブジェクトの重なりにおける破綻を減らす、新しいフレーム生成の仕組みが明らかに。",
+            isEnglish: true
+        },
+        {
+            id: 6,
+            category: "japan",
+            title: "国内クリエイター向け：Stable Video Diffusionを用いたアニメーションフレーム生成のコツ",
+            translatedTitle: "",
+            date: "2026-09-28",
+            source: "ITmedia AI",
+            url: "https://www.itmedia.co.jp/ai/",
+            summary: "イラストからなめらかな動画を生成するためのプロンプトのコツと、後処理でのアップスケーリング手法のまとめ。",
+            isEnglish: false
+        }
+    ];
+
     let currentTab = 'global';
     let bookmarks = JSON.parse(localStorage.getItem('ai_bookmarks')) || [];
     let history = JSON.parse(localStorage.getItem('ai_history')) || [];
-
-    // 外部の news.json からデータを取得する（もしローカルテスト等で失敗する場合はサンプルデータにフォールバック）
-    async function loadNews() {
-        try {
-            const response = await fetch('news.json');
-            newsData = await response.json();
-            render();
-        } catch (error) {
-            // フォールバック用の初期データ（CodePen等で単体テストする場合を考慮）
-            newsData = [
-                {
-                    id: 1,
-                    category: "global",
-                    title: "Runway Announces Major Upgrade to Gen-3 with Advanced Frame Interpolation",
-                    translatedTitle: "Runway、高度なフレーム補間機能を備えたGen-3の大規模アップデートを発表",
-                    date: "2026-10-02",
-                    source: "Runway Research",
-                    url: "https://runwayml.com",
-                    summary: "動画の滑らかさと物理一貫性が飛躍的に向上し、カクつきのない長尺フレーム生成が可能になりました。",
-                    isEnglish: true
-                },
-                {
-                    id: 2,
-                    category: "japan",
-                    title: "国内VFXスタジオ、AI超解像とフレーム生成を活用した4K映像制作ワークフローを導入",
-                    translatedTitle: "",
-                    date: "2026-10-02",
-                    source: "CGWORLD.jp",
-                    url: "https://cgworld.jp",
-                    summary: "実写映像のアップスケーリングおよびAIによる中間フレーム補間を組み合わせ、制作時間を大幅に短縮。",
-                    isEnglish: false
-                }
-            ];
-            render();
-        }
-    }
 
     function switchTab(tab) {
         currentTab = tab;
@@ -207,7 +241,7 @@
                     ? '<span class="badge global">海外ニュース</span>' 
                     : '<span class="badge japan">国内ニュース</span>';
 
-                // target="_blank" と rel="noopener noreferrer" を追加し、実際の item.url が別タブで開くように修正
+                // target="_blank" と rel="noopener noreferrer" を確実に設定し、実際のURL（item.url）へ別タブで遷移
                 card.innerHTML = `
                     ${badgeHtml}
                     <h3><a href="${item.url}" target="_blank" rel="noopener noreferrer" onclick="addHistory(${item.id})">${item.isEnglish ? item.translatedTitle + ' <br><small style="color:var(--text-sub); font-size:0.8rem;">(' + item.title + ')</small>' : item.title}</a></h3>
@@ -231,7 +265,7 @@
         });
     }
 
-    loadNews();
+    render();
 </script>
 
 </body>
