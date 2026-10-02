@@ -19,78 +19,35 @@
             margin: 0;
             padding: 20px;
         }
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-        }
-        header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 24px;
-        }
+        .container { max-width: 900px; margin: 0 auto; }
+        header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; }
         h1 { margin: 0; font-size: 1.5rem; color: var(--primary); }
         .update-info { font-size: 0.8rem; color: var(--text-sub); }
         
-        /* タブ・メニュー */
         .tabs {
-            display: flex;
-            gap: 10px;
-            margin-bottom: 20px;
-            border-bottom: 2px solid #e2e8f0;
-            padding-bottom: 10px;
-            overflow-x: auto;
+            display: flex; gap: 10px; margin-bottom: 20px;
+            border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; overflow-x: auto;
         }
         .tab-btn {
-            background: none;
-            border: none;
-            font-size: 0.95rem;
-            font-weight: bold;
-            color: var(--text-sub);
-            cursor: pointer;
-            padding: 8px 16px;
-            border-radius: 6px;
-            white-space: nowrap;
-            transition: all 0.2s;
+            background: none; border: none; font-size: 0.95rem; font-weight: bold;
+            color: var(--text-sub); cursor: pointer; padding: 8px 16px; border-radius: 6px; white-space: nowrap;
         }
-        .tab-btn.active {
-            background-color: var(--primary);
-            color: white;
-        }
+        .tab-btn.active { background-color: var(--primary); color: white; }
 
-        /* 日付ごとのグループ */
-        .date-group {
-            margin-bottom: 24px;
-        }
+        .date-group { margin-bottom: 24px; }
         .date-heading {
-            font-size: 1rem;
-            font-weight: bold;
-            color: var(--primary);
-            margin-bottom: 12px;
-            border-left: 4px solid var(--primary);
-            padding-left: 8px;
+            font-size: 1rem; font-weight: bold; color: var(--primary);
+            margin-bottom: 12px; border-left: 4px solid var(--primary); padding-left: 8px;
         }
 
-        /* 記事カード */
-        .news-list {
-            display: flex;
-            flex-direction: column;
-            gap: 12px;
-        }
+        .news-list { display: flex; flex-direction: column; gap: 12px; }
         .news-card {
-            background: var(--card-bg);
-            padding: 16px 20px;
-            border-radius: 12px;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-            position: relative;
+            background: var(--card-bg); padding: 16px 20px; border-radius: 12px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1); position: relative;
         }
         .badge {
-            display: inline-block;
-            padding: 4px 8px;
-            font-size: 0.75rem;
-            font-weight: bold;
-            border-radius: 4px;
-            margin-bottom: 8px;
+            display: inline-block; padding: 4px 8px; font-size: 0.75rem;
+            font-weight: bold; border-radius: 4px; margin-bottom: 8px;
         }
         .badge.global { background-color: #e0f2fe; color: #0369a1; }
         .badge.japan { background-color: #fee2e2; color: #b91c1c; }
@@ -99,46 +56,17 @@
         h3 a { color: var(--text-main); text-decoration: none; }
         h3 a:hover { color: var(--primary); text-decoration: underline; }
         
-        .meta {
-            font-size: 0.85rem;
-            color: var(--text-sub);
-            margin-bottom: 10px;
-        }
-
-        .ai-box {
-            background: #f1f5f9;
-            padding: 12px;
-            border-radius: 8px;
-            margin-top: 10px;
-            font-size: 0.9rem;
-            display: none;
-        }
+        .meta { font-size: 0.85rem; color: var(--text-sub); margin-bottom: 10px; }
+        .ai-box { background: #f1f5f9; padding: 12px; border-radius: 8px; margin-top: 10px; font-size: 0.9rem; display: none; }
         .ai-box.show { display: block; }
 
-        .actions {
-            display: flex;
-            gap: 10px;
-            margin-top: 10px;
-            align-items: center;
-            flex-wrap: wrap;
-        }
+        .actions { display: flex; gap: 10px; margin-top: 10px; align-items: center; flex-wrap: wrap; }
         button.action-btn {
-            background: #e2e8f0;
-            border: none;
-            padding: 6px 12px;
-            border-radius: 6px;
-            font-size: 0.85rem;
-            cursor: pointer;
-            font-weight: 500;
+            background: #e2e8f0; border: none; padding: 6px 12px;
+            border-radius: 6px; font-size: 0.85rem; cursor: pointer; font-weight: 500;
         }
         button.action-btn:hover { background: #cbd5e1; }
-        button.bookmark-btn {
-            background: none;
-            border: none;
-            font-size: 1.2rem;
-            cursor: pointer;
-            margin-left: auto;
-        }
+        button.bookmark-btn { background: none; border: none; font-size: 1.2rem; cursor: pointer; margin-left: auto; }
     </style>
 </head>
 <body>
@@ -147,11 +75,10 @@
     <header>
         <div>
             <h1>🤖 マイAIニュース・ハブ</h1>
-            <div class="update-info">直近5日間のAIトピックまとめ</div>
+            <div class="update-info">自動更新システム稼働中</div>
         </div>
     </header>
 
-    <!-- ナビゲーションタブ -->
     <div class="tabs">
         <button class="tab-btn active" onclick="switchTab('global')">海外ニュース</button>
         <button class="tab-btn" onclick="switchTab('japan')">国内ニュース</button>
@@ -159,100 +86,25 @@
         <button class="tab-btn" onclick="switchTab('history')">閲覧履歴</button>
     </div>
 
-    <!-- ニュース表示エリア -->
-    <div id="news-container"></div>
+    <div id="news-container">読み込み中...</div>
 </div>
 
 <script>
-    // 過去5日分（2026年9月28日〜10月2日）のAIニュースデータ
-    const newsData = [
-        // 10月2日（今日）
-        {
-            id: 1,
-            category: "global",
-            title: "OpenAI Announces New Advanced Reasoning Model with Deep Research Capabilities",
-            translatedTitle: "OpenAI、深いリサーチ機能を持つ新しい高度推論モデルを発表",
-            date: "2026-10-02",
-            source: "TechCrunch",
-            url: "#",
-            summary: "複雑なWeb上のリサーチを自律的に行い、詳細なレポートを数分で作成する新モデルについて報じています。",
-            isEnglish: true
-        },
-        {
-            id: 2,
-            category: "japan",
-            title: "経済産業省、国内企業向けの国産LLM開発支援拠点を新設へ",
-            translatedTitle: "",
-            date: "2026-10-02",
-            source: "日本経済新聞",
-            url: "#",
-            summary: "日本の産業特化型AIの開発力強化を目指し、産学連携による大規模な計算資源の提供拠点が設立されます。",
-            isEnglish: false
-        },
-        // 10月1日
-        {
-            id: 3,
-            category: "global",
-            title: "Anthropic Releases Claude with Advanced Agentic Workflows",
-            translatedTitle: "Anthropic、高度なエージェント機能を強化したClaudeの新バージョンをリリース",
-            date: "2026-10-01",
-            source: "VentureBeat",
-            url: "#",
-            summary: "複数ステップにわたる複雑な開発・事務作業を自律的にこなすエージェント性能が大幅に向上しました。",
-            isEnglish: true
-        },
-        {
-            id: 4,
-            category: "japan",
-            title: "東京都、行政手続きへの生成AIエージェント導入を本格拡大",
-            translatedTitle: "",
-            date: "2026-10-01",
-            source: "ITmedia AI",
-            url: "#",
-            summary: "都民からの複雑な問い合わせに対して24時間自動で的確に応答するシステムの導入が各区に広がっています。",
-            isEnglish: false
-        },
-        // 9月30日
-        {
-            id: 5,
-            category: "global",
-            title: "Google DeepMind Unveils Breakthrough in Video Generation Physics",
-            translatedTitle: "Google DeepMind、動画生成における物理法則の理解でブレイクスルーを発表",
-            date: "2026-09-30",
-            source: "Google Blog",
-            url: "#",
-            summary: "現実世界の重力や質感をより正確にシミュレーションできる次世代の動画生成AIモデルが公開されました。",
-            isEnglish: true
-        },
-        // 9月29日
-        {
-            id: 6,
-            category: "japan",
-            title: "大手通信キャリア、国内データセンター向け次世代AI半導体の導入を発表",
-            translatedTitle: "",
-            date: "2026-09-29",
-            source: "日経クロステック",
-            url: "#",
-            summary: "国内の電力効率を最適化したAIインフラ構築に向け、最新の高速アクセラレータの調達を進めると発表。",
-            isEnglish: false
-        },
-        // 9月28日
-        {
-            id: 7,
-            category: "global",
-            title: "Open Source AI Community Reaches Milestone with New 100B+ Model",
-            translatedTitle: "オープンソースAIコミュニティ、1000億パラメーター超の新モデルで新たなマイルストーン",
-            date: "2026-09-28",
-            source: "Hugging Face Blog",
-            url: "#",
-            summary: "商用利用可能な大規模オープンウェイトモデルが公開され、企業でのローカル環境での活用に期待が高まっています。",
-            isEnglish: true
-        }
-    ];
-
+    let newsData = [];
     let currentTab = 'global';
     let bookmarks = JSON.parse(localStorage.getItem('ai_bookmarks')) || [];
     let history = JSON.parse(localStorage.getItem('ai_history')) || [];
+
+    // 外部の news.json からデータを取得する
+    async function loadNews() {
+        try {
+            const response = await fetch('news.json');
+            newsData = await response.json();
+            render();
+        } catch (error) {
+            document.getElementById('news-container').innerHTML = '<p style="text-align:center; color:var(--text-sub);">ニュースの読み込みに失敗しました。</p>';
+        }
+    }
 
     function switchTab(tab) {
         currentTab = tab;
@@ -304,20 +156,17 @@
             return;
         }
 
-        // 日付ごとにグループ化
         const grouped = {};
         targetData.forEach(item => {
             if (!grouped[item.date]) grouped[item.date] = [];
             grouped[item.date].push(item);
         });
 
-        // 日付の新しい順（降順）に並び替え
         const sortedDates = Object.keys(grouped).sort().reverse();
 
         sortedDates.forEach(date => {
             const groupDiv = document.createElement('div');
             groupDiv.className = 'date-group';
-            
             groupDiv.innerHTML = `<div class="date-heading">📅 ${date} のニュース</div>`;
             
             const listDiv = document.createElement('div');
@@ -355,7 +204,7 @@
         });
     }
 
-    render();
+    loadNews();
 </script>
 
 </body>
