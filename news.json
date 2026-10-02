@@ -20,5 +20,60 @@
         "url": "#",
         "summary": "日本の産業特化型AIの開発力強化を目指し、産学連携による大規模な計算資源の提供拠点が設立されます。",
         "isEnglish": false
+    },
+    {
+        "id": 3,
+        "category": "global",
+        "title": "Anthropic Releases Claude with Advanced Agentic Workflows",
+        "translatedTitle": "Anthropic、高度なエージェント機能を強化したClaudeの新バージョンをリリース",
+        "date": "2026-10-01",
+        "source": "VentureBeat",
+        "url": "#",
+        "summary": "複数ステップにわたる複雑な開発・事務作業を自律的にこなすエージェント性能が大幅に向上しました。",
+        "isEnglish": true
+    },
+    {
+        "id": 4,
+        "category": "japan",
+        "title": "東京都、行政手続きへの生成AIエージェント導入を本格拡大",
+        "translatedTitle": "",
+        "date": "2026-10-01",
+        "source": "ITmedia AI",
+        "url": "#",
+        "summary": "都民からの複雑な問い合わせに対して24時間自動で的確に応答するシステムの導入が各区に広がっています。",
+        "isEnglish": false
+    },
+    {
+        "id": 5,
+        "category": "global",
+        "title": "Google DeepMind Unveils Breakthrough in Video Generation Physics",
+        "translatedTitle": "Google DeepMind、動画生成における物理法則の理解でブレイクスルーを発表",
+        "date": "2026-09-30",
+        "source": "Google Blog",
+        "url": "#",
+        "summary": "現実世界の重力や質感をより正確にシミュレーションできる次世代の動画生成AIモデルが公開されました。",
+        "isEnglish": true
+    },
+    {
+        "id": 6,
+        "category": "japan",
+        "title": "大手通信キャリア、国内データセンター向け次世代AI半導体の導入を発表",
+        "translatedTitle": "",
+        "date": "2026-09-29",
+        "source": "日経クロステック",
+        "url": "#",
+        "summary": "国内の電力効率を最適化したAIインフラ構築に向け、最新の高速アクセラレータの調達を進めると発表。",
+        "isEnglish": false
+    },
+    {
+        "id": 7,
+        "category": "global",
+        "title": "Open Source AI Community Reaches Milestone with New 100B+ Model",
+        "translatedTitle": "オープンソースAIコミュニティ、1000億パラメーター超の新モデルで新たなマイルストーン",
+        "date": "2026-09-28",
+        "source": "Hugging Face Blog",
+        "url": "#",
+        "summary": "商用利用可能な大規模オープンウェイトモデルが公開され、企業でのローカル環境での活用に期待が高まっています。",
+        "isEnglish": true
     }
 ]
