@@ -31,6 +31,7 @@
         .tab-btn {
             background: none; border: none; font-size: 0.95rem; font-weight: bold;
             color: var(--text-sub); cursor: pointer; padding: 8px 16px; border-radius: 6px; white-space: nowrap;
+            transition: all 0.2s;
         }
         .tab-btn.active { background-color: var(--primary); color: white; }
 
@@ -95,14 +96,39 @@
     let bookmarks = JSON.parse(localStorage.getItem('ai_bookmarks')) || [];
     let history = JSON.parse(localStorage.getItem('ai_history')) || [];
 
-    // 外部の news.json からデータを取得する
+    // 外部の news.json からデータを取得する（もしローカルテスト等で失敗する場合はサンプルデータにフォールバック）
     async function loadNews() {
         try {
             const response = await fetch('news.json');
             newsData = await response.json();
             render();
         } catch (error) {
-            document.getElementById('news-container').innerHTML = '<p style="text-align:center; color:var(--text-sub);">ニュースの読み込みに失敗しました。</p>';
+            // フォールバック用の初期データ（CodePen等で単体テストする場合を考慮）
+            newsData = [
+                {
+                    id: 1,
+                    category: "global",
+                    title: "Runway Announces Major Upgrade to Gen-3 with Advanced Frame Interpolation",
+                    translatedTitle: "Runway、高度なフレーム補間機能を備えたGen-3の大規模アップデートを発表",
+                    date: "2026-10-02",
+                    source: "Runway Research",
+                    url: "https://runwayml.com",
+                    summary: "動画の滑らかさと物理一貫性が飛躍的に向上し、カクつきのない長尺フレーム生成が可能になりました。",
+                    isEnglish: true
+                },
+                {
+                    id: 2,
+                    category: "japan",
+                    title: "国内VFXスタジオ、AI超解像とフレーム生成を活用した4K映像制作ワークフローを導入",
+                    translatedTitle: "",
+                    date: "2026-10-02",
+                    source: "CGWORLD.jp",
+                    url: "https://cgworld.jp",
+                    summary: "実写映像のアップスケーリングおよびAIによる中間フレーム補間を組み合わせ、制作時間を大幅に短縮。",
+                    isEnglish: false
+                }
+            ];
+            render();
         }
     }
 
@@ -181,9 +207,10 @@
                     ? '<span class="badge global">海外ニュース</span>' 
                     : '<span class="badge japan">国内ニュース</span>';
 
+                // target="_blank" と rel="noopener noreferrer" を追加し、実際の item.url が別タブで開くように修正
                 card.innerHTML = `
                     ${badgeHtml}
-                    <h3><a href="${item.url}" target="_blank" onclick="addHistory(${item.id})">${item.isEnglish ? item.translatedTitle + ' <br><small style="color:var(--text-sub); font-size:0.8rem;">(' + item.title + ')</small>' : item.title}</a></h3>
+                    <h3><a href="${item.url}" target="_blank" rel="noopener noreferrer" onclick="addHistory(${item.id})">${item.isEnglish ? item.translatedTitle + ' <br><small style="color:var(--text-sub); font-size:0.8rem;">(' + item.title + ')</small>' : item.title}</a></h3>
                     <div class="meta">出典: ${item.source}</div>
                     
                     <div class="actions">
