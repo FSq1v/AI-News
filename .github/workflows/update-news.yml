@@ -19,6 +19,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          # 再実行 (Re-run) でも、起動時点ではなくブランチの最新コードで動かす
+          ref: ${{ github.ref_name }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -43,5 +46,6 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add news.json
           git commit -m "Auto-update AI news [skip ci]" || exit 0
-          git pull --rebase origin "${GITHUB_REF_NAME}"
+          # 実行中に他の更新が入っていても、今回取得した news.json を優先して取り込む
+          git pull --rebase -X theirs origin "${GITHUB_REF_NAME}"
           git push
