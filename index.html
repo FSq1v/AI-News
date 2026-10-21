@@ -1,272 +1,1076 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>マイAIニュース・ハブ</title>
-    <style>
-        :root {
-            --primary: #4f46e5;
-            --bg-color: #f8fafc;
-            --card-bg: #ffffff;
-            --text-main: #1e293b;
-            --text-sub: #64748b;
-        }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-            background-color: var(--bg-color);
-            color: var(--text-main);
-            margin: 0;
-            padding: 20px;
-        }
-        .container { max-width: 900px; margin: 0 auto; }
-        header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; }
-        h1 { margin: 0; font-size: 1.5rem; color: var(--primary); }
-        .update-info { font-size: 0.8rem; color: var(--text-sub); }
-        
-        .tabs {
-            display: flex; gap: 10px; margin-bottom: 20px;
-            border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; overflow-x: auto;
-        }
-        .tab-btn {
-            background: none; border: none; font-size: 0.95rem; font-weight: bold;
-            color: var(--text-sub); cursor: pointer; padding: 8px 16px; border-radius: 6px; white-space: nowrap;
-            transition: all 0.2s;
-        }
-        .tab-btn.active { background-color: var(--primary); color: white; }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="海外・国内の主要な人工知能関連報道を毎日集約するニュースダイジェスト">
+<meta name="color-scheme" content="light dark">
+<title>AI Chronicle</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Shippori+Mincho:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+    --paper: #f5f1e8;
+    --paper-raised: #faf7f0;
+    --ink: #1c1a16;
+    --ink-soft: #3b3730;
+    --muted: #756e61;
+    --rule: #cbc2ae;
+    --rule-strong: #1c1a16;
+    --accent: #7b1e24;
+    --accent-soft: rgba(123, 30, 36, 0.08);
+    --gold: #9a7b4f;
+    --focus: #7b1e24;
+    --serif-latin: "Cormorant Garamond", "Times New Roman", serif;
+    --serif: "Shippori Mincho", "Hiragino Mincho ProN", "Yu Mincho", "YuMincho", serif;
+    --sans: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Noto Sans JP", "Yu Gothic UI", "Meiryo", sans-serif;
+    --base: 16px;
+}
+:root[data-theme="dark"] {
+    --paper: #15140f;
+    --paper-raised: #1c1a15;
+    --ink: #ece5d6;
+    --ink-soft: #d3cbbb;
+    --muted: #9c937f;
+    --rule: #3a362d;
+    --rule-strong: #ece5d6;
+    --accent: #d3a06f;
+    --accent-soft: rgba(211, 160, 111, 0.1);
+    --gold: #c4a46e;
+    --focus: #d3a06f;
+}
+@media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+        --paper: #15140f;
+        --paper-raised: #1c1a15;
+        --ink: #ece5d6;
+        --ink-soft: #d3cbbb;
+        --muted: #9c937f;
+        --rule: #3a362d;
+        --rule-strong: #ece5d6;
+        --accent: #d3a06f;
+        --accent-soft: rgba(211, 160, 111, 0.1);
+        --gold: #c4a46e;
+        --focus: #d3a06f;
+    }
+}
+:root[data-size="large"] { --base: 18px; }
 
-        .date-group { margin-bottom: 24px; }
-        .date-heading {
-            font-size: 1rem; font-weight: bold; color: var(--primary);
-            margin-bottom: 12px; border-left: 4px solid var(--primary); padding-left: 8px;
-        }
+*, *::before, *::after { box-sizing: border-box; }
+html { font-size: var(--base); -webkit-text-size-adjust: 100%; }
+body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--serif);
+    line-height: 1.75;
+    font-feature-settings: "palt";
+    -webkit-font-smoothing: antialiased;
+}
+a { color: inherit; }
+button, input, select { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 
-        .news-list { display: flex; flex-direction: column; gap: 12px; }
-        .news-card {
-            background: var(--card-bg); padding: 16px 20px; border-radius: 12px;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.1); position: relative;
-        }
-        .badge {
-            display: inline-block; padding: 4px 8px; font-size: 0.75rem;
-            font-weight: bold; border-radius: 4px; margin-bottom: 8px;
-        }
-        .badge.global { background-color: #e0f2fe; color: #0369a1; }
-        .badge.japan { background-color: #fee2e2; color: #b91c1c; }
-        
-        h3 { margin: 6px 0; font-size: 1.1rem; }
-        /* リンクが確実に別タブの元記事に飛ぶように設定 */
-        h3 a { color: var(--text-main); text-decoration: none; }
-        h3 a:hover { color: var(--primary); text-decoration: underline; }
-        
-        .meta { font-size: 0.85rem; color: var(--text-sub); margin-bottom: 10px; }
-        .ai-box { background: #f1f5f9; padding: 12px; border-radius: 8px; margin-top: 10px; font-size: 0.9rem; display: none; }
-        .ai-box.show { display: block; }
+.page { max-width: 1180px; margin: 0 auto; padding: 0 24px; }
 
-        .actions { display: flex; gap: 10px; margin-top: 10px; align-items: center; flex-wrap: wrap; }
-        button.action-btn {
-            background: #e2e8f0; border: none; padding: 6px 12px;
-            border-radius: 6px; font-size: 0.85rem; cursor: pointer; font-weight: 500;
-        }
-        button.action-btn:hover { background: #cbd5e1; }
-        button.bookmark-btn { background: none; border: none; font-size: 1.2rem; cursor: pointer; margin-left: auto; }
-    </style>
+/* ---------- Masthead ---------- */
+.dateline {
+    display: flex; justify-content: space-between; align-items: center; gap: 12px;
+    padding: 10px 0; border-bottom: 1px solid var(--rule);
+    font-family: var(--sans); font-size: 0.72rem; letter-spacing: 0.06em; color: var(--muted);
+}
+.dateline .utility { display: flex; gap: 16px; }
+.text-btn {
+    background: none; border: 0; padding: 0; cursor: pointer;
+    font-family: var(--sans); font-size: 0.72rem; letter-spacing: 0.06em; color: var(--muted);
+}
+.text-btn:hover { color: var(--ink); }
+.masthead { text-align: center; padding: 28px 0 18px; }
+.masthead h1 {
+    margin: 0; font-family: var(--serif-latin); font-weight: 600;
+    font-size: clamp(2.6rem, 7vw, 4.6rem); line-height: 1; letter-spacing: 0.04em;
+}
+.masthead h1 a { text-decoration: none; }
+.masthead .tagline {
+    margin-top: 10px; font-size: 0.82rem; letter-spacing: 0.3em; color: var(--muted);
+}
+.double-rule { border-top: 3px double var(--rule-strong); }
+.single-rule { border-top: 1px solid var(--rule-strong); }
+
+/* ---------- Navigation ---------- */
+.sections {
+    display: flex; justify-content: center; flex-wrap: wrap; gap: 0;
+    padding: 6px 0; font-family: var(--sans); font-size: 0.82rem; letter-spacing: 0.12em;
+}
+.sections button {
+    background: none; border: 0; cursor: pointer; padding: 8px 16px; color: var(--ink-soft);
+    position: relative;
+}
+.sections button + button::before {
+    content: ""; position: absolute; left: 0; top: 30%; height: 40%; border-left: 1px solid var(--rule);
+}
+.sections button[aria-pressed="true"] { color: var(--accent); font-weight: 600; }
+.sections button .count { font-size: 0.7rem; color: var(--muted); margin-left: 4px; letter-spacing: 0; }
+.topics {
+    display: flex; justify-content: center; flex-wrap: wrap; gap: 4px 2px;
+    padding: 8px 0 10px; border-bottom: 1px solid var(--rule);
+    font-family: var(--sans); font-size: 0.74rem; letter-spacing: 0.06em;
+}
+.topics button {
+    background: none; border: 1px solid transparent; cursor: pointer; padding: 3px 10px; color: var(--muted);
+}
+.topics button:hover { color: var(--ink); }
+.topics button[aria-pressed="true"] { border-color: var(--ink); color: var(--ink); }
+
+/* ---------- Toolbar ---------- */
+.toolbar {
+    display: flex; flex-wrap: wrap; gap: 10px 20px; align-items: center;
+    padding: 14px 0; border-bottom: 1px solid var(--rule);
+    font-family: var(--sans); font-size: 0.78rem; color: var(--muted);
+}
+.search { flex: 1 1 240px; display: flex; align-items: center; gap: 8px; border-bottom: 1px solid var(--ink); }
+.search input {
+    flex: 1; border: 0; background: transparent; padding: 6px 0; font-family: var(--serif); font-size: 0.95rem; color: var(--ink);
+    min-width: 0;
+}
+.search input:focus { outline: none; }
+.search kbd { font-size: 0.68rem; }
+.control { display: flex; align-items: center; gap: 6px; }
+.control select {
+    border: 0; border-bottom: 1px solid var(--rule); background: transparent; padding: 4px 2px; cursor: pointer;
+    font-size: 0.78rem; color: var(--ink); max-width: 11rem;
+}
+.control select option { background: var(--paper); color: var(--ink); }
+.check { display: flex; align-items: center; gap: 6px; cursor: pointer; }
+.check input { accent-color: var(--accent); }
+kbd {
+    font-family: var(--sans); font-size: 0.7rem; padding: 0 5px; border: 1px solid var(--rule);
+    border-bottom-width: 2px; border-radius: 2px; color: var(--muted); background: var(--paper-raised);
+}
+
+/* ---------- Status ---------- */
+.status {
+    display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px;
+    padding: 10px 0; font-family: var(--sans); font-size: 0.72rem; color: var(--muted); letter-spacing: 0.04em;
+}
+.status button { font-size: 0.72rem; text-decoration: underline; text-underline-offset: 3px; }
+
+/* ---------- Front page ---------- */
+.front {
+    display: grid; grid-template-columns: minmax(0, 2.1fr) minmax(0, 1fr); gap: 0;
+    border-bottom: 3px double var(--rule-strong); padding-bottom: 28px; margin-bottom: 8px;
+}
+.front-main { padding-right: 32px; border-right: 1px solid var(--rule); }
+.front-side { padding-left: 32px; }
+.lead .kicker { margin-bottom: 10px; }
+.lead h2 {
+    margin: 0 0 12px; font-size: clamp(1.6rem, 3.4vw, 2.35rem); line-height: 1.38; font-weight: 700; letter-spacing: 0.01em;
+}
+.lead h2 a { text-decoration: none; }
+.lead h2 a:hover { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 6px; }
+.lead figure { margin: 0 0 16px; }
+.lead figure img {
+    width: 100%; aspect-ratio: 16 / 9; object-fit: cover; display: block; border: 1px solid var(--rule);
+    filter: saturate(0.85) contrast(1.02);
+}
+.lead .summary { font-size: 1.04rem; color: var(--ink-soft); }
+.lead .original { font-size: 1.02rem; }
+.secondary {
+    display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); margin-top: 24px;
+    border-top: 1px solid var(--rule); padding-top: 18px;
+}
+.secondary .article { padding: 0 18px 18px; border-left: 1px solid var(--rule); border-bottom: 0; }
+.secondary .article:nth-child(3n+1) { padding-left: 0; border-left: 0; }
+.secondary .article:nth-child(3n) { padding-right: 0; }
+.secondary .article:nth-child(n+4) { padding-top: 18px; border-top: 1px solid var(--rule); }
+.secondary h3 { font-size: 1.02rem; }
+.secondary .summary { display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; }
+
+.side-block + .side-block { margin-top: 28px; padding-top: 20px; border-top: 1px solid var(--rule); }
+.side-title {
+    margin: 0 0 12px; font-family: var(--serif-latin); font-size: 1.05rem; font-weight: 600; letter-spacing: 0.14em;
+    text-transform: uppercase; display: flex; align-items: baseline; gap: 10px;
+}
+.side-title span { font-family: var(--serif); font-size: 0.78rem; letter-spacing: 0.1em; color: var(--muted); text-transform: none; }
+.brief-headline { font-size: 1.05rem; font-weight: 600; line-height: 1.6; margin: 0 0 10px; }
+.brief-list { list-style: none; margin: 0; padding: 0; counter-reset: brief; }
+.brief-list li {
+    counter-increment: brief; position: relative; padding: 8px 0 8px 30px; font-size: 0.9rem; line-height: 1.7;
+    border-top: 1px dotted var(--rule);
+}
+.brief-list li:first-child { border-top: 0; }
+.brief-list li::before {
+    content: counter(brief, upper-roman); position: absolute; left: 0; top: 8px;
+    font-family: var(--serif-latin); font-weight: 600; color: var(--accent); font-size: 0.95rem;
+}
+.brief-list a { text-decoration: none; }
+.brief-list a:hover { text-decoration: underline; text-underline-offset: 4px; }
+.brief-note { font-family: var(--sans); font-size: 0.68rem; color: var(--muted); margin-top: 8px; }
+.keywords { display: flex; flex-wrap: wrap; gap: 6px; }
+.keywords button {
+    background: none; border: 1px solid var(--rule); cursor: pointer; padding: 2px 10px;
+    font-family: var(--serif); font-size: 0.82rem; color: var(--ink-soft);
+}
+.keywords button:hover { border-color: var(--ink); color: var(--ink); }
+.keywords button small { color: var(--muted); font-family: var(--sans); font-size: 0.66rem; margin-left: 4px; }
+.ledger { width: 100%; border-collapse: collapse; font-size: 0.84rem; }
+.ledger td { padding: 5px 0; border-bottom: 1px dotted var(--rule); }
+.ledger td:last-child { text-align: right; font-family: var(--serif-latin); font-size: 0.95rem; }
+.ledger button { background: none; border: 0; padding: 0; cursor: pointer; text-align: left; }
+.ledger button:hover { color: var(--accent); }
+.bar { display: block; height: 2px; background: var(--rule); margin-top: 3px; }
+.bar i { display: block; height: 100%; background: var(--gold); }
+
+/* ---------- Articles ---------- */
+.day { margin-top: 34px; }
+.day-heading {
+    display: flex; align-items: baseline; gap: 14px; margin: 0 0 4px; padding-bottom: 8px;
+    border-bottom: 1px solid var(--rule-strong);
+}
+.day-heading h2 { margin: 0; font-size: 1.15rem; font-weight: 600; letter-spacing: 0.08em; }
+.day-heading .latin { font-family: var(--serif-latin); font-style: italic; color: var(--muted); font-size: 1rem; }
+.day-heading .n { margin-left: auto; font-family: var(--sans); font-size: 0.7rem; color: var(--muted); }
+.columns { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 40px; }
+.article {
+    position: relative; padding: 18px 0 16px; border-bottom: 1px solid var(--rule);
+    scroll-margin-top: 80px;
+}
+.article.focused::before {
+    content: ""; position: absolute; left: -14px; top: 18px; bottom: 16px; border-left: 2px solid var(--accent);
+}
+.kicker {
+    font-family: var(--sans); font-size: 0.68rem; letter-spacing: 0.14em; color: var(--accent);
+    display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: center;
+}
+.kicker .new {
+    color: var(--paper); background: var(--accent); padding: 0 6px; letter-spacing: 0.1em;
+}
+.article h3 { margin: 6px 0 4px; font-size: 1.12rem; line-height: 1.55; font-weight: 600; }
+.article h3 a { text-decoration: none; }
+.article h3 a:hover { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 4px; }
+.original {
+    font-family: var(--serif-latin); font-style: italic; color: var(--muted); font-size: 0.95rem; line-height: 1.45; margin: 0 0 6px;
+}
+.summary { margin: 4px 0 0; font-size: 0.9rem; color: var(--ink-soft); line-height: 1.8; }
+.byline {
+    display: flex; flex-wrap: wrap; align-items: center; gap: 4px 14px; margin-top: 10px;
+    font-family: var(--sans); font-size: 0.7rem; color: var(--muted); letter-spacing: 0.03em;
+}
+.byline .source { color: var(--ink-soft); font-weight: 600; }
+.byline .actions { margin-left: auto; display: flex; gap: 14px; }
+.byline .actions button { background: none; border: 0; padding: 0; cursor: pointer; color: var(--muted); font-size: 0.7rem; letter-spacing: 0.06em; }
+.byline .actions button:hover { color: var(--ink); }
+.byline .actions button[aria-pressed="true"] { color: var(--accent); }
+.article.read h3, .article.read .summary { color: var(--muted); }
+.article.read h3 a::after {
+    content: "既読"; font-family: var(--sans); font-size: 0.6rem; letter-spacing: 0.1em; font-weight: 400;
+    margin-left: 8px; padding: 0 4px; border: 1px solid var(--rule); vertical-align: 2px; color: var(--muted);
+}
+mark { background: var(--accent-soft); color: inherit; border-bottom: 1px solid var(--accent); padding: 0 1px; }
+
+.more { display: flex; justify-content: center; padding: 34px 0 10px; }
+.more button {
+    background: none; border: 1px solid var(--ink); padding: 10px 36px; cursor: pointer;
+    font-family: var(--sans); font-size: 0.78rem; letter-spacing: 0.2em;
+}
+.more button:hover { background: var(--ink); color: var(--paper); }
+.empty { text-align: center; padding: 70px 20px; color: var(--muted); }
+.empty h2 { font-size: 1.2rem; font-weight: 600; color: var(--ink); margin: 0 0 8px; }
+.empty p { margin: 0; font-size: 0.9rem; }
+
+/* ---------- Footer ---------- */
+footer {
+    margin-top: 56px; border-top: 3px double var(--rule-strong); padding: 26px 0 50px;
+    display: grid; grid-template-columns: 1.3fr 1fr; gap: 32px; font-size: 0.82rem; color: var(--muted);
+}
+footer h4 { margin: 0 0 8px; font-family: var(--serif-latin); font-size: 1rem; letter-spacing: 0.14em; color: var(--ink); text-transform: uppercase; font-weight: 600; }
+footer p { margin: 0 0 6px; }
+.source-list { columns: 2; column-gap: 24px; margin: 0; padding: 0; list-style: none; font-size: 0.78rem; }
+.source-list li { break-inside: avoid; display: flex; justify-content: space-between; border-bottom: 1px dotted var(--rule); padding: 2px 0; }
+
+/* ---------- Dialog / Toast ---------- */
+dialog {
+    border: 1px solid var(--ink); background: var(--paper-raised); color: var(--ink); padding: 28px 32px; max-width: 440px; width: calc(100% - 32px);
+}
+dialog::backdrop { background: rgba(20, 18, 14, 0.45); }
+dialog h2 { margin: 0 0 14px; font-family: var(--serif-latin); letter-spacing: 0.12em; font-weight: 600; font-size: 1.3rem; }
+dialog table { width: 100%; border-collapse: collapse; font-size: 0.86rem; }
+dialog td { padding: 6px 0; border-bottom: 1px dotted var(--rule); }
+dialog td:first-child { width: 7em; }
+dialog .close { margin-top: 18px; text-align: right; }
+.toast {
+    position: fixed; left: 50%; bottom: 28px; transform: translate(-50%, 20px); opacity: 0;
+    background: var(--ink); color: var(--paper); padding: 10px 22px; font-family: var(--sans); font-size: 0.78rem;
+    letter-spacing: 0.06em; transition: opacity 0.25s, transform 0.25s; pointer-events: none; z-index: 10;
+}
+.toast.show { opacity: 1; transform: translate(-50%, 0); }
+
+/* ---------- Responsive ---------- */
+@media (max-width: 900px) {
+    .front { grid-template-columns: 1fr; }
+    .front-main { padding-right: 0; border-right: 0; }
+    .front-side { padding-left: 0; margin-top: 28px; padding-top: 22px; border-top: 1px solid var(--rule); }
+    .secondary { grid-template-columns: 1fr; }
+    .secondary .article, .secondary .article:nth-child(n) { padding: 14px 0; border-left: 0; border-top: 1px solid var(--rule); }
+    .secondary .article:first-child { border-top: 0; padding-top: 0; }
+}
+@media (max-width: 700px) {
+    .page { padding: 0 16px; }
+    .columns { grid-template-columns: 1fr; }
+    .dateline .issue { display: none; }
+    .masthead .tagline { letter-spacing: 0.12em; font-size: 0.74rem; }
+    .sections button { padding: 8px 10px; }
+    footer { grid-template-columns: 1fr; }
+    .source-list { columns: 1; }
+    .article.focused::before { left: -10px; }
+}
+@media print {
+    .dateline .utility, .sections, .topics, .toolbar, .status, .more, .byline .actions { display: none !important; }
+    body { background: #fff; color: #000; }
+}
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
+</style>
 </head>
 <body>
-
-<div class="container">
-    <header>
-        <div>
-            <h1>🤖 マイAIニュース・ハブ</h1>
-            <div class="update-info">動画生成・アップスケーリング特化</div>
-        </div>
-    </header>
-
-    <div class="tabs">
-        <button class="tab-btn active" onclick="switchTab('global')">海外ニュース</button>
-        <button class="tab-btn" onclick="switchTab('japan')">国内ニュース</button>
-        <button class="tab-btn" onclick="switchTab('bookmarks')">ブックマーク</button>
-        <button class="tab-btn" onclick="switchTab('history')">閲覧履歴</button>
+<div class="page">
+    <div class="dateline">
+        <span id="today"></span>
+        <span class="issue" id="issue"></span>
+        <span class="utility">
+            <button class="text-btn" id="size-toggle" type="button" title="文字サイズを切り替え">文字 標準</button>
+            <button class="text-btn" id="theme-toggle" type="button" title="表示テーマを切り替え (T)">表示 自動</button>
+            <button class="text-btn" id="help-open" type="button" title="キーボード操作 (?)">操作</button>
+        </span>
     </div>
 
-    <div id="news-container"></div>
+    <header class="masthead">
+        <h1><a href="#" id="home-link">AI Chronicle</a></h1>
+        <div class="tagline">人工知能 時報 ・ 海外と国内の主要報道を毎日集約</div>
+    </header>
+    <div class="double-rule"></div>
+
+    <nav class="sections" id="sections" aria-label="セクション"></nav>
+    <div class="single-rule"></div>
+    <nav class="topics" id="topics" aria-label="トピック"></nav>
+
+    <div class="toolbar" role="search">
+        <label class="search">
+            <span class="sr-only">記事を検索</span>
+            <input id="search" type="search" placeholder="見出し・本文・出典を検索" autocomplete="off">
+            <kbd>/</kbd>
+        </label>
+        <label class="control">期間
+            <select id="period">
+                <option value="all">すべて</option>
+                <option value="1">24時間</option>
+                <option value="3">3日間</option>
+                <option value="7">1週間</option>
+            </select>
+        </label>
+        <label class="control">並び順
+            <select id="sort">
+                <option value="new">新しい順</option>
+                <option value="rank">注目度順</option>
+            </select>
+        </label>
+        <label class="control">出典
+            <select id="source"><option value="">すべて</option></select>
+        </label>
+        <label class="check"><input type="checkbox" id="unread">未読のみ</label>
+        <label class="check"><input type="checkbox" id="original">原文表示</label>
+    </div>
+
+    <div class="status" id="status" aria-live="polite"></div>
+
+    <main id="main">
+        <div class="empty"><h2>読み込み中</h2><p>最新の記事を取得しています。</p></div>
+    </main>
+
+    <footer>
+        <div>
+            <h4>About</h4>
+            <p>AI Chronicle は、研究機関・企業の公式発表、国内外の専門メディア、ニュース検索から人工知能に関する記事を自動で収集し、分類・重複除去して掲載しています。</p>
+            <p>見出しの日本語訳と「本日の要点」は自動生成です。正確な内容は必ず元記事でご確認ください。</p>
+            <p id="footer-meta"></p>
+        </div>
+        <div>
+            <h4>Sources</h4>
+            <ul class="source-list" id="source-list"></ul>
+        </div>
+    </footer>
 </div>
 
+<dialog id="help">
+    <h2>Keyboard</h2>
+    <table>
+        <tr><td><kbd>J</kbd> / <kbd>K</kbd></td><td>次の記事 / 前の記事</td></tr>
+        <tr><td><kbd>O</kbd> / <kbd>Enter</kbd></td><td>選択中の記事を開く</td></tr>
+        <tr><td><kbd>S</kbd></td><td>選択中の記事を保存 / 解除</td></tr>
+        <tr><td><kbd>/</kbd></td><td>検索欄へ移動</td></tr>
+        <tr><td><kbd>Esc</kbd></td><td>検索を解除</td></tr>
+        <tr><td><kbd>1</kbd> – <kbd>5</kbd></td><td>セクション切り替え</td></tr>
+        <tr><td><kbd>T</kbd></td><td>表示テーマ切り替え</td></tr>
+        <tr><td><kbd>?</kbd></td><td>この一覧を表示</td></tr>
+    </table>
+    <div class="close"><button class="text-btn" type="button" id="help-close">閉じる</button></div>
+</dialog>
+<div class="toast" id="toast" role="status"></div>
+
 <script>
-    // 過去5日分（動画生成・アップスケーリング・生成AI特化）のニュースデータ
-    const newsData = [
-        {
-            id: 1,
-            category: "global",
-            title: "Runway Announces Major Upgrade to Gen-3 with Advanced Frame Interpolation",
-            translatedTitle: "Runway、高度なフレーム補間機能を備えたGen-3の大規模アップデートを発表",
-            date: "2026-10-02",
-            source: "Runway Research",
-            url: "https://runwayml.com",
-            summary: "動画の滑らかさと物理一貫性が飛躍的に向上し、カクつきのない長尺フレーム生成が可能になりました。",
-            isEnglish: true
-        },
-        {
-            id: 2,
-            category: "japan",
-            title: "国内VFXスタジオ、AI超解像とフレーム生成を活用した4K映像制作ワークフローを導入",
-            translatedTitle: "",
-            date: "2026-10-02",
-            source: "CGWORLD.jp",
-            url: "https://cgworld.jp",
-            summary: "実写映像のアップスケーリングおよびAIによる中間フレーム補間を組み合わせ、制作時間を大幅に短縮。",
-            isEnglish: false
-        },
-        {
-            id: 3,
-            category: "global",
-            title: "Luma AI Releases Dream Machine Update for Cinematic Video Upscaling",
-            translatedTitle: "Luma AI、映画クオリティの動画アップスケーリングに対応したDream Machineアップデートをリリース",
-            date: "2026-10-01",
-            source: "VentureBeat",
-            url: "https://venturebeat.com",
-            summary: "生成された映像の解像度を劣化させずに引き上げる超解像機能が強化され、ディテールの表現力が大幅に向上。",
-            isEnglish: true
-        },
-        {
-            id: 4,
-            category: "japan",
-            title: "AV Watch：最新AIテレビにみるリアルタイム・フレーム補間と超解像技術の進化",
-            translatedTitle: "",
-            date: "2026-09-30",
-            source: "AV Watch",
-            url: "https://av.watch.impress.co.jp",
-            summary: "低解像度の動画コンテンツをAIが瞬時に解析し、4K相当の高画質へアップスケールする最新チップの動向を解説。",
-            isEnglish: false
-        },
-        {
-            id: 5,
-            category: "global",
-            title: "OpenAI Sora Research Update Focuses on 3D Consistency and Physics Simulation",
-            translatedTitle: "OpenAI、Soraの研究アップデートで3Dの一貫性と物理シミュレーションの向上を発表",
-            date: "2026-09-29",
-            source: "TechCrunch",
-            url: "https://techcrunch.com",
-            summary: "複雑なカメラワークやオブジェクトの重なりにおける破綻を減らす、新しいフレーム生成の仕組みが明らかに。",
-            isEnglish: true
-        },
-        {
-            id: 6,
-            category: "japan",
-            title: "国内クリエイター向け：Stable Video Diffusionを用いたアニメーションフレーム生成のコツ",
-            translatedTitle: "",
-            date: "2026-09-28",
-            source: "ITmedia AI",
-            url: "https://www.itmedia.co.jp/ai/",
-            summary: "イラストからなめらかな動画を生成するためのプロンプトのコツと、後処理でのアップスケーリング手法のまとめ。",
-            isEnglish: false
-        }
+(() => {
+    "use strict";
+
+    const PAGE_SIZE = 40;
+    const SECTIONS = [
+        { key: "all", label: "総合" },
+        { key: "global", label: "海外" },
+        { key: "japan", label: "国内" },
+        { key: "saved", label: "保存済み" },
+        { key: "history", label: "閲覧履歴" },
     ];
+    const REGION_LABEL = { global: "海外", japan: "国内" };
+    const WEEKDAYS = ["日", "月", "火", "水", "木", "金", "土"];
+    const MONTHS_EN = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    const STOPWORDS = new Set(("the a an and or of to in on for with from by at as is are be its it this that new how why what will can into about after over more than your you our ai says said "
+        + "using use via up out not has have just could would may all one two get gets now first").split(" "));
+    const JA_STOP = new Set(["生成AI", "AI", "発表", "提供", "開始", "公開", "活用", "可能", "機能", "対応", "企業", "向け", "サービス", "について", "ため", "こと", "もの", "これ", "それ", "日本", "国内", "世界"]);
 
-    let currentTab = 'global';
-    let bookmarks = JSON.parse(localStorage.getItem('ai_bookmarks')) || [];
-    let history = JSON.parse(localStorage.getItem('ai_history')) || [];
+    // ---------- storage (fails silently in private mode etc.) ----------
+    const store = {
+        get(key, fallback) {
+            try { const v = localStorage.getItem(key); return v === null ? fallback : JSON.parse(v); } catch { return fallback; }
+        },
+        set(key, value) {
+            try { localStorage.setItem(key, JSON.stringify(value)); } catch { /* ignore */ }
+        },
+    };
 
-    function switchTab(tab) {
-        currentTab = tab;
-        document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
-        event.target.classList.add('active');
-        render();
+    const state = {
+        section: "all", topic: "all", q: "", period: "all", sort: "new", source: "", unread: false,
+        limit: PAGE_SIZE, focusIndex: -1,
+    };
+    let data = { articles: [], topics: {}, brief: null, generatedAt: null };
+    let byId = new Map();
+    let saved = store.get("aic_saved", []);       // [{...article, savedAt}]
+    let history = store.get("aic_history", []);   // [{...article, viewedAt}]
+    let readIds = new Set(store.get("aic_read", []));
+    let showOriginal = store.get("aic_original", false);
+    const lastVisit = store.get("aic_last_visit", null);
+    let visibleArticles = [];
+
+    const $ = (sel) => document.querySelector(sel);
+    const main = $("#main");
+
+    // ---------- helpers ----------
+    const escapeHtml = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+    const safeUrl = (u) => (/^https?:\/\//i.test(u || "") ? u : "#");
+    const escapeRegExp = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+
+    function highlight(text) {
+        const html = escapeHtml(text);
+        if (!state.q) return html;
+        const terms = state.q.split(/\s+/).filter(Boolean).map((t) => escapeRegExp(escapeHtml(t)));
+        if (!terms.length) return html;
+        return html.replace(new RegExp(`(${terms.join("|")})`, "gi"), "<mark>$1</mark>");
     }
 
-    function toggleBookmark(id) {
-        if (bookmarks.includes(id)) {
-            bookmarks = bookmarks.filter(bId => bId !== id);
+    function jstParts(date) {
+        const d = new Date(date.getTime() + 9 * 3600 * 1000);
+        return { y: d.getUTCFullYear(), m: d.getUTCMonth(), d: d.getUTCDate(), w: d.getUTCDay(), h: d.getUTCHours(), min: d.getUTCMinutes() };
+    }
+    const dayKey = (iso) => { const p = jstParts(new Date(iso)); return `${p.y}-${String(p.m + 1).padStart(2, "0")}-${String(p.d).padStart(2, "0")}`; };
+
+    function relativeTime(iso) {
+        const diff = (Date.now() - new Date(iso).getTime()) / 60000;
+        if (diff < 1) return "たった今";
+        if (diff < 60) return `${Math.floor(diff)}分前`;
+        if (diff < 60 * 24) return `${Math.floor(diff / 60)}時間前`;
+        if (diff < 60 * 24 * 7) return `${Math.floor(diff / 1440)}日前`;
+        const p = jstParts(new Date(iso));
+        return `${p.m + 1}月${p.d}日`;
+    }
+    function clockTime(iso) {
+        const p = jstParts(new Date(iso));
+        return `${String(p.h).padStart(2, "0")}:${String(p.min).padStart(2, "0")}`;
+    }
+
+    const headline = (a) => (showOriginal ? a.title : (a.titleJa || a.title));
+    const subline = (a) => (a.lang === "en" && a.titleJa ? (showOriginal ? a.titleJa : a.title) : "");
+    const summaryOf = (a) => (showOriginal ? (a.summary || a.summaryJa) : (a.summaryJa || a.summary));
+    const topicLabel = (key) => data.topics[key] || "その他";
+
+    let toastTimer;
+    function toast(msg) {
+        const el = $("#toast");
+        el.textContent = msg;
+        el.classList.add("show");
+        clearTimeout(toastTimer);
+        toastTimer = setTimeout(() => el.classList.remove("show"), 2200);
+    }
+
+    // ---------- ranking ----------
+    function tokens(a) {
+        const text = `${a.title} ${a.titleJa || ""}`;
+        const en = (text.toLowerCase().match(/[a-z][a-z0-9.\-]{2,}/g) || []).filter((w) => !STOPWORDS.has(w));
+        const ja = (text.match(/[ァ-ヴー]{3,}|[一-龠]{2,}|[A-Z][A-Za-z0-9]+(?:[- ][0-9.]+)?/g) || []).filter((w) => !JA_STOP.has(w));
+        return new Set([...en, ...ja.map((w) => w.toLowerCase())]);
+    }
+
+    function computeScores() {
+        const now = Date.now();
+        const recent = data.articles.filter((a) => now - new Date(a.published).getTime() < 3 * 86400000);
+        const toks = new Map(recent.map((a) => [a.id, tokens(a)]));
+        for (const a of data.articles) {
+            const hours = (now - new Date(a.published).getTime()) / 3600000;
+            let coverage = 0;
+            const mine = toks.get(a.id);
+            if (mine && mine.size) {
+                for (const b of recent) {
+                    if (b.id === a.id || b.source === a.source) continue;
+                    let overlap = 0;
+                    for (const t of toks.get(b.id)) if (mine.has(t)) overlap++;
+                    if (overlap >= 2) coverage++;
+                }
+            }
+            a._coverage = coverage;
+            a._score = (a.weight || 1) * 1.2 + Math.min(coverage, 8) * 1.4 + (a.summary || a.summaryJa ? 0.4 : 0) - hours / 10;
+        }
+    }
+
+    function keywords() {
+        const counts = new Map();
+        const since = Date.now() - 3 * 86400000;
+        for (const a of data.articles) {
+            if (new Date(a.published).getTime() < since) continue;
+            const text = `${a.titleJa || ""} ${a.title}`;
+            const seen = new Set();
+            for (const m of text.match(/[A-Z][A-Za-z0-9]+(?:[-][A-Za-z0-9.]+)?|[ァ-ヴー]{3,}/g) || []) {
+                if (STOPWORDS.has(m.toLowerCase()) || JA_STOP.has(m) || m.length < 3 || /^[A-Z]{1,2}$/.test(m)) continue;
+                if (["The", "This", "How", "Why", "What", "New", "With", "Introducing", "After", "Here", "Its"].includes(m)) continue;
+                if (seen.has(m)) continue;
+                seen.add(m);
+                counts.set(m, (counts.get(m) || 0) + 1);
+            }
+        }
+        return [...counts.entries()].filter(([, n]) => n >= 2).sort((a, b) => b[1] - a[1]).slice(0, 14);
+    }
+
+    // ---------- filtering ----------
+    function baseList() {
+        if (state.section === "saved") return [...saved].sort((a, b) => (b.savedAt || "").localeCompare(a.savedAt || "")).map((s) => byId.get(s.id) || s);
+        if (state.section === "history") return history.map((h) => byId.get(h.id) || h);
+        if (state.section === "global" || state.section === "japan") return data.articles.filter((a) => a.region === state.section);
+        return data.articles;
+    }
+
+    function filtered() {
+        let list = baseList();
+        if (state.topic !== "all") list = list.filter((a) => (a.topics || []).includes(state.topic));
+        if (state.source) list = list.filter((a) => a.source === state.source);
+        if (state.period !== "all") {
+            const since = Date.now() - Number(state.period) * 86400000;
+            list = list.filter((a) => new Date(a.published).getTime() >= since);
+        }
+        if (state.unread) list = list.filter((a) => !readIds.has(a.id));
+        if (state.q) {
+            const terms = state.q.toLowerCase().split(/\s+/).filter(Boolean);
+            list = list.filter((a) => {
+                const hay = `${a.title} ${a.titleJa} ${a.summary} ${a.summaryJa} ${a.source}`.toLowerCase();
+                return terms.every((t) => hay.includes(t));
+            });
+        }
+        if (state.sort === "rank" && !["history", "saved"].includes(state.section)) {
+            list = [...list].sort((a, b) => (b._score ?? 0) - (a._score ?? 0));
+        }
+        return list;
+    }
+
+    const isFrontPage = () => ["all", "global", "japan"].includes(state.section)
+        && state.topic === "all" && !state.q && !state.source && !state.unread && state.sort === "new" && state.period === "all";
+
+    // ---------- rendering ----------
+    function articleHtml(a, opts = {}) {
+        const isSaved = saved.some((s) => s.id === a.id);
+        const isRead = readIds.has(a.id);
+        const isNew = lastVisit && a.published > lastVisit && !isRead;
+        const topics = (a.topics || []).filter((t) => t !== "general").slice(0, 2).map(topicLabel);
+        const sub = subline(a);
+        const summary = summaryOf(a);
+        const when = state.sort === "rank" || opts.lead ? relativeTime(a.published) : `${clockTime(a.published)} ・ ${relativeTime(a.published)}`;
+        const image = opts.lead && a.image ? `<figure><img src="${escapeHtml(safeUrl(a.image))}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.remove()"></figure>` : "";
+        return `
+        <article class="article${isRead ? " read" : ""}${opts.lead ? " lead" : ""}" data-id="${escapeHtml(a.id)}">
+            ${image}
+            <div class="kicker">
+                ${isNew ? '<span class="new">NEW</span>' : ""}
+                <span>${escapeHtml(REGION_LABEL[a.region] || "")}</span>
+                ${topics.map((t) => `<span>${escapeHtml(t)}</span>`).join("")}
+                ${a._coverage >= 2 ? `<span>${a._coverage + 1}媒体が報道</span>` : ""}
+            </div>
+            ${opts.lead ? "<h2>" : "<h3>"}<a href="${escapeHtml(safeUrl(a.url))}" target="_blank" rel="noopener noreferrer" data-open>${highlight(headline(a))}</a>${opts.lead ? "</h2>" : "</h3>"}
+            ${sub ? `<p class="original">${highlight(sub)}</p>` : ""}
+            ${summary ? `<p class="summary">${highlight(summary)}</p>` : ""}
+            <div class="byline">
+                <span class="source">${highlight(a.source)}</span>
+                <time datetime="${escapeHtml(a.published)}">${escapeHtml(when)}</time>
+                <span class="actions">
+                    <button type="button" data-action="save" aria-pressed="${isSaved}">${isSaved ? "保存済み" : "保存"}</button>
+                    <button type="button" data-action="share">共有</button>
+                    ${isRead ? '<button type="button" data-action="unread">未読に戻す</button>' : ""}
+                </span>
+            </div>
+        </article>`;
+    }
+
+    function frontHtml(list) {
+        const pool = list.filter((a) => Date.now() - new Date(a.published).getTime() < 36 * 3600000);
+        const ranked = [...(pool.length >= 4 ? pool : list)].sort((a, b) => b._score - a._score);
+        if (!ranked.length) return { html: "", used: new Set() };
+        // 同じ話題の記事は 1 本にまとめ、一次情報に近い媒体の記事を代表にする
+        const tok = new Map(ranked.map((a) => [a.id, tokens(a)]));
+        const sameStory = (a, b) => { let n = 0; for (const t of tok.get(a.id)) if (tok.get(b.id).has(t) && ++n >= 2) return true; return false; };
+        const picked = [];
+        for (const a of ranked) {
+            if (picked.length >= 7) break;
+            if (picked.some((p) => sameStory(a, p))) continue;
+            const cluster = ranked.filter((b) => b === a || sameStory(a, b));
+            picked.push(cluster.sort((x, y) => (y.weight || 1) - (x.weight || 1) || y.published.localeCompare(x.published))[0]);
+        }
+        const [lead, ...secondary] = picked;
+        const used = new Set(picked.map((a) => a.id));
+
+        let briefHtml;
+        if (data.brief && data.brief.points && data.brief.points.length && state.section === "all") {
+            briefHtml = `
+                <p class="brief-headline">${escapeHtml(data.brief.headline)}</p>
+                <ol class="brief-list">${data.brief.points.map((p) => {
+                    const ref = (p.ids || []).map((id) => byId.get(id)).find(Boolean);
+                    return `<li>${ref ? `<a href="${escapeHtml(safeUrl(ref.url))}" target="_blank" rel="noopener noreferrer" data-open-id="${escapeHtml(ref.id)}">${escapeHtml(p.text)}</a>` : escapeHtml(p.text)}</li>`;
+                }).join("")}</ol>
+                <div class="brief-note">${escapeHtml(relativeTime(data.brief.generatedAt))}に自動生成</div>`;
         } else {
-            bookmarks.push(id);
+            const top = ranked.slice(0, 5);
+            briefHtml = `<ol class="brief-list">${top.map((a) => `<li><a href="${escapeHtml(safeUrl(a.url))}" target="_blank" rel="noopener noreferrer" data-open-id="${escapeHtml(a.id)}">${escapeHtml(headline(a))}</a></li>`).join("")}</ol>`;
         }
-        localStorage.setItem('ai_bookmarks', JSON.stringify(bookmarks));
-        render();
+
+        const kw = keywords();
+        const kwHtml = kw.length ? `
+            <div class="side-block">
+                <h2 class="side-title">Keywords<span>注目の語</span></h2>
+                <div class="keywords">${kw.map(([w, n]) => `<button type="button" data-keyword="${escapeHtml(w)}">${escapeHtml(w)}<small>${n}</small></button>`).join("")}</div>
+            </div>` : "";
+
+        const counts = Object.keys(data.topics).map((k) => [k, list.filter((a) => (a.topics || []).includes(k)).length]).filter(([, n]) => n);
+        const max = Math.max(1, ...counts.map(([, n]) => n));
+        const ledgerHtml = counts.length ? `
+            <div class="side-block">
+                <h2 class="side-title">Ledger<span>分野別の記事数</span></h2>
+                <table class="ledger">${counts.sort((a, b) => b[1] - a[1]).map(([k, n]) => `
+                    <tr><td><button type="button" data-topic="${escapeHtml(k)}">${escapeHtml(topicLabel(k))}</button><span class="bar"><i style="width:${(n / max) * 100}%"></i></span></td><td>${n}</td></tr>`).join("")}
+                </table>
+            </div>` : "";
+
+        return {
+            used,
+            html: `
+            <section class="front" aria-label="主要記事">
+                <div class="front-main">
+                    ${articleHtml(lead, { lead: true })}
+                    ${secondary.length ? `<div class="secondary">${secondary.map((a) => articleHtml(a)).join("")}</div>` : ""}
+                </div>
+                <aside class="front-side">
+                    <div class="side-block">
+                        <h2 class="side-title">Briefing<span>本日の要点</span></h2>
+                        ${briefHtml}
+                    </div>
+                    ${kwHtml}
+                    ${ledgerHtml}
+                </aside>
+            </section>`,
+        };
     }
 
-    function addHistory(id) {
-        if (!history.includes(id)) {
-            history.unshift(id);
-            if (history.length > 20) history.pop();
-            localStorage.setItem('ai_history', JSON.stringify(history));
+    function groupedHtml(list) {
+        if (state.section === "history" || state.sort === "rank") {
+            return `<div class="columns">${list.map((a) => articleHtml(a)).join("")}</div>`;
         }
+        const groups = new Map();
+        for (const a of list) {
+            const key = dayKey(a.published);
+            if (!groups.has(key)) groups.set(key, []);
+            groups.get(key).push(a);
+        }
+        const todayKey = dayKey(new Date().toISOString());
+        const yesterdayKey = dayKey(new Date(Date.now() - 86400000).toISOString());
+        return [...groups.entries()].map(([key, items]) => {
+            const [y, m, d] = key.split("-").map(Number);
+            const w = new Date(Date.UTC(y, m - 1, d)).getUTCDay();
+            const label = key === todayKey ? "本日" : key === yesterdayKey ? "昨日" : "";
+            return `
+            <section class="day">
+                <div class="day-heading">
+                    <h2>${m}月${d}日（${WEEKDAYS[w]}）${label ? ` ・ ${label}` : ""}</h2>
+                    <span class="latin">${MONTHS_EN[m - 1]} ${d}, ${y}</span>
+                    <span class="n">${items.length}件</span>
+                </div>
+                <div class="columns">${items.map((a) => articleHtml(a)).join("")}</div>
+            </section>`;
+        }).join("");
     }
 
-    function toggleAiBox(id, type) {
-        const box = document.getElementById(`${type}-box-${id}`);
-        box.classList.toggle('show');
+    function emptyHtml() {
+        if (!data.articles.length && !["saved", "history"].includes(state.section)) {
+            return `<div class="empty"><h2>まだ記事がありません</h2><p>GitHub の Actions タブから「Update AI News」を実行すると、最新の記事が取得されます。</p></div>`;
+        }
+        const messages = {
+            saved: ["保存済みの記事はありません", "記事の「保存」を押すと、ここに残ります。掲載期間を過ぎても消えません。"],
+            history: ["閲覧履歴はありません", "開いた記事がここに記録されます。"],
+        };
+        const [title, body] = messages[state.section] && !state.q ? messages[state.section] : ["該当する記事はありません", "条件を変えて、もう一度お試しください。"];
+        return `<div class="empty"><h2>${title}</h2><p>${body}</p></div>`;
     }
 
     function render() {
-        const container = document.getElementById('news-container');
-        container.innerHTML = '';
-
-        let targetData = [];
-        if (currentTab === 'global') {
-            targetData = newsData.filter(item => item.category === 'global');
-        } else if (currentTab === 'japan') {
-            targetData = newsData.filter(item => item.category === 'japan');
-        } else if (currentTab === 'bookmarks') {
-            targetData = newsData.filter(item => bookmarks.includes(item.id));
-        } else if (currentTab === 'history') {
-            targetData = history.map(id => newsData.find(item => item.id === id)).filter(Boolean);
+        const list = filtered();
+        let html = "";
+        let rest = list;
+        if (isFrontPage() && list.length >= 4) {
+            const front = frontHtml(list);
+            html += front.html;
+            rest = list.filter((a) => !front.used.has(a.id));
         }
-
-        if (targetData.length === 0) {
-            container.innerHTML = `<p style="color: var(--text-sub); text-align: center; padding: 40px;">記事がありません。</p>`;
-            return;
+        visibleArticles = rest.slice(0, state.limit);
+        if (!list.length) {
+            html = emptyHtml();
+        } else {
+            html += groupedHtml(visibleArticles);
+            if (rest.length > state.limit) {
+                html += `<div class="more"><button type="button" id="load-more">さらに表示（残り ${rest.length - state.limit} 件）</button></div>`;
+            }
         }
-
-        const grouped = {};
-        targetData.forEach(item => {
-            if (!grouped[item.date]) grouped[item.date] = [];
-            grouped[item.date].push(item);
-        });
-
-        const sortedDates = Object.keys(grouped).sort().reverse();
-
-        sortedDates.forEach(date => {
-            const groupDiv = document.createElement('div');
-            groupDiv.className = 'date-group';
-            groupDiv.innerHTML = `<div class="date-heading">📅 ${date} のニュース</div>`;
-            
-            const listDiv = document.createElement('div');
-            listDiv.className = 'news-list';
-
-            grouped[date].forEach(item => {
-                const isBookmarked = bookmarks.includes(item.id);
-                const card = document.createElement('div');
-                card.className = 'news-card';
-                
-                let badgeHtml = item.category === 'global' 
-                    ? '<span class="badge global">海外ニュース</span>' 
-                    : '<span class="badge japan">国内ニュース</span>';
-
-                // target="_blank" と rel="noopener noreferrer" を確実に設定し、実際のURL（item.url）へ別タブで遷移
-                card.innerHTML = `
-                    ${badgeHtml}
-                    <h3><a href="${item.url}" target="_blank" rel="noopener noreferrer" onclick="addHistory(${item.id})">${item.isEnglish ? item.translatedTitle + ' <br><small style="color:var(--text-sub); font-size:0.8rem;">(' + item.title + ')</small>' : item.title}</a></h3>
-                    <div class="meta">出典: ${item.source}</div>
-                    
-                    <div class="actions">
-                        <button class="action-btn" onclick="toggleAiBox(${item.id}, 'summary')">💡 AI要約を見る</button>
-                        ${item.isEnglish ? `<button class="action-btn" onclick="toggleAiBox(${item.id}, 'translate')">🌐 原文/翻訳切り替え</button>` : ''}
-                        <button class="bookmark-btn" onclick="toggleBookmark(${item.id})">${isBookmarked ? '⭐' : '☆'}</button>
-                    </div>
-
-                    <div id="summary-box-${item.id}" class="ai-box">
-                        <strong>【AI要約】</strong><br>${item.summary}
-                    </div>
-                `;
-                listDiv.appendChild(card);
-            });
-
-            groupDiv.appendChild(listDiv);
-            container.appendChild(groupDiv);
-        });
+        main.innerHTML = html;
+        state.focusIndex = -1;
+        renderNav();
+        renderStatus(list.length);
+        syncHash();
     }
 
-    render();
-</script>
+    function renderNav() {
+        const counts = {
+            all: data.articles.length,
+            global: data.articles.filter((a) => a.region === "global").length,
+            japan: data.articles.filter((a) => a.region === "japan").length,
+            saved: saved.length,
+            history: history.length,
+        };
+        $("#sections").innerHTML = SECTIONS.map((s, i) => `
+            <button type="button" data-section="${s.key}" aria-pressed="${state.section === s.key}" title="${s.label} (${i + 1})">${s.label}<span class="count">${counts[s.key]}</span></button>`).join("");
+        const topics = [["all", "すべての分野"], ...Object.entries(data.topics)];
+        $("#topics").innerHTML = topics.map(([k, label]) => `
+            <button type="button" data-topic="${escapeHtml(k)}" aria-pressed="${state.topic === k}">${escapeHtml(label)}</button>`).join("");
+    }
 
+    function renderStatus(total) {
+        const parts = [];
+        const sectionLabel = SECTIONS.find((s) => s.key === state.section).label;
+        parts.push(`${sectionLabel} ・ ${total}件`);
+        if (state.topic !== "all") parts.push(topicLabel(state.topic));
+        if (state.source) parts.push(state.source);
+        if (state.q) parts.push(`「${state.q}」`);
+        const filteredState = state.topic !== "all" || state.q || state.source || state.unread || state.period !== "all";
+        let right = "";
+        if (state.section === "history" && history.length) right = '<button class="text-btn" type="button" id="clear-history">履歴を消去</button>';
+        else if (state.section === "saved" && saved.length) right = '<button class="text-btn" type="button" id="export-saved">Markdown で書き出す</button>';
+        else if (readIds.size && !["saved", "history"].includes(state.section)) right = '<button class="text-btn" type="button" id="mark-all-read">表示中をすべて既読にする</button>';
+        $("#status").innerHTML = `<span>${parts.map(escapeHtml).join(" ／ ")}${filteredState ? ' ・ <button class="text-btn" type="button" id="reset-filters">条件を解除</button>' : ""}</span><span>${right}</span>`;
+    }
+
+    // ---------- actions ----------
+    function snapshot(a) {
+        const { _score, _coverage, ...rest } = a;
+        return rest;
+    }
+
+    function markRead(id) {
+        const a = byId.get(id) || saved.find((s) => s.id === id) || history.find((h) => h.id === id);
+        if (!a) return;
+        readIds.add(id);
+        store.set("aic_read", [...readIds].slice(-3000));
+        history = [{ ...snapshot(a), viewedAt: new Date().toISOString() }, ...history.filter((h) => h.id !== id)].slice(0, 100);
+        store.set("aic_history", history);
+        const el = main.querySelector(`.article[data-id="${CSS.escape(id)}"]`);
+        if (el && state.section !== "history") el.classList.add("read");
+    }
+
+    function toggleSave(id) {
+        const index = saved.findIndex((s) => s.id === id);
+        if (index >= 0) {
+            saved.splice(index, 1);
+            toast("保存を解除しました");
+        } else {
+            const a = byId.get(id) || history.find((h) => h.id === id);
+            if (!a) return;
+            saved.push({ ...snapshot(a), savedAt: new Date().toISOString() });
+            toast("保存しました");
+        }
+        store.set("aic_saved", saved);
+        render();
+    }
+
+    async function share(id) {
+        const a = byId.get(id) || saved.find((s) => s.id === id) || history.find((h) => h.id === id);
+        if (!a) return;
+        const title = a.titleJa || a.title;
+        try {
+            if (navigator.share) {
+                await navigator.share({ title, url: a.url });
+                return;
+            }
+            await navigator.clipboard.writeText(`${title}\n${a.url}`);
+            toast("見出しとリンクをコピーしました");
+        } catch (err) {
+            if (err && err.name !== "AbortError") toast("共有できませんでした");
+        }
+    }
+
+    function exportSaved() {
+        const lines = ["# AI Chronicle 保存記事", ""];
+        for (const a of saved) lines.push(`- [${a.titleJa || a.title}](${a.url}) — ${a.source}, ${dayKey(a.published)}`);
+        const blob = new Blob([lines.join("\n") + "\n"], { type: "text/markdown" });
+        const link = document.createElement("a");
+        link.href = URL.createObjectURL(blob);
+        link.download = "ai-chronicle-saved.md";
+        link.click();
+        setTimeout(() => URL.revokeObjectURL(link.href), 1000);
+    }
+
+    function setState(patch) {
+        Object.assign(state, patch, { limit: PAGE_SIZE });
+        syncControls();
+        render();
+        window.scrollTo({ top: Math.min(window.scrollY, $("#sections").offsetTop), behavior: "smooth" });
+    }
+
+    function syncControls() {
+        $("#search").value = state.q;
+        $("#period").value = state.period;
+        $("#sort").value = state.sort;
+        $("#source").value = state.source;
+        $("#unread").checked = state.unread;
+        $("#original").checked = showOriginal;
+    }
+
+    function syncHash() {
+        const params = new URLSearchParams();
+        if (state.section !== "all") params.set("s", state.section);
+        if (state.topic !== "all") params.set("t", state.topic);
+        if (state.q) params.set("q", state.q);
+        if (state.period !== "all") params.set("p", state.period);
+        if (state.sort !== "new") params.set("o", state.sort);
+        if (state.source) params.set("src", state.source);
+        const hash = params.toString();
+        const target = hash ? `#${hash}` : location.pathname + location.search;
+        if ((hash ? `#${hash}` : "") !== location.hash) history_replace(target);
+    }
+    function history_replace(url) { try { window.history.replaceState(null, "", url); } catch { /* ignore */ } }
+
+    function readHash() {
+        const params = new URLSearchParams(location.hash.slice(1));
+        const section = params.get("s");
+        state.section = SECTIONS.some((s) => s.key === section) ? section : "all";
+        state.topic = params.get("t") || "all";
+        state.q = params.get("q") || "";
+        state.period = ["1", "3", "7"].includes(params.get("p")) ? params.get("p") : "all";
+        state.sort = params.get("o") === "rank" ? "rank" : "new";
+        state.source = params.get("src") || "";
+    }
+
+    function moveFocus(delta) {
+        const items = [...main.querySelectorAll(".article")];
+        if (!items.length) return;
+        items.forEach((el) => el.classList.remove("focused"));
+        state.focusIndex = Math.max(0, Math.min(items.length - 1, state.focusIndex + delta));
+        const el = items[state.focusIndex];
+        el.classList.add("focused");
+        el.scrollIntoView({ block: "center", behavior: "smooth" });
+    }
+    const focusedId = () => main.querySelector(".article.focused")?.dataset.id;
+
+    // ---------- theme / size ----------
+    const THEMES = [["auto", "自動"], ["light", "ライト"], ["dark", "ダーク"]];
+    function applyTheme(theme) {
+        if (theme === "auto") document.documentElement.removeAttribute("data-theme");
+        else document.documentElement.setAttribute("data-theme", theme);
+        $("#theme-toggle").textContent = `表示 ${THEMES.find(([k]) => k === theme)[1]}`;
+    }
+    function applySize(size) {
+        if (size === "large") document.documentElement.setAttribute("data-size", "large");
+        else document.documentElement.removeAttribute("data-size");
+        $("#size-toggle").textContent = `文字 ${size === "large" ? "大" : "標準"}`;
+    }
+    let theme = store.get("aic_theme", "auto");
+    let size = store.get("aic_size", "normal");
+    applyTheme(THEMES.some(([k]) => k === theme) ? theme : "auto");
+    applySize(size);
+
+    // ---------- events ----------
+    document.addEventListener("click", (e) => {
+        const target = e.target.closest("button, a");
+        if (!target) return;
+        const articleEl = target.closest(".article");
+        const id = articleEl?.dataset.id;
+
+        if (target.matches("[data-open]") && id) { markRead(id); return; }
+        if (target.dataset.openId) { markRead(target.dataset.openId); return; }
+        if (target.dataset.section) { setState({ section: target.dataset.section, topic: "all" }); return; }
+        if (target.dataset.topic) { setState({ topic: target.dataset.topic }); return; }
+        if (target.dataset.keyword) { setState({ q: target.dataset.keyword, section: "all", topic: "all" }); return; }
+
+        switch (target.dataset.action || target.id) {
+            case "save": toggleSave(id); break;
+            case "share": share(id); break;
+            case "unread":
+                readIds.delete(id);
+                store.set("aic_read", [...readIds]);
+                render();
+                break;
+            case "load-more":
+                state.limit += PAGE_SIZE;
+                render();
+                break;
+            case "reset-filters": setState({ topic: "all", q: "", source: "", unread: false, period: "all" }); break;
+            case "clear-history":
+                if (confirm("閲覧履歴を消去しますか？")) { history = []; store.set("aic_history", history); render(); }
+                break;
+            case "export-saved": exportSaved(); break;
+            case "mark-all-read":
+                for (const a of filtered()) readIds.add(a.id);
+                store.set("aic_read", [...readIds].slice(-3000));
+                render();
+                toast("表示中の記事を既読にしました");
+                break;
+            case "home-link":
+                e.preventDefault();
+                setState({ section: "all", topic: "all", q: "", source: "", unread: false, period: "all", sort: "new" });
+                break;
+            case "theme-toggle": {
+                const i = THEMES.findIndex(([k]) => k === theme);
+                theme = THEMES[(i + 1) % THEMES.length][0];
+                store.set("aic_theme", theme);
+                applyTheme(theme);
+                break;
+            }
+            case "size-toggle":
+                size = size === "large" ? "normal" : "large";
+                store.set("aic_size", size);
+                applySize(size);
+                break;
+            case "help-open": $("#help").showModal(); break;
+            case "help-close": $("#help").close(); break;
+        }
+    });
+
+    // middle-click on a headline also counts as reading
+    document.addEventListener("auxclick", (e) => {
+        const link = e.target.closest("[data-open], [data-open-id]");
+        if (!link) return;
+        markRead(link.dataset.openId || link.closest(".article")?.dataset.id);
+    });
+
+    let searchTimer;
+    $("#search").addEventListener("input", (e) => {
+        clearTimeout(searchTimer);
+        searchTimer = setTimeout(() => { Object.assign(state, { q: e.target.value.trim(), limit: PAGE_SIZE }); render(); }, 160);
+    });
+    $("#period").addEventListener("change", (e) => setState({ period: e.target.value }));
+    $("#sort").addEventListener("change", (e) => setState({ sort: e.target.value }));
+    $("#source").addEventListener("change", (e) => setState({ source: e.target.value }));
+    $("#unread").addEventListener("change", (e) => setState({ unread: e.target.checked }));
+    $("#original").addEventListener("change", (e) => { showOriginal = e.target.checked; store.set("aic_original", showOriginal); render(); });
+    window.addEventListener("hashchange", () => { readHash(); syncControls(); render(); });
+
+    document.addEventListener("keydown", (e) => {
+        if (e.metaKey || e.ctrlKey || e.altKey) return;
+        const typing = /^(INPUT|SELECT|TEXTAREA)$/.test(document.activeElement?.tagName);
+        if (e.key === "Escape" && document.activeElement === $("#search")) {
+            $("#search").blur();
+            if (state.q) setState({ q: "" });
+            return;
+        }
+        if (typing || $("#help").open) return;
+        const id = focusedId();
+        switch (e.key) {
+            case "/": e.preventDefault(); $("#search").focus(); break;
+            case "j": moveFocus(1); break;
+            case "k": moveFocus(-1); break;
+            case "o": case "Enter":
+                if (e.key === "Enter" && document.activeElement !== document.body) break;
+                if (id) {
+                    const link = main.querySelector(`.article[data-id="${CSS.escape(id)}"] [data-open]`);
+                    e.preventDefault();
+                    markRead(id);
+                    window.open(link.href, "_blank", "noopener");
+                }
+                break;
+            case "s": if (id) toggleSave(id); break;
+            case "t": $("#theme-toggle").click(); break;
+            case "?": $("#help").showModal(); break;
+            default:
+                if (/^[1-5]$/.test(e.key)) setState({ section: SECTIONS[Number(e.key) - 1].key, topic: "all" });
+        }
+    });
+
+    // ---------- boot ----------
+    function renderChrome() {
+        const now = new Date();
+        const p = jstParts(now);
+        $("#today").textContent = `${p.y}年${p.m + 1}月${p.d}日（${WEEKDAYS[p.w]}）`;
+        const first = data.articles.length ? data.articles[data.articles.length - 1].published : null;
+        $("#issue").textContent = data.generatedAt
+            ? `最終更新 ${jstParts(new Date(data.generatedAt)).m + 1}月${jstParts(new Date(data.generatedAt)).d}日 ${clockTime(data.generatedAt)}`
+            : "";
+
+        const sources = new Map();
+        for (const a of data.articles) sources.set(a.source, (sources.get(a.source) || 0) + 1);
+        const sorted = [...sources.entries()].sort((a, b) => b[1] - a[1]);
+        $("#source").innerHTML = `<option value="">すべて</option>` + sorted.map(([s, n]) => `<option value="${escapeHtml(s)}">${escapeHtml(s)}（${n}）</option>`).join("");
+        $("#source-list").innerHTML = sorted.slice(0, 24).map(([s, n]) => `<li><span>${escapeHtml(s)}</span><span>${n}</span></li>`).join("");
+        $("#footer-meta").textContent = data.articles.length
+            ? `掲載 ${data.articles.length}件 ・ ${sorted.length}媒体 ・ ${first ? dayKey(first) : ""} 以降`
+            : "";
+    }
+
+    async function load() {
+        readHash();
+        try {
+            const res = await fetch(`news.json?t=${Date.now()}`, { cache: "no-store" });
+            if (!res.ok) throw new Error(res.status);
+            const json = await res.json();
+            if (Array.isArray(json)) {
+                data.articles = [];
+            } else {
+                data = { ...data, ...json, articles: Array.isArray(json.articles) ? json.articles : [] };
+            }
+        } catch (err) {
+            main.innerHTML = `<div class="empty"><h2>記事を読み込めませんでした</h2><p>news.json を取得できません。GitHub Pages などのWebサーバー経由で開いてください（ファイルを直接開くと読み込めません）。</p></div>`;
+            renderNav();
+            return;
+        }
+        data.articles = data.articles.filter((a) => a && a.id && a.title && a.published);
+        data.articles.sort((a, b) => b.published.localeCompare(a.published));
+        byId = new Map(data.articles.map((a) => [a.id, a]));
+        computeScores();
+        renderChrome();
+        syncControls();
+        render();
+        // 次回訪問時の「NEW」判定用
+        store.set("aic_last_visit", data.generatedAt || new Date().toISOString());
+    }
+
+    load();
+})();
+</script>
 </body>
 </html>
