@@ -31,7 +31,9 @@ jobs:
 
       - name: Fetch news
         env:
-          # 任意: リポジトリの Secrets に登録すると英語記事の翻訳と「本日の要点」を生成
+          # 任意: 登録すると無料翻訳 (MyMemory) の1日の上限が 5,000 → 50,000 文字に増える
+          MYMEMORY_EMAIL: ${{ secrets.MYMEMORY_EMAIL }}
+          # 任意: 登録すると Claude で翻訳・要約し「本日の要点」も生成（有料）
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python update.py
 

@@ -2,8 +2,9 @@
 
 - 海外・国内の AI 専門メディア / 研究機関ブログ / Google News 検索を巡回
 - AI 関連記事だけを抽出し、トピック分類・重複除去・期間管理を行う
-- 環境変数 ANTHROPIC_API_KEY があれば、英語記事の見出し・要約を日本語化し
-  「本日の要点」を生成する（なければ原文のまま保存する）
+- 英語記事の見出しを無料の翻訳 API (MyMemory) で日本語化する
+- 環境変数 ANTHROPIC_API_KEY があれば、代わりに Claude で見出し・要約を日本語化し
+  「本日の要点」も生成する
 """
 
 import hashlib
@@ -12,6 +13,7 @@ import json
 import os
 import re
 import sys
+import time
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
@@ -26,6 +28,9 @@ MAX_ARTICLES = 800
 MAX_PER_FEED = 40
 SUMMARY_CHARS = 280
 TRANSLATE_LIMIT = 160
+# MyMemory の無料枠: 1日 5,000 文字（MYMEMORY_EMAIL を設定すると 50,000 文字）。
+# 6時間ごとに実行するので、1回あたりその 1/4 弱を上限にする
+MYMEMORY_CHARS_PER_RUN = {False: 2500, True: 12000}
 USER_AGENT = "Mozilla/5.0 (compatible; AI-News-Bot/2.0; +https://github.com/FSq1v/AI-News)"
 CLAUDE_MODEL = "claude-opus-5-5"
 
@@ -61,9 +66,9 @@ FEEDS = [
     ("IEEE Spectrum", "https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss", "global", 2, False),
     ("ZDNET", "https://www.zdnet.com/topic/artificial-intelligence/rss.xml", "global", 2, False),
     # --- 海外: 検索 ---
-    ("Google News", google_news('"generative AI" OR "AI model" OR "large language model"', "en"), "global", 1, False),
-    ("Google News", google_news('"AI video" OR "video generation" OR Sora OR Runway OR Veo', "en"), "global", 1, False),
-    ("Google News", google_news('"AI regulation" OR "AI Act" OR "AI policy"', "en"), "global", 1, False),
+    ("Google News", google_news('"generative AI" OR "AI model" OR "large language model"', "en"), "global", 1, True),
+    ("Google News", google_news('"AI video" OR "AI video generation" OR "OpenAI Sora" OR "Runway AI" OR "Google Veo"', "en"), "global", 1, True),
+    ("Google News", google_news('"AI regulation" OR "AI Act" OR "AI policy"', "en"), "global", 1, True),
     # --- 国内: 専門メディア ---
     ("ITmedia AI+", "https://rss.itmedia.co.jp/rss/2.0/aiplus.xml", "japan", 2, False),
     ("AINOW", "https://ainow.ai/feed/", "japan", 2, False),
@@ -74,15 +79,17 @@ FEEDS = [
     ("ASCII.jp", "https://ascii.jp/rss.xml", "japan", 1, True),
     ("CGWORLD", "https://cgworld.jp/feed/", "japan", 2, True),
     # --- 国内: 検索 ---
-    ("Google News", google_news("生成AI", "ja"), "japan", 1, False),
-    ("Google News", google_news("AI 動画生成 OR 画像生成AI", "ja"), "japan", 1, False),
-    ("Google News", google_news("AI 規制 OR AI 政府 OR AI 法案", "ja"), "japan", 1, False),
+    ("Google News", google_news("生成AI", "ja"), "japan", 1, True),
+    ("Google News", google_news("AI 動画生成 OR 画像生成AI", "ja"), "japan", 1, True),
+    ("Google News", google_news("AI 規制 OR AI 政府 OR AI 法案", "ja"), "japan", 1, True),
 ]
 
 AI_PATTERN = re.compile(
-    r"\bAI\b|\bA\.I\.|artificial intelligence|machine learning|deep learning|neural net|"
+    r"(?<![A-Za-z])AI(?![A-Za-z])|\bA\.I\.|artificial intelligence|machine learning|deep learning|neural net|"
     r"\bLLMs?\b|\bGPT|ChatGPT|Claude|Gemini|Llama|Copilot|OpenAI|Anthropic|DeepMind|"
-    r"生成AI|人工知能|機械学習|深層学習|大規模言語モデル|ＡＩ"
+    r"language model|chatbot|\bSora\b|\bVeo\b|Midjourney|Stable Diffusion|diffusion model|"
+    r"生成AI|人工知能|機械学習|深層学習|大規模言語モデル|ＡＩ|動画生成|画像生成",
+    re.IGNORECASE,
 )
 
 # 表示ラベル -> キーワード。複数該当可。
@@ -269,6 +276,37 @@ def claude_json(client, prompt, schema):
     return json.loads(text)
 
 
+def translate_free(articles):
+    """MyMemory 翻訳 API で英語の見出しを日本語にする（新しい記事から順に、無料枠の範囲で）。"""
+    email = os.environ.get("MYMEMORY_EMAIL", "").strip()
+    budget = MYMEMORY_CHARS_PER_RUN[bool(email)]
+    done = 0
+    for article in articles:
+        if article["lang"] != "en" or article["titleJa"]:
+            continue
+        title = article["title"][:450]
+        if len(title) > budget:
+            break
+        params = {"q": title, "langpair": "en|ja"}
+        if email:
+            params["de"] = email
+        try:
+            result = json.loads(fetch("https://api.mymemory.translated.net/get?" + urlencode(params)))
+        except Exception as exc:
+            log(f"  ! translation failed: {exc}")
+            break
+        text = html.unescape((result.get("responseData") or {}).get("translatedText") or "").strip()
+        if str(result.get("responseStatus")) != "200" or result.get("quotaFinished") or text.upper().startswith("MYMEMORY WARNING"):
+            log(f"  ! translation quota reached: {result.get('responseDetails') or text[:80]}")
+            break
+        if is_japanese(text):
+            article["titleJa"] = text
+            done += 1
+        budget -= len(title)
+        time.sleep(0.5)
+    log(f"  translated (MyMemory): {done}")
+
+
 def translate(client, articles):
     targets = [a for a in articles if a["lang"] == "en" and not a["titleJa"]][:TRANSLATE_LIMIT]
     schema = {
@@ -364,7 +402,11 @@ def update_news():
         results = list(pool.map(parse_feed, FEEDS))
     fresh = [a for result in results for a in result]
 
-    articles = merge(existing.get("articles", []), fresh)
+    # AI 専門の媒体以外の記事は、AI に触れていなければ除外する（過去に保存された分も含む）
+    ai_sources = {name for name, _, _, _, ai_only in FEEDS if not ai_only}
+    kept = [a for a in existing.get("articles", [])
+            if a["source"] in ai_sources or AI_PATTERN.search(f"{a['title']} {a['summary']}")]
+    articles = merge(kept, fresh)
     brief = existing.get("brief")
 
     if os.environ.get("ANTHROPIC_API_KEY"):
@@ -374,7 +416,7 @@ def update_news():
         translate(client, articles)
         brief = make_brief(client, articles) or brief
     else:
-        log("ANTHROPIC_API_KEY not set: skipping translation and brief")
+        translate_free(articles)
 
     failed = sum(1 for result in results if not result)
     data = {

@@ -261,7 +261,8 @@ kbd {
 .byline .source { color: var(--ink-soft); font-weight: 600; }
 .byline .actions { margin-left: auto; display: flex; gap: 14px; }
 .byline .actions button { background: none; border: 0; padding: 0; cursor: pointer; color: var(--muted); font-size: 0.7rem; letter-spacing: 0.06em; }
-.byline .actions button:hover { color: var(--ink); }
+.byline .actions button:hover, .byline .actions a:hover { color: var(--ink); }
+.byline .actions a { color: var(--muted); text-decoration: none; font-size: 0.7rem; letter-spacing: 0.06em; }
 .byline .actions button[aria-pressed="true"] { color: var(--accent); }
 .article.read h3, .article.read .summary { color: var(--muted); }
 .article.read h3 a::after {
@@ -392,7 +393,7 @@ dialog .close { margin-top: 18px; text-align: right; }
         <div>
             <h4>About</h4>
             <p>AI Chronicle は、研究機関・企業の公式発表、国内外の専門メディア、ニュース検索から人工知能に関する記事を自動で収集し、分類・重複除去して掲載しています。</p>
-            <p>見出しの日本語訳と「本日の要点」は自動生成です。正確な内容は必ず元記事でご確認ください。</p>
+            <p>英語記事の見出しは機械翻訳です。「和訳で読む」から記事全体を Google 翻訳で読めます。正確な内容は必ず元記事でご確認ください。</p>
             <p id="footer-meta"></p>
         </div>
         <div>
@@ -498,7 +499,9 @@ dialog .close { margin-top: 18px; text-align: right; }
 
     const headline = (a) => (showOriginal ? a.title : (a.titleJa || a.title));
     const subline = (a) => (a.lang === "en" && a.titleJa ? (showOriginal ? a.titleJa : a.title) : "");
-    const summaryOf = (a) => (showOriginal ? (a.summary || a.summaryJa) : (a.summaryJa || a.summary));
+    // 英語の要約は原文表示のときだけ出す（日本語訳がある場合はそちらを使う）
+    const summaryOf = (a) => (showOriginal ? (a.summary || a.summaryJa) : (a.summaryJa || (a.lang === "en" ? "" : a.summary)));
+    const translatedPageUrl = (a) => `https://translate.google.com/translate?sl=auto&tl=ja&u=${encodeURIComponent(a.url)}`;
     const topicLabel = (key) => data.topics[key] || "その他";
 
     let toastTimer;
@@ -548,7 +551,7 @@ dialog .close { margin-top: 18px; text-align: right; }
             const seen = new Set();
             for (const m of text.match(/[A-Z][A-Za-z0-9]+(?:[-][A-Za-z0-9.]+)?|[ァ-ヴー]{3,}/g) || []) {
                 if (STOPWORDS.has(m.toLowerCase()) || JA_STOP.has(m) || m.length < 3 || /^[A-Z]{1,2}$/.test(m)) continue;
-                if (["The", "This", "How", "Why", "What", "New", "With", "Introducing", "After", "Here", "Its"].includes(m)) continue;
+                if (["The", "This", "How", "Why", "What", "New", "With", "Introducing", "After", "Here", "Its", "Generative", "Model", "Models", "Artificial", "Intelligence", "Data", "Tech", "Agent", "Agents"].includes(m)) continue;
                 if (seen.has(m)) continue;
                 seen.add(m);
                 counts.set(m, (counts.get(m) || 0) + 1);
@@ -616,6 +619,7 @@ dialog .close { margin-top: 18px; text-align: right; }
                 <span class="source">${highlight(a.source)}</span>
                 <time datetime="${escapeHtml(a.published)}">${escapeHtml(when)}</time>
                 <span class="actions">
+                    ${a.lang === "en" && !/news\.google\.com/.test(a.url) ? `<a href="${escapeHtml(translatedPageUrl(a))}" target="_blank" rel="noopener noreferrer" data-open>和訳で読む</a>` : ""}
                     <button type="button" data-action="save" aria-pressed="${isSaved}">${isSaved ? "保存済み" : "保存"}</button>
                     <button type="button" data-action="share">共有</button>
                     ${isRead ? '<button type="button" data-action="unread">未読に戻す</button>' : ""}
@@ -1008,7 +1012,7 @@ dialog .close { margin-top: 18px; text-align: right; }
             case "o": case "Enter":
                 if (e.key === "Enter" && document.activeElement !== document.body) break;
                 if (id) {
-                    const link = main.querySelector(`.article[data-id="${CSS.escape(id)}"] [data-open]`);
+                    const link = main.querySelector(`.article[data-id="${CSS.escape(id)}"] :is(h2, h3) [data-open]`);
                     e.preventDefault();
                     markRead(id);
                     window.open(link.href, "_blank", "noopener");
