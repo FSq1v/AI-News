@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-25T11:06:57Z",
+ "generatedAt": "2026-10-25T15:55:14Z",
  "feedCount": 31,
  "topics": {
   "models": "モデル",
@@ -13,6 +13,229 @@
  },
  "brief": null,
  "articles": [
+  {
+   "id": "2bce63b6e0e1",
+   "region": "global",
+   "topics": [
+    "policy"
+   ],
+   "title": "Nova Scotia farmers’ markets draft proposal to ban generative AI usage",
+   "titleJa": "ノバスコシア州のファーマーズマーケットは、生成的なAIの使用を禁止する提案を草案しています",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "CBC",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB5THNVanVqZ09BWDJvM2VyVXA2aTFEUGh4SFpkSC1DMF9DQVE5SnZ5RmdtSExVRndybzNNdjhQaFVIUEplZnRNQlFKNGRXTkhRWS1nZzdLZXBoQQ?oc=5",
+   "image": "",
+   "published": "2026-10-25T15:13:20Z",
+   "weight": 1
+  },
+  {
+   "id": "59eed347cfce",
+   "region": "global",
+   "topics": [
+    "policy"
+   ],
+   "title": "Texas suburban political clash heats up with AI, accusations",
+   "titleJa": "テキサス州郊外の政治的衝突がAIで激化、非難",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "Chron",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNWjdsd1RjQmR6WVoyYkpRVjFrRWNRa2lLVmZXV1I0REFCLU00cm55V19USUpNdTBoNjhiOVRNckZTZEtzRTJvTEIzMVdacVRZQUJrd29sVDRyOGZpenozY2RUWjNqNTF2STRRTmJFYXowVnIzTEE0ZVNWR0xpTEtDR1RXOA?oc=5",
+   "image": "",
+   "published": "2026-10-25T15:00:56Z",
+   "weight": 1
+  },
+  {
+   "id": "085a36b86e0f",
+   "region": "japan",
+   "topics": [
+    "business"
+   ],
+   "title": "AI投資に巨額マネー 実態と展望",
+   "titleJa": "AI投資に巨額マネー 実態と展望",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "ja",
+   "source": "Yahoo!ニュース",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5EbnU4b1M4eXRoc3RQQmFEb3JRc1BjOVZtRmZMaTQxYWt3VkVrWW52OENJLW1OR2E5czJSSHgzUWlqQUpCVkhfRDl6RDZhamlr?oc=5",
+   "image": "",
+   "published": "2026-10-25T14:45:54Z",
+   "weight": 1
+  },
+  {
+   "id": "611184d5aa6f",
+   "region": "global",
+   "topics": [
+    "general"
+   ],
+   "title": "The hottest AI wearables and gadgets you should know about",
+   "titleJa": "知っておくべき最もホットなAIウェアラブルとガジェット",
+   "summary": "We compiled a list of all the hottest AI wearables, including Muse Charm, Bee, Friend, Plaud, and more.",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
+   "image": "",
+   "published": "2026-10-25T14:10:00Z",
+   "weight": 2
+  },
+  {
+   "id": "b366ba776fde",
+   "region": "global",
+   "topics": [
+    "policy"
+   ],
+   "title": "r/opensource just banned AI, non-English speakers, and more",
+   "titleJa": "r/opensourceは、AI、英語以外のスピーカーなどを禁止しました",
+   "summary": "The mods at r/opensource posted new submission rules that, among other things, banned projects that use AI. The post made Saturday evening opens by saying, \"If your project uses AI, is made by AI, or is intended for AI, it's not welcome on r/opensource. AI, as it exists today, is…",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "The Verge",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
+   "image": "",
+   "published": "2026-10-25T13:25:32Z",
+   "weight": 2
+  },
+  {
+   "id": "b6ddc26c2d58",
+   "region": "global",
+   "topics": [
+    "media"
+   ],
+   "title": "Tennessee Football Player Throws Sucker Punch During Field Storm At South Carolina In A Video That Is Not A.I.",
+   "titleJa": "サウスカロライナ州のフィールドストーム中、テネシー州のサッカー選手がAIではないビデオでサッカーパンチを投げる",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "BroBible",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWEpyMGdkazNFU3F6aFNUOHVnaFl3M1J6WGlwQU5NQ3VWc3BEQWhfelJ0X05HNDhLemI4WGMwV3pqLTNscW1STWl3LV9uRkpWcWtrbmhGMUZUVi1TY1JIdmYzUnZ3UHU3WG5nWkg3WC00SkxqT2hOQ095MHNpVmJJNlFOcWNLbmYwZDUtSjc4S3F0NDVFWTY5cXJuMGYtU3RrWVpTU0lxbDN5SU8ySWtPa0h5bElQUQ?oc=5",
+   "image": "",
+   "published": "2026-10-25T12:54:50Z",
+   "weight": 1
+  },
+  {
+   "id": "de86885fd61b",
+   "region": "japan",
+   "topics": [
+    "models",
+    "research"
+   ],
+   "title": "「何」を選ぶべき？「ChatGPT」「Claude」「Google Gemini」相性別「3大」生成「AI」サービス徹底研究【デジタル＆AIギア 完全ガイド】（GoodsPress Web）",
+   "titleJa": "「何」を選ぶべき？「ChatGPT」「Claude」「Google Gemini」相性別「3大」生成「AI」サービス徹底研究【デジタル＆AIギア 完全ガイド】（GoodsPress Web）",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "ja",
+   "source": "Yahoo!ニュース",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTHhkX0tmRFg3elhTTTI5ZUp6eS05Wlp0Z09Td3pUVlFpN1J3SzVIRXpRa0I5RThjblBvMy03dzM1Y2lISS1JWmxwTEtaNzNDVkZsYTJTN3g5RExSaFhWZGtPWVNKWlowU3M5R2pQUEIwcWdpenAtdFZFaWFXUVVkNEczVVJ6Q0V2?oc=5",
+   "image": "",
+   "published": "2026-10-25T12:30:10Z",
+   "weight": 1
+  },
+  {
+   "id": "ea59e66a6790",
+   "region": "global",
+   "topics": [
+    "media"
+   ],
+   "title": "‍‍‍6 Best AI Video Generators {a01OK}",
+   "titleJa": "6つの最高のAIビデオジェネレータ{a 01 OK}",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "FC東京オフィシャルホームページ",
+   "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxPWGlkeU1HdlVvd0l0UVZuMXVxTEhidFdZSEQ2X1djMDU1VTRyejN1VkRlX08wRjd0WmVSUVdYMVRMVmVZMXRnNEItRjNMc21xNU5HSEJKWkVTc19hTjRMdm9QQ3hFeWlWaFlVY05uWTJxdU9DZmpFWTZlN3B5c0RQa1BVNS12QVhQei1ONlFHV0JtSUxhVGdJU053UTdBa3NDVHhUbGFfUDcyVC00NWdHMmdiRTRVUG5SdGFUSmJqbGl5LUFXZW1kTGFiSWVIQWlVTm80V1ZneXd0bmJCVVFiLXJSa295RkNPZnVmeFBPeDBqSVRkRWFEQUNVZmpjSmxBcUVQX2RpeXJlb3ZvTU4xMVBTallHMWdVNElMbngyWDQyRlU0b0l2N29FcDhLUm8?oc=5",
+   "image": "",
+   "published": "2026-10-25T12:19:18Z",
+   "weight": 1
+  },
+  {
+   "id": "9547a5388131",
+   "region": "global",
+   "topics": [
+    "general"
+   ],
+   "title": "AI Model Comparison: Sol vs Sonnet 5.5 vs Argon [2026] - tech-insider.org",
+   "titleJa": "AIモデルの比較： Sol vs Sonnet 5.5 vs Argon [2026] - tech-insider.org",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "tech-insider.org",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOa01JdWc3UDFBOFVFUGE3SGJCUmpYYVlQYkJRZDk5czRUY3dVQXFGR21RZDhsX1VxWlUtYVhuQUQ1TWR2TkFtSzYzX2lCQnJWNnR6Vlh0aXhRNkhqS3E5bDFES1g0blpsNUdXZE0wd1ZEWmQxY2tIY3dEek1sRFZwNVJNTGNVb3hoZVJZVHFRS0xqYzlYZnFONnhB?oc=5",
+   "image": "",
+   "published": "2026-10-25T12:14:14Z",
+   "weight": 1
+  },
+  {
+   "id": "99c99157c7fa",
+   "region": "global",
+   "topics": [
+    "general"
+   ],
+   "title": "Google’s AI search changes upended online publishing",
+   "titleJa": "GoogleのAI検索の変更がオンラインパブリッシングを覆した",
+   "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more about AI's impact on the web, follow Emma Roth. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started The digital…",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "The Verge",
+   "url": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing",
+   "image": "",
+   "published": "2026-10-25T12:00:00Z",
+   "weight": 2
+  },
+  {
+   "id": "302b8fa683cb",
+   "region": "global",
+   "topics": [
+    "media"
+   ],
+   "title": "‍‍‍Where to Find NSFW AI Video Creators in 2026 {a01OK}",
+   "titleJa": "2026年にNSFW AIビデオクリエイターを見つける場所{a 01 OK}",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "FC東京オフィシャルホームページ",
+   "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxPVnEzdEtKQldOR3dFS3UweE5DeTQ5QkYzTTM0cWtsbVdyNmtpZ2ltVTZta1Y3Z0xnMnlvcXVQUGpsUU5CeF9CdFhjaDZ6MXQ1UG45Zi1kZ2lUc2tmUi1wN2tXeTdDOTNUUktvNVkzbWF4YUJDd2ZOWGZsVmRrRzFYLXBscUR1M2JmV0RTNlAzVUc4X29LU1k0SkxOUVRvMkczUTI2ZGNMSURHTnpwcDRiWEN2SDV4VDZrRGU1REFpZzF5eWRIbi1jUnhxRXVTWXNGby1wZy1GZnhHOWNwQS11Sjg2ajBWcDd2Rm1uNVZwd04zeHdULUlONHJiTHZNTHBTNVpOelpVeHRvbXdwZHptamxpbTBTblpCelRfS3FZUEZrVF92U1hxRzBobVNNNHEwNWhsbzgtTE9Pek5SR2ZEUFpUSHJlZTg?oc=5",
+   "image": "",
+   "published": "2026-10-25T11:49:20Z",
+   "weight": 1
+  },
+  {
+   "id": "b44621c93960",
+   "region": "global",
+   "topics": [
+    "policy",
+    "products"
+   ],
+   "title": "Bodleian updates its AI policy after Guardian exposé",
+   "titleJa": "ガーディアンの暴露後、ボドリアンはAIポリシーを更新",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "The Oxford Student",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA5TTFWdmdwSmdKcG1wa3VjQkRRXzZackJ6Q2RTYU84T0ZLbWNELUVEZFB2UTNwZFpQLWdDc0ZwcnFQbUs5WU5LYXBGQzZzeHdxRHFrTF96NDVDNklFa0VBaFZJMXFWbk9tSFlmNg?oc=5",
+   "image": "",
+   "published": "2026-10-25T11:19:41Z",
+   "weight": 1
+  },
+  {
+   "id": "ff7de1cc9398",
+   "region": "global",
+   "topics": [
+    "media"
+   ],
+   "title": "Himanta Biswa Sarma grooves to Gangnam Style in AI video with Assam ministers",
+   "titleJa": "Himanta Biswa Sarma、アッサムの大臣とのAIビデオで江南スタイルに変身",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "India Today",
+   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNUUlFSnJwYTlZZWFBZy1naE5IS1djMHdmbDZFZjVVNVpsTHl6WnFhcUNSeFFOZGhTZmNZZmowSFlzeEFoMm5pN1dSOUdZVDF6MTBhQnM0X3N4ZV9jM3Vid1VONTBLWGxMVzBPWkduU1k1Z2FhRTNrd0h2VG9lZmRmbXhaUTQ2em5lT1J4YUdhYkJGaDF4am5GVzNRVjJWWE5zOWc4OVBmRWQwajNJeVhFWDNVX0pLR3gteWVxa3R4VTFXQk9rMEx3c3VYZ2dxNDdYNFpkRzRZZHAzWjB1NGhn0gHfAUFVX3lxTE1RSUVKcnBhOVllYUFnLWdoTkhLV2Mwd2ZsNkVmNVU1WmxMeXpacWFxQ1J4UU5kaFNmY1lmajBIWXN4QWgybmk3V1I5R1lUMXoxMGFCczRfc3hlX2MzdWJ3VU41MEtYbExXME9aR25TWTVnYWFFM2t3SHZUb2VmZGZteFpRNDZ6bmVPUnhhR2FiQkZoMXhqbkZXM1FWMlZYTnM5Zzg5UGZFZDBqM0l5WEVYM1VfSktHeC15ZXFrdHhVMVdCT2swTHdzdVhnZ3E0N1g0WmRHNFlkcDNaMHU0aGc?oc=5",
+   "image": "",
+   "published": "2026-10-25T11:14:22Z",
+   "weight": 1
+  },
   {
    "id": "0892a502ab0d",
    "region": "global",
@@ -28,6 +251,23 @@
    "url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxQb24yODllMjVCaGM5YTROaDJ1RmZ4SDItamZGcG1JNlpqaDZuMHVzRFlXclVDYUl4LTRPTE15emxrdTA4SnVBLXc0LUU4OEotX2VOTHRoZjY4WGxTSzZjZ3JjUHRodkFudFo5V2FRXzJ1bWdibnRhMUgxRFluTU1ObHl0VDREenBhXzRURXZUb2tEeTFtVFJqbXlNV0Y5NGREd09PQThKWWtYQm44QmVtY1NHMFl3R0RBX3JNYjZtT3NBSWx3TVNMVTJWMmh0dG1ZdWZmMkd2cnlWRnp3Z2VxeXRyQXZhOFg1Z1VVQ3gzWDBocUhiVnk5MjlMUGZ3WVFKMURYR21Rdll5VW45d1V1bW9BNEZUdkpka2pYX3RoaEx5bkdqNTZiTnZNTzNQbmxnanJ2eVN2TklaVEZkUko5X0JXYmRlUk5WZzF0bng1U2tqZ1E3dGJKOQ?oc=5",
    "image": "",
    "published": "2026-10-25T11:01:15Z",
+   "weight": 1
+  },
+  {
+   "id": "487b6b732007",
+   "region": "global",
+   "topics": [
+    "models"
+   ],
+   "title": "New Chinese Kimi K3.1 Pro AI Model Outperforms GPT-6 Astra With Near Claude Opus 5.5 Performance",
+   "titleJa": "新しい中国のKimi K3.1 Pro AIモデルはGPT -6 Astraを上回り、Claude Opus 5.5に近いパフォーマンスを発揮します",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "WinBuzzer",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQa1hTRFhuZHZHZDNHanZVUWROaUFPekc3MU82c0d0QjZrNzdJS1dXOUtqRGIyMEQ0QzJNRWVELU4tRXVLdkh3dVl6Y3hKVEgtRVNpYVZRc0JHOUFtYnJNQjkwRW5uTzRBUFQzVHd3UUxqU1l1b3ByV043MDRMOUJrZGVGSDVtZS1EWk9TcURqYw?oc=5",
+   "image": "",
+   "published": "2026-10-25T10:43:41Z",
    "weight": 1
   },
   {
@@ -63,6 +303,23 @@
    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQM2h6REItalRmMmdORVZUMS1DVFpVdWw5SVZKR3pZM1pmU0o2ZDlNZDI1OHBOZDVpYkpBeE0xbDF2cE5RY0VKVzhKd3RSZk4tTjk3SS1OMkpKME81LXpGY2lMX29mT3d5S2dIdG5xMWVpTjRmQm1reHdhOThUdTg3ZllxOG1PUQ?oc=5",
    "image": "",
    "published": "2026-10-25T10:29:38Z",
+   "weight": 1
+  },
+  {
+   "id": "823b3635bd75",
+   "region": "global",
+   "topics": [
+    "media"
+   ],
+   "title": "Donald Trump mocks tragic death with AI Video in tiger enclosure: A shameless act",
+   "titleJa": "ドナルド・トランプ、虎の囲いのAIビデオで悲劇的な死を嘲笑：恥知らずな行為",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "IOL",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPODQzcHdlWTl1TUE4UjJDX0JKc3dHcXBpZkhMOE9hWThVRmRNOHFkQ0g2X1IwM041ZV9rcjJpTm5FQlZOX2wtZHBla2ZoQzlaejRQN2h1WUFNcThpb0lVMEdXaHFrSUtWVkhDWlBGV3BYMkwzaTNrczliMGZ2aE5hMHJBS21xelRENEdWc1ZZN1JPbzhWSUVaREM5eHIxMUNWYzczX0hzNkZzWmFMS2V2ZEZPVVdZaU5JUElnYnp1a0twTmNqa2x3QQ?oc=5",
+   "image": "",
+   "published": "2026-10-25T10:23:17Z",
    "weight": 1
   },
   {
@@ -337,6 +594,23 @@
    "lang": "ja",
    "source": "千葉テレビ放送株式会社",
    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE16VGRadlZwT1hLU1ZRa3FncmlZbEtBNjZ1TEVSVENaeDlyUjdkUDdCcW51TGdNWDk2UHE4LUxXRzBMMmdzR0FKdFJNRnpXZFB2SkEtcnBtdUhBV21fdGpB?oc=5",
+   "image": "",
+   "published": "2026-10-25T09:05:00Z",
+   "weight": 1
+  },
+  {
+   "id": "0c73484f476b",
+   "region": "japan",
+   "topics": [
+    "media"
+   ],
+   "title": "「AUTOMATIC1111（Stable Diffusion web UI）」「Stable Diffusion」をブラウザーで操作できるWeb UI",
+   "titleJa": "「AUTOMATIC1111（Stable Diffusion web UI）」「Stable Diffusion」をブラウザーで操作できるWeb UI",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "ja",
+   "source": "窓の杜",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9GUUljODliNldUTS1qdnhJQXFKSnhRNGlfb0ZfdExwd3V5MUYxRG1vdFdaWlNyUUl5Qm5MSzRjY1A0bVBDWXN4M3hpQXR3cmx4MEZ4VmViT2VXY0E2akxZT21LbVdOM196Q3c?oc=5",
    "image": "",
    "published": "2026-10-25T09:05:00Z",
    "weight": 1
@@ -1468,6 +1742,23 @@
    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNGZuSXIxT25mVTZmMGRYV2FmX3pveHJidi11UnQ3dTQ0bXctR3JvN3pMQkpZVXVrVGxPZXB6eEJOOTRzUExkYmJkVXhfZkJzd01YTnNxYXkxb0lrNXNENGFXNTN4bmdBclRLNXZoMGZpQVNZdlRNa2tGWUd5dV9jRU5nTGNpUVRIdjY0?oc=5",
    "image": "",
    "published": "2026-10-24T17:41:10Z",
+   "weight": 1
+  },
+  {
+   "id": "50820eb352fc",
+   "region": "global",
+   "topics": [
+    "general"
+   ],
+   "title": "When the sandbox breaks: Why AI model containment is the next enterprise security discipline",
+   "titleJa": "サンドボックスが壊れたとき： AIモデルの封じ込めが次のエンタープライズセキュリティ分野である理由",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "Express Computer",
+   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOQmpfN1owaDh4RUZwRGtkeHYxUTI3Q3BZbXFuWEo1c2pZcGZRVTNvdlhJTTljeUtqWFJPX2JzTWRpdlVDajNUZHNMSDdxUTZpWUxuVmlnekJ6blAxMk5PRV8zdDFtbzdBYjNuZHFyTkhFZi1YTGNvc1BEenB2RE5KdXl6b2x6MkFjdERoaVdNLW1uTUt3U2ZHOUQ0dVBzV1lMVDl5c0hrVXozZDlwSWxrR3UxaFBjbzNSX093d0FWVGhuVnVuNlJ6Uk5rN05WelEzbUVnZmNQOWVjaGZJQXc1VkUxN0FQNENJMHNKSGZ3?oc=5",
+   "image": "",
+   "published": "2026-10-24T17:24:21Z",
    "weight": 1
   },
   {
@@ -2926,6 +3217,23 @@
    "weight": 1
   },
   {
+   "id": "5eaf4467d19a",
+   "region": "global",
+   "topics": [
+    "media"
+   ],
+   "title": "Best Free AI Video Generators 2026: Top No-Cost Picks {VGhjTY0}",
+   "titleJa": "最高の無料AIビデオジェネレータ2026 ：トップ無料ピック{VGhjTY 0}",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "小豆島町",
+   "url": "https://news.google.com/rss/articles/CBMi8gJBVV95cUxQck1sMW9fYnBkUGJLR1gyeHZqTlNLcERrSXBuSzhOVThMaXUwbFRkUU55ZkpYdnJEMkViM3pqdmhJSW5tOG5zaV9hVDdoNFhaU0dLdVRVbXJzUGhXQzFnV0dJTkdQYUtjRmR6UDU2QnFLTm4tOEE0dl8xQjNQLVA4NUxPcGJQR2JGaDl1eklxOUNDdkVjZjRJakljWnpvYWJDUU02ZW9Ld29DS2lMbGN2dm81VFJRMG50Nk41bnhiSmdXZHJGYkZLTzZyNUVwa3BGSGRuXzc1cHpKRkdkWkVnMTFDY1dxSkZsemhGRlNaWElGNkkxVVA0bkNXOHNuRTJWX1lHTkxLai1ycE5WVnVJZlNWS2JHOGJDT3BsQVF4RGdtMXNOWlR6REdSRjVhLW02SkI3QktzS1VfWjc0LWV0YUszalpxeXp5eHppcDBsTTctQ1lHc2dZTDZDYXpuTzFkVFdEbnpSUHA4R3JCQjJ4ZXZn?oc=5",
+   "image": "",
+   "published": "2026-10-24T08:26:50Z",
+   "weight": 1
+  },
+  {
    "id": "00d968f25c28",
    "region": "global",
    "topics": [
@@ -3234,6 +3542,23 @@
    "weight": 1
   },
   {
+   "id": "35e2b5c7e843",
+   "region": "japan",
+   "topics": [
+    "research"
+   ],
+   "title": "顔写真だけでがん患者の余命を診断できるAIモデル、米研究チームが開発",
+   "titleJa": "顔写真だけでがん患者の余命を診断できるAIモデル、米研究チームが開発",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "ja",
+   "source": "CNN.co.jp",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBlaHI3R2VzSzFXbmhTbEdscVdyODFPYXdaRWVDckJ4OVZPamRja0RFY1VMc3BGZG01UXI1dVZBMmVGdFBNVmxrSnRRR0oyR2RQdk9yeg?oc=5",
+   "image": "",
+   "published": "2026-10-24T05:06:00Z",
+   "weight": 1
+  },
+  {
    "id": "24b895eb26d6",
    "region": "japan",
    "topics": [
@@ -3384,6 +3709,23 @@
    "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxPbEphQkJXemZ5X191MDdUdElPaW1NaFdtdWZqUVJ3UWp3TFhxSWlKQUh4MFJpeEtHNTF3azN5TEN4clBlbjhtN3ZBRW9WeTQ3YjN0MFVmRG9HOWpYUk9PS0tMSWtQMWJFOVd4R3ctUVRjZUc1OUZ2OXprRjhoakFlQ0hXM1dIWHprN3hIb3lWTTl3ZnkzeFU5Q2FDUHJsbEpSQUJGUFUzWjFXd3NXNk50c0FlOFlsMnVIN2QtbDFmS2tWY1VOZVRJemVQT2NEZ2p1YjhTNVU0bFhYYTAyUjIzNUpDYkJ2QWFHclJYUTFobHBOMkpGSDR0N2Y3dVh1eHFkUlNWXzJkQUFhOWc2cU9HSjU0TWhkMHRQQ2RDTUE3dnZBN2dwbjJFTg?oc=5",
    "image": "",
    "published": "2026-10-24T04:17:09Z",
+   "weight": 1
+  },
+  {
+   "id": "fb0468cef3c3",
+   "region": "japan",
+   "topics": [
+    "media"
+   ],
+   "title": "最強の無料動画生成AIツール5選【 2026 年版】",
+   "titleJa": "最強の無料動画生成AIツール5選【 2026 年版】",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "ja",
+   "source": "小豆島町",
+   "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxONlo1SjM5MUw3bXB4Si0zb191bExqZi1xMTExbXA5N2FQTlpLcFM4UnFqRXlWSlZTRm1LOTNNNC1ZUHpJUmM3NGVZdFJUczFhd1VxWVlUdXBlOXhQZHhGdjZ2MWctcFhiZWJtSXl2QTQ2ODFyMUw3MnRZR0tZbnFZTjY2ODJGN0UxNk1QT2FzOGg5cmtYOXF0Y2ZYYXF1Unl5S01FQWVVdzkwdWRSNEtmVzcwUFM2TFppVG9qYmxNWHVxNEx2QVNETkhGVGk1Sldqdlpwb1NfcjUwbTBsTHJKYTdxYWY5N0c5QjFHMGZsVTY4S1FiSkItTXlrdWtIN2hZTWw4d1Y3VWpmaEdwNHFVaHIzdVo1anh3RVpaa1ZfMnE5R3RLWEY3OQ?oc=5",
+   "image": "",
+   "published": "2026-10-24T04:17:06Z",
    "weight": 1
   },
   {
@@ -3846,6 +4188,23 @@
    "weight": 1
   },
   {
+   "id": "c37c107a443a",
+   "region": "japan",
+   "topics": [
+    "media"
+   ],
+   "title": "画像生成AIおすすめ比較【2026年】",
+   "titleJa": "画像生成AIおすすめ比較【2026年】",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "ja",
+   "source": "小豆島町",
+   "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxNbUpESEgyMTRzMEtSdlBpYndGUEFxWDhUM1RPbTZQRmRRYzZNQzg3QzhlZ1hobzZJU3FrM2dfVGJKRnIyYkxJVEYzTXVSVmZOZmtna3NjNDBlZEtlc1NTYjBIbzZ2LTlrWFkwNWRwX2F4VmxOVWNrZHpVN2ttbGQ5OXRQVzVqRmtnOTFuc29BLURqX0pkN0VlTHJ1UVBaa2dtRjdhcHRvR3kxUkZfbHNndVVyVEM1aGV2RFNnM1Jpalp6SWZFOS1FLXR4UzFjZjZnZHYwS2Z5R3ZjS2lMV1FoYlp0c1NtOUVFZ1VoNkNKbE8xWHp5Y2F6MW9GVFFBVEtSRnhzNDVLWUFqNkVlSFJ4dDgzZWRRUTduN3JrTmZ6OE1mRjFMd3gxMg?oc=5",
+   "image": "",
+   "published": "2026-10-24T04:06:43Z",
+   "weight": 1
+  },
+  {
    "id": "2aedaf3c5c4a",
    "region": "japan",
    "topics": [
@@ -4115,6 +4474,23 @@
    "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxQVnN1MmI0bmFTckRTdFpjd0tWcFRCNk1YT2tCQTBSYVFEa0JlWEp3d0NVbk1ZU0VrUjJtQ0VMdkpqQmhJaHJxSDhpSkM5dGR2WlFMdjlTM0taVEEySWluSzVZYkZQRjNjQ1hIaWlpeXVWOGFoSFoxSmdmRmU2amRLQ3JtZmxZVVpzUGtUdko2VTYzYTJWeWtsZmRjNzVKbWg5V2NKZDNkOXVSYXRJbGlaZHpNRU9GdWZSYXZZLUZ0RnliWlh1ZUtiWkd6OEp3ZEk4aUFtajVjZVNiaE5UVlJXcVY4MlR0SmxwSVA4WnVoRXJxNU5BWXhkUGw1VmhFbkhaa0U0cWNSQnY1QURwcmw0cUlRWWVVRUFHbzdqZDZJeFY4emt1bFlaUQ?oc=5",
    "image": "",
    "published": "2026-10-24T04:06:09Z",
+   "weight": 1
+  },
+  {
+   "id": "8c3e450d23ba",
+   "region": "japan",
+   "topics": [
+    "general"
+   ],
+   "title": "画像 生成 ai",
+   "titleJa": "画像 生成 ai",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "ja",
+   "source": "小豆島町",
+   "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxPY2Q5RDlsOWREWTNndUJsWXhZNWJHRU9qczJ0WlFaQW14Zlh1c0VqTXRob01MUF9qVVFxdGFhYXd1NEJOSzBDXzhUV0Q2eExBWE1uRkx2NFFWWW1XM2pWQnFmeEVMTUNOZ3VJd28zSjgyOFRpam0tc1M0dE1kVGp3ZjlDcHpmTFFDa19ybHRRQ3EyQ3FYZDFBZTVzV05KU1BwS0NqR3BtdWdmVVdhRkd5ZGxQalkzTXRzanI1VE1JUGp1aXZWenFpZExIZFRrV2dsRmtkRzN5T3NEdXVuNkZDcnh6RzIzMC01LVE4bUtkX2RxQjBkMnlSWW1JQ19GS05OY1pMVHFHQnFZeDk3UnlxcGQtbUJDS19yeFBtS0FvbUt1V1JXNERTRQ?oc=5",
+   "image": "",
+   "published": "2026-10-24T04:06:07Z",
    "weight": 1
   },
   {
@@ -4953,6 +5329,23 @@
    "weight": 1
   },
   {
+   "id": "45d232fb1375",
+   "region": "japan",
+   "topics": [
+    "general"
+   ],
+   "title": "SEC、2027年の検査重点にトークン化・AI・量子コンピューティング",
+   "titleJa": "SEC、2027年の検査重点にトークン化・AI・量子コンピューティング",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "ja",
+   "source": "Bitcoin News",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdDdiVjZiZFFmYUJ1MmYwTG51YjZlS3FVWnc4X1JmamNXbmJRZGpUTWg1U19sM1ZsM3JGUWFNQWJzRGZFSi15UUJCRDZqNXd0RlRCTGF3YldENEdSNnliWWJudVNMbE1ZV1dMa0EyU2VRb3pCeTBVS24xUkhSVUs1WXdDZmlPdExYcGd6dkxvaVNXVml3UFlQeWZ5R05LNnRhSkE?oc=5",
+   "image": "",
+   "published": "2026-10-24T00:30:32Z",
+   "weight": 1
+  },
+  {
    "id": "90a7fa8c7b9a",
    "region": "japan",
    "topics": [
@@ -5125,6 +5518,23 @@
    "url": "https://news.google.com/rss/articles/CBMihwNBVV95cUxQNHJaWC0zSEFtMnl4X3dXZzVNNFROUjZvczExUC1CbHNEcHM5a0c3Yjh3MXp1SUxCU3BOWjFtS2sxRW00cFdsYmNvRlRhbGpvMXpaRllVMVZtMkdRT2U1aXJPWEVUNEZDM3o5NURrWmJsbFNrb1NmZld0eDFoRi1kYTdhRmFyNFhEVll3Q0JfbHFyS3ZTdmlEa1dGX0hwWjZ0RGF3RHVoWk5zeC1PaFE3eHl5MWRJYWtNXy1EUnZEaHNOb3RENDRWSHpkMkl5QUc4VkF6WkZMQmVISlptME9RSUlYU3dCT0xXSzU1NklIa25peWp0bld1LWlmYmdPOVpwc3YtNV9WMUR5T25zT2xvUXNtLXhDNF9WcFR2V0NNeXVaWW5rOV9vR1NLaE9xczgtN2xoc2hJcWtDem5lZHJBMGVxaGdzNlJJSkpWVmY3M2VfU1VEZnJTUy12Zl9TdTNIMVMyMkpzNzBleTZ2STk5Ymlpb2l2dEZMZ1cySEtFWEhqRjNPbEdn?oc=5",
    "image": "",
    "published": "2026-10-23T22:08:55Z",
+   "weight": 1
+  },
+  {
+   "id": "00a9d353f605",
+   "region": "japan",
+   "topics": [
+    "policy"
+   ],
+   "title": "日本法では「原則、泥棒ではない」。AI学習をめぐる著作権侵害問題、日米で分かれる司法判断の核心とは",
+   "titleJa": "日本法では「原則、泥棒ではない」。AI学習をめぐる著作権侵害問題、日米で分かれる司法判断の核心とは",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "ja",
+   "source": "ライブドアニュース",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9za0U3OFBSODB6OFpzYkpGOFM2ODVxdlNMQ3VSRGNlWEExZHFTTzF1T2gzQXhYSTNqZHAxZnRxQUhKdnhnRDhOeWVaLXRjaWt3UGxkUWt2eDJlaENna1c0?oc=5",
+   "image": "",
+   "published": "2026-10-23T22:00:00Z",
    "weight": 1
   },
   {
@@ -7477,7 +7887,7 @@
    "summary": "",
    "summaryJa": "",
    "lang": "ja",
-   "source": "山陽新聞デジタル｜さんデジ",
+   "source": "山陽新聞",
    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE92UkJYbGlIcmZ6b1lIdlAtVFRuNVpSWW5uVy14bWNZdFlqV1k1UVJlSGJHNHRxSVlFQXJUOG9lbjFlTlRrcWlXalVubkpvTFhBSXc?oc=5",
    "image": "",
    "published": "2026-10-23T09:22:00Z",
@@ -13361,414 +13771,6 @@
    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNTEhaeXQ0dk5xYjdnUjBYazJpdG9vRGdETzJoRnBkelYxTDdNX2JpVkhwektoRzFLeDd2am9DcU54dHdIekg1aXg3VVRmS0lqZTNkNUtvUjFxNHc2WHBLa0lOcEhGeHB1UmJpVkJUdXRPaThGTU1jc3VtaVQtejdYX1dtQ0VVV2FLWF9KX2VnWXVweWZWWXNpWkxxZlpneVlyUGVRdnpVYmNKbnpycnV6MUFHZzBmUG9xYkFSOUFTTVBubzE4SHV4dTN1SW5YNGhO?oc=5",
    "image": "",
    "published": "2026-10-22T06:11:36Z",
-   "weight": 1
-  },
-  {
-   "id": "f80d96935003",
-   "region": "japan",
-   "topics": [
-    "general"
-   ],
-   "title": "AI彼女 アプリ 比較 表 日本語",
-   "titleJa": "AI彼女 アプリ 比較 表 日本語",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "ja",
-   "source": "北陸地方整備局",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNRU9VRXFoTEE1dkZwdlA3ZnhXblo0emJSTVkyUlpKMmUxTkZLQVBhbDI1Q252Y2lhbU45d3hldXR2X1VYbHJzSXZfdTJESklad3lrQlhoN2FZQV94djFCZFU3SUh3THNQeEZ5ZjF4QTMtSmZRRDJjQVdxZTJGM2F1cHVlVWVSZzZYOVhyR005dkNSQjRKUDRQektVNUZkczA4WUJhUWxBektEeVRZc2dGOEFlVmZGMEllMjlIRlMzYVFZS01QZW9waGZjMUtfRkVn?oc=5",
-   "image": "",
-   "published": "2026-10-22T06:11:34Z",
-   "weight": 1
-  },
-  {
-   "id": "d84cf009145d",
-   "region": "japan",
-   "topics": [
-    "general"
-   ],
-   "title": "AI彼女 無料 お試し",
-   "titleJa": "AI彼女 無料 お試し",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "ja",
-   "source": "北陸地方整備局",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNbGdZMUVubGgyVWpVWVViS2ZlS2h2N25LSFg5Wlk1MHhsLVdBUUdhbUxXb2E5cWsyR3laYUVNa01sNkxfc0NUVDA2OVJPNGp4MkpMcnFHbThIZFEzVlBuMmstN1AwVmhRcG9lMDRlWlB6Um1XcVN6MHYyN01oM3NnOVpIXzVuS0Jwc1pwN2xLSzZLZjRkREd4VDFXb05uV3dzUkplNlhGYlNJTEg4LU1ZbTJZb2FxbVZrSjMtVHlCcW5XNmpPVFk3MDRoZ256TFBP?oc=5",
-   "image": "",
-   "published": "2026-10-22T06:11:30Z",
-   "weight": 1
-  },
-  {
-   "id": "7f6fbd219c89",
-   "region": "japan",
-   "topics": [
-    "general"
-   ],
-   "title": "AI彼女 アプリ 人気ランキング 男性",
-   "titleJa": "AI彼女 アプリ 人気ランキング 男性",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "ja",
-   "source": "北陸地方整備局",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQc2czMnFVTVpFODcwM0FZRW1YVUpjQ1hvT0JHUlhicTExRE85QWFzYnBwZm9UOWNteFVaZ3Z1dFBRbkRfM04zT1ctT25BQmgwTnVaTGZTWHM0RmZFbnZrWUVlZnF0dWE0RWF5cUNPdXpvam1FUW5UMFJwWFRiRFJnYTZUU1NOVnBrZFZnUEVGeF9CTHBLT09QNnU5OEZTRVM0N0JfWTlwUEswRmtMX3k2OEloeXdQT0ctQnRDMy1mOGhWeExRT0RDT0xoY2NwdFJq?oc=5",
-   "image": "",
-   "published": "2026-10-22T06:11:27Z",
-   "weight": 1
-  },
-  {
-   "id": "01f2a38f889a",
-   "region": "japan",
-   "topics": [
-    "general"
-   ],
-   "title": "AI彼女 アニメ",
-   "titleJa": "AI彼女 アニメ",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "ja",
-   "source": "北陸地方整備局",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQOHlSdnpreTVZaGRRMFcydHBxQzRrQ1ppQ1dqcjc5ajFiV2FvQUxsWVltblJubkpPSkN4aXlUclJCYTgzczFnbGFHSDVLS0ZTQ2FtdGxaeVFuNUQzWjZHR3p4THJDdjhSN3R5QXgxLXhLLXNMdEo0N19jRjZ2eHVCY1hra1hIa0Jqb053cWdqWndpbnotRUpxNTA0dXVOT1A4VG9Lb3U0STNHamVKX2thODVUVnJUUDNkeVQ5T3QwMGlVWHd0VXBFN0l5TG5QTC0w?oc=5",
-   "image": "",
-   "published": "2026-10-22T06:11:24Z",
-   "weight": 1
-  },
-  {
-   "id": "0d8f3df5c536",
-   "region": "japan",
-   "topics": [
-    "general"
-   ],
-   "title": "AI彼女 歴史 本音",
-   "titleJa": "AI彼女 歴史 本音",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "ja",
-   "source": "北陸地方整備局",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQUFV4b0pPNGE3ZGx3R09ZNU1kT083MUlQMk9Yd0FxVUZmOXpZTHY1OTdGTUdnS0dLc3liSlBWaExRa0plaU5ZRlpxc0hGWUQtOXVyVXdiS3ZKRHl6eWlWdnJEU284LVRmMnNoWU0yY2dfM0wwSWhYeFdYVkNGR29vUWc3dkFMVDdkSWV6UndOQlFaZFJXeUlqRDZja19OTzdHWnRYSG43cUg3MjNZYWZWUXZkNGlPdUF1UU1jdWdBRFdwS3RpVVYwTG5YcHQ5S1Zv?oc=5",
-   "image": "",
-   "published": "2026-10-22T06:10:39Z",
-   "weight": 1
-  },
-  {
-   "id": "d27377709ea6",
-   "region": "japan",
-   "topics": [
-    "general"
-   ],
-   "title": "AI彼女 無料",
-   "titleJa": "AI彼女 無料",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "ja",
-   "source": "北陸地方整備局",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQczNJWHg1bko5UHp6eWplb0l5YnhzSVNUNFZSVVlpZ1RFQ1FOVFVaczFGYXZPeEUxR21GVFFabEFJajVOVWQ1bFhCOGp1TFNESzUzSVVTeVpzck5oT0txYjVwR2lPeFZiaDhXQTF3OEx6bFBkaEY3b1BNVElPR2ZhSlQxYnRhN3RMQjY2VGNSLW4zeXduaXlJb2lYTXJXMnZTOXJkM3V6akxvNGVyU0FyV3M2Z1lUdHUzWjBSTnFiRTkyd3BObDQtemlxaWoyUXJD?oc=5",
-   "image": "",
-   "published": "2026-10-22T06:10:34Z",
-   "weight": 1
-  },
-  {
-   "id": "b74d96677407",
-   "region": "japan",
-   "topics": [
-    "general"
-   ],
-   "title": "AIコンパニオン とは 2026",
-   "titleJa": "AIコンパニオン とは 2026",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "ja",
-   "source": "北陸地方整備局",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOYXpERzU4V2MxbXZxZFpPWkxQX3kxd0xDUWdqVHJxN2NwMHltRTBmS0NTUHAzRnFENkMtR2FHek43MjNtVnFoWEo0RTAySUxFdVM5SGJBS1BCUEJkcG1mTmdTR1EtcUF3TzdqZUZIN1Z6cXg1WDQ1S21ldmpwdXl5RG9GUlZpQUdid2s4UXkyc1l3WThTc2pxa0pDWXA1eXFwYUwyMzh1N3NvMXQ2NzdBN0Q4NTQ4aC1xengxeU8zOTBWV1BhTlVod2E0RVZoR1hw?oc=5",
-   "image": "",
-   "published": "2026-10-22T06:10:14Z",
-   "weight": 1
-  },
-  {
-   "id": "a88897e046a5",
-   "region": "japan",
-   "topics": [
-    "general"
-   ],
-   "title": "AI彼女 とは 最新",
-   "titleJa": "AI彼女 とは 最新",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "ja",
-   "source": "北陸地方整備局",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNTlprQ24zQVNNT0EzTC1DalRuQk1xaUwzQ3BXbFJkZVRqamZDOW5BX3FtdG9TRzdTX3hNdHUzaHg4T1Z3Nkgyb2JibXJSQlBjeW90WWphUHFDNXA4RDR2SExpeEJ6V21fRmVBQTVDcS1rcWN6b3FjdTV3NzhjazN4bHNCRnROa084TDZSNHg0YjI4dWkxSnlfb1BybmxGVWpKSE4zdTFtRnRWOXBVNnBoUXM0c3QyQjRORjNlR003dVM4M1FuTlNUOXowVnR2bC11?oc=5",
-   "image": "",
-   "published": "2026-10-22T06:09:24Z",
-   "weight": 1
-  },
-  {
-   "id": "c271c4219ac8",
-   "region": "japan",
-   "topics": [
-    "general"
-   ],
-   "title": "AI彼女 写真 比較",
-   "titleJa": "AI彼女 写真 比較",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "ja",
-   "source": "北陸地方整備局",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNNU9Vc2s4VmRuajRleUZkdVVJNEh6Y1huTzdEWGdQMmRMZ0VyZ1VUWTBXaTFmTmxscFA4NUdnM1BzNjJ3WEo1VDc1ZS1nMUVTVHhfcXZiM0NHamdCQVVYTVMzZWx3Q1ZEQnRRcDNQYUhSTEZocklZUG4wTEM3WFJuTWdnenVfc1VLS3FpcGJTaHVab2kxTjJUV3JmMm1DSkJRNGdTbW40OTNrMUd2TmxyR3dXd3Z3TFVZNlExR2ljV1NSLWlOMWFiVmFuN3RkQU1J?oc=5",
-   "image": "",
-   "published": "2026-10-22T06:08:08Z",
-   "weight": 1
-  },
-  {
-   "id": "a9d4d03b332f",
-   "region": "japan",
-   "topics": [
-    "general"
-   ],
-   "title": "AI彼女 理想 作る 無料",
-   "titleJa": "AI彼女 理想 作る 無料",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "ja",
-   "source": "北陸地方整備局",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVXd4a1ZlNWtXQnB5NDFCWDEzVVlTZThmMVJoRTlmNnFQOEtTR21JakdtaFZNMVVOc25nVHJIRTV2WUZRRlRFUGhhRmROVnAycHZOSXZMWHVTQjlXWTVLYXNUSFpqemw0M2YybHRnaF81UHluSTdhQmJpZWwxU05td1Z0Mnh1bk5uT2lXcFUzTjZnNDA1S1RHRmxYU2ZRX3ZBbE1hR2NJSndnd25rT1MtMXgtWExrNDhiSldpaWtaMDB6b1dLQVRKUHNxSFNaVElH?oc=5",
-   "image": "",
-   "published": "2026-10-22T06:07:51Z",
-   "weight": 1
-  },
-  {
-   "id": "6dfff7dc7943",
-   "region": "japan",
-   "topics": [
-    "general"
-   ],
-   "title": "AI彼女 アプリ 違い ブログ",
-   "titleJa": "AI彼女 アプリ 違い ブログ",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "ja",
-   "source": "北陸地方整備局",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOckFWTGxqel9YVmlRZ2ZqN0pYSXdidG9CUDROVUg5Q3d0eE1jRzdfMUFNcFhaUEZmeThDay1KbDBrcnJhaTdyLUxrNUw4a2xDdWE0c1lKam9PX0V4cnJ0XzBjWkJqQ2ZLNkVqWmVfLXdzQ1dVYlp1V0UwUkttbGYxX3dTYmJuY3ZCV1FxN0xBdUgxUmNmZUtLU0ptb1h5SXNqN0JtcUJtTVBJWjdYQjExdUdoSVJTN2tDeHgxTWhTb29GRHI5cHg5Nk5pSGZ5cG43?oc=5",
-   "image": "",
-   "published": "2026-10-22T06:07:43Z",
-   "weight": 1
-  },
-  {
-   "id": "ee22e5eb0d36",
-   "region": "japan",
-   "topics": [
-    "general"
-   ],
-   "title": "AI彼女 無料 Android 注意点",
-   "titleJa": "AI彼女 無料 Android 注意点",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "ja",
-   "source": "北陸地方整備局",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPd2RwSWRyUFJwWVJtV1ppT0t1ekFYOEJwTEtvN0g5aHBDXzd3ZFhiV1F1OWs1MWRLM251bXdDeG56MHlWaE1GZHA1NllwTUtKRHFGTmdodkpDcXpUeXdqRzRwYXFwN2plcktWcWNPUS1JVUNNX0k3UWpOZnloV2NKY0VYWi00MjdKOEVoZ19OdWpSTWhmSVFoYkxiMXRFT2tIeF80VFJHV0UtSXAtb1J0MUtES2VWcW1ZSkltanhlOTZUUEstZUkzQlFlRUNvQU5K?oc=5",
-   "image": "",
-   "published": "2026-10-22T06:07:10Z",
-   "weight": 1
-  },
-  {
-   "id": "d59c8fa35475",
-   "region": "japan",
-   "topics": [
-    "general"
-   ],
-   "title": "AI彼女 値段 一覧",
-   "titleJa": "AI彼女 値段 一覧",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "ja",
-   "source": "北陸地方整備局",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxONTVFTTZ6b1BZclkzWTRvek1weElOSWtkNUJsYXh2cjNSMFVMcGRzVF92ZEpKU2tEUWxSckhYanpUa3FMOEFFNURTTm9CZjZLM1pzX2prNFRWOWl2Z2NORVF2NVFTaC1CbmRPOHROU01WQ01XWmZpa3ViSl9rZnNXNWFuZHI0bHd5UmpQM1BrNGNwSGMyaGF4bDkxVFNzcmtEckR4TzhmTHBkTzE1c3J6Q1o2d0NjYjFxOEd0em9VN2Q2b1V1UzVoZmpGWmVvR0ZM?oc=5",
-   "image": "",
-   "published": "2026-10-22T06:07:01Z",
-   "weight": 1
-  },
-  {
-   "id": "cd6f43a0bacc",
-   "region": "japan",
-   "topics": [
-    "general"
-   ],
-   "title": "AI彼女 アプリ ランキング 初心者",
-   "titleJa": "AI彼女 アプリ ランキング 初心者",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "ja",
-   "source": "北陸地方整備局",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNQnh1V0ZSUmM2RXZWQWJkZEpfUGdxd09zdVQtS0dteDlhbW9sVmE1cnZZNVNLMVY3SEk4WnVxeEs5V0lpSnl6N1ZnUS1mWHdISkxUcVlkb2NxSENXV29hODZra0syMU1oQWIyY25DUUN0ZE9ILW9fZW1xRGJKYTEzdk9BZWYwTlJhLTRRLUpfbi1WYTluelVOZWtzWHdvS19pbTVIUUJjVGo1RnlIdUJzRlZzWmRScFVSTVNNZlVwY1dtOENiNVlwTEVoY0FRUWJx?oc=5",
-   "image": "",
-   "published": "2026-10-22T06:06:57Z",
-   "weight": 1
-  },
-  {
-   "id": "638d90b84775",
-   "region": "japan",
-   "topics": [
-    "general"
-   ],
-   "title": "AI恋愛 Android",
-   "titleJa": "AI恋愛 Android",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "ja",
-   "source": "北陸地方整備局",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOZ1hNQWlrQlpoN1dkVno0VXNmQU1nV0tESDBTRUJOV3dXZXhWdjlDSy1Sei10Smp4Wjg0NUxhRnlqMDFlRDV6b2dXY0RtWEFlTEozWXR1aFp6Mng2V3F0U3lfZFkwSmNfcGJUYzdrcmg3VUtSVXh4Nkxmb012cEpxSF9yZksyYlA2R0cxRWV2a1FBQnpzVzNyZVBBODgtbDlMX3JJcG5aQmg1TDdSb3I1WEY5MmY5eHo1emJ5aXRUZVA5R2hsZV8wUVI2dllUejZv?oc=5",
-   "image": "",
-   "published": "2026-10-22T06:06:14Z",
-   "weight": 1
-  },
-  {
-   "id": "3ed7e6b0d647",
-   "region": "japan",
-   "topics": [
-    "general"
-   ],
-   "title": "トップ10無料NSFW AIジェネレーターAI",
-   "titleJa": "トップ10無料NSFW AIジェネレーターAI",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "ja",
-   "source": "北陸地方整備局",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNcHJnbzFicWJ5X09ROEpFYnlrNGR2aEdDNUdmalN2UU0tX3RGSHlEQk8xWWFvTG1WNlphZ0pobTM5YjdkUWE4NEgyeldSd0xrZ0dJYlBSVTZzelk4NVU0a0VhVFdFS3NLVHhvd1hGOEdjRUp0Y1VXQk9JS1BRbVlvZnV0SDBNdzZoVE5aRjZLR2ZNODR6cmg1dDhLRkRwcGpyMlduRkxpOTl5dWg2NGl3SWNUWDNGNk9LYTJxRS12TWU5Ti1jMk5tTlJFT3dUQ1hM?oc=5",
-   "image": "",
-   "published": "2026-10-22T06:06:14Z",
-   "weight": 1
-  },
-  {
-   "id": "dd1774320106",
-   "region": "japan",
-   "topics": [
-    "media"
-   ],
-   "title": "NSFW AI画像生成",
-   "titleJa": "NSFW AI画像生成",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "ja",
-   "source": "北陸地方整備局",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPT1FEaDJFcEVnMkNHaXNuUWNjaUxDU1BQMTJkUjdmUEM1dldmdlFkaEhoSl9FeEVaSVExLUFLYk1sdlJMQXBwdXhZVS1kVmdGWm1sMjJpc3hYZmc0UDlleDcwejJ2UXIyZ3l0cGZjblhIeU9lNWZaWU5BTVY4LXpoUVdjNzdsVkRCaWh6TC03emNIc0hBZHpWNnhpV1NQWFVtb2dVNl9fREFSZWxhYlRsbXZOb3lSQ1d3QUlkd1hkX2ZKa25oTVcwdUNTLTF2eEtx?oc=5",
-   "image": "",
-   "published": "2026-10-22T06:04:31Z",
-   "weight": 1
-  },
-  {
-   "id": "6fdb5fde0b87",
-   "region": "japan",
-   "topics": [
-    "general"
-   ],
-   "title": "ai エロ 動画 生成",
-   "titleJa": "ai エロ 動画 生成",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "ja",
-   "source": "北陸地方整備局",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOSTJJTE1YX09sd0lGSURDcElVWGRUOW1WZDVHbEtsem5MTzJScklodlhwWVlYb3lhc0ZIeEk3amliVkxfNHZvZlQ1dDdtNDQwQmZONmc0MGxNLXVYemVNNEg3WEhETEtOSkltdTRxMTdCa0FGWVBRZXRNclFfaGprWlhkS19RTTN2b00wbXBNbUROSklyb3BkaGsybVVBQTVvU2t5dEFwT2hRWnh2VkV4ZDJoOHhzVGVjZ29nenQxMGMzTUNKVUZaZzNNNFVQRFhX?oc=5",
-   "image": "",
-   "published": "2026-10-22T06:04:25Z",
-   "weight": 1
-  },
-  {
-   "id": "d6ccbbf9fa76",
-   "region": "japan",
-   "topics": [
-    "general"
-   ],
-   "title": "AI友達 人気",
-   "titleJa": "AI友達 人気",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "ja",
-   "source": "北陸地方整備局",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOQXRyblpZNHZQQXFIQy1wZllJMTR2a3FtZzRYZFVOU1FocVlFRk5qNjhSd0tmNnhIUWh3WlZBYVJYNWZWazNDWXRqSTFLUjVfRnpaYUxDNXR3SUl4U29pREpXaTBvSkV4TEtzdXVwZG9kb3dLbnlBVUtoWF9vdWZub1lxSHlKZTJmTnlBQWF1X21OcmdzTFJpSDFMel9MeF9RTWtDXzlxNzFxVFk4Z2p4SkFCcXNyZUNkakk2NlpzcXNVeDExZVhEUmM2RzktakpU?oc=5",
-   "image": "",
-   "published": "2026-10-22T06:04:22Z",
-   "weight": 1
-  },
-  {
-   "id": "2347faf27f4f",
-   "region": "japan",
-   "topics": [
-    "general"
-   ],
-   "title": "AIコンパニオン 無料",
-   "titleJa": "AIコンパニオン 無料",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "ja",
-   "source": "北陸地方整備局",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQSE9YeGVRLVFVOV83b1RFblFOUVhQWHdCT1hUeTRwaC1hYjNiN2IxSC1ZOUVJUFJVaWc4NjNaR2kyVzlZZGJyRUcxZlVaUDBzSjI0NVBhdVZyUEFzV085NHR4ZmdZUGl4QXNlZ2RHNlRQRkxKOWl3MFBmdWtCTlZQUWI4LWE3aHVRbGExRlo2ekZoS0lHcjhOczBEQnUxVV8zLTNMUzh4Z1l1SWFvd3JWeU05NzZXODY2QTV4aWV4MVVwSTlDQ3kyX3kxZjNYc3FM?oc=5",
-   "image": "",
-   "published": "2026-10-22T06:04:17Z",
-   "weight": 1
-  },
-  {
-   "id": "fdc3120a5a5c",
-   "region": "japan",
-   "topics": [
-    "general"
-   ],
-   "title": "AI彼女 始め方 最新",
-   "titleJa": "AI彼女 始め方 最新",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "ja",
-   "source": "北陸地方整備局",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNdEdnYkdOTm9fcC1fTVVNVWlHMkxUY0Y4ZmR0U0dxTlpTeHliSjB6dzlsMkEteHFwVTBmOTlZX1hfcUhOOU5sZ3lyLUN6TjJJSkxHaDd5N0RUR2hRaWJCZVozWmJyU2VrMUxWWWctUkY4Y3pCckhsRUNGZlNUUVRTbjNoNU5XNkg0anZuZ0Fqb0NzSnF3cklteFA3SlFwRmFMQkFCR0c2bEttMGZwclcyRmxRY0w4SUpPZ0pRcld5X1NvZXJJRzk3bWMxWk96eWJ6?oc=5",
-   "image": "",
-   "published": "2026-10-22T06:03:24Z",
-   "weight": 1
-  },
-  {
-   "id": "821b9bd185c6",
-   "region": "japan",
-   "topics": [
-    "general"
-   ],
-   "title": "AI彼女 アプリ 料金 高い 本音",
-   "titleJa": "AI彼女 アプリ 料金 高い 本音",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "ja",
-   "source": "北陸地方整備局",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOcTdUZ1JGN0NFUjVwb3lRQlhVRlNtakI3WEpqS0hYTXpyZllaUmNTdnZ4TTFkT095R3ZVQTN6aEJWOTh1SGQ5cFdYSHludzZ1d05YRXZCMVk4M29ZeEZUOFpQcmUtOUlfTl9DVFpadkZVWFNKT2M1RGZOOS1XZU5uM3VoV2NqRTJBY1pUYzc1TTVRNXBzZjJHLUdOaDR5d2ZCVUtEV0h0Wjl1d2d5UEoyWExyYno4NkRQSWIyZTFPVlNXU3A1eWV4clRnVnNxdGpl?oc=5",
-   "image": "",
-   "published": "2026-10-22T06:02:40Z",
-   "weight": 1
-  },
-  {
-   "id": "1804d9434916",
-   "region": "japan",
-   "topics": [
-    "general"
-   ],
-   "title": "AI彼女 写真 最新",
-   "titleJa": "AI彼女 写真 最新",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "ja",
-   "source": "北陸地方整備局",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPa1lobmItQXU5N20tNUxMVm5DS1VEZlNpdzFDU2pXWlNCbHRaak9ONmc4eHNaTkM5YjN3SU1yWWVrc3ZlUWk5dlFiR2lXQTdVdG91cTVpcmtyWkt3Zmw3cDRHWkRKbFZRQUdrRzVfQnlNSHBrTVBqZ0oxQkZGTnhEakpyX1djMmNNTDlNVjRwQzdqSzlxdmFXZVVKdVNsMnFxZmNBNHozNk5qQ0hBMGlaR0RCdmp6T3NPa1h6NlRJeFZodnpUdUJaa2hOX1Vsdl9N?oc=5",
-   "image": "",
-   "published": "2026-10-22T06:02:34Z",
-   "weight": 1
-  },
-  {
-   "id": "6813f6f14908",
-   "region": "japan",
-   "topics": [
-    "general"
-   ],
-   "title": "AI彼女 おすすめ iPhone",
-   "titleJa": "AI彼女 おすすめ iPhone",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "ja",
-   "source": "北陸地方整備局",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOWFJxT1dHaDctbnRaZms0NWxpTDJHeDdaOU5TcGRhdEpyOWlFSGVOOXAxR2xWQmxNbjloQkR1Wm15cV9ycTAzSTd6ZDBvd0VyLWpQcVNiYVZoZXVudFdpRE5NcGVBNV9aOHpXVzFYQk5IcGxRM1VCZFJQRlNOUXVKVENWRm1tSXdyV2ZzTzNLZVBRREthN2JudEZpN2NiQ2ZBMVVlVWFfSVZIOHNxNGhOM0RsQy1CcUtCblhiZzRZRmtXVzN5bXlqX0xQWnVxR1pk?oc=5",
-   "image": "",
-   "published": "2026-10-22T06:02:11Z",
    "weight": 1
   }
  ]
