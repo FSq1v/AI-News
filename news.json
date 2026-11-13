@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-13T06:06:27Z",
+ "generatedAt": "2026-11-13T14:29:13Z",
  "feedCount": 31,
  "topics": {
   "models": "モデル",
@@ -13,6 +13,248 @@
  },
  "brief": null,
  "articles": [
+  {
+   "id": "40e78db6601d",
+   "region": "global",
+   "topics": [
+    "models"
+   ],
+   "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+   "titleJa": "llama.cpp v1.0.0：ローカルAIエコシステムのより強固な基盤",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "Hugging Face",
+   "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+   "image": "",
+   "published": "2026-11-13T14:05:22Z",
+   "weight": 3
+  },
+  {
+   "id": "cd9d1a105b69",
+   "region": "global",
+   "topics": [
+    "models",
+    "agents"
+   ],
+   "title": "Claude’s Duet agent is a little neurotic and surprisingly helpful",
+   "titleJa": "ClaudeのDuetエージェントは少し神経質ですが、驚くほど役に立ちます",
+   "summary": "Normally, the products I test don't offer to help me write up my experience with them. Duet is different. Claude Duet is Anthropic's AI agent for consumers, the latest attempt by an AI company to try to convince us that agents can be useful for people who don't write code. It's b…",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "The Verge",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
+   "image": "",
+   "published": "2026-11-13T14:00:00Z",
+   "weight": 2
+  },
+  {
+   "id": "205db1d34ff0",
+   "region": "japan",
+   "topics": [
+    "hardware"
+   ],
+   "title": "無料・インストール不要で日本語を含む13言語のリアルタイム文字起こしがブラウザからできる「Voxtral Mini 4B Realtime WebGPU」、WebGPUを駆使して完全ローカル動作可能",
+   "titleJa": "無料・インストール不要で日本語を含む13言語のリアルタイム文字起こしがブラウザからできる「Voxtral Mini 4B Realtime WebGPU」、WebGPUを駆使して完全ローカル動作可能",
+   "summary": "会議や取材で録音した音声を文字に起こす際には、録音ファイルをアップロードしたり専用の文字起こしソフトを使ったりする方法がありますが、ブラウザだけでリアルタイムに行える無料のツールが「Voxtral Mini 4B Realtime WebGPU」です。日本語を含む13言語に対応し、WebGPUによって音声認識AIを完全ローカルで実行できるとのことなので実際に使ってみました。",
+   "summaryJa": "会議や取材で録音した音声を文字に起こす際には、録音ファイルをアップロードしたり専用の文字起こしソフトを使ったりする方法がありますが、ブラウザだけでリアルタイムに行える無料のツールが「Voxtral Mini 4B Realtime WebGPU」です。日本語を含む13言語に対応し、WebGPUによって音声認識AIを完全ローカルで実行できるとのことなので実際に使ってみました。",
+   "lang": "ja",
+   "source": "GIGAZINE",
+   "url": "https://gigazine.net/news/20261113-voxtral-mini-4b-realtime-webgpu/",
+   "image": "",
+   "published": "2026-11-13T14:00:00Z",
+   "weight": 1
+  },
+  {
+   "id": "ece4b84db3e9",
+   "region": "global",
+   "topics": [
+    "research",
+    "business"
+   ],
+   "title": "How AI Is Helping Care Teams Get Patients the Right Care, Sooner",
+   "titleJa": "AIが医療チームが患者に適切なケアをより早く提供するのにどのように役立っているか",
+   "summary": "From pediatric research to smart hospitals, AI is helping care teams spend less time on routine tasks and more time with patients. Health systems and startups are putting it to work across healthcare, from matching patients to clinical trials to supporting radiologists, hospital…",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "NVIDIA",
+   "url": "https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams/",
+   "image": "https://blogs.nvidia.com/wp-content/uploads/2026/11/Screenshot-2026-11-12-at-9.25.28-AM-scaled.png",
+   "published": "2026-11-13T13:00:42Z",
+   "weight": 3
+  },
+  {
+   "id": "e00ed907e42f",
+   "region": "global",
+   "topics": [
+    "business",
+    "hardware"
+   ],
+   "title": "Israel’s VCs see opportunity for challengers in Nvidia’s turmoil",
+   "titleJa": "イスラエルのVCは、Nvidiaの混乱の中で挑戦者にとっての機会を見出している",
+   "summary": "Given Nvidia’s stronghold on AI and its importance in Israel, many in the country's startup ecosystem are worried about the impact of his departure.",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
+   "image": "",
+   "published": "2026-11-13T12:52:19Z",
+   "weight": 2
+  },
+  {
+   "id": "69b43a95305b",
+   "region": "global",
+   "topics": [
+    "general"
+   ],
+   "title": "Jensen Huang didn’t show confidence in his successor, report says",
+   "titleJa": "ジェンソン・ファン氏は後継者への信頼を示さなかったと報道",
+   "summary": "Huang described Kress as a \"deer in the headlights\" during a meeting in summer.",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/13/jensen-huang-didnt-show-confidence-in-his-successor-report-says/",
+   "image": "",
+   "published": "2026-11-13T12:28:23Z",
+   "weight": 2
+  },
+  {
+   "id": "71dad9da95c2",
+   "region": "global",
+   "topics": [
+    "hardware"
+   ],
+   "title": "Let’s talk about Jensen Huang’s many affairs!",
+   "titleJa": "ジェンセン・ファン氏の数々の不倫についてお話ししましょう！",
+   "summary": "Usually, we'd be offering to answer your questions about a news event, but honestly we don't really have any answers about what the hell is going on over at Nvidia. I can't speak for Nilay but at the rate Jensen Huang's new mistresses are dropping, I am concerned we are approachi…",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "The Verge",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1032339/lets-talk-about-the-nvidia-shitshow",
+   "image": "",
+   "published": "2026-11-13T12:00:00Z",
+   "weight": 2
+  },
+  {
+   "id": "ca293fa5916a",
+   "region": "japan",
+   "topics": [
+    "products"
+   ],
+   "title": "古いiPadやメモリ1GBの小型端末でも160億パラメータのAIをローカルで動かせる無料ツール「smolmaxxing」が登場",
+   "titleJa": "古いiPadやメモリ1GBの小型端末でも160億パラメータのAIをローカルで動かせる無料ツール「smolmaxxing」が登場",
+   "summary": "古いタブレットや小型デバイスでもAIモデルを動かせるようにするオープンソースプロジェクト「smolmaxxing」が公開されました。メモリ容量が限られた端末でもAIモデルを実行できるようにするもので、2013年発売の初代iPad Airや小型のテレビ用端末で動作が確認されています。",
+   "summaryJa": "古いタブレットや小型デバイスでもAIモデルを動かせるようにするオープンソースプロジェクト「smolmaxxing」が公開されました。メモリ容量が限られた端末でもAIモデルを実行できるようにするもので、2013年発売の初代iPad Airや小型のテレビ用端末で動作が確認されています。",
+   "lang": "ja",
+   "source": "GIGAZINE",
+   "url": "https://gigazine.net/news/20261113-smolmaxxing/",
+   "image": "",
+   "published": "2026-11-13T12:00:00Z",
+   "weight": 1
+  },
+  {
+   "id": "2af8c10fdf15",
+   "region": "global",
+   "topics": [
+    "business"
+   ],
+   "title": "This Startup Is Betting on AI Microdramas to Get More Black Stories in Hollywood",
+   "titleJa": "このスタートアップ企業は、ハリウッドでより多くの黒人に関するストーリーを制作するために、AIマイクロドラマに賭けています",
+   "summary": "Mansa says its AI microdramas can serve as proofs of concept for what Black audiences want. Critics say the studio is selling out.",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "WIRED",
+   "url": "https://www.wired.com/story/black-roles-are-disappearing-in-hollywood-this-startup-is-using-ai-microdramas-to-fight-back/",
+   "image": "https://media.wired.com/photos/6af65ba58bac4203b57b5ba0/master/pass/Startup-Betting-on-AI-Microdramas-Culture.jpg",
+   "published": "2026-11-13T11:45:00Z",
+   "weight": 2
+  },
+  {
+   "id": "cf0fc50142ea",
+   "region": "japan",
+   "topics": [
+    "research",
+    "hardware"
+   ],
+   "title": "中国AI企業は禁輸措置中でもNVIDIAのBlackwell世代AIチップを使って高性能AIを作っていた",
+   "titleJa": "中国AI企業は禁輸措置中でもNVIDIAのBlackwell世代AIチップを使って高性能AIを作っていた",
+   "summary": "アメリカは高性能AIチップの中国への輸出を制限しており、中国も輸入を制限しています。しかし、AI研究組織のUnemployment Labsが複数の中国製AIモデルを分析した結果、制限対象GPUを用いて開発された痕跡が発見されました。",
+   "summaryJa": "アメリカは高性能AIチップの中国への輸出を制限しており、中国も輸入を制限しています。しかし、AI研究組織のUnemployment Labsが複数の中国製AIモデルを分析した結果、制限対象GPUを用いて開発された痕跡が発見されました。",
+   "lang": "ja",
+   "source": "GIGAZINE",
+   "url": "https://gigazine.net/news/20261113-china-ai-nvidia-blackwell-gpu/",
+   "image": "",
+   "published": "2026-11-13T11:23:00Z",
+   "weight": 1
+  },
+  {
+   "id": "f802e93209f0",
+   "region": "japan",
+   "topics": [
+    "general"
+   ],
+   "title": "王なきAIの世界で ジェンスン・フアン氏退任とAIへの逆風",
+   "titleJa": "王なきAIの世界で ジェンスン・フアン氏退任とAIへの逆風",
+   "summary": "Impress Watchニュースレターに掲載した記事です。ニュースレターは無料で、毎週編集部員が会員向けのコラムなどをお送りしています。登録はこちらから。",
+   "summaryJa": "Impress Watchニュースレターに掲載した記事です。ニュースレターは無料で、毎週編集部員が会員向けのコラムなどをお送りしています。登録はこちらから。",
+   "lang": "ja",
+   "source": "Impress Watch",
+   "url": "https://www.watch.impress.co.jp/docs/topic/watchplus/2156240.html",
+   "image": "",
+   "published": "2026-11-13T10:00:00Z",
+   "weight": 1
+  },
+  {
+   "id": "6e5e78bf09c4",
+   "region": "japan",
+   "topics": [
+    "general"
+   ],
+   "title": "ゲームのコードのわずか0.1％未満にAIを使用したことを公表しただけで400件以上の低評価レビューが殺到",
+   "titleJa": "ゲームのコードのわずか0.1％未満にAIを使用したことを公表しただけで400件以上の低評価レビューが殺到",
+   "summary": "人気インディーゲーム「Big Walk」の開発元がゲームのプログラムのごく一部に生成AIを使用したことを公表したところ、400件以上の低評価レビューが殺到する事態となりました。生成AIが関わったコードは全体の0.1％未満で、主に技術的な問題の調査や不具合の修正に利用されたとのこと。生成AIの使用を巡ってゲーム開発者やゲーム賞の審査員の間でも議論が広がっています。",
+   "summaryJa": "人気インディーゲーム「Big Walk」の開発元がゲームのプログラムのごく一部に生成AIを使用したことを公表したところ、400件以上の低評価レビューが殺到する事態となりました。生成AIが関わったコードは全体の0.1％未満で、主に技術的な問題の調査や不具合の修正に利用されたとのこと。生成AIの使用を巡ってゲーム開発者やゲーム賞の審査員の間でも議論が広がっています。",
+   "lang": "ja",
+   "source": "GIGAZINE",
+   "url": "https://gigazine.net/news/20261113-indie-game-used-ai-bad-review/",
+   "image": "",
+   "published": "2026-11-13T09:45:00Z",
+   "weight": 1
+  },
+  {
+   "id": "ee80e3d47c51",
+   "region": "japan",
+   "topics": [
+    "business"
+   ],
+   "title": "AIが送料や関税を瞬時に予測、世界から気軽に買える新世代越境EC「SAZO」が優勝、B Dash Camp 2026 Fall",
+   "titleJa": "AIが送料や関税を瞬時に予測、世界から気軽に買える新世代越境EC「SAZO」が優勝、B Dash Camp 2026 Fall",
+   "summary": "国内最大規模の招待制スタートアップカンファレンス「B Dash Camp 2026 Fall in Fukuoka」が、2026年11月11日から13日の3日間にわたり福岡市内で開催された。メインコンテンツであるピッチコンテスト「Pitch Arena」の優勝者はAIが送料、関税を瞬時に予測、自国EC感覚で世界から買い物できる越境ECサービスを展開する株式会社SAZOに決まった。",
+   "summaryJa": "国内最大規模の招待制スタートアップカンファレンス「B Dash Camp 2026 Fall in Fukuoka」が、2026年11月11日から13日の3日間にわたり福岡市内で開催された。メインコンテンツであるピッチコンテスト「Pitch Arena」の優勝者はAIが送料、関税を瞬時に予測、自国EC感覚で世界から買い物できる越境ECサービスを展開する株式会社SAZOに決まった。",
+   "lang": "ja",
+   "source": "ASCII.jp",
+   "url": "https://ascii.jp/elem/000/004/451/4451531/?rss",
+   "image": "",
+   "published": "2026-11-13T09:40:00Z",
+   "weight": 1
+  },
+  {
+   "id": "87d51a8b3ef9",
+   "region": "japan",
+   "topics": [
+    "research"
+   ],
+   "title": "AIユーザーの平均労働時間は非AIユーザーより最大で90分長いことが判明",
+   "titleJa": "AIユーザーの平均労働時間は非AIユーザーより最大で90分長いことが判明",
+   "summary": "AIユーザーと非AIユーザーを比べたとき、平均労働時間はAIユーザーのほうが最大で90分長いことが明らかになりました。この数字は従業員モニタリングソフトウェアを開発・提供しているActivTrakの研究部門・ActivTrak生産性研究所が467社・9140人を対象に集めた情報を分析した結果わかったもので、自己申告制の調査よりも信頼度の高い結果だと考えられます。",
+   "summaryJa": "AIユーザーと非AIユーザーを比べたとき、平均労働時間はAIユーザーのほうが最大で90分長いことが明らかになりました。この数字は従業員モニタリングソフトウェアを開発・提供しているActivTrakの研究部門・ActivTrak生産性研究所が467社・9140人を対象に集めた情報を分析した結果わかったもので、自己申告制の調査よりも信頼度の高い結果だと考えられます。",
+   "lang": "ja",
+   "source": "GIGAZINE",
+   "url": "https://gigazine.net/news/20261113-ai-users-have-long-worktime-than-non-ai-users/",
+   "image": "",
+   "published": "2026-11-13T07:25:00Z",
+   "weight": 1
+  },
   {
    "id": "d5e238e1b067",
    "region": "japan",
@@ -2591,16 +2833,16 @@
    "id": "0f3e50abbb76",
    "region": "global",
    "topics": [
-    "general"
+    "products"
    ],
-   "title": "Several Microsoft services appear to be down – what we know",
+   "title": "Microsoft outage continues into Friday – what we know",
    "titleJa": "複数のMicrosoftサービスがダウンしているようです。わかっていることは次のとおりです。",
-   "summary": "Reports of the outage are beginning to drop as Microsoft restarts affected servers.",
+   "summary": "The company is steadily restoring service and thinks a software update may be to blame.",
    "summaryJa": "",
    "lang": "en",
    "source": "ZDNET",
    "url": "https://www.zdnet.com/business/microsoft-outage-outlook-teams-copilot/",
-   "image": "https://www.zdnet.com/wp-content/uploads/sites/3/GettyImages-2304396071.jpg",
+   "image": "https://www.zdnet.com/wp-content/uploads/sites/3/GettyImages-2207328643-e1794576021345.jpg",
    "published": "2026-11-12T19:45:52Z",
    "weight": 2
   },
@@ -3013,7 +3255,7 @@
     "hardware"
    ],
    "title": "Run agents securely and efficiently with the next generation AgentCore runtime",
-   "titleJa": "",
+   "titleJa": "次世代のAgentCoreランタイムで、エージェントを安全かつ効率的に実行",
    "summary": "AI agents now run multi-step workloads for hours and act on behalf of users, raising the bar for secure, scalable agent compute. Learn how the next generation of Amazon Bedrock AgentCore runtime delivers hardware-isolated sessions with faster starts, more compute, usage-based bil…",
    "summaryJa": "",
    "lang": "en",
@@ -3030,7 +3272,7 @@
     "general"
    ],
    "title": "Which games are most vulnerable to AI clones — opinion of Kris Zukowski",
-   "titleJa": "",
+   "titleJa": "AIクローンに最も弱いゲームはどれか — クリス・ズコウスキ氏の意見",
    "summary": "",
    "summaryJa": "",
    "lang": "en",
@@ -3048,7 +3290,7 @@
     "hardware"
    ],
    "title": "Jensen Huang Basically Lit More Than $1 Trillion on Fire in Less Than a Month",
-   "titleJa": "",
+   "titleJa": "ジェンソン・ファン氏は、1か月足らずで1兆ドル（約150兆円）以上を事実上無駄にした",
    "summary": "Since the scandal involving an alleged Chinese spy began, Nvidia has lost an eye-watering sum from its market value.",
    "summaryJa": "",
    "lang": "en",
@@ -3065,7 +3307,7 @@
     "models"
    ],
    "title": "You can force Gemini to forget about you now – how to edit its Memory",
-   "titleJa": "",
+   "titleJa": "Geminiに今すぐあなたに関する情報を忘れさせる方法 – メモリの編集方法",
    "summary": "A new option called Memory summary lets you see and control the things that Gemini AI knows about you.",
    "summaryJa": "",
    "lang": "en",
@@ -3082,7 +3324,7 @@
     "general"
    ],
    "title": "Google Wallet just turned your Android phone into a digital house key – how it works",
-   "titleJa": "",
+   "titleJa": "GoogleウォレットがAndroidスマートフォンをデジタルハウスキーに変えました。その仕組みとは？",
    "summary": "Google is moving digital keys out of individual smart lock apps and into the Google Wallet.",
    "summaryJa": "",
    "lang": "en",
@@ -3116,7 +3358,7 @@
     "hardware"
    ],
    "title": "The Jensen Huang scandal is hardly over",
-   "titleJa": "",
+   "titleJa": "ジェンセン・ファン氏のスキャンダルはまだ終わっていない",
    "summary": "I was certain, until the story of Jensen Huang's second affair hit, that Huang was bulletproof. After all, why wouldn't he be? He's placed himself indispensably at the center of the AI industry and famously had no succession plan at Nvidia. In fact, he's the only CEO Nvidia has e…",
    "summaryJa": "",
    "lang": "en",
@@ -3133,7 +3375,7 @@
     "general"
    ],
    "title": "AI Finds Itself in Trouble",
-   "titleJa": "",
+   "titleJa": "AIがトラブルに巻き込まれる",
    "summary": "",
    "summaryJa": "",
    "lang": "en",
@@ -3151,7 +3393,7 @@
     "hardware"
    ],
    "title": "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit",
-   "titleJa": "",
+   "titleJa": "Hugging FaceのCEO、ジェンセン・ファン氏の退任後もオープンソースAIのために戦い続けると誓う",
    "summary": "Hugging Face's CEO pledged to keep fighting for open source AI after Huang's exit, raising questions about Nvidia's $12.9 billion acquisition.",
    "summaryJa": "",
    "lang": "en",
@@ -3168,7 +3410,7 @@
     "agents"
    ],
    "title": "United Airlines blocks AI agents from booking flights, citing cybersecurity risks",
-   "titleJa": "",
+   "titleJa": "ユナイテッド航空、サイバーセキュリティリスクを理由にAIエージェントによる航空券の予約をブロック",
    "summary": "The airline said it will not allow customers to use AI agents to book flights and manage reservations.",
    "summaryJa": "",
    "lang": "en",
@@ -3185,7 +3427,7 @@
     "general"
    ],
    "title": "Google’s Pixel Tag tracker won’t work as well on older Android phones – check our list",
-   "titleJa": "",
+   "titleJa": "GoogleのPixelタグトラッカーは、古いAndroidスマートフォンではうまく機能しません。当社のリストをご確認ください。",
    "summary": "Several of the tracker’s best features require Bluetooth 6.0-compatible device.",
    "summaryJa": "",
    "lang": "en",
@@ -3202,7 +3444,7 @@
     "general"
    ],
    "title": "GDC report: 40% of game developers use generative AI at work",
-   "titleJa": "",
+   "titleJa": "GDCレポート：ゲーム開発者の40%が職場で生成AIを使用",
    "summary": "",
    "summaryJa": "",
    "lang": "en",
@@ -3219,7 +3461,7 @@
     "general"
    ],
    "title": "Google built an AI model that can’t write a sentence — and that’s the point",
-   "titleJa": "",
+   "titleJa": "Googleが開発した文章を書けないAIモデル。その狙いとは？",
    "summary": "",
    "summaryJa": "",
    "lang": "en",
@@ -3256,7 +3498,7 @@
     "hardware"
    ],
    "title": "SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions",
-   "titleJa": "",
+   "titleJa": "ソフトバンクの数十億ドルの損失により、AIの天然ガス分野への野心が制限された可能性がある",
    "summary": "SoftBank lost over $3 billion preordering natural gas turbines to power AI data centers. Here's what the loss means to power markets.",
    "summaryJa": "",
    "lang": "en",
@@ -3273,7 +3515,7 @@
     "general"
    ],
    "title": "Phota Labs uses AI to turn everyday photos into professional-looking shots",
-   "titleJa": "",
+   "titleJa": "Phota LabsはAIを活用して、日常の写真をおしゃれな写真に仕上げます",
    "summary": "Rather than giving consumers yet another photo-editing tool, Phota Labs aims to use advances in AI to automate the editing process so it’s easier for anyone to turn everyday moments into better photos.",
    "summaryJa": "",
    "lang": "en",
@@ -3291,7 +3533,7 @@
     "research"
    ],
    "title": "AI chatbots are recommending fake retail websites, study finds",
-   "titleJa": "",
+   "titleJa": "AIチャットボットが偽の小売ウェブサイトを推奨していることが調査で判明",
    "summary": "Shoppers using AI chatbots to research products or find places to buy items could be directed to imposters and other risky websites, a new study found. The study conducted by IP protection firm Podqi and shared exclusively with The Verge prompted ChatGPT, Gemini, and Perplexity w…",
    "summaryJa": "",
    "lang": "en",
@@ -3308,7 +3550,7 @@
     "media"
    ],
    "title": "More game developers are starting to use generative AI",
-   "titleJa": "",
+   "titleJa": "ますます多くのゲーム開発者が生成AIの利用を開始",
    "summary": "More video game developers are using generative AI tools in their jobs compared to last year, according to the GDC Festival of Gaming's latest annual industry survey. Forty percent of developers surveyed say they use it \"as part of their job,\" an increase from 36 percent in 2025.…",
    "summaryJa": "",
    "lang": "en",
@@ -3325,7 +3567,7 @@
     "general"
    ],
    "title": "GDC State of the Game Industry report: 40% of developers are using generative AI for work",
-   "titleJa": "",
+   "titleJa": "GDCゲーム業界の現状に関するレポート：開発者の40%が業務に生成AIを使用",
    "summary": "",
    "summaryJa": "",
    "lang": "en",
@@ -3342,7 +3584,7 @@
     "policy"
    ],
    "title": "MCPS approves broad new AI policy; student trustees ask for more guidance",
-   "titleJa": "",
+   "titleJa": "MCPSが広範な新しいAIポリシーを承認。生徒委員がさらなるガイダンスを求める",
    "summary": "",
    "summaryJa": "",
    "lang": "en",
@@ -3361,7 +3603,7 @@
     "hardware"
    ],
    "title": "OpenAI’s data suggests that frontier models are hiding their thoughts because developers optimize for capability and compute",
-   "titleJa": "",
+   "titleJa": "OpenAIのデータによると、最先端モデルは、開発者が機能と計算能力を最適化しているため、思考を隠していることが示唆されています。",
    "summary": "OpenAI's safety team systematically investigated why the chains of thought in frontier models like GPT-6 Astra are increasingly evading oversight. Four training steps drive the erosion, including architecture choices and reinforcement learning. The analysis shows that the loss of…",
    "summaryJa": "",
    "lang": "en",
@@ -3378,7 +3620,7 @@
     "general"
    ],
    "title": "Generative AI in the Real World: Memory for Personal AI with Duncan Davidson",
-   "titleJa": "",
+   "titleJa": "現実世界における生成AI：ダンカン・デビッドソン氏によるパーソナルAIのメモリ",
    "summary": "",
    "summaryJa": "",
    "lang": "en",
@@ -3395,7 +3637,7 @@
     "general"
    ],
    "title": "LiteLLM now routes every request to the right OCI Generative AI model with a trained classifier",
-   "titleJa": "",
+   "titleJa": "LiteLLMは現在、トレーニング済みの分類子を使用して、すべてのリクエストを適切なOCI生成AIモデルにルーティングしています。",
    "summary": "",
    "summaryJa": "",
    "lang": "en",
@@ -3412,7 +3654,7 @@
     "products"
    ],
    "title": "Fitbit users can’t see Google Health metrics after update – how to fix it",
-   "titleJa": "",
+   "titleJa": "Fitbitユーザーがアップデート後にGoogle Healthの指標を見ることができない問題の解決方法",
    "summary": "Google says it’s working on a fix – meantime, users have found workarounds.",
    "summaryJa": "",
    "lang": "en",
@@ -3429,7 +3671,7 @@
     "policy"
    ],
    "title": "Jensen Huang agrees to testify before Congress",
-   "titleJa": "",
+   "titleJa": "ジェンソン・ファン氏、議会での証言に同意",
    "summary": "Huang, who was ousted as CEO following reports of an alleged affair with a woman suspected of spying for China, agreed to testify Wednesday after several senior lawmakers threatened to subpoena him.",
    "summaryJa": "",
    "lang": "en",
@@ -3446,7 +3688,7 @@
     "hardware"
    ],
    "title": "Five ways Jensen Huang’s ouster from Nvidia could damage the AI industry",
-   "titleJa": "",
+   "titleJa": "ジェンソン・ファン氏がNvidiaから追放されることでAI業界に損害をもたらす可能性のある5つの理由",
    "summary": "Nvidia's ousted CEO Jensen Huang's downfall isn’t just your run-of-the-mill salacious billionaire sex scandal. He was using his influence to push the AI industry in some very specific ways.",
    "summaryJa": "",
    "lang": "en",
@@ -3464,7 +3706,7 @@
     "products"
    ],
    "title": "Jensen Huang is out. What did China want from him?",
-   "titleJa": "",
+   "titleJa": "ジェンソン・ファンが退場しました。中国は彼に何を求めていたのでしょうか？",
    "summary": "Today, we’re talking about the Jensen Huang scandal at Nvidia, which is developing so quickly that we had to do an emergency update of this intro minutes before publishing this episode. Huang just resigned from his position as CEO of Nvidia as news of his affairs, including with…",
    "summaryJa": "",
    "lang": "en",
@@ -3481,7 +3723,7 @@
     "hardware"
    ],
    "title": "Homelabber Runs Massive 2.8-Trillion-Parameter AI Model On Discontinued Intel Optane Memory, Without A GPU",
-   "titleJa": "",
+   "titleJa": "ホームラボ愛好家が、製造中止となったインテルOptaneメモリを使用して、GPUなしで2.8兆パラメータの巨大なAIモデルを実行",
    "summary": "",
    "summaryJa": "",
    "lang": "en",
@@ -3498,7 +3740,7 @@
     "general"
    ],
    "title": "Microsoft : How a new AI model could help crushed rock fight climate change",
-   "titleJa": "",
+   "titleJa": "Microsoft ：新しいAIモデルが、砕石による気候変動対策にどのように役立つか",
    "summary": "",
    "summaryJa": "",
    "lang": "en",
@@ -3515,7 +3757,7 @@
     "general"
    ],
    "title": "HitPaw Black Friday 2026 Announced: Save Up to 60% on AI Creative Tools",
-   "titleJa": "",
+   "titleJa": "HitPawブラックフライデー2026開催のお知らせ：AIクリエイティブツールが最大60%オフ",
    "summary": "",
    "summaryJa": "",
    "lang": "en",
@@ -7609,7 +7851,7 @@
    "lang": "en",
    "source": "ZDNET",
    "url": "https://www.zdnet.com/innovation/claude-meetings-workplace-features/",
-   "image": "https://www.zdnet.com/wp-content/uploads/sites/3/Claude-Meetings.png",
+   "image": "https://www.zdnet.com/wp-content/uploads/sites/3/GettyImages-2294192923.jpg",
    "published": "2026-11-11T16:46:09Z",
    "weight": 2
   },
@@ -13584,249 +13826,6 @@
    "image": "",
    "published": "2026-11-10T14:00:00Z",
    "weight": 1
-  },
-  {
-   "id": "f3b3cb5a51d3",
-   "region": "japan",
-   "topics": [
-    "agents"
-   ],
-   "title": "「Adobe Firefly」にデザイン・動画編集機能を統合した新キャンバス Adobeアプリと他社製AIエージェントとの連携も強化",
-   "titleJa": "「Adobe Firefly」にデザイン・動画編集機能を統合した新キャンバス Adobeアプリと他社製AIエージェントとの連携も強化",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "ja",
-   "source": "デジカメ Watch",
-   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5lbTRFNVdjdG1wX3RGblJFSDJjanZDenVveFhtWDRwY0lSeXdZdmFsWFhuR1ZLZGc1TE9ZLTdlb3M5WTJSSjNLSU1MT2VUbWh4elRQdWZUQzJxa0FZSFBzbVNjcw?oc=5",
-   "image": "",
-   "published": "2026-11-10T14:00:00Z",
-   "weight": 1
-  },
-  {
-   "id": "bf04ea786847",
-   "region": "global",
-   "topics": [
-    "products"
-   ],
-   "title": "Vizgen Launches New Business Unit for AI Model Spatial Data Production",
-   "titleJa": "Vizgen、AIモデルの空間データ制作のための新しいビジネスユニットを立ち上げ",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "GenomeWeb",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcFNkel9MNTd6eElrTzhLNloxY0tqU0FBV213T0M0ZE9GMjBxX29SaVpabm9XQW5HMXRxVE1NMzctMVRNdldndjVBNHJlMVJVWmZMSWVaOTlCVXY2X1o5UWgtLVlraldnRUJRNWZPNUFSSEhsc01kLXB5YTd1aHM5bGk2dDNjTXIxelE1RzZScE5ab2dvaFVXdnZma285cGs?oc=5",
-   "image": "",
-   "published": "2026-11-10T13:52:00Z",
-   "weight": 1
-  },
-  {
-   "id": "1ef0e3de22fa",
-   "region": "global",
-   "topics": [
-    "media"
-   ],
-   "title": "Picsart: Gen AI Video Editor — бесплатно скачайте и установите в Windows",
-   "titleJa": "",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "Microsoft",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5NakhYendLa3BxSDNjQ09qblZnUUw5bU5qbWx2VnVvM05YdHp4RlRkOGNGMk9reE5SdUJpdUlYbV92RHhsX0diQm11RG9FNElnb3FwREZtQldqdWpFOXRrdlV4YWNIRHdBcmx0SFhoX3lkNzZ6TFpacGFlSG5Sdk0?oc=5",
-   "image": "",
-   "published": "2026-11-10T13:43:38Z",
-   "weight": 1
-  },
-  {
-   "id": "3a266861de44",
-   "region": "global",
-   "topics": [
-    "media"
-   ],
-   "title": "Avid's Ready to Play brings AI video generation directly into Media Composer by Scott Simmons -",
-   "titleJa": "",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "ProVideo Coalition",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWExnVnplSHlxckkxblVZbnR4OWp5Nlp6TGdZa05yUkNEZzgyUERqdmNHRXRQUlZ2Rk1GVkI4T1pmbHhUX0NtQVFsT2VpWTlCWEUzVjZWZFBNMWtKNmxnd2JzbU03N05UY3ZwekdnQTcxb0QwMlM4M3k1ZEV4M1NkQ09sbC1DbmllVDJTd0wxOVF3NTk0NVRxbWhpWDhtLVhNdm04LUhDV0hWX2Y3dEFj0gG0AUFVX3lxTE5fZ1A2SDhTbUh1aEY3UDh1S3BQem5mSnZoQzBiQUtWeXFyNXNnRXdaX0twNEotZjJQdmlUUVdLOGVBZkVlN3VQNWNQTzlMTUExZE5rcmxaZEhrZElEc1hTQW1wSkZEMmRYNlZHNEVYbDRUQmR6QzFxT2ZDazl0ZEZGLVVnWk9EWGlwTXFDYmlkMW51RTMtUXhGXzNMRVhncFRBd1V6VnFMRGQwVEJZdjdMMFFWdA?oc=5",
-   "image": "",
-   "published": "2026-11-10T13:37:50Z",
-   "weight": 1
-  },
-  {
-   "id": "3e6400074850",
-   "region": "global",
-   "topics": [
-    "models"
-   ],
-   "title": "Eight countries and top AI labs agree to shutdown mechanisms in new Paris declaration",
-   "titleJa": "8カ国とトップAIラボは、新しいパリ宣言でメカニズムをシャットダウンすることに合意",
-   "summary": "Eight countries along with representatives from OpenAI, Anthropic, Microsoft, and Mistral AI have signed the \"Paris Call for AI Safety and Security\" at Emmanuel Macron's initiative. The companies commit to shutdown mechanisms, independent audits, and disclosing known risks, but t…",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "The Decoder",
-   "url": "https://the-decoder.com/eight-countries-and-top-ai-labs-agree-to-shutdown-mechanisms-in-new-paris-declaration/",
-   "image": "",
-   "published": "2026-11-10T13:37:16Z",
-   "weight": 2
-  },
-  {
-   "id": "707c973eeceb",
-   "region": "global",
-   "topics": [
-    "business",
-    "products"
-   ],
-   "title": "Hands-on with Ring’s new AI drone camera for your home",
-   "titleJa": "あなたの家のためのRingの新しいAIドローンカメラのハンズオン",
-   "summary": "Ring is finally shipping a flying indoor drone camera. For real this time. The Ring Drone Cam will arrive on January 27th, 2027, for $249.99, Ring founder Jamie Siminoff said at a launch event in New York City this week. If it does actually ship, it will arrive almost six years a…",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "The Verge",
-   "url": "https://www.theverge.com/tech/1030601/ring-drone-cam-hands-on-price-release-date-ai-pilot",
-   "image": "",
-   "published": "2026-11-10T13:30:00Z",
-   "weight": 2
-  },
-  {
-   "id": "ab68893e5331",
-   "region": "global",
-   "topics": [
-    "business",
-    "policy",
-    "products"
-   ],
-   "title": "Ring’s new drone patrols your home to keep an eye on things – even upstairs",
-   "titleJa": "Ringの新しいドローンがあなたの家をパトロールして、2階でも物事を監視します",
-   "summary": "Alongside the Ring Drone Cam, Ring introduced the Rover Cam for businesses. It investigates disturbances and streams 4K footage.",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "ZDNET",
-   "url": "https://www.zdnet.com/home-and-office/ring-drone-cam-rover-cam-security-robots/",
-   "image": "https://www.zdnet.com/wp-content/uploads/sites/3/CNET-Group-Amazon-Ring-Event-13.jpg",
-   "published": "2026-11-10T13:30:00Z",
-   "weight": 2
-  },
-  {
-   "id": "661f340c132f",
-   "region": "global",
-   "topics": [
-    "products"
-   ],
-   "title": "Ring, known for its doorbell cameras, launches a home security drone and an enterprise security robot",
-   "titleJa": "",
-   "summary": "Amazon-owned Ring is pushing into robotics with the launch of a home security drone and a rolling robot designed to patrol and protect businesses.",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "TechCrunch",
-   "url": "https://techcrunch.com/2026/11/10/ring-known-for-its-doorbell-cameras-launches-a-home-security-drone-and-an-enterprise-security-robot/",
-   "image": "",
-   "published": "2026-11-10T13:30:00Z",
-   "weight": 2
-  },
-  {
-   "id": "d3974536be7e",
-   "region": "global",
-   "topics": [
-    "general"
-   ],
-   "title": "What is Muse Ember? Meet Meta’s new low-cost AI model",
-   "titleJa": "Muse Emberとは？ Metaの新しい低コストAIモデルをご紹介します",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "Mashable",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE82QjRrMTFSeDNXdng5bXdFamM0SHpBZkd6ZmRGeGFfZUJ5eFQ3c1FSaTJKaEtPUW92Qk5wVVNrZTNyWG5UMG1LSnN2NEt0TjRyb0JCbzFreHFST3VKTmc4?oc=5",
-   "image": "",
-   "published": "2026-11-10T13:29:02Z",
-   "weight": 1
-  },
-  {
-   "id": "6bfff37f8ade",
-   "region": "global",
-   "topics": [
-    "products"
-   ],
-   "title": "Robbyant Releases Open-Source AI Model to Improve Robots’ Sense of Touch",
-   "titleJa": "Robbyant、ロボットのタッチ感覚を向上させるオープンソースAIモデルをリリース",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "AI Insider",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPYkk5b3hTeUpUdzlTZDVoRE5LNEhLVVRncVJzV00yLUhHdktGOXJEYWU3ZmF0SldEbTZ3MEVlOUx3cW8yVi1BZno2ckJfaHFIZ3RLb0ZsQUpZcWxNNDBjYU5UWVdxS05sTlJWbnVfNlBORWg4M1ozVF9ya0V1cHFTWVl3a0dMUTJteVZDYzdEZThWUldJQko3RjE5MGJ6X3pqQVp2QnM2RnRONFV5TXc?oc=5",
-   "image": "",
-   "published": "2026-11-10T13:21:47Z",
-   "weight": 1
-  },
-  {
-   "id": "95632ef95798",
-   "region": "global",
-   "topics": [
-    "media",
-    "products"
-   ],
-   "title": "Gaxos.ai Launches ArtGen Muse, AI Video Model Designed to Lower Generation Costs",
-   "titleJa": "Gaxos.ai、世代コストを削減するよう設計されたAIビデオモデル、ArtGen Museを発売",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "Quiver Quantitative",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZnViRUR2eXJ2RjJBZG9DSVBTS2VaaEphSjFSdUZMX3hRSF9OS054dTd2aDk3NkJ3aHFxeWNNSm9FS00zRS1ORVhKeDVOOGp3ZmxDX3lNaHNzWk1aZ0J3dlN5aUM2VUVTeHg0cEhRZTM5UXJCQ3QzSkNsZU9QMFB4ZUlnMG9Oa3ZQa2RvRFY1SDg5dWVPUF9XOWQ3N2RFQ216aW5uRkZTYnUxUkJVZzlTSE9CZUJFUQ?oc=5",
-   "image": "",
-   "published": "2026-11-10T13:21:00Z",
-   "weight": 1
-  },
-  {
-   "id": "b9ef14981824",
-   "region": "japan",
-   "topics": [
-    "general"
-   ],
-   "title": "ディープマインドのAI、Signalの暗号コードを4週間で証明 数年の作業、人の確認は1％",
-   "titleJa": "ディープマインドのAI、Signalの暗号コードを4週間で証明 数年の作業、人の確認は1％",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "ja",
-   "source": "ビジネス+IT",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4yMk9NeHFGNHVhTV9PWWhndDBXX1haaWxNdmJLNmpwLTM2OEl0NlhrMEJzYTBsSUxUNE1jM3J0NW1VLXRvTFF2TTlwQVliRWNvaTZj?oc=5",
-   "image": "",
-   "published": "2026-11-10T13:18:00Z",
-   "weight": 1
-  },
-  {
-   "id": "82925345777a",
-   "region": "global",
-   "topics": [
-    "media",
-    "products"
-   ],
-   "title": "Gaxos Launches ArtGen Muse AI Video Model as Company Scales",
-   "titleJa": "Gaxos、企業規模でArtGen Muse AIビデオモデルを発表",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "GlobeNewswire",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQSWd3U0VYbGU0bGpMenpxdWNGamIwVmpOUmozUXRzYS1DSldpN0ZGT0ltcHNaNmlUdlY2ZWZLZGM2VkpkSWdqOVBRcVRfNU05eFlCeXNNZ0IxT0JFeUxsM0xTOFJwQi0wSUxXYVdkNC1LOFNLQnVkeFkzbHA5WjZDaUN2RTJhaFZGMUlVbVMwQXk3Y0lZZkVVTUxXX3cyWFA2dFFpZEZNT09LQ1RJcFhwU0cwTEZvTS1SWW9ic2MwaldzSTZwVEVfWEFFYw?oc=5",
-   "image": "",
-   "published": "2026-11-10T13:10:00Z",
-   "weight": 1
-  },
-  {
-   "id": "3862d2d75e12",
-   "region": "global",
-   "topics": [
-    "research"
-   ],
-   "title": "How AI security failures are endangering your supply chain – and what you can do",
-   "titleJa": "AIセキュリティの失敗がサプライチェーンをどのように危険にさらしているか、そして何ができるか",
-   "summary": "New research provides a stark look at the AI supply chain and the risks it brings to businesses.",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "ZDNET",
-   "url": "https://www.zdnet.com/tech/ai-security-failures-supply-chain-risks-black-kite-research/",
-   "image": "https://www.zdnet.com/wp-content/uploads/sites/3/bluethreats-GettyImages-2285924402.jpg",
-   "published": "2026-11-10T13:03:52Z",
-   "weight": 2
   }
  ]
 }
