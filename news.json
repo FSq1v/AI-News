@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-20T00:31:25Z",
+ "generatedAt": "2026-11-20T15:13:54Z",
  "feedCount": 31,
  "topics": {
   "models": "モデル",
@@ -13,6 +13,2138 @@
  },
  "brief": null,
  "articles": [
+  {
+   "id": "17894ef9bb0e",
+   "region": "global",
+   "topics": [
+    "hardware"
+   ],
+   "title": "CertiK and Columbia University Bring Math Proofs to the GPU Code Behind Every Large AI Model",
+   "titleJa": "CertiKとコロンビア大学が、すべての大規模AIモデルの背後にあるGPUコードに数学的証明をもたらす",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "HackerNoon",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQUU1uTmdIWlhOQUo5S2xvS0hXcmhYallLc2xjeTBabzFwWm94S3lIeEVhNGtUNTJZSll3Y3N2SXhxMHdGc2laS3hXeGEtRXllb19zQklOYUNDMmZHNmRKbFdBd2JXTTV3aFJHaVhhX1NCR29lcTlkN2pFOXgzQ29ITjRlODZNQXIwZHE0dENVbEo1MUhUWWUzc282STBEMVdvWVRRbVFubDQyREk5RWhBRTBXcEFNdw?oc=5",
+   "image": "",
+   "published": "2026-11-20T15:04:13Z",
+   "weight": 1
+  },
+  {
+   "id": "17bfc23ca17d",
+   "region": "global",
+   "topics": [
+    "agents",
+    "products"
+   ],
+   "title": "Apple joins the race for AI agents that control your device while raising new barriers for competitors",
+   "titleJa": "Appleがデバイスを制御するAIエージェントの開発競争に参入。競合他社に新たな障壁をもたらす",
+   "summary": "After Meta, OpenAI, Anthropic, and Google launched their own AI agents, Apple is now building one too - while making it harder for rivals to access its devices. The article Apple joins the race for AI agents that control your device while raising new barriers for competitors appe…",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "The Decoder",
+   "url": "https://the-decoder.com/apple-joins-the-race-for-ai-agents-that-control-your-device-while-raising-new-barriers-for-competitors/",
+   "image": "",
+   "published": "2026-11-20T15:03:25Z",
+   "weight": 2
+  },
+  {
+   "id": "90a9f2ddce90",
+   "region": "global",
+   "topics": [
+    "general"
+   ],
+   "title": "School policies reflect uncertainty with student AI usage",
+   "titleJa": "学校の方針は、生徒によるAIの使用に関する不確実性を反映している",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "Wayland Student Press",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcFVHamFkU1Bpc2dVR1pJaWFLY2xmSUhhbWxaVm1nLUNYbGRKX1RxMG5Pd0pIMXl6MHBVcnhIcTkzc2JnUm5DUEN3RkQ1MUV2Z1FnRkoySkhDWmxRY2N1dGRralFxNnFIMVhNRjkwQjZMN2p2Y250Tm40WEkwNTFUN3pidGIyTWpEeVpaRTlxSEJla2Jpd05sYl9qOHhtMTZoZW55OHRJZzE1OVZ6eXotbDhieW5oMGRZVk1FMGRjVVNSTlFhWDNv?oc=5",
+   "image": "",
+   "published": "2026-11-20T15:02:25Z",
+   "weight": 1
+  },
+  {
+   "id": "d77080a0377c",
+   "region": "global",
+   "topics": [
+    "media"
+   ],
+   "title": "GTA 6 is “The Last Pre-AI Blockbuster Video Game of its Kind”, Says Former Take-Two CEO",
+   "titleJa": "Take-Two元CEOが「GTA 6はAI以前の最後の同種の大ヒットビデオゲーム」と発言",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "GamingBolt",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNd0wyYXZIWnVkd2QxZlVRc0lWdk5NYlNxMUh6aWUtc25PLWc2WHJLdmJTb0RSal9NRklZd2FuVDN4MlZQRHFMWlFSTHd2bGF4RVNVOGJJa0t6LU1nazZPMllpdWZqeWtRUTNyY0dvS2gxaF9oTDVnNm9kOFJ4U1FKZFUzdGU2QVpJVTM2dm5kSm1ZMzZsM1VoLXZGZTUtRXJnU3BjN3FtVTVyZlE?oc=5",
+   "image": "",
+   "published": "2026-11-20T15:00:45Z",
+   "weight": 1
+  },
+  {
+   "id": "f0e77c900b9f",
+   "region": "global",
+   "topics": [
+    "hardware"
+   ],
+   "title": "The fallout from Nvidia’s Jensen Huang scandal continues",
+   "titleJa": "Nvidiaのジェンセン・ファン氏のスキャンダルの余波が続く",
+   "summary": "In the midst of dealing with the fallout from its ouster of CEO Jensen Huang, Nvidia delivered its latest earnings report this week, with healthy growth and promises that the good times will continue. At the same time, the chipmaker said it will stop selling its H200 chips in Chi…",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/",
+   "image": "",
+   "published": "2026-11-20T14:55:44Z",
+   "weight": 2
+  },
+  {
+   "id": "25470910d5b8",
+   "region": "global",
+   "topics": [
+    "media",
+    "products"
+   ],
+   "title": "Lemonlight launches AI video production platform",
+   "titleJa": "LemonlightがAIビデオ制作プラットフォームを立ち上げ",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "Broadcast",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOR013VzlxblFLS0dsYmtsZzh2WjgwUmZQeW5lTHB1WDJMOVFDb01aUFprZTFXWHI1QnlfdFVYMWhsd2UyNEc2bF9CT0doQVFHZUV5ZnFxNThzTGFaUkJqalVRVmdsdThHZW15QkhrQnZpd2d2RW1EUTIwOUtZclpiSWk5WGptZUFZWlpQQUh0Qko4Q2VuUXpFLUw3OEsxVXd4bmVIemFJbDFsQS1LWjBOZg?oc=5",
+   "image": "",
+   "published": "2026-11-20T14:54:24Z",
+   "weight": 1
+  },
+  {
+   "id": "05d97431e50b",
+   "region": "global",
+   "topics": [
+    "models",
+    "media",
+    "business",
+    "hardware"
+   ],
+   "title": "Nvidia bets at least $500 million on Inception's diffusion models to strengthen its open-source Nemotron lineup",
+   "titleJa": "Nvidia、オープンソースのNemotronラインナップを強化するため、Inceptionの拡散モデルに少なくとも5億ドルを投資",
+   "summary": "Nvidia is close to acquiring AI startup Inception for at least $500 million, according to The Information. The company is just two years old and builds language models based on diffusion processes, an alternative approach to the token-by-token generation used by models like ChatG…",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "The Decoder",
+   "url": "https://the-decoder.com/nvidia-bets-at-least-500-million-on-inceptions-diffusion-models-to-strengthen-its-open-source-nemotron-lineup/",
+   "image": "",
+   "published": "2026-11-20T14:53:50Z",
+   "weight": 2
+  },
+  {
+   "id": "5eb4551cfc5e",
+   "region": "global",
+   "topics": [
+    "general"
+   ],
+   "title": "David Fincher Defends AI As ‘Cliff Booth’ Faces Generative AI Controversy: “I Don’t Fear The Unknown”",
+   "titleJa": "デヴィッド・フィンチャー監督が「クリフ・ブース」をめぐる生成AIの論争に対し、AIを擁護：「私は未知のものを恐れない」",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "The Playlist",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBBMGNSaEdwQjR1RXBscnd1NnFJamNKN080bXl4b0c5NHZlQmxNNlRHSWl5NG9icUQ4MW1VSU9GUXlYdEZEZkI0REhLZUI5MG1zSFJUY3l1VFk1RTBzaThFQ2tBTzRWbEZSalZ2aF9tWm5vbVotTDM2d2hkY3VYUlk?oc=5",
+   "image": "",
+   "published": "2026-11-20T14:32:00Z",
+   "weight": 1
+  },
+  {
+   "id": "f857a01a26df",
+   "region": "global",
+   "topics": [
+    "policy"
+   ],
+   "title": "Jones Renews Calls for AI Policy Discussion",
+   "titleJa": "ジョーンズ氏、AI政策に関する議論を改めて呼びかけ",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "Pasadena Now",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5uXzJvdjRzZ2ZGM2lwbkFKUEVMSXRxU0oxNFowZFdGSG1iczFXVjJDa3Jva1pnaWVRSlVvMUZfQW5mR01pejVGaHZQU1g1bUFJX1NwbWl5SnR3T0hNbGdoa3RzUXdtTm43MFFXckctNDNMV2d6Tk9hb3lvVXI?oc=5",
+   "image": "",
+   "published": "2026-11-20T14:27:15Z",
+   "weight": 1
+  },
+  {
+   "id": "aecbace44b36",
+   "region": "global",
+   "topics": [
+    "general"
+   ],
+   "title": "Ubisoft founded Motherbrain studio to develop generative AI in games",
+   "titleJa": "Ubisoftがゲーム向け生成AIを開発するMotherbrainスタジオを設立",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "GameGPU",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNcXhYOHExWlc3a2Y1VmswZks4enJMem10Q1ZzLTc4dGxlcDlXZ1Vzck1Ra1lLMmp6d3B6TGZfM3I2aEhqd0dXR0lXekJiNmR4ZVltZnlOR3FnQTZJNUJmOXptb2o2bXdINjF0ajd2djRsX3RvWmtsME01UDMxSmxSTkYyQmhLbkZOSTBaYmZSNFpYM3J2TkFqZmI2TlFicnd0T1B0N19BWmNYN0hJbk5LRA?oc=5",
+   "image": "",
+   "published": "2026-11-20T14:19:08Z",
+   "weight": 1
+  },
+  {
+   "id": "c3ac49371a2c",
+   "region": "japan",
+   "topics": [
+    "general"
+   ],
+   "title": "【ウェビナー】12/16（水） 生成AIを導入したのに ”成果が出ていない” 多くの企業が抱える課題と「活用定着へのヒント」",
+   "titleJa": "【ウェビナー】12/16（水） 生成AIを導入したのに ”成果が出ていない” 多くの企業が抱える課題と「活用定着へのヒント」",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "ja",
+   "source": "Infoseek",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1BVlA3b2lZY3pXYmpYTXE4ME9oZXNEd0ctY0hNcFFjc2ZGcnhHR3RaSEJTeUc0YWFveTFfRXQzaWdtSUZxaGxZekdqS2J1Zm1ZSXlOaEdnc3ZOalh6N0F4RnNrdUVWaG10SkJlT1JVanpxdw?oc=5",
+   "image": "",
+   "published": "2026-11-20T14:10:02Z",
+   "weight": 1
+  },
+  {
+   "id": "299291fdd518",
+   "region": "global",
+   "topics": [
+    "policy"
+   ],
+   "title": "The week everything fell apart",
+   "titleJa": "すべてが崩壊した週",
+   "summary": "There was a dayslong Outlook outage. A nationwide ground stop for only the second time in 25 years. Banks seemed to suddenly stop working. Even iCloud couldn't stay up and running. This week, it felt like the technological world simply collapsed. And it felt like this might be th…",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "The Verge",
+   "url": "https://www.theverge.com/podcast/1038419/outage-outlook-ground-stop-tech-failure-vergecast",
+   "image": "",
+   "published": "2026-11-20T14:06:59Z",
+   "weight": 2
+  },
+  {
+   "id": "912ce9389b49",
+   "region": "global",
+   "topics": [
+    "general"
+   ],
+   "title": "Six AI-powered gadgets that could make your home office smarter",
+   "titleJa": "ホームオフィスをよりスマートにするAI搭載ガジェット6選",
+   "summary": "From notetakers to webcams, here are six AI-powered gadgets to upgrade your workspace.",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter/",
+   "image": "",
+   "published": "2026-11-20T14:00:00Z",
+   "weight": 2
+  },
+  {
+   "id": "f607a69c8332",
+   "region": "global",
+   "topics": [
+    "policy"
+   ],
+   "title": "Middle School adopts AI policy",
+   "titleJa": "中学校がAIポリシーを導入",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "The Local News (Ipswich/Rowley, Topsfield/Boxford)",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1acXBzS0hhM0VZYmVTLThlMkxZam50a1BlOE5tRXRwckhnMVdrYUU4WERfYUpzX2U0QWtKVVlvMGV5aGNZX0oteFlzOW45aktXa0FPajBHXzg1ZVdQajNjSm1qTDhidUlQYzhoVDc2RjRMUzZUNE5N?oc=5",
+   "image": "",
+   "published": "2026-11-20T13:54:23Z",
+   "weight": 1
+  },
+  {
+   "id": "d3a074ac7b57",
+   "region": "japan",
+   "topics": [
+    "media",
+    "products"
+   ],
+   "title": "1kg切ってるのに、18コア!? ASUS「Zenbook SORA」が5万円引き、29万9800円",
+   "titleJa": "1kg切ってるのに、18コア!? ASUS「Zenbook SORA」が5万円引き、29万9800円",
+   "summary": "ASUSのノートPC「Zenbook SORA UX3407NA」がAmazonでタイムセール対象。参考価格349,800円から14％オフの299,800円で販売中。約990gの軽量ボディーに18コアのSnapdragon X2 Elite、32GBメモリ、1TB SSDを搭載。14型有機ELディスプレーやMicrosoft 365 Personal 24カ月版も備え、軽さと充実した装備を両立した一台だ。",
+   "summaryJa": "ASUSのノートPC「Zenbook SORA UX3407NA」がAmazonでタイムセール対象。参考価格349,800円から14％オフの299,800円で販売中。約990gの軽量ボディーに18コアのSnapdragon X2 Elite、32GBメモリ、1TB SSDを搭載。14型有機ELディスプレーやMicrosoft 365 Personal 24カ月版も備え、軽さと充実した装備を両立した一台だ。",
+   "lang": "ja",
+   "source": "ASCII.jp",
+   "url": "https://ascii.jp/elem/000/004/452/4452979/?rss",
+   "image": "",
+   "published": "2026-11-20T13:30:00Z",
+   "weight": 1
+  },
+  {
+   "id": "fd3deff74668",
+   "region": "global",
+   "topics": [
+    "products"
+   ],
+   "title": "Google's latest homepage update pushes its search engine further toward an AI answer engine",
+   "titleJa": "Googleの最新のホームページアップデートにより、検索エンジンはAI回答エンジンへとさらに進化",
+   "summary": "Google is rolling out a collapsible sidebar globally on its Desktop Search homepage. In AI Mode, it lets users reopen recent AI searches, search threads, and create notebooks. Temporary threads that aren't saved to history are also launching worldwide. Google Search co-lead Robby…",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "The Decoder",
+   "url": "https://the-decoder.com/googles-latest-homepage-update-pushes-its-search-engine-further-toward-an-ai-answer-engine/",
+   "image": "",
+   "published": "2026-11-20T13:19:31Z",
+   "weight": 2
+  },
+  {
+   "id": "49cd8d7fe658",
+   "region": "japan",
+   "topics": [
+    "products"
+   ],
+   "title": "TikTok、画像・動画に自社のAI作成機能が使われたか確認できるツールを公開 肖像の無断使用を検出する機能も",
+   "titleJa": "TikTok、画像・動画に自社のAI作成機能が使われたか確認できるツールを公開 肖像の無断使用を検出する機能も",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "ja",
+   "source": "コマースピック",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9LeE5PTHpYSkFlWHJRaTVvMU94VVdLM3gtQVZzZWRDZmdnU3dJdUZrZlAzYTVBclNDa25lY25aTTA0NVUxVDNPYUtFNDNleHQyV1B6QnVuaw?oc=5",
+   "image": "",
+   "published": "2026-11-20T12:55:49Z",
+   "weight": 1
+  },
+  {
+   "id": "8a3516dd319f",
+   "region": "global",
+   "topics": [
+    "general"
+   ],
+   "title": "Watch GTA VI Is Likely the Final Masterpiece of the Pre-Generative AI Era. Enjoy It",
+   "titleJa": "『GTA VI』は、生成AI以前の時代の最後の傑作となる可能性が高いです。ぜひお楽しみください。",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "WIRED",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNVUNCZlZHUzltb09zaldKR2pzQ3RFU3VkUDNjN01wVzE0dXBWUzBxd21sTk0yN0tUT0R3UkJ3aEpPZjFVUEJKMnhTcnhZNGVIWDdhVWxtTFdoUVZ6OE5FbE9GYUU4dHhqSGlWZkh3VXhUZ0ppZFFwMklSQWRQQlFWN1k4Tk8wdFZoTVpHRnJUVEYtUDdwQlFubU1oY1BfSFJOdkdjR1ZkWF9YanlsbFE0?oc=5",
+   "image": "",
+   "published": "2026-11-20T12:48:23Z",
+   "weight": 1
+  },
+  {
+   "id": "779ccf54081c",
+   "region": "global",
+   "topics": [
+    "models",
+    "agents"
+   ],
+   "title": "Signal is blocking Gemini and Siri AI from reading your screen",
+   "titleJa": "SignalがGeminiとSiri AIによる画面の読み取りをブロックしています",
+   "summary": "Signal is restricting the ability to take screenshots on Android and iOS devices in an effort to prevent AI agents from reading users' messages and other data. The agentic AI capabilities built into operating systems that analyze on-screen information to learn more about the user…",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "The Verge",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
+   "image": "",
+   "published": "2026-11-20T12:30:47Z",
+   "weight": 2
+  },
+  {
+   "id": "b773beb6da11",
+   "region": "japan",
+   "topics": [
+    "general"
+   ],
+   "title": "長年のCAD開発技術に生成AIを融合「自動作図AI」 キャパ【TECH Biz LIVE!】：ニュース",
+   "titleJa": "長年のCAD開発技術に生成AIを融合「自動作図AI」 キャパ【TECH Biz LIVE!】：ニュース",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "ja",
+   "source": "中日BIZナビ",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE40dU9yZXdYcjFFTXBBYzN0dEd1NXBCRXh0bGdhRlgtMUFSMDBBWEtLS3kxNjBWT2lFOXZvRzVqZHFZdmFobDNEVjJlVnU2NHRubWxTdnc0bzRCcUFTa0xn?oc=5",
+   "image": "",
+   "published": "2026-11-20T12:30:35Z",
+   "weight": 1
+  },
+  {
+   "id": "9faaa46b1a3e",
+   "region": "global",
+   "topics": [
+    "models"
+   ],
+   "title": "A retrieval-augmented local large language model for ICD-10-CM terminology mapping of clinical signs and symptoms",
+   "titleJa": "臨床症状および兆候のICD-10-CM用語マッピングのための、検索拡張型ローカル大規模言語モデル",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "Nature",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE41YkFsUGQ1T3g5WF9TeXg2RXRUVUlzMHhFVHEyZXlfYi1ZZnRQd2VWR05mQWlrZ2tuWk1VOE8yMWllZkplcjNYcGM3QVVBVDNSaVpBcGxYNDFYYTEtQTNR?oc=5",
+   "image": "",
+   "published": "2026-11-20T12:00:58Z",
+   "weight": 1
+  },
+  {
+   "id": "b9c4bcb3a317",
+   "region": "global",
+   "topics": [
+    "general"
+   ],
+   "title": "Muse Is Unleashing a World of Pettiness on Instagram",
+   "titleJa": "MuseがInstagramでくだらないことだらけの世界を解き放つ",
+   "summary": "Meta’s AI assistant can track and unfollow Instagram users who don’t follow you back—and some people are taking full advantage.",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "WIRED",
+   "url": "https://www.wired.com/story/muse-is-unleashing-a-world-of-pettiness-on-instagram/",
+   "image": "https://media.wired.com/photos/6aff9abb37d7793ac7889730/master/pass/Meta-Muse-Pettiness-Culture.jpg",
+   "published": "2026-11-20T12:00:00Z",
+   "weight": 2
+  },
+  {
+   "id": "8f679dd12405",
+   "region": "japan",
+   "topics": [
+    "models",
+    "media",
+    "hardware",
+    "products"
+   ],
+   "title": "RTX Spark搭載ノートPCで画像生成AIや動画生成AIのローカル実行速度を検証した結果が公開される",
+   "titleJa": "RTX Spark搭載ノートPCで画像生成AIや動画生成AIのローカル実行速度を検証した結果が公開される",
+   "summary": "RTX SparkはNVIDIAが開発したSoCで、RTX Sparkを搭載したノートPCやミニPCは大規模言語モデルやコンテンツ生成モデルをローカルで実行することができます。そんなRTX Spark搭載ノートPCで画像生成AIや動画生成AIを実行して速度を検証した結果をテクノロジーメディアのLTT Labsが公開しています。",
+   "summaryJa": "RTX SparkはNVIDIAが開発したSoCで、RTX Sparkを搭載したノートPCやミニPCは大規模言語モデルやコンテンツ生成モデルをローカルで実行することができます。そんなRTX Spark搭載ノートPCで画像生成AIや動画生成AIを実行して速度を検証した結果をテクノロジーメディアのLTT Labsが公開しています。",
+   "lang": "ja",
+   "source": "GIGAZINE",
+   "url": "https://gigazine.net/news/20261120-rtx-spark-image-video-generation/",
+   "image": "",
+   "published": "2026-11-20T12:00:00Z",
+   "weight": 1
+  },
+  {
+   "id": "71381a1f78e5",
+   "region": "japan",
+   "topics": [
+    "media",
+    "products"
+   ],
+   "title": "RTX Spark搭載ノートPCで画像生成AIや動画生成AIのローカル実行速度を検証した結果が公開される (2026年11月20日掲載)",
+   "titleJa": "RTX Spark搭載ノートPCで画像生成AIや動画生成AIのローカル実行速度を検証した結果が公開される (2026年11月20日掲載)",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "ja",
+   "source": "ライブドアニュース",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5CM01hTHpoTWtQNHpSQTNFVjFRdTJLM0MySmU0Q2hRLVFEaG84SHBBdGZhZ0ptdXkzNk1Wb3AtY0hWSF9lVkcwaXI0OE5ObGJHaW1ZLUE2TjE1eXkxM1E?oc=5",
+   "image": "",
+   "published": "2026-11-20T12:00:00Z",
+   "weight": 1
+  },
+  {
+   "id": "5445f702cb4f",
+   "region": "global",
+   "topics": [
+    "media"
+   ],
+   "title": "Arcade 3.0 promises AI video edits without the full-video do-over",
+   "titleJa": "Arcade 3.0は、動画全体をやり直すことなくAIによる動画編集を実現",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "Digg",
+   "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE93ZEc3blZhZmZadDZ4OEZvaTlpTGRiTzFHZHRsd2dUa0JZUnlmd0ctRVN6ZUV1S2l2OWQzcFBVeXJrQQ?oc=5",
+   "image": "",
+   "published": "2026-11-20T11:47:46Z",
+   "weight": 1
+  },
+  {
+   "id": "91bdf46675ef",
+   "region": "global",
+   "topics": [
+    "models",
+    "products"
+   ],
+   "title": "Google Introduces New Gemini 4 Neon AI Model",
+   "titleJa": "Googleが新しいGemini 4 Neon AIモデルを発表",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "Deccan Chronicle",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNEdhazNhTld3SUEwQ0pMZFl5MFQwZjQtYkVHLUlqdXUtQmRIUmxMdGlOLUtsWmY1Z2k2N29LZ2o2T2luVUo2TnFHWUllcVUzdDhOOXhFU1BneDlMRU9ScmNVOWpnNU01UnhNVklxZUg0RGRzN1hYZHYyVHpjYzlkbmhTOURWU011WWc0RE1SODgzYUNoMTJrNV9NQdIBoAFBVV95cUxPUWR6NkJXS2t4Y19KU1FYMFJsWFVVMWhSWEhrckNvTWs1c296NmR3amNDZ214Rkh2bHppLW0tT0JUMDNxWVl3NkVXbXJtdGVON2FMNUdhMm0tYWZqZHI1WnF0c3dqVGIwbnE1QzRoR3pCc2FURW5FaW5jUmRUc2V4X2t2c1J5TUpEU0hnaE5SemkzVWlJOUk1NkxqN2tjaXgx?oc=5",
+   "image": "",
+   "published": "2026-11-20T11:40:02Z",
+   "weight": 1
+  },
+  {
+   "id": "638fbf525ab7",
+   "region": "global",
+   "topics": [
+    "media",
+    "business"
+   ],
+   "title": "Synthesia: AI Video Avatars, US$4bn Value & the Fortune 100",
+   "titleJa": "Synthesia：AIビデオアバター、40億米ドルの価値、フォーチュン100社",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "AI Magazine",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQUk9KOWFydzVVQkdaeDAyb0tvVkVkMU9SWDVhNTlZY0w4MXVYNVc1NjctWEozRlVHcWw2V19qTVc0RThWX0tpYnJKT3JoWHQ3TkJoSEVQMkl5NU1qMElFVnFIUkRyYjNjaUFCeEs1RzZfNTlySGlQV1EyTjA2dHJBN1pBYTZUNFFwZlpV?oc=5",
+   "image": "",
+   "published": "2026-11-20T11:19:04Z",
+   "weight": 1
+  },
+  {
+   "id": "311975880d0b",
+   "region": "global",
+   "topics": [
+    "general"
+   ],
+   "title": "Regular Tech Bros Are Worried About Honeypots",
+   "titleJa": "一般的なテック系男子はハニーポットを懸念している",
+   "summary": "The Jensen Huang scandal is the latest fuel for dating anxieties among newly rich and powerful tech workers.",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "WIRED",
+   "url": "https://www.wired.com/story/regular-tech-bros-are-worried-about-honeypots/",
+   "image": "https://media.wired.com/photos/6afbae0afa103e595fff7d74/master/pass/Business_Honeypot%20Fears%20Are%20Trickling%20Down%20Into%20the%20Dating%20Lives%20of%20Normal%20Dudes_v1.jpg",
+   "published": "2026-11-20T11:00:00Z",
+   "weight": 2
+  },
+  {
+   "id": "3a541dd21559",
+   "region": "global",
+   "topics": [
+    "policy"
+   ],
+   "title": "What the EU AI Act requires of companies in 2026 and 2027",
+   "titleJa": "EU AI規制法が2026年と2027年に企業に求めること",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "CEO경제신문",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9USzFVRmpuQUlLaWpWckRTT2VJTTNUaXAzT3d4Yjh6WDhIVEljVmNxdjJ4VWhQWmRxd2N1a2JRd3B5WlZIMk1iYkc4NzduY2N5RXdYMDdITGN1QU12b29KRzBESTdRZUJrU2VrVmwtdw?oc=5",
+   "image": "",
+   "published": "2026-11-20T11:00:00Z",
+   "weight": 1
+  },
+  {
+   "id": "139d76e70c4e",
+   "region": "japan",
+   "topics": [
+    "general"
+   ],
+   "title": "薄くて美しい、しかもAI対応！ レノボ「Yoga Slim 7a Gen 11」は仕事にも普段使いにも",
+   "titleJa": "薄くて美しい、しかもAI対応！ レノボ「Yoga Slim 7a Gen 11」は仕事にも普段使いにも",
+   "summary": "事務系や軽めのグラフィック系タスクに対応できるPCが欲しい。そんな人にお勧めしたいのがレノボの「Yoga Slim 7a Gen 11」だ。",
+   "summaryJa": "事務系や軽めのグラフィック系タスクに対応できるPCが欲しい。そんな人にお勧めしたいのがレノボの「Yoga Slim 7a Gen 11」だ。",
+   "lang": "ja",
+   "source": "ASCII.jp",
+   "url": "https://ascii.jp/elem/000/004/453/4453657/?rss",
+   "image": "",
+   "published": "2026-11-20T11:00:00Z",
+   "weight": 1
+  },
+  {
+   "id": "07a21b26b036",
+   "region": "global",
+   "topics": [
+    "general"
+   ],
+   "title": "YouGov: UK draws a line on charities using generative AI",
+   "titleJa": "YouGov：英国が生成AIを使用する慈善団体に境界線を引く",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "Resultsense",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOX0Uxal9SazBNVk10UzBPVW1OZG1BTDdwbThVaF85RWFQaTgtbWhpVzVUcEkzS0JFeDR5MTBJRkNsYUlRc0p5NVZvVm1xbVlZNTBSdXNsaUJPWVVRRkZHME0zMUN0R01XeFk5R1c1VzVMSXR1YldjR3JFSi1VUGtwMVd1VUkzUWZzRE80?oc=5",
+   "image": "",
+   "published": "2026-11-20T10:35:32Z",
+   "weight": 1
+  },
+  {
+   "id": "5bb5772428bc",
+   "region": "japan",
+   "topics": [
+    "research",
+    "products"
+   ],
+   "title": "京大がAI依存チェックリスト公開 「当てはまるものあれば、しばらくAI触らないで」",
+   "titleJa": "京大がAI依存チェックリスト公開 「当てはまるものあれば、しばらくAI触らないで」",
+   "summary": "京都大学の学生相談部門は「AIに悩みを相談する際に気をつけて欲しいこと」と題した文書を公開した。",
+   "summaryJa": "京都大学の学生相談部門は「AIに悩みを相談する際に気をつけて欲しいこと」と題した文書を公開した。",
+   "lang": "ja",
+   "source": "ITmedia AI+",
+   "url": "https://www.itmedia.co.jp/aiplus/article/2611/20/2000003378/",
+   "image": "",
+   "published": "2026-11-20T10:13:44Z",
+   "weight": 2
+  },
+  {
+   "id": "88cb029860c1",
+   "region": "japan",
+   "topics": [
+    "general"
+   ],
+   "title": "長野県の地域メディアが会合 生成AI活用や災害時の対応方法報告",
+   "titleJa": "長野県の地域メディアが会合 生成AI活用や災害時の対応方法報告",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "ja",
+   "source": "信濃毎日新聞デジタル",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBWU1Fta2RWRFBVUGhZSDdjeFZSZklPaEVZbnJ0X2lGa3dTdlRwMV9fYzg2eXh0aUxPUEFhVTc3bnpTQmN1bEtLQ1doZVk1RWxRVmNzMUpmME53WlhRQTEyNHp1d3Y4MVFEQWFEa2s5MEo?oc=5",
+   "image": "",
+   "published": "2026-11-20T10:10:00Z",
+   "weight": 1
+  },
+  {
+   "id": "ead4b1e7cd02",
+   "region": "global",
+   "topics": [
+    "media"
+   ],
+   "title": "Runway Expands AI Video & Praxis-1 World Models to Robotics",
+   "titleJa": "RunwayがAIビデオとPraxis-1ワールドモデルをロボティクスに拡張",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "AI Magazine",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNR3JRcjBranNOdlVGNV9USkhTYXNKVGQyaEwzTzg2TXFDalpKcUg0dlVqdFR5eVNNeEJRZnJOOW1CSGwyYl9nQkY1SGhRUjRVd2ZjaU4wZ25aVUdmMndMRGd4UVBpbGx1RnhWakluTmdZNEhwbzNNcDRIUnFMeHN1ajdLUkpaZ1Y1MzI4ZHFn?oc=5",
+   "image": "",
+   "published": "2026-11-20T10:06:25Z",
+   "weight": 1
+  },
+  {
+   "id": "51763e19add5",
+   "region": "global",
+   "topics": [
+    "policy"
+   ],
+   "title": "Deepfakes, plagiarism addressed in proposed Cumberland schools AI policy",
+   "titleJa": "Cumberland学区のAIポリシー案でディープフェイクや剽窃に対処",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "Charlotte Observer",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRHhaYlBFWnRQbUlrWDA5UW9BMjhJUFdIb202NFV6b01mWHktNTl5UWNuOUctSUZ3VHRxaTJ4a1o3ZWg2RG5KMFNEVFdBenl2TWNfRUowRGJCUGNQV3pzX3FtQXE3SFhldHVxWDVWenQwSjA1Qkk1V3lCeml3VGpSWkRZTVZpM0Ni?oc=5",
+   "image": "",
+   "published": "2026-11-20T10:03:00Z",
+   "weight": 1
+  },
+  {
+   "id": "d61dded401c4",
+   "region": "japan",
+   "topics": [
+    "models",
+    "research",
+    "products"
+   ],
+   "title": "AIが追加学習なしで自らのウェイトを書き換えて「自分自身を賢くする」ことに成功",
+   "titleJa": "AIが追加学習なしで自らのウェイトを書き換えて「自分自身を賢くする」ことに成功",
+   "summary": "大規模言語モデル(LLM)は通常、学習が完了すると内部のウェイト(重み)が固定され、性能を向上させるには追加学習などが必要になります。こうした従来の仕組みとは異なり、AIが自分自身のウェイトを分析して書き換え、性能を向上させられることを示した研究論文が発表されました。研究チームは、この成果がAIによる「再帰的自己改善」の実現につながる可能性があるとしています。",
+   "summaryJa": "大規模言語モデル(LLM)は通常、学習が完了すると内部のウェイト(重み)が固定され、性能を向上させるには追加学習などが必要になります。こうした従来の仕組みとは異なり、AIが自分自身のウェイトを分析して書き換え、性能を向上させられることを示した研究論文が発表されました。研究チームは、この成果がAIによる「再帰的自己改善」の実現につながる可能性があるとしています。",
+   "lang": "ja",
+   "source": "GIGAZINE",
+   "url": "https://gigazine.net/news/20261120-large-language-model-can-rewrite-itself/",
+   "image": "",
+   "published": "2026-11-20T10:00:00Z",
+   "weight": 1
+  },
+  {
+   "id": "eff10dd94532",
+   "region": "global",
+   "topics": [
+    "agents",
+    "research"
+   ],
+   "title": "Hermes Agent's Collective Wisdom feature turns one employee's AI trick into the whole team's skill",
+   "titleJa": "Hermes AgentのCollective Wisdom機能は、ある従業員のAIのコツをチーム全体のスキルに変えます",
+   "summary": "Companies will soon be able to run the open-source Hermes Agent from Nous Research directly inside Microsoft Teams. The article Hermes Agent's Collective Wisdom feature turns one employee's AI trick into the whole team's skill appeared first on The Decoder.",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "The Decoder",
+   "url": "https://the-decoder.com/hermes-agents-collective-wisdom-feature-turns-one-employees-ai-trick-into-the-whole-teams-skill/",
+   "image": "",
+   "published": "2026-11-20T09:59:51Z",
+   "weight": 2
+  },
+  {
+   "id": "150d3393e8a7",
+   "region": "japan",
+   "topics": [
+    "policy"
+   ],
+   "title": "総務省後援「ASPIC AI・クラウドアワード2026」で、ミライAIがAI支援業務系ASP・SaaS部門「AX貢献賞」を受賞",
+   "titleJa": "総務省後援「ASPIC AI・クラウドアワード2026」で、ミライAIがAI支援業務系ASP・SaaS部門「AX貢献賞」を受賞",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "ja",
+   "source": "ASCII.jp",
+   "url": "https://ascii.jp/elem/000/004/453/4453802/?rss",
+   "image": "",
+   "published": "2026-11-20T09:49:29Z",
+   "weight": 1
+  },
+  {
+   "id": "2f3f65d9f839",
+   "region": "global",
+   "topics": [
+    "general"
+   ],
+   "title": "Ubisoft Creates Generative AI Game Studio Called Motherbrain",
+   "titleJa": "Ubisoftが生成AIゲームスタジオ「Motherbrain」を設立",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "IGN",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUzc2YVJVbWlXeFdxR2NSNTdObVlneTh5aGtVcjVnYjhteGVyRGRCTE1nLXU0aE5PWGR0NllJWkpkWWZtVFFrR0Y1MmNRUDRIUXprMl9ubllJN09wQ2Q3QTg3b3dOdUI3eklVb195WktFb0NsX3FqSFIxUVpRbmV1YjEweHJVaGx0cXZ4WEQxdDJJNW9pVG1EaXkxM29SVlJDMHZaVXZzalhxOXpDaUUtQjhlUVdIbVVwQzU0?oc=5",
+   "image": "",
+   "published": "2026-11-20T09:40:25Z",
+   "weight": 1
+  },
+  {
+   "id": "555b14bddbca",
+   "region": "japan",
+   "topics": [
+    "products"
+   ],
+   "title": "ASRock、32GB GDDR6搭載のワークステーション向けグラボ発売 価格は28万9800円",
+   "titleJa": "ASRock、32GB GDDR6搭載のワークステーション向けグラボ発売 価格は28万9800円",
+   "summary": "ASRockは、ワークステーション向け「Intel Arc Pro B65 Creator 32GB」を11月27日から順次発売。32GB GDDR6メモリーを搭載し、AI処理やレンダリング用途を想定する。2スロット設計にブロワー冷却とベイパーチャンバーを採用。価格は28万9800円、保証は2年間。",
+   "summaryJa": "ASRockは、ワークステーション向け「Intel Arc Pro B65 Creator 32GB」を11月27日から順次発売。32GB GDDR6メモリーを搭載し、AI処理やレンダリング用途を想定する。2スロット設計にブロワー冷却とベイパーチャンバーを採用。価格は28万9800円、保証は2年間。",
+   "lang": "ja",
+   "source": "ASCII.jp",
+   "url": "https://ascii.jp/elem/000/004/453/4453714/?rss",
+   "image": "",
+   "published": "2026-11-20T09:30:00Z",
+   "weight": 1
+  },
+  {
+   "id": "72fdefbd8317",
+   "region": "japan",
+   "topics": [
+    "research"
+   ],
+   "title": "東北大学に学ぶDXの次の一手…AIで「業務特化型AX」を実装する挑戦",
+   "titleJa": "東北大学に学ぶDXの次の一手…AIで「業務特化型AX」を実装する挑戦",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "ja",
+   "source": "リセマム",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1INTBxMFRkWWVMeTNleUYwNWdiazlTUnNqX2hPaWN4OHk3cXo0a2Z3bXkxdU96MWsxbVVJc2ducS1zUDlfYTlPeWFxWlQzOVNkZ2N0U0RlbEdUV3hYdF9TNS1MaUVtUQ?oc=5",
+   "image": "",
+   "published": "2026-11-20T09:15:02Z",
+   "weight": 1
+  },
+  {
+   "id": "24d9d81e3cd3",
+   "region": "japan",
+   "topics": [
+    "products"
+   ],
+   "title": "株式会社Co-Labo AI、生成AIに会社の言葉を教える「オントロジー」の製造業向け解説を公開",
+   "titleJa": "株式会社Co-Labo AI、生成AIに会社の言葉を教える「オントロジー」の製造業向け解説を公開",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "ja",
+   "source": "ASCII.jp",
+   "url": "https://ascii.jp/elem/000/004/453/4453799/?rss",
+   "image": "",
+   "published": "2026-11-20T09:10:00Z",
+   "weight": 1
+  },
+  {
+   "id": "da94457e514f",
+   "region": "global",
+   "topics": [
+    "media"
+   ],
+   "title": "Before you commission AI video, ask these six questions",
+   "titleJa": "AIビデオを依頼する前に、次の6つの質問をしてください",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "PR Moment",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVXRTbVcxcFlHanJoQ1RuMnNETlpUckc4M2paNEoxUTB5VGlIQmc5bklQUGlxemxDWE9KLXBSUHNUZm1lWGxvRnhGOWRHT2lXSzZjUDRkdVZrQXdMLVZqUlh4dUR6UzVUSUNPZmoyTUhDbk55ZGpYckFnYlNKVDgtQ1daM1JIQ2JnclRpX2JhR0g?oc=5",
+   "image": "",
+   "published": "2026-11-20T09:09:00Z",
+   "weight": 1
+  },
+  {
+   "id": "ec05dfe2dfcd",
+   "region": "japan",
+   "topics": [
+    "products"
+   ],
+   "title": "株式会社Rabbitly、株式会社Smile IP Consultingが2026年11月16日に公開した、AI時代の知財基盤『SINGULON』のシステム開発を担当！",
+   "titleJa": "株式会社Rabbitly、株式会社Smile IP Consultingが2026年11月16日に公開した、AI時代の知財基盤『SINGULON』のシステム開発を担当！",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "ja",
+   "source": "ASCII.jp",
+   "url": "https://ascii.jp/elem/000/004/453/4453792/?rss",
+   "image": "",
+   "published": "2026-11-20T09:06:23Z",
+   "weight": 1
+  },
+  {
+   "id": "57531a47514e",
+   "region": "global",
+   "topics": [
+    "general"
+   ],
+   "title": "Survey Finds High Generative AI Adoption but Rare Formal Training in Medical College",
+   "titleJa": "調査によると、生成AIの導入率は高いものの、医科大学での正式なトレーニングはまれであることが判明",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "Bioengineer.org",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOd2lxR1FCcmNZbDFEclJFR1E2WFNzMGZBTmdHOWdhekZLQW9EMWFRVi1RVVViaHB0S3RDdVhFYTVWbXYxQVlVX0pLb01FaFc5TGdpb3JnOWRFTF9vempRaEx0NmVWSFBaVnh3NHBtUUw3MDAwVHlxUmhPZFlxbEg2MXFjUF9XTkQzRkxRTnA2azVqbWR2YXpRcVR1ZWZTcTlDOXprV29ILWhoNHFoQ3c?oc=5",
+   "image": "",
+   "published": "2026-11-20T09:01:22Z",
+   "weight": 1
+  },
+  {
+   "id": "7a6e465651a6",
+   "region": "japan",
+   "topics": [
+    "general"
+   ],
+   "title": "背面ディスプレイで自撮りもゲームもできるスマホ 試して分かった、生成AIでミニアプリまで作れる『Xiaomi 18 Pro』の楽しさ",
+   "titleJa": "背面ディスプレイで自撮りもゲームもできるスマホ 試して分かった、生成AIでミニアプリまで作れる『Xiaomi 18 Pro』の楽しさ",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "ja",
+   "source": "Yahoo!ニュース",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1rMUp5MUl2dFQ1OXU0V05TYzlteEVFOElSNFprdGlLTGhFN0hrLWJwZmhPYnlrTlgtNkwtcHVucGpBQndXcFZiX1JBQXR6SG1OQk5XUHltTDFxOFdORWtCblJGVE02WUMxU0wwS3NUSkc2Q0lnOWY3b09kdGZwM1E?oc=5",
+   "image": "",
+   "published": "2026-11-20T09:01:11Z",
+   "weight": 1
+  },
+  {
+   "id": "1e4d2f7614fa",
+   "region": "japan",
+   "topics": [
+    "agents",
+    "products"
+   ],
+   "title": "会話の内容の文字起こしやAIエージェントでのタスク割り当てができる、Mac版とWindows版の「Vocciデスクトップアプリ」を公開",
+   "titleJa": "会話の内容の文字起こしやAIエージェントでのタスク割り当てができる、Mac版とWindows版の「Vocciデスクトップアプリ」を公開",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "ja",
+   "source": "ASCII.jp",
+   "url": "https://ascii.jp/elem/000/004/453/4453804/?rss",
+   "image": "",
+   "published": "2026-11-20T09:00:00Z",
+   "weight": 1
+  },
+  {
+   "id": "f70b76a35dcf",
+   "region": "japan",
+   "topics": [
+    "general"
+   ],
+   "title": "共同通信社、生成AIによる英文記事執筆支援システムを本格導入 NLPeanutsと開発",
+   "titleJa": "共同通信社、生成AIによる英文記事執筆支援システムを本格導入 NLPeanutsと開発",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "ja",
+   "source": "au Webポータル",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBoM002b0h6M254NzZBOHFCT0xSZ2RqdkNndXhveGNzRFNOaHB5WU13bW1oZjl6ejJIZU5WeUNpMUJzT0RrRzFxMk42S20wek1vOTJzRTBldVJJaHY4RTU2MWFVdTBFbmlwYkpEdVVn?oc=5",
+   "image": "",
+   "published": "2026-11-20T08:50:05Z",
+   "weight": 1
+  },
+  {
+   "id": "be2f2445b6e8",
+   "region": "global",
+   "topics": [
+    "products"
+   ],
+   "title": "Dentsu Soken Adds Generative AI to STRAVIS Consolidation Accounting; Management AI That Traces Back to Source Data to Launch in January 2027",
+   "titleJa": "電通総研、STRAVIS連結会計に生成AIを搭載。ソースデータまで遡る管理AIを2027年1月にリリース",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "BigGo Finance",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5aX1RaSDZUVHF0dVd2a250SUFaN0c2anhSMVRZb09CMVVPY0tjMXJLWFBVT2czY21sTWNXY0VKekJJekVyU3FLQzRPSmhXNGFTOURiOGkxb2F5SzN4S3BlbnRlU0E2UDlOVDMtQWE5VjBtN3RWU3c?oc=5",
+   "image": "",
+   "published": "2026-11-20T08:26:00Z",
+   "weight": 1
+  },
+  {
+   "id": "d7e4518db79e",
+   "region": "japan",
+   "topics": [
+    "general"
+   ],
+   "title": "電通総研、連結会計「STRAVIS」に生成AI 根拠を遡れる経営管理AIは27年1月投入",
+   "titleJa": "電通総研、連結会計「STRAVIS」に生成AI 根拠を遡れる経営管理AIは27年1月投入",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "ja",
+   "source": "BigGo ファイナンス",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE51d2ZycHdBZGxMOEgtLXdwT1l3V3FHcUxOZ0lsekRwQ1RZLVZUUDFUeDNkN2FteFEyR2M5dFpwVzBtX05XbzROYk1VVHpiaFVRSW5uczVHUGpGTXRrU2JaZUU3RlN3d3hTSWprVGt3LW4tNTZ4?oc=5",
+   "image": "",
+   "published": "2026-11-20T08:26:00Z",
+   "weight": 1
+  },
+  {
+   "id": "50e11f2aa77e",
+   "region": "japan",
+   "topics": [
+    "general"
+   ],
+   "title": "AIが脆弱性を探し、ランサムウェア構築を支援 5つのAI悪用手口と対策リスト：もう一度読みたい「対策見直し」ニュース",
+   "titleJa": "AIが脆弱性を探し、ランサムウェア構築を支援 5つのAI悪用手口と対策リスト：もう一度読みたい「対策見直し」ニュース",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "ja",
+   "source": "ITmedia",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE4tQmRicG1lSld2endxaEdjODI2cDhuUXFUTWVLZzR5dmdTS211RzdERGY1bE4wMmtGNU1SVXU0MldGY0RtLWRqWkJZRGFJcnY0MTU4MVdZZVptMlk0TFZiNS1CdWp4TW1acGw3U0ZFSjlzdw?oc=5",
+   "image": "",
+   "published": "2026-11-20T08:15:00Z",
+   "weight": 1
+  },
+  {
+   "id": "ba310f5a6f5b",
+   "region": "japan",
+   "topics": [
+    "agents",
+    "products"
+   ],
+   "title": "「Codexを用いてChatGPTの高速性を維持する方法」をOpenAIが解説、AIエージェントで工場システムを構築して自律的に改善作業を進める",
+   "titleJa": "「Codexを用いてChatGPTの高速性を維持する方法」をOpenAIが解説、AIエージェントで工場システムを構築して自律的に改善作業を進める",
+   "summary": "OpenAIはChatGPTなどの自社製品の開発にCodexを活用しています。新たに「Codexを用いてChatGPTの高速性を維持する方法」という解説記事が公開されました。",
+   "summaryJa": "OpenAIはChatGPTなどの自社製品の開発にCodexを活用しています。新たに「Codexを用いてChatGPTの高速性を維持する方法」という解説記事が公開されました。",
+   "lang": "ja",
+   "source": "GIGAZINE",
+   "url": "https://gigazine.net/news/20261120-openai-chatgpt-performance-factory/",
+   "image": "",
+   "published": "2026-11-20T08:09:00Z",
+   "weight": 1
+  },
+  {
+   "id": "63ef43908a28",
+   "region": "global",
+   "topics": [
+    "general"
+   ],
+   "title": "Snowflake opens public preview of AI model for classifying and scoring data",
+   "titleJa": "Snowflake、データの分類とスコアリングを行うAIモデルのパブリックプレビューを開始",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "Superpower Daily",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQXy11WEwyQTR4dkNiejlTQ0x4U0dZdnJSZVM3ZlBSNkRIQWV4UjRIWlhBY0hCT3V2MG5WcG8tdEFQREhEQnlhekhNSzh1bjhnOHIydnM5MW1zdDBrendteXJBNlN0VWFwZ2VlbEZDb1FYSGhPRnpScllKTzJVRjhsX21UZzBueTByLURZVTRDX28tUTBKaURIMlBXV2VHazNmMjBjTHFGZnJKbTQzREE?oc=5",
+   "image": "",
+   "published": "2026-11-20T08:02:38Z",
+   "weight": 1
+  },
+  {
+   "id": "77a709079136",
+   "region": "japan",
+   "topics": [
+    "general"
+   ],
+   "title": "日経平均7カ月ぶり安値、AI一極集中の大幅修正と明暗",
+   "titleJa": "日経平均7カ月ぶり安値、AI一極集中の大幅修正と明暗",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "ja",
+   "source": "トウシル",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE80MFpuQTQ4ZFhhN1ZLSU14d1I1dnhiVUFYQ0owcFVRVEtYZjN1NEMyUFF4dnRqSFMwSHdURkpTX2RYMTBVV3NzdEpLUW1WQ18td2tuRUlVemIyUQ?oc=5",
+   "image": "",
+   "published": "2026-11-20T08:00:00Z",
+   "weight": 1
+  },
+  {
+   "id": "c7df7afc6ea0",
+   "region": "japan",
+   "topics": [
+    "agents"
+   ],
+   "title": "AIで動画編集、記事·音声配信まで自動化。Mac miniで実現する業務改善。LandBridgeのMac導入事例②",
+   "titleJa": "AIで動画編集、記事·音声配信まで自動化。Mac miniで実現する業務改善。LandBridgeのMac導入事例②",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "ja",
+   "source": "マイナビニュース",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBfTjJJazc5LUJ2WWkyTW9PVDJpMHdtbUJSZEFWTjdKcVE1U0lrWndvTkFqSkdDRm53ZXQyanJNTW1BMEhLR29UWHU4Q2NReE5BSVAyeTVhYmRUaTFlMldYNHJFSURoZ091?oc=5",
+   "image": "",
+   "published": "2026-11-20T08:00:00Z",
+   "weight": 1
+  },
+  {
+   "id": "3f8539bf1522",
+   "region": "japan",
+   "topics": [
+    "agents",
+    "products"
+   ],
+   "title": "「Muse」専用メアド、無料で作成可能に AIが送受信を代理",
+   "titleJa": "「Muse」専用メアド、無料で作成可能に AIが送受信を代理",
+   "summary": "米Metaは、AIエージェント「Muse」専用のメールアドレスについて、無料ユーザーを含む全ユーザーが取得できるようになったと発表した。",
+   "summaryJa": "米Metaは、AIエージェント「Muse」専用のメールアドレスについて、無料ユーザーを含む全ユーザーが取得できるようになったと発表した。",
+   "lang": "ja",
+   "source": "ITmedia AI+",
+   "url": "https://www.itmedia.co.jp/aiplus/article/2611/20/2000003372/",
+   "image": "",
+   "published": "2026-11-20T07:52:48Z",
+   "weight": 2
+  },
+  {
+   "id": "70778f3fb8d4",
+   "region": "japan",
+   "topics": [
+    "general"
+   ],
+   "title": "「生成AI普及で今後の仕事に不安」8割超 住友生命の全国調査",
+   "titleJa": "「生成AI普及で今後の仕事に不安」8割超 住友生命の全国調査",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "ja",
+   "source": "日本経済新聞",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB0U04tdndlbkplbkpxc3RQUDBSb0IzOGdfclBLeDZWWGZqLVROWmNQSU53dTQ3QTNsYmJtR3pTbmVmTFlOY00wb2FBNHU1Ym82bC1WYkVQNlowR2pCZkJzVGs4TmF5WUJHemNYcA?oc=5",
+   "image": "",
+   "published": "2026-11-20T07:40:00Z",
+   "weight": 1
+  },
+  {
+   "id": "bd2449c1e9bf",
+   "region": "japan",
+   "topics": [
+    "agents",
+    "research",
+    "business",
+    "products"
+   ],
+   "title": "Hermes Agentの開発企業がMicrosoftと提携して企業向けAIエージェント「Hermes Enterprise」を発表、Teamsから仕事を依頼可能に",
+   "titleJa": "Hermes Agentの開発企業がMicrosoftと提携して企業向けAIエージェント「Hermes Enterprise」を発表、Teamsから仕事を依頼可能に",
+   "summary": "オープンソースのAIエージェント「Hermes Agent」を開発するNous Researchが2026年11月18日にMicrosoftとの提携を発表し、企業向け製品「Hermes Enterprise」を公開しました。Hermes EnterpriseはMicrosoft TeamsからAIに業務を依頼できるほか、AIが覚えた作業手順を社内で共有する機能を備えています。",
+   "summaryJa": "オープンソースのAIエージェント「Hermes Agent」を開発するNous Researchが2026年11月18日にMicrosoftとの提携を発表し、企業向け製品「Hermes Enterprise」を公開しました。Hermes EnterpriseはMicrosoft TeamsからAIに業務を依頼できるほか、AIが覚えた作業手順を社内で共有する機能を備えています。",
+   "lang": "ja",
+   "source": "GIGAZINE",
+   "url": "https://gigazine.net/news/20261120-nous-research-microsoft-hermes-enterprise/",
+   "image": "",
+   "published": "2026-11-20T07:35:00Z",
+   "weight": 1
+  },
+  {
+   "id": "710dd543375a",
+   "region": "japan",
+   "topics": [
+    "products"
+   ],
+   "title": "フォーティエンス、「AIガバナンス診断サービス」提供開始。AIリスクを管理・改善する自走体制の構築を支援",
+   "titleJa": "フォーティエンス、「AIガバナンス診断サービス」提供開始。AIリスクを管理・改善する自走体制の構築を支援",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "ja",
+   "source": "AIsmiley",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9BZXdqMUIxbnlvTlpWN3lxRUV3Snpma00tcFdkTlJMN1RnSXh6X2FLZ19jejZIUzZDSXVlcF8zTFBfLWxQb3IwNWRsUURqb2lkYjUxYXR1RVYwX2Y4VWc4bFpjSlFRZDNVUGdSalY2M3U?oc=5",
+   "image": "",
+   "published": "2026-11-20T07:34:19Z",
+   "weight": 1
+  },
+  {
+   "id": "5898ec621b9d",
+   "region": "japan",
+   "topics": [
+    "policy"
+   ],
+   "title": "朝日工業社、AIで安全手順書の作成時間9割削減",
+   "titleJa": "朝日工業社、AIで安全手順書の作成時間9割削減",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "ja",
+   "source": "建設通信新聞Digital",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4zQlRscURNYW1VREszVENxUEwzU3NYR0JiZjY2QWhxOVRCOUZiczUzSkMzOG83NjFNeWt1Y3M5eUptRUVjdllEWmkyV3pXOWJKUk9jSWxB?oc=5",
+   "image": "",
+   "published": "2026-11-20T07:31:54Z",
+   "weight": 1
+  },
+  {
+   "id": "11212f6016b5",
+   "region": "japan",
+   "topics": [
+    "general"
+   ],
+   "title": "ソースネクスト、オフラインAI字幕生成対応の動画編集ソフト発売",
+   "titleJa": "ソースネクスト、オフラインAI字幕生成対応の動画編集ソフト発売",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "ja",
+   "source": "株式会社インプレス",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5aaUNERHVxZzBFNzZzcUNRX2VHbmJ3NW1GU1VWYmxMYVRnVXdIY05yMUxjaUF1NFEzX1BiR0RTN0N4V0JLek5iZ0xwbGtoYWtqWUJudllLUTNnU3FrSk5qUmI0WQ?oc=5",
+   "image": "",
+   "published": "2026-11-20T07:24:51Z",
+   "weight": 1
+  },
+  {
+   "id": "e25b33140173",
+   "region": "japan",
+   "topics": [
+    "general"
+   ],
+   "title": "ダイセルが構造解析技術「結晶スポンジ法」を出展。「品質管理・検査の高度化」に関する注目の出展企業を紹介【イプロスAI-産業World 2026】",
+   "titleJa": "ダイセルが構造解析技術「結晶スポンジ法」を出展。「品質管理・検査の高度化」に関する注目の出展企業を紹介【イプロスAI-産業World 2026】",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "ja",
+   "source": "PR TIMES",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBqU0JKZXJUQkNYWVg5Q0lVUUg0OVM5Nm5oSTE0VGgzUUVmbE42dHBaSFBFUmRRX1BXR2k5c0Z4dl92SHJIQXlEWEg3WlZsdmNCeHRWZGpuX2c5b0hCUnNSckpfMlZLVmctSXc?oc=5",
+   "image": "",
+   "published": "2026-11-20T07:10:02Z",
+   "weight": 1
+  },
+  {
+   "id": "546a05dc7747",
+   "region": "japan",
+   "topics": [
+    "general"
+   ],
+   "title": "Ubisoftが「記憶を持ったNPC」や「AIゲームマスター」を開発する生成AIゲームスタジオ「Motherbrain」を設立",
+   "titleJa": "Ubisoftが「記憶を持ったNPC」や「AIゲームマスター」を開発する生成AIゲームスタジオ「Motherbrain」を設立",
+   "summary": "アサシンクリードシリーズやレインボーシックスシリーズで知られるフランスに本社を置くゲーム会社・Ubisoftが、生成AIの実装に特化したゲームスタジオ「Motherbrain」を設立しました。",
+   "summaryJa": "アサシンクリードシリーズやレインボーシックスシリーズで知られるフランスに本社を置くゲーム会社・Ubisoftが、生成AIの実装に特化したゲームスタジオ「Motherbrain」を設立しました。",
+   "lang": "ja",
+   "source": "GIGAZINE",
+   "url": "https://gigazine.net/news/20261120-ubisoft-generative-ai-game-studio-motherbrain/",
+   "image": "",
+   "published": "2026-11-20T07:05:00Z",
+   "weight": 1
+  },
+  {
+   "id": "33a579c95f01",
+   "region": "global",
+   "topics": [
+    "business"
+   ],
+   "title": "This 16-Year-Old Founded an AI Missile Startup. He’s Targeting ‘Cost per Kill’",
+   "titleJa": "この16歳の少年は、AIミサイルスタートアップを創業しました。彼の目標は「キルあたりのコスト」",
+   "summary": "Henrijs Dandzbergs dropped out of high school to join startup accelerator Y Combinator. With a new breed of missile, he wants to make killing as efficient as possible for the US and its military allies.",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "WIRED",
+   "url": "https://www.wired.com/story/henrijs-dandzbergs-polemos-missiles-ai-warfare/",
+   "image": "https://media.wired.com/photos/6aff9b51715a3d6f512c8dee/master/pass/The-Boy-Who-Builds-Missiles-Business.jpg",
+   "published": "2026-11-20T07:00:00Z",
+   "weight": 2
+  },
+  {
+   "id": "1736c731812d",
+   "region": "japan",
+   "topics": [
+    "policy"
+   ],
+   "title": "米小売大手、子ども向けAI玩具の販売中止 安全性懸念で",
+   "titleJa": "米小売大手、子ども向けAI玩具の販売中止 安全性懸念で",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "ja",
+   "source": "디지털투데이",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWUsydHdfd09VUXZlMDVfYnBZeW40LWJXWG5OZDBHX1RjaC0wSnVqdVNFTXc1ME9sNTR4dmItSlV0MGliN2JDR2x5MVM3aVBfd0ZReDEzaDQxMmgyb3RNTXRtNUg5MXJ1UTZuTE1IR2N6NkVoREpLSWNtWnIwNjd2LVhQQS1wTUxnV2JZWUlfZ09jSVJOWk91MmNSRl9DTVNqekU4?oc=5",
+   "image": "",
+   "published": "2026-11-20T07:00:00Z",
+   "weight": 1
+  },
+  {
+   "id": "af21e15fd28b",
+   "region": "global",
+   "topics": [
+    "general"
+   ],
+   "title": "Novel AI model can reliably detect crop stress with less computing power",
+   "titleJa": "画期的なAIモデルが、より少ない計算能力で作物ストレスを確実に検出",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "The Pennsylvania State University",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTlJ5OWF6VWRXZVJOZF85cDV2VWRmY2RTTjVUMzVWR3F0VHJBUlZLbWhoX3ZnUTJSSG9mTWtZVVhNVzV2R0VDTHBqRU9VYjdud0ZzbEVVR3JDT0I3NTBlN2k1NEhWdFBhUEFFSHQwWG92TllHS0NqaXlOR3ZmWnB5R3VZZjJ0R21DVjE4dUd4LTRqbVRWNnZIb2FibFcyeTRjYUVjcXZBcHI3cTA?oc=5",
+   "image": "",
+   "published": "2026-11-20T06:57:37Z",
+   "weight": 1
+  },
+  {
+   "id": "2ad339352590",
+   "region": "japan",
+   "topics": [
+    "products"
+   ],
+   "title": "アンソロピック上場、時価総額1.27兆ドル 「AIによるリスクは避けられる」",
+   "titleJa": "アンソロピック上場、時価総額1.27兆ドル 「AIによるリスクは避けられる」",
+   "summary": "Anthropicは19日(米国時間)、米国NASDAQ市場に上場した。ティッカーシンボル(銘柄コード)は「ANT」。終値は97.17ドルと公開価格の83ドルを上回り、時価総額は1.27兆ドルとなった。",
+   "summaryJa": "Anthropicは19日(米国時間)、米国NASDAQ市場に上場した。ティッカーシンボル(銘柄コード)は「ANT」。終値は97.17ドルと公開価格の83ドルを上回り、時価総額は1.27兆ドルとなった。",
+   "lang": "ja",
+   "source": "Impress Watch",
+   "url": "https://www.watch.impress.co.jp/docs/news/2158232.html",
+   "image": "",
+   "published": "2026-11-20T06:47:11Z",
+   "weight": 1
+  },
+  {
+   "id": "42c1160e2250",
+   "region": "global",
+   "topics": [
+    "general"
+   ],
+   "title": "Generative AI in High-Dimensional Biology Remains Insufficiently Validated in Small-Sample Studies",
+   "titleJa": "",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "Bioengineer.org",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPMHJwWVJTYUttanN0ZThGd3dmdnlKTmlhcGlqSDk0bWFQckpHdWtBN2lYLXpyN1JpaG1mNWs5VGFRenVCQWE3ekJfSXQzUEVsQW4wU2o0VXpqRzhxeDR5cXd4RmxyYVMwOUt6Y29NSnIxdmMzY19FTkVqNWFCMjN6dGtOUnR4cDJJRzk5YmNxMm5SamU3Z3JmUlhMVjNPdU9IdVBnTHJpZ3pPak5DV1RpbUhyWUM4YmN4RW9YN0JiaE8?oc=5",
+   "image": "",
+   "published": "2026-11-20T06:31:06Z",
+   "weight": 1
+  },
+  {
+   "id": "44d44a138758",
+   "region": "japan",
+   "topics": [
+    "products"
+   ],
+   "title": "Appleの会話要約AI「Siri Recap」を2週間使った結果「自分が救急搬送された」という架空の記録が生成される",
+   "titleJa": "Appleの会話要約AI「Siri Recap」を2週間使った結果「自分が救急搬送された」という架空の記録が生成される",
+   "summary": "IT系ニュースサイトのThe VergeがApple Watchで周囲の会話を自動的に要約する新機能「Siri Recap」を2週間にわたって試した体験談を公開しました。",
+   "summaryJa": "IT系ニュースサイトのThe VergeがApple Watchで周囲の会話を自動的に要約する新機能「Siri Recap」を2週間にわたって試した体験談を公開しました。",
+   "lang": "ja",
+   "source": "GIGAZINE",
+   "url": "https://gigazine.net/news/20261120-siri-recap-hands-on/",
+   "image": "",
+   "published": "2026-11-20T06:10:00Z",
+   "weight": 1
+  },
+  {
+   "id": "070bcf2c4897",
+   "region": "japan",
+   "topics": [
+    "models",
+    "agents",
+    "products"
+   ],
+   "title": "Gemini API、必要なツールのみを取得可能に トークン消費を削減",
+   "titleJa": "Gemini API、必要なツールのみを取得可能に トークン消費を削減",
+   "summary": "Googleは19日(米国時間)、Gemini APIのInteractions APIで、AIエージェントが必要なツールのみを取得する新機能「Tool Retrieval」のプレビュー提供を開始した。入力トークン数の削減とツール選択精度の維持を図る。対応モデルはGemini 3.6以降。",
+   "summaryJa": "Googleは19日(米国時間)、Gemini APIのInteractions APIで、AIエージェントが必要なツールのみを取得する新機能「Tool Retrieval」のプレビュー提供を開始した。入力トークン数の削減とツール選択精度の維持を図る。対応モデルはGemini 3.6以降。",
+   "lang": "ja",
+   "source": "Impress Watch",
+   "url": "https://www.watch.impress.co.jp/docs/news/2158217.html",
+   "image": "",
+   "published": "2026-11-20T06:08:53Z",
+   "weight": 1
+  },
+  {
+   "id": "9216591502d6",
+   "region": "global",
+   "topics": [
+    "media",
+    "business"
+   ],
+   "title": "How Is icetana (ASX:ICE) Growing Its AI Video Analytics Recurring Revenue?",
+   "titleJa": "",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "Kalkine",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOb1dZRVlFTENwdjdoSGhGMWlmOGlWUk1KNFprZVFDT1lGcy1rSEY3SGt0dWdvMF85OWFMRzQ1V181VUFIZThNaTEyeVlDLUhVbVBBdXBhX0gwRHJmWkl0VmlTcExqSHpWaW00Ym5DdzFBWGFPZlM5dTE5SjJLeW1HWHNweURVaTVWYzczUU45UVFfT3pzYnNLbjJFb1dfUkhQOEJMWWlzck5XT3V6RGVwNTk3Ymtzb1FlV1VZ?oc=5",
+   "image": "",
+   "published": "2026-11-20T06:04:00Z",
+   "weight": 1
+  },
+  {
+   "id": "21076ef66a27",
+   "region": "global",
+   "topics": [
+    "general"
+   ],
+   "title": "Almost 80% Of Shoppers Use Generative AI Assistants",
+   "titleJa": "",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "Retail News Asia",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9yWHJ0ckpleEZrYThMYjlQdGJoTDVua3QwbkFmYzBIZHR0TGFMSTVyeEw5YjVCQzhNVlJhbUY3VkJkOE94NnhMejU3N095QXVKOUJKQW54QUd5dlhRZnU0eTdMNzVjOTdDYjJnd2wydVNOTGp5ZzRFLXdtZUNoeGs?oc=5",
+   "image": "",
+   "published": "2026-11-20T05:47:44Z",
+   "weight": 1
+  },
+  {
+   "id": "dd2978ef213d",
+   "region": "japan",
+   "topics": [
+    "hardware"
+   ],
+   "title": "韓国、賃貸型AIデータセンターも支援へ 地方は電力網評価免除",
+   "titleJa": "韓国、賃貸型AIデータセンターも支援へ 地方は電力網評価免除",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "ja",
+   "source": "Chosunbiz",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5ESnZUemRONmVKZC1XMU5ERmtCYlY3WUtRXzB0RklWZXp1Y1lGb0hBMHZzQ1ZhbGJrSEFLVTZrdS03aFZnVlA0eGxrRTg0MlZIQnExb3ZXNzJvZmw4UkJNNUxUNXJWVXZEbEN3Z19ORmtfMTc2c2FtcWN30gGOAUFVX3lxTE5yRDlyalNleURSeXE0cTh3MHM2akUtSkZ3cDlFeWltMWRzU0l4cmNXWUhEajdrU0ZMWTI1VWFuSEExellaSWtRcDVjV21iMDRqeHBXMU1lSEtDNTVwRFhuQ05hTFhTTldyME9nbV9xSjgwZGtGOUg2dndWWS1KdUdGR1luSEtYaks5OTlYTnc?oc=5",
+   "image": "",
+   "published": "2026-11-20T05:47:00Z",
+   "weight": 1
+  },
+  {
+   "id": "8c978e4985e8",
+   "region": "japan",
+   "topics": [
+    "research"
+   ],
+   "title": "【DX推進・高大連携】敬愛大学 髙橋教授・南教授による生成AI特別出張講義を実施しました！",
+   "titleJa": "【DX推進・高大連携】敬愛大学 髙橋教授・南教授による生成AI特別出張講義を実施しました！",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "ja",
+   "source": "市立船橋高等学校",
+   "url": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxQUTBLV1l4bjRVTnlIRFlGTFB1dnVtQmhCVTY0Wml4WldPdkxWME9XS3hrMjVGQXItU3FDQXFrdHZRNUhOci1sUjNWd3JGaXFSbFR4aUU4LS1oZlVQWnhiZzU5RkplRHI4NWZ5LWFOZS1EeU8xTkt0LVhNOUZWVjhOQ0pHaFp1QmljbFpoY0t5aVdIc0s0Zk50SXVCbGE3cE1paUNCU21XV0xNeXFYTEhwd3hvRkNlN3hISEVIM2RNZ2tBYVdOZWxtM0hmMXhYRFhHVUVwV0s3a1BmMUgtMEI3SnBYbFp0aWliZDZvOXdHWUlDZXd1QmRlSWdvYTAzZjU4RndmeGNrMUY4dTZ1ZlJxYWNBbXhqdWpfMnpoRGxqVGk2dWRwYl9vbl9BWk1uaWtNWWYySVlNU0g5aG53TU5Cd0pxYkd6X250U2JEREZjMlM?oc=5",
+   "image": "",
+   "published": "2026-11-20T05:42:29Z",
+   "weight": 1
+  },
+  {
+   "id": "d8293e07f6c7",
+   "region": "global",
+   "topics": [
+    "general"
+   ],
+   "title": "AWS Builds Generative AI Search for South Korea's Mirae Asset Securities, Expanding to Customer Service Next Year",
+   "titleJa": "",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "BigGo Finance",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBnZC1OZ0FHQkNjX0JXaThIT3dlTWNtcnE1LVg4MlJpaG1XVzFQc0YzWU5DRjNBdG55TmIyY0lqb3F2OEFzV1pWQWhjZ2oyQnNuakdaaXBjQXJxWDV2R0RJM0VfbnJiWkNyNnY0aEsyd2l4Uk5jbkE?oc=5",
+   "image": "",
+   "published": "2026-11-20T05:35:00Z",
+   "weight": 1
+  },
+  {
+   "id": "7f699ce94c2f",
+   "region": "japan",
+   "topics": [
+    "general"
+   ],
+   "title": "韓国Mirae Asset Securities、AWSの生成AI検索を導入…来年は顧客サービスへ拡大",
+   "titleJa": "韓国Mirae Asset Securities、AWSの生成AI検索を導入…来年は顧客サービスへ拡大",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "ja",
+   "source": "BigGo ファイナンス",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE82ME9TUk0yMVQxblRCcGhMTEQyR0VqVjhkOUpURHRyRGpCY0ZZRGZkb04wRkx3QUhKR3ZFVmhweHVNV1EwU1JxU2czd0xlVkZuQmxseGF4azB3VmRuVUhhZlZicURXSDR2YXFfZEc5NGN1Unhz?oc=5",
+   "image": "",
+   "published": "2026-11-20T05:35:00Z",
+   "weight": 1
+  },
+  {
+   "id": "dc8d919dcf9c",
+   "region": "japan",
+   "topics": [
+    "general"
+   ],
+   "title": "中小企業での生成AI活用、導入の壁は費用やリスクより「使い道」【エフアンドエム調べ】（Web担当者Forum）",
+   "titleJa": "中小企業での生成AI活用、導入の壁は費用やリスクより「使い道」【エフアンドエム調べ】（Web担当者Forum）",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "ja",
+   "source": "Yahoo!ニュース",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1OMWlrbTZpOGxoY1ZCNXdVVjhGUzhBM1M1NzBTX0k4cUMxQnF0d1Znd3ZKVFhIdWZYUm9hLVJBWGRIdGRlZk5kS3YxSlAzdnFicVp5NDlTQ21tWTRTUUNvNDk3LVdjQ2dHbFZzclRsYVktT1BlLTFQaDFpdnZoVW8?oc=5",
+   "image": "",
+   "published": "2026-11-20T05:34:09Z",
+   "weight": 1
+  },
+  {
+   "id": "d5ce3996a438",
+   "region": "japan",
+   "topics": [
+    "products"
+   ],
+   "title": "欧州委員会がAIを用いたサイバー攻撃の標的になったことを発表",
+   "titleJa": "欧州委員会がAIを用いたサイバー攻撃の標的になったことを発表",
+   "summary": "EUの行政執行機関である欧州委員会(EC)が、AIツールを使用したサイバー攻撃の標的になったことを、2026年11月19日に認めました。ECの報道官は「調査は進行中で、事件の規模を判断するのは難しい」と会見で述べています。",
+   "summaryJa": "EUの行政執行機関である欧州委員会(EC)が、AIツールを使用したサイバー攻撃の標的になったことを、2026年11月19日に認めました。ECの報道官は「調査は進行中で、事件の規模を判断するのは難しい」と会見で述べています。",
+   "lang": "ja",
+   "source": "GIGAZINE",
+   "url": "https://gigazine.net/news/20261120-eu-commission-cyberattack/",
+   "image": "",
+   "published": "2026-11-20T05:30:00Z",
+   "weight": 1
+  },
+  {
+   "id": "ab920a6d1082",
+   "region": "japan",
+   "topics": [
+    "general"
+   ],
+   "title": "マスコミ倫理懇談会の分科会 生成AI時代の情報の質低下に懸念、過度な依存の見直しを訴え",
+   "titleJa": "マスコミ倫理懇談会の分科会 生成AI時代の情報の質低下に懸念、過度な依存の見直しを訴え",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "ja",
+   "source": "佐賀新聞",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9QN0tGNVFkazhZa21hWkkwTkhZelloZjVQU0RVUVQ3TG1nNU1abm1TQ2VDRm5ET0toajAzZDhKVzBibkluX1NKVVE1dExYSUdSTWdKTnp3?oc=5",
+   "image": "",
+   "published": "2026-11-20T05:30:00Z",
+   "weight": 1
+  },
+  {
+   "id": "b5b0c0dfc2bf",
+   "region": "japan",
+   "topics": [
+    "general"
+   ],
+   "title": "生成AI導入の「成果が出ない」どう解決？ CDataが「Connect AI Gateway」ローンチイベントを12月3日開催",
+   "titleJa": "生成AI導入の「成果が出ない」どう解決？ CDataが「Connect AI Gateway」ローンチイベントを12月3日開催",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "ja",
+   "source": "ASCII.jp",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE91WmlkMG5JdWJUMDdpUkJiaUNkMUtlUTlpS01uTHhrTVdENGNNZXFQeWotTUZ5OGJCNVFvSy1OYXF6MlZxbmhNRDRGcGJVcUZWYjlpWg?oc=5",
+   "image": "",
+   "published": "2026-11-20T05:30:00Z",
+   "weight": 1
+  },
+  {
+   "id": "d5ca6b60f342",
+   "region": "japan",
+   "topics": [
+    "policy"
+   ],
+   "title": "米上院、エネルギー許認可迅速化法案を可決 AI電力需要増に対応、下院審議へ",
+   "titleJa": "米上院、エネルギー許認可迅速化法案を可決 AI電力需要増に対応、下院審議へ",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "ja",
+   "source": "BigGo ファイナンス",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9Dd3FNNVU4RVRnZEFQajhKWGh2OWl2TTdvR1JFSDhVV1lJeWZmZHdjdE92d01tVW9IVFJwNzZ5OTRyTFFtaG4tRmVveWhSSXNfd0ZQN3V1NHhXMFduUVRNaDVKck5pay0wZW81RnVTNzYxVVN2?oc=5",
+   "image": "",
+   "published": "2026-11-20T05:25:00Z",
+   "weight": 1
+  },
+  {
+   "id": "ff6b143273fa",
+   "region": "global",
+   "topics": [
+    "general"
+   ],
+   "title": "Generative AI Disclosure Cannot Fully Capture Manuscript Provenance in Scholarly Publishing",
+   "titleJa": "",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "Bioengineer.org",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUjBKem5jaTlLUjhFWWVwT1YtWlJxVGJlYUVkbWJaUzNtel9hRk5FaTE4STVKSUxNZjRGWUFhS1d1eldfQm1sNHpQTjE5VjBfRU1FRnZkNnpnMnFLaXltWlVZRkN0c3NDVDB0bzFKTEpQRGRRaC00VWZZakFtRkk3WG1la3RUSEZSWGh4TnV3Sk5hYWlhY1Y1YzRsdjNIY0NpMlhFWWpfVDNZVzA3TWNGOUhfMnhUcTg?oc=5",
+   "image": "",
+   "published": "2026-11-20T05:06:05Z",
+   "weight": 1
+  },
+  {
+   "id": "f57b888a4866",
+   "region": "global",
+   "topics": [
+    "general"
+   ],
+   "title": "How Much RAM Do You Need To Run A Local AI Model?",
+   "titleJa": "",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "SlashGear",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNjZiczJ6R1VTMWhReDhUX1ZkeXY5MGt6M3dKMGJoNWVRZjVyelFLWkdxdGxLYzVVOEVUdGJTaHpHVDJrSjlXelRVTklJZGlmX2xWVkV2QXNYR2pWY1c4S0kxM3NfYzMxSDJrTWVVb2JMVHhmaWloLTVKN2Q5bUhfc0sxOTE?oc=5",
+   "image": "",
+   "published": "2026-11-20T04:45:00Z",
+   "weight": 1
+  },
+  {
+   "id": "66df183c915a",
+   "region": "japan",
+   "topics": [
+    "products"
+   ],
+   "title": "MetaのAIアシスタント搭載小型デバイス「Muse Charm」の価格は4万円台か",
+   "titleJa": "MetaのAIアシスタント搭載小型デバイス「Muse Charm」の価格は4万円台か",
+   "summary": "2026年12月のホリデーシーズンまでに発売されると予想されているMetaのAIアシスタント搭載小型デバイス「Muse Charm」が300ドル(約4万7700円)ほどになると、ニュースサイト・The Informationが報じました。Metaはこの数字を否定していません。",
+   "summaryJa": "2026年12月のホリデーシーズンまでに発売されると予想されているMetaのAIアシスタント搭載小型デバイス「Muse Charm」が300ドル(約4万7700円)ほどになると、ニュースサイト・The Informationが報じました。Metaはこの数字を否定していません。",
+   "lang": "ja",
+   "source": "GIGAZINE",
+   "url": "https://gigazine.net/news/20261120-muse-charm-may-cost-300-usd/",
+   "image": "",
+   "published": "2026-11-20T04:41:00Z",
+   "weight": 1
+  },
+  {
+   "id": "dc25530ad184",
+   "region": "japan",
+   "topics": [
+    "agents"
+   ],
+   "title": "Appleは独自のAIエージェントを開発するためにエンジニアを募集している",
+   "titleJa": "Appleは独自のAIエージェントを開発するためにエンジニアを募集している",
+   "summary": "Appleは「ウェブの閲覧」「複数のアプリをまたぐ作業」「コードの作成」「外部サービスの呼び出し」などをユーザーに代わって行うことができる独自のAIエージェントを開発するため、エンジニアを募集していることがBloombergが確認したAppleの求人情報から明らかになっています。",
+   "summaryJa": "Appleは「ウェブの閲覧」「複数のアプリをまたぐ作業」「コードの作成」「外部サービスの呼び出し」などをユーザーに代わって行うことができる独自のAIエージェントを開発するため、エンジニアを募集していることがBloombergが確認したAppleの求人情報から明らかになっています。",
+   "lang": "ja",
+   "source": "GIGAZINE",
+   "url": "https://gigazine.net/news/20261120-apple-hiring-engineers-build-ai-agent/",
+   "image": "",
+   "published": "2026-11-20T04:32:00Z",
+   "weight": 1
+  },
+  {
+   "id": "ce7973568c61",
+   "region": "japan",
+   "topics": [
+    "agents",
+    "products"
+   ],
+   "title": "Microsoft、AIによるサイバー攻撃にAIエージェントで対抗する新サービス「Microsoft Perception」提供開始",
+   "titleJa": "Microsoft、AIによるサイバー攻撃にAIエージェントで対抗する新サービス「Microsoft Perception」提供開始",
+   "summary": "米Microsoftは日本時間11月18日未明に開幕した年次イベント「Microsoft Ignite 2026」で、AIによるサイバー攻撃に対抗するためのAIエージェントによる新サービス「Microsoft Perception」の提供開始を発表しました。",
+   "summaryJa": "米Microsoftは日本時間11月18日未明に開幕した年次イベント「Microsoft Ignite 2026」で、AIによるサイバー攻撃に対抗するためのAIエージェントによる新サービス「Microsoft Perception」の提供開始を発表しました。",
+   "lang": "ja",
+   "source": "ITmedia AI+",
+   "url": "https://www.itmedia.co.jp/news/article/2611/20/2000003368/",
+   "image": "",
+   "published": "2026-11-20T04:29:35Z",
+   "weight": 2
+  },
+  {
+   "id": "d0bbdf3be681",
+   "region": "japan",
+   "topics": [
+    "media"
+   ],
+   "title": "生成AIツールの検索数、Soraはピーク比98%減 動画生成AI全体は約1.7倍",
+   "titleJa": "生成AIツールの検索数、Soraはピーク比98%減 動画生成AI全体は約1.7倍",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "ja",
+   "source": "Dellows News",
+   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE53cnhUVlhKYURWdW9MbjRGWGpkTnQzcWR3OEhoa1c3MUNuQ3ZyNTBsNHJ0c3J4RmttRlc3V01VZllwYW81Zk1B?oc=5",
+   "image": "",
+   "published": "2026-11-20T04:27:18Z",
+   "weight": 1
+  },
+  {
+   "id": "d3934999319e",
+   "region": "japan",
+   "topics": [
+    "general"
+   ],
+   "title": "デジタル・クライシス白書-2026年11月度-委託先から生成AIまで 自社の管理外で起きる「情報流出」への備え方",
+   "titleJa": "デジタル・クライシス白書-2026年11月度-委託先から生成AIまで 自社の管理外で起きる「情報流出」への備え方",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "ja",
+   "source": "Digital PR Platform",
+   "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1oX3h1ZWRPTERnWDdwbzl2NTdxMjc5LWQzWWVsWUY3VzFGM1RYTlhCYUhHTURUOF82Mm02dTJSX0UzTms?oc=5",
+   "image": "",
+   "published": "2026-11-20T04:23:12Z",
+   "weight": 1
+  },
+  {
+   "id": "6f528e34482e",
+   "region": "japan",
+   "topics": [
+    "models",
+    "agents",
+    "hardware"
+   ],
+   "title": "Mac版Geminiに「Computer use」 PC作業をAIが代行",
+   "titleJa": "Mac版Geminiに「Computer use」 PC作業をAIが代行",
+   "summary": "Googleは19日(米国時間)、Mac版Geminiアプリに、AIがPCを操作して作業を自動実行する「Computer use」機能を追加した。米国で提供を順次開始し、日本での提供は未定。",
+   "summaryJa": "Googleは19日(米国時間)、Mac版Geminiアプリに、AIがPCを操作して作業を自動実行する「Computer use」機能を追加した。米国で提供を順次開始し、日本での提供は未定。",
+   "lang": "ja",
+   "source": "Impress Watch",
+   "url": "https://www.watch.impress.co.jp/docs/news/2158164.html",
+   "image": "",
+   "published": "2026-11-20T04:15:00Z",
+   "weight": 1
+  },
+  {
+   "id": "47092eb0aa41",
+   "region": "global",
+   "topics": [
+    "general"
+   ],
+   "title": "Be the Driver: Keeping Generative AI in the Backseat by Supporting Students’ Use of AI",
+   "titleJa": "",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "Faculty Focus",
+   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQU1ppcUZzMERsbzIxTEh6T0dUMmYwZ2tWVE1TZEJNbW9vY3ExX0dMVTFaM1Z6aFA5OGhKaDdaTWlnOUxKcHNNQWUtTDdfMURJaVExU1hTQkJWOXByT09UQzFsZ1FtbDNrVFNmbmNNMEh1S1ZnMGZjeVB5YXZEZTVaTWVPejY5T3NXdnQybVhLWVFNbURJNGxMdnc5bFhWbl9ScGloSTdQUld5YVkzTTByYk5YellUVUdScFVON0xsUjJWbUdkVmNrT0dNaUpyOThKSkFDQjZMNGtJZzZiS3UzNmphSDFtS2NRQkFpcWVR?oc=5",
+   "image": "",
+   "published": "2026-11-20T04:03:26Z",
+   "weight": 1
+  },
+  {
+   "id": "06e4d0d3f7e1",
+   "region": "global",
+   "topics": [
+    "media"
+   ],
+   "title": "lg dash A P T - What's Left To Do (AI Video)",
+   "titleJa": "",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "YouTube",
+   "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBFTlZpUThoZ1lURzRjRGtYTjlzd1NOYWFHUHRIcFl4VGExSGtnWE95b1RDbGRUR09JdllEYXpoS0tzUQ?oc=5",
+   "image": "",
+   "published": "2026-11-20T03:51:32Z",
+   "weight": 1
+  },
+  {
+   "id": "3f5b3edf78f7",
+   "region": "japan",
+   "topics": [
+    "business",
+    "products"
+   ],
+   "title": "グーグル、「宇宙でAI」大型打ち上げでブルーオリジンと提携",
+   "titleJa": "グーグル、「宇宙でAI」大型打ち上げでブルーオリジンと提携",
+   "summary": "Googleは、地球の軌道上で太陽光発電とAIインフラの拡張を行なう計画「プロジェクト・サンキャッチャー」の最初の大型打ち上げについて、Blue Origin(ブルーオリジン)と提携したと発表した。2029年第1四半期を目標に、ブルーオリジンの大型ロケット「New Glenn」(ニューグレン)によって専用で打ち上げられる。",
+   "summaryJa": "Googleは、地球の軌道上で太陽光発電とAIインフラの拡張を行なう計画「プロジェクト・サンキャッチャー」の最初の大型打ち上げについて、Blue Origin(ブルーオリジン)と提携したと発表した。2029年第1四半期を目標に、ブルーオリジンの大型ロケット「New Glenn」(ニューグレン)によって専用で打ち上げられる。",
+   "lang": "ja",
+   "source": "Impress Watch",
+   "url": "https://www.watch.impress.co.jp/docs/news/2158139.html",
+   "image": "",
+   "published": "2026-11-20T03:39:11Z",
+   "weight": 1
+  },
+  {
+   "id": "0b1076564695",
+   "region": "japan",
+   "topics": [
+    "general"
+   ],
+   "title": "NLPeanuts、共同通信社に生成AIによる英文記事執筆支援システムを導入 海外へのニュース発信を加速",
+   "titleJa": "NLPeanuts、共同通信社に生成AIによる英文記事執筆支援システムを導入 海外へのニュース発信を加速",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "ja",
+   "source": "共同通信PRワイヤー",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5LMkE3SjRaTXF2WkxIXzJ3VDFKX01pWGd3QThDZjRraUpCajhyeU8tVWVFRld0Ym9hM2N6SVRXRzF5WGVicGZNMkVZaXNzTVNTVnVsSDlhdFdKYUE?oc=5",
+   "image": "",
+   "published": "2026-11-20T03:30:00Z",
+   "weight": 1
+  },
+  {
+   "id": "9fa6d9626bcd",
+   "region": "japan",
+   "topics": [
+    "research",
+    "policy"
+   ],
+   "title": "シャドーAIのリスクを抑制し、製造現場のDXを加速。アイテックがオンプレミス型生成AI「Sovereign GaiXer」を導入〜研究開発ノウハウを保護する安全なAI活用環境を構築",
+   "titleJa": "シャドーAIのリスクを抑制し、製造現場のDXを加速。アイテックがオンプレミス型生成AI「Sovereign GaiXer」を導入〜研究開発ノウハウを保護する安全なAI活用環境を構築",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "ja",
+   "source": "株式会社FIXER",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE54UUd4Q2FZWHJSV3BsZUx1V1dUSW9wM3lWQzdhVlBvUUswY1pCZzN0bkwyejJpS1BZV2daTGRPWlZxMi14ZU9rWnNwVFdSUDdDeXhRazFqTjYtbVQ4WjQtVVZQRQ?oc=5",
+   "image": "",
+   "published": "2026-11-20T03:04:32Z",
+   "weight": 1
+  },
+  {
+   "id": "5d6698fbe612",
+   "region": "japan",
+   "topics": [
+    "general"
+   ],
+   "title": "生成AIは学びの「黒子」に 生徒と教師が問いを更新し続ける学校へ",
+   "titleJa": "生成AIは学びの「黒子」に 生徒と教師が問いを更新し続ける学校へ",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "ja",
+   "source": "朝日新聞",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5xdExVNTNkeS1VYjA0YV9wTlZfVExYVjV3NDR5ZUxNbUx2NVFmLXRIbHlQNGlrdGlhWWdFckV0M1hZQ1pEbTdzMU5JRXgxWUsyb2d6NHB0d2l2cW9PSHRQRzdobUY?oc=5",
+   "image": "",
+   "published": "2026-11-20T03:01:56Z",
+   "weight": 1
+  },
+  {
+   "id": "7e50ed1c2fef",
+   "region": "global",
+   "topics": [
+    "general"
+   ],
+   "title": "Generative AI Assistant Enhances Therapists’ Perceived Competence in Asynchronous Online Psychotherapy",
+   "titleJa": "",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "Bioengineer.org",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQaHM2MHIzTUdlVkZ4T05EcVlCdnA0R21sdm9xZ2ZRajFvb1Y5ckpyTDUwbllnTkJaTVk1X0MteFpqZE0wX3AzRnJaaXJFVW9oRXhvMUpOVjZha2NDUnJhYjc5aWFlallBZGlSbV8wTzc0bWxmMnlvSzFHZDZSZGdHazlQMnV6OGN1aXZmbXVqTzBiakVLVFdPbzVOSHF4U0REWWdCNDJJTjRRRHNaMndkcFl5SXpIcE5tRTlRczlIY2tHZkpo?oc=5",
+   "image": "",
+   "published": "2026-11-20T03:01:05Z",
+   "weight": 1
+  },
+  {
+   "id": "a5da1e5361e6",
+   "region": "japan",
+   "topics": [
+    "general"
+   ],
+   "title": "ＦＩＸＥＲ[5129]：シャドーAIのリスクを抑制し、製造現場のDXを加速。アイテックがオンプレミス型生成AI「Sovereign GaiXer」を導入 2026年11月20日(適時開示) ：日経会社情報DIGITAL",
+   "titleJa": "ＦＩＸＥＲ[5129]：シャドーAIのリスクを抑制し、製造現場のDXを加速。アイテックがオンプレミス型生成AI「Sovereign GaiXer」を導入 2026年11月20日(適時開示) ：日経会社情報DIGITAL",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "ja",
+   "source": "日本経済新聞",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPZ2RBdFV4RExmWWQ3V09kakx1d00zQ0VQUzVZVFRDWC04TGREblJXdVlPXzc4NVJYOUZJR0JJejNhX1lOcDVKdFdyYmVuRUFjV3c2NVVvemJuekJpa21IemhCUndvMFc1Ry1vYjd5eEhlNkt3LXIyTkJaY2Q4eVdkelVFdktyNEd1ejRKZEcyNm42MG45N0ZtenRMci0xbEZabmU4MmlEMnVnZVN4dWdhMGsyWFotaUtSQkRsQ252dFRPalpQYjBKazh5M3c?oc=5",
+   "image": "",
+   "published": "2026-11-20T03:00:00Z",
+   "weight": 1
+  },
+  {
+   "id": "20f891078ac5",
+   "region": "japan",
+   "topics": [
+    "general"
+   ],
+   "title": "不気味なAI生成風ビジュアルが話題のOpenAIのサム・アルトマンCEO解任騒動を描く映画「Artificial」のポスターは人間が作ったもの",
+   "titleJa": "不気味なAI生成風ビジュアルが話題のOpenAIのサム・アルトマンCEO解任騒動を描く映画「Artificial」のポスターは人間が作ったもの",
+   "summary": "2023年11月に起きたOpenAIのサム・アルトマンCEO解任騒動を描く映画「Artificial」の宣伝用ポスターが、まるでAI生成画像のようだと話題になっています。しかし、このAI生成画像風のポスターは人間のアーティストが手描きで作成したものであることが明らかになりました。",
+   "summaryJa": "2023年11月に起きたOpenAIのサム・アルトマンCEO解任騒動を描く映画「Artificial」の宣伝用ポスターが、まるでAI生成画像のようだと話題になっています。しかし、このAI生成画像風のポスターは人間のアーティストが手描きで作成したものであることが明らかになりました。",
+   "lang": "ja",
+   "source": "GIGAZINE",
+   "url": "https://gigazine.net/news/20261120-artificial-unsettling-ai-poster-made-human/",
+   "image": "",
+   "published": "2026-11-20T02:47:00Z",
+   "weight": 1
+  },
+  {
+   "id": "7f67b3634434",
+   "region": "japan",
+   "topics": [
+    "hardware",
+    "products"
+   ],
+   "title": "Windows PCを複数台接続して1個のAI処理クラスターとして扱う機能「RDMA over USB4」をMicrosoftが発表、USBケーブルのみで接続可能で専用機材不要",
+   "titleJa": "Windows PCを複数台接続して1個のAI処理クラスターとして扱う機能「RDMA over USB4」をMicrosoftが発表、USBケーブルのみで接続可能で専用機材不要",
+   "summary": "MicrosoftがWindows搭載PC同士をUSB4ケーブルで相互接続する機能「RDMA over USB4」を発表しました。PC同士を相互接続することで、メモリやGPU計算能力を共有して大型のAIモデルを高速実行することができます。",
+   "summaryJa": "MicrosoftがWindows搭載PC同士をUSB4ケーブルで相互接続する機能「RDMA over USB4」を発表しました。PC同士を相互接続することで、メモリやGPU計算能力を共有して大型のAIモデルを高速実行することができます。",
+   "lang": "ja",
+   "source": "GIGAZINE",
+   "url": "https://gigazine.net/news/20261120-rdma-over-usb4-windows/",
+   "image": "",
+   "published": "2026-11-20T02:36:00Z",
+   "weight": 1
+  },
+  {
+   "id": "b83ebf41ce75",
+   "region": "global",
+   "topics": [
+    "media",
+    "policy"
+   ],
+   "title": "Five Steps for Amended EU AI Act Compliance [Video]",
+   "titleJa": "",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "The National Law Review",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQSVFVVnVFdHFyTUU2T1Y3cG1Ba2lpeXJRaWs4NHRjanc1WjU2SWVNQV9TQTVfOW54WkNvQ3NwZmlqLTJxUVpfdy1Ockx0WXM5RlNYSnlMdGdHMXJGZ3daWDFKQzVrSEVOSnFyUlNwOVhQdmo2QlM3UV9wRlB6Y3dhR21LTnPSAYoBQVVfeXFMTVBfa2NGTkNOQThyYmpEQW93U0FqbFo1SUUzV00yalpDVGNlUmNOeWM0ZUVtU2pvSHJzZVpBbmd6SjZTZ0l6c2NQbkZyQ1F0NlYzSHVNYlZQZEFfRkN1UG5DM09PYWVEYTI0d3J3VDhENklMYTVGWDVCTWV4REc2a2U4cS16SERWdk1B?oc=5",
+   "image": "",
+   "published": "2026-11-20T02:31:06Z",
+   "weight": 1
+  },
+  {
+   "id": "2fa4aad4caef",
+   "region": "japan",
+   "topics": [
+    "research",
+    "business",
+    "hardware",
+    "products"
+   ],
+   "title": "Blue Originが2029年にGoogleのAIサーバー衛星を大型ロケット「New Glenn」で打ち上げへ",
+   "titleJa": "Blue Originが2029年にGoogleのAIサーバー衛星を大型ロケット「New Glenn」で打ち上げへ",
+   "summary": "Googleは2026年11月19日、宇宙空間にAIデータセンターを構築する研究プロジェクト「Project Suncatcher」で、宇宙開発企業のBlue Originと提携したと発表しました。2029年第1四半期にBlue Originの大型ロケット「New Glenn」を使用し、データセンターのラック1台に相当する計算能力を備えた衛星を打ち上げる計画です。",
+   "summaryJa": "Googleは2026年11月19日、宇宙空間にAIデータセンターを構築する研究プロジェクト「Project Suncatcher」で、宇宙開発企業のBlue Originと提携したと発表しました。2029年第1四半期にBlue Originの大型ロケット「New Glenn」を使用し、データセンターのラック1台に相当する計算能力を備えた衛星を打ち上げる計画です。",
+   "lang": "ja",
+   "source": "GIGAZINE",
+   "url": "https://gigazine.net/news/20261120-blue-origin-launch-google-ai-server/",
+   "image": "",
+   "published": "2026-11-20T02:22:00Z",
+   "weight": 1
+  },
+  {
+   "id": "17648dfcd3b9",
+   "region": "global",
+   "topics": [
+    "media"
+   ],
+   "title": "AI video tools let any amateur turn popular sitcoms into sharp political satire",
+   "titleJa": "",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "Telegraph India",
+   "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxNdDFGNUN4Y2N6bHdYdDdiZXByYXItYUpZSVBjeEh2OHJ2T1VMTHRHZ0tVLTRmNkxyVlhkUFR4M1hYbDgwTW8zMDNqdXFZWG50bXlMbmMwZDd6RVp4aFdhLWJMRmtOY2JXdkVOaEMxUjFyZlBpYXE2bXpMM0s1LUw0aDVaVXJ3WmdYR3d1MldvUVk1RWVsT1lpamVjM0xyZlZyRGUxQVY2djB0czBlbFpwcjRWb2FCeWZiRjlra1JtWFoyeHp1UEExN21reXhQSkoxa1NBdDVlcWx4ckdCOW5MY3AzdW9MRGdjRkV2ZEdoTGRSdVB6Wk54a2V1SHhta2RzT1FkSkRZamdxUlhNSHh5bWNfMVBDVURkQWtPTVJ0b3N5QdIBpwJBVV95cUxPTzl3S0xpZmEyZ25UQU1sSjFQZlZwZkl0Uk9jbkg2RHRFV2szQzZwRDR3WTlWWlJoa2JuQWJZSGZqdy1aU1NnYm53WmxCUXZGamd6OFd0ZXZQX1kxUkxVY0Nydmt4dm5Hd3JVazlCV3dQVHZScFdncGRXUDc0bkFicXVEanRXeV9IM1A0a2h4WWFycnQ5cE96blhjWkVVZGx2SVlIbFI5ZUJsYmpMbnFQZlBQY2pWUmpPWi0tRFVVOWpTaEhpWXEtLVN3VHhfV1UwVW0xMmhSMm84Sk9JXzBKRFFCN0g3SlRpYk01aGxSXzNPZnU1UWxwbFJ5aHBMNjJvcXZuelA1VDQ5cDdRRzRNX2ZtY0FqUTlyX3poaUp3bWdCWU1PM0xV?oc=5",
+   "image": "",
+   "published": "2026-11-20T02:18:42Z",
+   "weight": 1
+  },
+  {
+   "id": "3d1b399678b2",
+   "region": "japan",
+   "topics": [
+    "business"
+   ],
+   "title": "日立が「フィジカルAI」で狙う“5年で事業規模2倍”の勝算 3.5万人の新会社トップが語る「戦略の2本柱」とは？",
+   "titleJa": "日立が「フィジカルAI」で狙う“5年で事業規模2倍”の勝算 3.5万人の新会社トップが語る「戦略の2本柱」とは？",
+   "summary": "日立製作所は2027年4月、米国子会社2社を統合し、27カ国・約3万5000人規模のデジタル新会社「Hitachi Digital」を発足させる。CEO兼Chairmanに就任するアナンド・ビルジェ氏が取材に応じ、今後5年で事業規模2倍を見据える戦略を語った。現場に入る精鋭チーム「FDE」を1年で3000人へ3倍増させ、売上の9割を占める上位200～300社への集中でフィジカルAIの覇権を狙う。",
+   "summaryJa": "日立製作所は2027年4月、米国子会社2社を統合し、27カ国・約3万5000人規模のデジタル新会社「Hitachi Digital」を発足させる。CEO兼Chairmanに就任するアナンド・ビルジェ氏が取材に応じ、今後5年で事業規模2倍を見据える戦略を語った。現場に入る精鋭チーム「FDE」を1年で3000人へ3倍増させ、売上の9割を占める上位200～300社への集中でフィジカルAIの覇権を狙う。",
+   "lang": "ja",
+   "source": "ITmedia AI+",
+   "url": "https://www.itmedia.co.jp/business/articles/2611/20/news024.html",
+   "image": "",
+   "published": "2026-11-20T02:15:00Z",
+   "weight": 2
+  },
+  {
+   "id": "03d253f151e9",
+   "region": "japan",
+   "topics": [
+    "general"
+   ],
+   "title": "12月17日にＡＩセキュリティセミナー サイバー攻撃への対処法解説 14日まで参加者募集 福島・民報ビル",
+   "titleJa": "12月17日にＡＩセキュリティセミナー サイバー攻撃への対処法解説 14日まで参加者募集 福島・民報ビル",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "ja",
+   "source": "福島民報デジタル",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE42T3lsYWJYT1lHNzY3U1M0ZHJ0ZVZRVFd1NldHODJpMm4xOTVlMXloQ0d5TU5qX0JjN096b29WdDBNcnNRRXZpU2Z5bUpyVkU?oc=5",
+   "image": "",
+   "published": "2026-11-20T02:11:00Z",
+   "weight": 1
+  },
+  {
+   "id": "23572c3c8a4f",
+   "region": "japan",
+   "topics": [
+    "hardware",
+    "products"
+   ],
+   "title": "車体形状を変えながら空力性能をAI予測、AutodeskがNVIDIAとの技術統合を計画",
+   "titleJa": "車体形状を変えながら空力性能をAI予測、AutodeskがNVIDIAとの技術統合を計画",
+   "summary": "米Autodeskは、自動車デザイナー向けソリューション「Autodesk NavPack」にNVIDIAの技術を統合する計画を発表した。対応するAIモデルアーキテクチャの拡張や、ワークフローの一部をGPUで高速化することを目指す。",
+   "summaryJa": "米Autodeskは、自動車デザイナー向けソリューション「Autodesk NavPack」にNVIDIAの技術を統合する計画を発表した。対応するAIモデルアーキテクチャの拡張や、ワークフローの一部をGPUで高速化することを目指す。",
+   "lang": "ja",
+   "source": "ITmedia AI+",
+   "url": "https://monoist.itmedia.co.jp/mn/articles/2611/20/news029.html",
+   "image": "",
+   "published": "2026-11-20T02:00:00Z",
+   "weight": 2
+  },
+  {
+   "id": "45069b726eb8",
+   "region": "japan",
+   "topics": [
+    "general"
+   ],
+   "title": "AIサービス「Lovable」で作ったアプリのパスポート情報や20万件超のプライベートなメッセージがログインしなくても閲覧できたと判明",
+   "titleJa": "AIサービス「Lovable」で作ったアプリのパスポート情報や20万件超のプライベートなメッセージがログインしなくても閲覧できたと判明",
+   "summary": "プログラミングの専門知識がなくてもAIでウェブアプリを作れるサービス「Lovable」で開発された一部のアプリで、パスポート情報や20万件超のプライベートなメッセージを非ログイン状態で閲覧できたとドイツのセキュリティ企業であるCrissy Fieldと、ドイツの経済紙「ハンデルスブラット」が報告しました。",
+   "summaryJa": "プログラミングの専門知識がなくてもAIでウェブアプリを作れるサービス「Lovable」で開発された一部のアプリで、パスポート情報や20万件超のプライベートなメッセージを非ログイン状態で閲覧できたとドイツのセキュリティ企業であるCrissy Fieldと、ドイツの経済紙「ハンデルスブラット」が報告しました。",
+   "lang": "ja",
+   "source": "GIGAZINE",
+   "url": "https://gigazine.net/news/20261120-lovable-apps-data-exposure/",
+   "image": "",
+   "published": "2026-11-20T02:00:00Z",
+   "weight": 1
+  },
+  {
+   "id": "f53d1c8a7aab",
+   "region": "japan",
+   "topics": [
+    "general"
+   ],
+   "title": "ＩＤホールディングス[4709]：IDホールディングス、鳥取県大山町議会で生成AI活用研修を実施 ～IDグループ初の地方議会向け研修、社内AI推進の知見を活用～ 2026年11月20日(適時開示) ：日経会社情報DIGITAL",
+   "titleJa": "ＩＤホールディングス[4709]：IDホールディングス、鳥取県大山町議会で生成AI活用研修を実施 ～IDグループ初の地方議会向け研修、社内AI推進の知見を活用～ 2026年11月20日(適時開示) ：日経会社情報DIGITAL",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "ja",
+   "source": "日本経済新聞",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNR0pOZW9IYUdPeGpQWGJ5bTUzUWY2V3Q3X181YnM2bUpGcWdIcW82QkcyTkNzdk8wSmlmN2lNa1lWRHJNRHBJNy1UcVhDel9pVnlMQUE1Z3VleFFpOS1IRV9UUXhQSXRIWVFPNG83ajdVTVpPUC1ONG11dDFkc3o3bllXUE14cFVHQ2Z5UEpyRVh4R1k5MnFoNlo0OGo0elhNLXJwU1JIQl9tb3RkejU4OHdzRVRwUmJ0aXNRLXBwUS1MVUVyLTJrOGNXZDA?oc=5",
+   "image": "",
+   "published": "2026-11-20T02:00:00Z",
+   "weight": 1
+  },
+  {
+   "id": "e29f70a8ade7",
+   "region": "japan",
+   "topics": [
+    "general"
+   ],
+   "title": "台湾の國泰證券、「動態首頁」を開始 生成AIが交割・配当を能動的に通知",
+   "titleJa": "台湾の國泰證券、「動態首頁」を開始 生成AIが交割・配当を能動的に通知",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "ja",
+   "source": "BigGo ファイナンス",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBJUjdXcVk1OXZoNDZweDhyYmVibUtGVjg4TkhwTWpDZTQyem5iTGZWRk14bmpCeU55YWRhME1ndmhjRFoyVm16aW1NckF1ZWZZRXNBRmRNdGt3aTRzRS1yWDhyYmNpaGtHd3FfbmVId19rbkJ2?oc=5",
+   "image": "",
+   "published": "2026-11-20T01:26:00Z",
+   "weight": 1
+  },
+  {
+   "id": "db6df5612bab",
+   "region": "japan",
+   "topics": [
+    "general"
+   ],
+   "title": "［参加無料］12月16日、生成AIイベント開催 イトーキ、大阪ガス幹部が登壇",
+   "titleJa": "［参加無料］12月16日、生成AIイベント開催 イトーキ、大阪ガス幹部が登壇",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "ja",
+   "source": "日経ビジネス電子版",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1KRTRLbHU2VXBPcTdiSEhzSDJoTkZPM1I3SUNFMi1BM1hrNnRLWjczZVZiT2l5WGhQSnFkWjkxZkNrUElrbHl6SEswVDlZSVhYdVAwX1o4YlF2dTl2SUtJMnFhREttb3c?oc=5",
+   "image": "",
+   "published": "2026-11-20T01:20:00Z",
+   "weight": 1
+  },
+  {
+   "id": "848c37d0f4c5",
+   "region": "japan",
+   "topics": [
+    "products"
+   ],
+   "title": "DMM、60以上の生成AIを統合利用できる「DMM AI Router」を提供開始",
+   "titleJa": "DMM、60以上の生成AIを統合利用できる「DMM AI Router」を提供開始",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "ja",
+   "source": "株式会社インプレス",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9jaHl1MUtsN0dLckVmaDA1VER2NmpNTDN4am42aUFXcFNLUFNvZUNRdHFYcGFibVFjVjZHZ0RUckFLa1BFM0lTYTRSVHlCcFFpUVp5bDlEeUxmYk1XWkt2VEg2UQ?oc=5",
+   "image": "",
+   "published": "2026-11-20T01:17:19Z",
+   "weight": 1
+  },
+  {
+   "id": "60e16c865420",
+   "region": "japan",
+   "topics": [
+    "general"
+   ],
+   "title": "生成AIに「どう語られるか」と向き合う。企業が陥りやすい4つの誤解とGEO実践法",
+   "titleJa": "生成AIに「どう語られるか」と向き合う。企業が陥りやすい4つの誤解とGEO実践法",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "ja",
+   "source": "電通報",
+   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9ORHRLbzc0M05SUXlDdmhoTTZfV2txYW1rUDJRZjJKUFVnSmZXaEdNYk00Z3RyMGlEOXI0emx4QUpRbFMzSWdjNGdZQQ?oc=5",
+   "image": "",
+   "published": "2026-11-20T01:02:59Z",
+   "weight": 1
+  },
+  {
+   "id": "00a41f2e345c",
+   "region": "japan",
+   "topics": [
+    "research",
+    "products"
+   ],
+   "title": "【イベントレポート】日本広報学会 第32回研究発表全国大会 プラップノードCOO 雨宮の研究チームが広報部門の生成AI導入をテーマに調査発表",
+   "titleJa": "【イベントレポート】日本広報学会 第32回研究発表全国大会 プラップノードCOO 雨宮の研究チームが広報部門の生成AI導入をテーマに調査発表",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "ja",
+   "source": "Digital PR Platform",
+   "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5MMTZjTHk4NEs4VVZKazV3Tk85dzFSUjNDRXYxX283S1hwSmFHZzFzVk80eldvMkxoOFhTVWV5OWJiM3c?oc=5",
+   "image": "",
+   "published": "2026-11-20T01:02:28Z",
+   "weight": 1
+  },
+  {
+   "id": "001ad8f27319",
+   "region": "japan",
+   "topics": [
+    "general"
+   ],
+   "title": "Polimill、自治体向け生成AI「QommonsAI」の活用研修を宮崎県新富町で実施",
+   "titleJa": "Polimill、自治体向け生成AI「QommonsAI」の活用研修を宮崎県新富町で実施",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "ja",
+   "source": "ICT教育ニュース",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jN3FfMEFWRVFvOGFISkloTFhGbHNJZzREdnYxMWVuUWhwNkJDVWppOEFtZVNOQlZwNVJ3NVF5ZWNUbFRUWFFYd2puaWF5UXlzaWJr?oc=5",
+   "image": "",
+   "published": "2026-11-20T01:01:14Z",
+   "weight": 1
+  },
+  {
+   "id": "935f87459f59",
+   "region": "japan",
+   "topics": [
+    "general"
+   ],
+   "title": "クリエイターコミュニティ「CREATORS COMPLEX」が「Adobe Firefly Camp」に出展！生成AIを使った新感覚カルタを実施",
+   "titleJa": "クリエイターコミュニティ「CREATORS COMPLEX」が「Adobe Firefly Camp」に出展！生成AIを使った新感覚カルタを実施",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "ja",
+   "source": "valuepress",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5XU2hSR1pMc0F1MzBqR1I5cjltQkNkQkU2djFRcDJ2dUcxUEs5eHN5TDh2eWdHaE9ia0k3Z2VrN2FpX29DMHJWN2dTS2N6ODlKYXY5cndHSkQ2dlU?oc=5",
+   "image": "",
+   "published": "2026-11-20T01:00:00Z",
+   "weight": 1
+  },
+  {
+   "id": "c737bfe7b2aa",
+   "region": "global",
+   "topics": [
+    "policy"
+   ],
+   "title": "Generative AI in Family Law: California Puts a Lawyer's AI Duties",
+   "titleJa": "",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "The National Law Review",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOREdMNU8tbExVUGVKeDEzek9UbnQyS3c2MjFWX0J2Uk5aQXotWGdlQTNKOXJmR2N5UjBPejJBOGVBZ04yWWhWWEc3eFNwVFNNdWFOM1I5SmdvQkNmVzVodnlvTzRhYTNEMmZneU5odW5QM0o0WUJRVHh3RjhRMjltME1iMk9WWWJaMHVMQlk5TXJmYTBwZ2F6STlSa1lSTXAwa1V4bjl4ZVZxUDQzYzVSeA?oc=5",
+   "image": "",
+   "published": "2026-11-20T00:57:04Z",
+   "weight": 1
+  },
+  {
+   "id": "2ed09bbf2a0c",
+   "region": "global",
+   "topics": [
+    "models",
+    "agents"
+   ],
+   "title": "Apple may be developing its own AI agent that runs your Mac",
+   "titleJa": "",
+   "summary": "The iPhone maker appears to be building agents that can compete with the likes of Meta Muse, Instinct, Claude, and OpenAI Dots.",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+   "image": "",
+   "published": "2026-11-20T00:56:01Z",
+   "weight": 2
+  },
+  {
+   "id": "5f58a569f806",
+   "region": "japan",
+   "topics": [
+    "general"
+   ],
+   "title": "Canva、生成AI機能をオフにできる新設定を導入",
+   "titleJa": "Canva、生成AI機能をオフにできる新設定を導入",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "ja",
+   "source": "CNET Japan",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBqeElDTUdaVTl1SmRoZ1NTaFlPeXA3U21uVkhOSURPV1J4d2NOTEhzZHlFWVl2eDZKXzFRN0ZvaF9QaDRLaEVGUWpEWmdPWDhiU0E?oc=5",
+   "image": "",
+   "published": "2026-11-20T00:50:00Z",
+   "weight": 1
+  },
+  {
+   "id": "94d4fdfa1fe9",
+   "region": "japan",
+   "topics": [
+    "agents"
+   ],
+   "title": "ChatGPT「Plus」プラン一部ユーザーに「dots」解禁 「Business Standard」全ユーザーにも",
+   "titleJa": "ChatGPT「Plus」プラン一部ユーザーに「dots」解禁 「Business Standard」全ユーザーにも",
+   "summary": "OpenAIは「ChatGPT」の「Plus」プランユーザーの一部向けに、同社の常時稼働型エージェント「dots」の提供を開始する。",
+   "summaryJa": "OpenAIは「ChatGPT」の「Plus」プランユーザーの一部向けに、同社の常時稼働型エージェント「dots」の提供を開始する。",
+   "lang": "ja",
+   "source": "ITmedia AI+",
+   "url": "https://www.itmedia.co.jp/aiplus/article/2611/20/2000003359/",
+   "image": "",
+   "published": "2026-11-20T00:46:58Z",
+   "weight": 2
+  },
+  {
+   "id": "3e2d14a8e0bc",
+   "region": "japan",
+   "topics": [
+    "general"
+   ],
+   "title": "ベテランPMが辞めても失いたくない「暗黙知」を“生成AI面談”で残す 東京ガス系が実践したノウハウ継承術",
+   "titleJa": "ベテランPMが辞めても失いたくない「暗黙知」を“生成AI面談”で残す 東京ガス系が実践したノウハウ継承術",
+   "summary": "熟練者が退職した後も、プロジェクト管理の経験や判断基準を組織に残すにはどうすればよいのか。東京ガスｉネットが実践した、暗黙知を組織の資産に変える実践手法と、具体的なシステム構成を整理する。",
+   "summaryJa": "熟練者が退職した後も、プロジェクト管理の経験や判断基準を組織に残すにはどうすればよいのか。東京ガスｉネットが実践した、暗黙知を組織の資産に変える実践手法と、具体的なシステム構成を整理する。",
+   "lang": "ja",
+   "source": "ITmedia AI+",
+   "url": "https://atmarkit.itmedia.co.jp/ait/articles/2611/20/news021.html",
+   "image": "",
+   "published": "2026-11-20T00:45:00Z",
+   "weight": 2
+  },
+  {
+   "id": "4aacf31011a3",
+   "region": "global",
+   "topics": [
+    "business"
+   ],
+   "title": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+   "titleJa": "",
+   "summary": "At the upgraded $83/share IPO price, Anthropic's seven founders each pocketed $280 million, while the company nabbed nearly $105 billion.",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
+   "image": "",
+   "published": "2026-11-20T00:43:50Z",
+   "weight": 2
+  },
+  {
+   "id": "d47187ac7d51",
+   "region": "global",
+   "topics": [
+    "hardware",
+    "products"
+   ],
+   "title": "Amazon SageMaker Inference: 2026 launches in review, part 2",
+   "titleJa": "",
+   "summary": "This second installment reviews 13 more Amazon SageMaker AI inference launches from 2026, spanning configuration recommendations, fitting more models onto each GPU, serving models too large for one instance, cross-Region routing, and post-launch tuning, bringing the year's total…",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "AWS Machine Learning",
+   "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-inference-2026-launches-in-review-part-2/",
+   "image": "",
+   "published": "2026-11-20T00:34:07Z",
+   "weight": 2
+  },
+  {
+   "id": "c7569a295cb7",
+   "region": "global",
+   "topics": [
+    "agents"
+   ],
+   "title": "Use Kimi Code CLI with models on Amazon Bedrock",
+   "titleJa": "",
+   "summary": "Kimi Code CLI v2.7.0 adds a native Amazon Bedrock provider, so you can connect the open source coding agent to models like Kimi K3.1 Pro using your standard AWS credential chain (named profiles or SSO) instead of a separate API key. This post shows how to configure the provider a…",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "AWS Machine Learning",
+   "url": "https://aws.amazon.com/blogs/machine-learning/use-kimi-code-cli-with-models-on-amazon-bedrock/",
+   "image": "",
+   "published": "2026-11-20T00:33:30Z",
+   "weight": 2
+  },
+  {
+   "id": "b07c1bc0bdb0",
+   "region": "japan",
+   "topics": [
+    "research",
+    "policy"
+   ],
+   "title": "生成AIの利用率、総務省の調査で58.8% モバイル社会研究所の調査では51%",
+   "titleJa": "生成AIの利用率、総務省の調査で58.8% モバイル社会研究所の調査では51%",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "ja",
+   "source": "共同通信PRワイヤー",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1hOFJ1N2hFUV85WldfLUI1UWktT3lVRVVtcnJpSGdKYUdtUFRfUm5DZDFKc1dZbXBHaFBMclBodWZZZXdwR0Z0eXdHZWQtQnZ3X1FPMUVZOA?oc=5",
+   "image": "",
+   "published": "2026-11-20T00:16:53Z",
+   "weight": 1
+  },
   {
    "id": "40b8f8774cf8",
    "region": "japan",
@@ -31,6 +2163,23 @@
    "weight": 1
   },
   {
+   "id": "61cef5e2292a",
+   "region": "japan",
+   "topics": [
+    "general"
+   ],
+   "title": "ＡＩ兵器にも「人道法」適用 国連会議の報告書公表",
+   "titleJa": "ＡＩ兵器にも「人道法」適用 国連会議の報告書公表",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "ja",
+   "source": "山陽新聞",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1UdkxISnJMcFZNeXIyYm1lVUdULUU4dkZGb2FIU3BGdWNzdXhzUmdGdjNkR2J1OWNlRkNvWEVrbmk4dnFIZnZzRlAxT25OaVJYZldVX2hwUTY?oc=5",
+   "image": "",
+   "published": "2026-11-20T00:07:31Z",
+   "weight": 1
+  },
+  {
    "id": "2fd9bc55255f",
    "region": "japan",
    "topics": [
@@ -46,6 +2195,41 @@
    "image": "",
    "published": "2026-11-20T00:00:00Z",
    "weight": 1
+  },
+  {
+   "id": "211fbe8009a4",
+   "region": "global",
+   "topics": [
+    "products"
+   ],
+   "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+   "titleJa": "",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "Hugging Face",
+   "url": "https://huggingface.co/blog/harness-adapters-at-scale",
+   "image": "",
+   "published": "2026-11-20T00:00:00Z",
+   "weight": 3
+  },
+  {
+   "id": "c8ec3e0aa2e7",
+   "region": "japan",
+   "topics": [
+    "agents",
+    "products"
+   ],
+   "title": "ヒューマノイドからAIビジョンまで、三菱電機「Serendie Automation」の具体像",
+   "titleJa": "ヒューマノイドからAIビジョンまで、三菱電機「Serendie Automation」の具体像",
+   "summary": "三菱電機は、FA向けの新たな統合ソリューションブランドとして「Serendie Automation」を展開することを発表した。後編では「Serendie Automation」を体現する技術展示の内容を紹介する。",
+   "summaryJa": "三菱電機は、FA向けの新たな統合ソリューションブランドとして「Serendie Automation」を展開することを発表した。後編では「Serendie Automation」を体現する技術展示の内容を紹介する。",
+   "lang": "ja",
+   "source": "ITmedia AI+",
+   "url": "https://monoist.itmedia.co.jp/mn/articles/2611/20/news045.html",
+   "image": "",
+   "published": "2026-11-20T00:00:00Z",
+   "weight": 2
   },
   {
    "id": "cbc0628c811c",
@@ -675,7 +2859,7 @@
    "topics": [
     "general"
    ],
-   "title": "Ubisoft Creates Generative AI Game Studio Called 'Motherbrain' as Part of New Operating Model",
+   "title": "Ubisoft Creates Generative AI Game Studio Called Motherbrain as Part of New Operating Model",
    "titleJa": "Ubisoftが新運営モデルの一環として「Motherbrain」という名の生成AIゲームスタジオを設立",
    "summary": "",
    "summaryJa": "",
@@ -821,6 +3005,23 @@
    "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQc25QdW1JRXBDb1c5UlFsZUIzU1Zuc0lrejRhWFZCcVNTM3JJd3hFWkgxeGFGbGRQZUdxLUJuaTZfb2k0SnRMSGcwb29uVThXTUlzWjMyWVhFTTNKM2FnbUxlY1oyMFBsclQzckhjNUxGV21PelcxMW9ZSUhhLU82anNGLXlwN0RHTHhudWpMM0prdk1vTGJyamJjX0FzMXlLWVlzMkVzLXlDUmFLcHd0X3V6V3dFdnpwODhXcHNfVEttUkFJcDFEaTZhMVNrd3M3WnJJLXhzQ041NjhMa3VRZUZFOHI4NURuXzVJelFMY3Q1Zk01OTBlc3dLbDFwT0trZFc3MnhFSUN1YmhMSTFES0pkWHA5VWl5LVE?oc=5",
    "image": "",
    "published": "2026-11-19T21:11:57Z",
+   "weight": 1
+  },
+  {
+   "id": "9318bc882245",
+   "region": "japan",
+   "topics": [
+    "media"
+   ],
+   "title": "「NovelAI Diffusion」2次元/ケモノ系キャラに特化した画像生成AIモデル",
+   "titleJa": "「NovelAI Diffusion」2次元/ケモノ系キャラに特化した画像生成AIモデル",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "ja",
+   "source": "窓の杜",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBpZHY2MGIwSWU1cGZNYU9IZUtrQTlCNVZwVUNBS0VXZTNmWEhQOUJjUE1naGMxRWk5TUpiZ05XbmJEeDJoYXFCR0JNOGstTTFkYjBMX0k0RTQ1Sk9GZEZmckdpX21raHJEYVdrcQ?oc=5",
+   "image": "",
+   "published": "2026-11-19T21:05:00Z",
    "weight": 1
   },
   {
@@ -1182,6 +3383,23 @@
    "image": "",
    "published": "2026-11-19T19:04:38Z",
    "weight": 2
+  },
+  {
+   "id": "403e9c365fe3",
+   "region": "global",
+   "topics": [
+    "general"
+   ],
+   "title": "Feedback Requested on the Use of Generative AI in Agency Adjudications",
+   "titleJa": "",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "LeadingAge",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPeUtGZ0RxSHlJY19ZT1RzZHVmUWlxT0YwVEFlemxRT05OSkstNVN5RHl3MDh5UFVTd253czdnZFAta3E4MWpLV2k0LWxSUjVNY3lvZGZFVVhFM1dIVHBtYUlONGVuclg1YnRmdzdZY0YxUW13OTlFcmRCOWNaeVJzeUY4ZWV6Z05WNHlkYllhdjR4Z3Q0UV9EU0V3?oc=5",
+   "image": "",
+   "published": "2026-11-19T19:00:23Z",
+   "weight": 1
   },
   {
    "id": "7e4679faa340",
@@ -3412,6 +5630,23 @@
    "weight": 1
   },
   {
+   "id": "da252cc2944d",
+   "region": "global",
+   "topics": [
+    "media"
+   ],
+   "title": "AI Video Technology Takes Centre Stage at Milestone Systems Developer Summit",
+   "titleJa": "",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "Electronics Media",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5PZG9RUmdiRE4wWGttTExpQzhObkxBajA0VkNIQkF2YUhydjJsajFqMGgyWjRFQzllVnFsalhLNVJrR0labzVWYmlJb3ZMQ0lWcE1ubF9IVnE0UkpPb2E1OC1pdHZfVUlLZG83a1EtSDV3ZU0?oc=5",
+   "image": "",
+   "published": "2026-11-19T08:39:21Z",
+   "weight": 1
+  },
+  {
    "id": "3a57efe6da9b",
    "region": "japan",
    "topics": [
@@ -3733,6 +5968,24 @@
    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0ta1hPWWVkVno4MzYwZmxYYnVyVjFJQzE0WmlkVjl3T2tDWmRodTRwODk3QmFVOU5JelEyYkdVZ0dxcmN3eWlJbVMxR2NhbUlkVWpPWEpDS1VuUEpHRmtTT2V2bENkV1E?oc=5",
    "image": "",
    "published": "2026-11-19T07:37:34Z",
+   "weight": 1
+  },
+  {
+   "id": "0a3ab1d994c8",
+   "region": "global",
+   "topics": [
+    "media",
+    "business"
+   ],
+   "title": "AI Video Startup Lemonpeel Raises $1 Million From Shastra VC, Rukam Sitara",
+   "titleJa": "",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "CIOL",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSDN0SVBSbVVIVXY2ZXhmMFBVTUxQQ01Zd1FQUDF5NDdjTFhWUkFMb1l2Z3E3b2R2NWdublRETWFnaXprbkp5SFV3T2VRaV9KamJyTlZHVnlTYUJXcVpVbTdlMXJ5d01LTVZCRkhUekNIdkJaOFA4dzRycmtIME5hMkZRQU1hN1BCN0RRbS1pZF9jMDJNREFZUGNCNV8zd1NNU3VCUlVhSEthbUwxTml6bNIBsAFBVV95cUxPSDN0SVBSbVVIVXY2ZXhmMFBVTUxQQ01Zd1FQUDF5NDdjTFhWUkFMb1l2Z3E3b2R2NWdublRETWFnaXprbkp5SFV3T2VRaV9KamJyTlZHVnlTYUJXcVpVbTdlMXJ5d01LTVZCRkhUekNIdkJaOFA4dzRycmtIME5hMkZRQU1hN1BCN0RRbS1pZF9jMDJNREFZUGNCNV8zd1NNU3VCUlVhSEthbUwxTml6bA?oc=5",
+   "image": "",
+   "published": "2026-11-19T07:35:22Z",
    "weight": 1
   },
   {
@@ -4500,6 +6753,23 @@
    "weight": 1
   },
   {
+   "id": "d02cbcd5dc94",
+   "region": "global",
+   "topics": [
+    "media"
+   ],
+   "title": "What AI Video and Image Generation Really Costs in 2026: Same Model, Different Prices (PopNow AI, popnow.ai)",
+   "titleJa": "",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "PC Tech Magazine",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOV0R0M3J4MkJmZldPZDBmRmdvLXpCek51ck1ScmlELUMydlVIZlkzbUNrd3l0MGNYQlRheHJrNlJUMVJ1Mk1ybjJoUVdsZzgyWGE0X2tUbXNvdnJid1c0TmZSa3JCczlfM05Gc19CRG9RQjhwaXlUa0hjMk43M0RpSmp4VDRnUWpsMzhrMmJaclpsTS1NYlBfRXhSM1lqX3N6MG5DcVBaeDdfQVJnSkRwenF6cEpHTWowcW1lS1dQTVdRSERQMFFOamNGb3ZVdlVSdmc1OUp0NzRIQQ?oc=5",
+   "image": "",
+   "published": "2026-11-19T01:51:52Z",
+   "weight": 1
+  },
+  {
    "id": "9bcc834a17a9",
    "region": "japan",
    "topics": [
@@ -4928,6 +7198,23 @@
    "image": "",
    "published": "2026-11-18T23:25:17Z",
    "weight": 2
+  },
+  {
+   "id": "ea32c68aa160",
+   "region": "global",
+   "topics": [
+    "policy"
+   ],
+   "title": "EU begins enforcing AI Act transparency rules - Industry Report: European Policy",
+   "titleJa": "",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "Cineuropa",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1JUUdHZndoYU5NQWQwQ0RDSXplbFpMR1pYemUzMGdDZHpfclNNSlA4VTFmM3pqMUhSNDhIRHE4eDhHUmRrTlNYNGlWRDRPaG51bjBaOTFfejdEcFRUR2owRFZqTDNGQQ?oc=5",
+   "image": "",
+   "published": "2026-11-18T23:23:35Z",
+   "weight": 1
   },
   {
    "id": "7284989e4f81",
@@ -7179,6 +9466,23 @@
    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB6SU1kTVpzQ2Y3X2VUdmRIU3c3RXZHM2ZZcTdqS2x1YTcxTWxoZDdtblBKZU1xVUtCdFZ6UlgxU1BBVkNGRC1pcHBhLVM4Y1gyUTdzMWFibXBXOFU?oc=5",
    "image": "",
    "published": "2026-11-18T15:26:04Z",
+   "weight": 1
+  },
+  {
+   "id": "3948d2aa487b",
+   "region": "global",
+   "topics": [
+    "media"
+   ],
+   "title": "How AI Video Generation Is Changing Sports Entertainment and the Future of Wrestling Content",
+   "titleJa": "",
+   "summary": "",
+   "summaryJa": "",
+   "lang": "en",
+   "source": "PWInsider",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQVkJBempLT0JoNXF6XzVEZHN3b3BTQy1vMHpKOWVKVV9nWEdsX0Q5OXpRV2Z6VGxYamszLWRFckF2WVZxQ19pZTM1R284QjR5eVlEUTlnUlBKZXJHdFNENmpiZDE2VzJxS05wVEM4dlRQVDRfRmhkbkVuLWdRbHBXanNOcjU0dXMwcVItbUd0RmZxWUFubjlfQ0dhdVRJWTBCaXpJczRiVkNWNlFmQWJIenE1enE0aG5XcnB6SF94OS1RZ3pEanJtUlpMYmkzNE0ydW9CaA?oc=5",
+   "image": "",
+   "published": "2026-11-18T15:25:17Z",
    "weight": 1
   },
   {
@@ -11526,2303 +13830,6 @@
    "image": "",
    "published": "2026-11-17T18:48:50Z",
    "weight": 2
-  },
-  {
-   "id": "3a4b135687e3",
-   "region": "global",
-   "topics": [
-    "models",
-    "products"
-   ],
-   "title": "Google to keep Gemini chats for 2 months, up from 72 hours, even with history off",
-   "titleJa": "",
-   "summary": "Google's Gemini update extending chat retention will roll out globally over the coming weeks.",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "TechCrunch",
-   "url": "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/",
-   "image": "",
-   "published": "2026-11-17T18:48:23Z",
-   "weight": 2
-  },
-  {
-   "id": "0be38873f04e",
-   "region": "global",
-   "topics": [
-    "policy"
-   ],
-   "title": "LA County Supervisors Approve AI Policy",
-   "titleJa": "",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "MyNewsLA.com",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZlFCYWtTVFJheWhTV3Y0Rm1mZ2xZMjlCaklXNjd0bnUyNVJlMkR2NWFsWlZwSjdzclNkSjVidDZLSENMX0FfamNUaGl6eDBzczU5RGtUOVpIS0Y3Y284eW85NVpHRC1BdE1ORmhwQW9Ic3o5SlJnVHZfQWlxV1BucHlFZWVWZklCeHBZ?oc=5",
-   "image": "",
-   "published": "2026-11-17T18:42:51Z",
-   "weight": 1
-  },
-  {
-   "id": "52038abf1b98",
-   "region": "global",
-   "topics": [
-    "models",
-    "products"
-   ],
-   "title": "OpenAI is unveiling GPT-6.2 Astra after scrapping a prior AI model",
-   "titleJa": "",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "Quartz",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE43Q3Y2MlhjdVl6ZnhFWkg4OHZaMTk0NVIzSWp1RU9JcHZMb1ZheEpDYjVVWm9LeWhGNDMtQWZ6b0sxdFdKZUFOWjZzUlBsTWFVU1NDUjZ6YmdBOUtzWmllT1psMm1vS2FJcjNtTGNNdmR3MGxyY0E?oc=5",
-   "image": "",
-   "published": "2026-11-17T18:34:02Z",
-   "weight": 1
-  },
-  {
-   "id": "1f69e46413ef",
-   "region": "global",
-   "topics": [
-    "products"
-   ],
-   "title": "OpenAI releases updated Astra AI model with new safeguards",
-   "titleJa": "",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "Investing.com",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONU40NWRDMU83ZUtSRVhuSXNBcEFZTDlrc0xKbzZ2NHZoSkJmUUpVUmllaGNnbHpodUxNVnRXcURvaVlIVERlMk9jdy15OW5ib0VYbnVGUFFHWUY1RXEyc2IxWkJ3WGR1M3pyVnVIYlkyV0dDdDhVbEs3YVJUTVdqbXNwbVVRSGZJZU5MeGk5SzlQMEo2amh0cVZsTnRGQkFFNmpHTkZFSTA5bDhoYU03NkpWRGFIQQ?oc=5",
-   "image": "",
-   "published": "2026-11-17T18:25:49Z",
-   "weight": 1
-  },
-  {
-   "id": "b07da44b414a",
-   "region": "global",
-   "topics": [
-    "products"
-   ],
-   "title": "Your Googlebook just got a Chrome update – 5 new features",
-   "titleJa": "",
-   "summary": "The Chrome update includes more useful vertical tabs, easier screen sharing, and some handy keyboard shortcuts.",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "ZDNET",
-   "url": "https://www.zdnet.com/tech/googlebook-os-chrome-update-new-features/",
-   "image": "https://www.zdnet.com/wp-content/uploads/sites/3/DSC01222.jpeg",
-   "published": "2026-11-17T18:21:55Z",
-   "weight": 2
-  },
-  {
-   "id": "f33b74955e80",
-   "region": "global",
-   "topics": [
-    "research"
-   ],
-   "title": "Researchers hijack Hugging Face account for popular Kokoro AI model",
-   "titleJa": "",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "BleepingComputer",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUnpSU3JiZUxueDlnMlQzWDhNOEtEZXJuSW9YX0c3WjU1VkZXdGJBWENiNlVjblUyVE16bjd5cnBaLW9WbzV5X3NodGVhSHg2OWg3a3NZYTJZejBmUkcxMXlaSG9FcVJZTnNWMFNKX0ZBZERWLThzMEhPZTZZUGZNa0tWb3M5TGl3R2JPY0hmQjFIZ0NIYlYtVU5KRlFoNlN6M3NnU2J2cjJ2cFNMVHQ1ald4WWNyZw?oc=5",
-   "image": "",
-   "published": "2026-11-17T18:21:24Z",
-   "weight": 1
-  },
-  {
-   "id": "027b06d66aa2",
-   "region": "global",
-   "topics": [
-    "general"
-   ],
-   "title": "As decision model use skyrockets, is customization the next frontier?",
-   "titleJa": "",
-   "summary": "Sqwish Labs has a new wrinkle on the decision model: Train it with your own data to max its capabilities.",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "TechCrunch",
-   "url": "https://techcrunch.com/2026/11/17/as-decision-model-use-skyrockets-is-customization-is-the-next-frontier/",
-   "image": "",
-   "published": "2026-11-17T18:10:00Z",
-   "weight": 2
-  },
-  {
-   "id": "0f81d901dab5",
-   "region": "global",
-   "topics": [
-    "models",
-    "products"
-   ],
-   "title": "Reason over time-series data with OpenTSLM on Amazon SageMaker JumpStart",
-   "titleJa": "",
-   "summary": "OpenTSLM, an open source family of time-series language models, is now available in Amazon SageMaker JumpStart. See how Nexthink and Aionic Labs apply it to proactive IT support, then deploy OpenTSLM to a real-time endpoint and fine-tune it on your own data with TimeNet and a Sag…",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "AWS Machine Learning",
-   "url": "https://aws.amazon.com/blogs/machine-learning/reason-over-time-series-data-with-opentslm-on-amazon-sagemaker-jumpstart/",
-   "image": "",
-   "published": "2026-11-17T18:06:44Z",
-   "weight": 2
-  },
-  {
-   "id": "4485705b596b",
-   "region": "japan",
-   "topics": [
-    "general"
-   ],
-   "title": "世界同時進行、生成AI時代のAIルール構築",
-   "titleJa": "世界同時進行、生成AI時代のAIルール構築",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "ja",
-   "source": "日経クロステック",
-   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNUFF5TU5JY0wwMFl1ZlQ3Y2d5S3NmSUp0X24zSXpUaXFXeWkxTjB2LXlRZklmTTU1QXF2LV8wR1dIcDVHMmcwR2ROWEZpSk5YZm9oRVk2aXh3OG5iVWRabkhidUVFRXN3bmRiS3BQc0FnX0hPdEEzNTJUTmtEMFNSSmh3LU1KbkxNbWFwRU5Sc0lnNjZFaExhdHY1Y2VINmFoZWUwV2tycGI3UzVQdmFuWWZuOEczYXdhdlBZbXFOMEt2MGR3MmpYYzJxYkhUMUpicUd4TU9fNA?oc=5",
-   "image": "",
-   "published": "2026-11-17T18:04:24Z",
-   "weight": 1
-  },
-  {
-   "id": "48c463046560",
-   "region": "global",
-   "topics": [
-    "agents",
-    "business"
-   ],
-   "title": "Pedestal AI raises $4.7 million to agentify the supply chain",
-   "titleJa": "",
-   "summary": "The company uses agentic AI to make supply chains faster and more reliable.",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "TechCrunch",
-   "url": "https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain/",
-   "image": "",
-   "published": "2026-11-17T18:04:16Z",
-   "weight": 2
-  },
-  {
-   "id": "84e3d040bf33",
-   "region": "global",
-   "topics": [
-    "general"
-   ],
-   "title": "Access to Generative AI: Privilege or Right?",
-   "titleJa": "",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "Lawfare",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQemJIMWZXc1dMRVdhQXVKMjZvNG1XdkJKdndVNU9qS216dHFhMndyZ091U1U0eGM0RHhzVjlWMC1nMS1SWlhaeW9FN0hvRnltTDJWeDBSRUJCd0FpcUdBUkNCWXdsd3puOFROMUJNMTJVT2p5cUhmUXZCNWNnZ0VHQmxRR2F6Wlk?oc=5",
-   "image": "",
-   "published": "2026-11-17T18:03:13Z",
-   "weight": 1
-  },
-  {
-   "id": "cb786cb892cb",
-   "region": "global",
-   "topics": [
-    "models"
-   ],
-   "title": "Google is making it easier to opt out of Gemini AI model training – here’s how",
-   "titleJa": "",
-   "summary": "You’ll soon be able to turn off Gemini model training but still retain access to your previous chats with Google’s AI.",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "ZDNET",
-   "url": "https://www.zdnet.com/innovation/google-gemini-ai-model-training-opt-out-how/",
-   "image": "https://www.zdnet.com/wp-content/uploads/sites/3/Gemini-Keep-Activity-setting.jpg",
-   "published": "2026-11-17T18:01:38Z",
-   "weight": 2
-  },
-  {
-   "id": "5a1934303fcf",
-   "region": "japan",
-   "topics": [
-    "media"
-   ],
-   "title": "Neural Frames – AIミュージックビデオ生成、音声に反応する映像、タイムライン編集",
-   "titleJa": "Neural Frames – AIミュージックビデオ生成、音声に反応する映像、タイムライン編集",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "ja",
-   "source": "quasa.io",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbmU4aWVmN1U3OHhQQ2lKN2tkakduVVZVNWg3TWpvRlVwLVgxSUNGLVRTM1RramhnakxKUmJqMjZ3S0kzQU9lVFJUeWFZcXNrUFhmM0ZHRVpMMFNJelRrUERDbHMzQkxhVmR1Sm42N2xPNDQyTEx1VnE0SGd5R2RWWklPamQxZk02ZU9Na3VkaHJ2WEpvWmlfMlI4bVB2U04tbmw4UWo4SGg1a05kNWFoajNRTUhSSWxrWjJfMWRiRQ?oc=5",
-   "image": "",
-   "published": "2026-11-17T17:58:59Z",
-   "weight": 1
-  },
-  {
-   "id": "7f2c2b0c9213",
-   "region": "japan",
-   "topics": [
-    "general"
-   ],
-   "title": "AI採用とは？活用できる5業務とメリット・注意点を解説",
-   "titleJa": "AI採用とは？活用できる5業務とメリット・注意点を解説",
-   "summary": "人手が足りない中で、求人票の作成やスカウト文の準備、書類選考に追われ、候補者と向き合う時間が減っていないでしょうか。 採用にAIを使うと、こうした定型業務を減らせます。一方で、学習データの偏りや個人情報の扱いといった新た... The post AI採用とは？活用できる5業務とメリット・注意点を解説 first appeared on AI専門ニュースメディア AINOW.",
-   "summaryJa": "人手が足りない中で、求人票の作成やスカウト文の準備、書類選考に追われ、候補者と向き合う時間が減っていないでしょうか。 採用にAIを使うと、こうした定型業務を減らせます。一方で、学習データの偏りや個人情報の扱いといった新た... The post AI採用とは？活用できる5業務とメリット・注意点を解説 first appeared on AI専門ニュースメディア AINOW.",
-   "lang": "ja",
-   "source": "AINOW",
-   "url": "https://ainow.ai/2026/11/18/278539/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e6%258e%25a1%25e7%2594%25a8%25e3%2581%25a8%25e3%2581%25af%25ef%25bc%259f%25e6%25b4%25bb%25e7%2594%25a8%25e3%2581%25a7%25e3%2581%258d%25e3%2582%258b5%25e6%25a5%25ad%25e5%258b%2599%25e3%2581%25a8%25e3%2583%25a1%25e3%2583%25aa%25e3%2583%2583%25e3%2583%2588%25e3%2583%25bb%25e6%25b3%25a8%25e6%2584%258f%25e7%2582%25b9",
-   "image": "",
-   "published": "2026-11-17T17:54:16Z",
-   "weight": 2
-  },
-  {
-   "id": "3f4a55b3b554",
-   "region": "japan",
-   "topics": [
-    "agents"
-   ],
-   "title": "AIエージェントの使い方を解説！業務を任せる手順と注意点",
-   "titleJa": "AIエージェントの使い方を解説！業務を任せる手順と注意点",
-   "summary": "毎日のメール確認や資料の下調べに時間を取られ、本来考えるべき仕事が後回しになっていないでしょうか。AIエージェントを使うと、こうした作業を一連の流れとして任せられるようになります。 ただし、業務全体をいきなり任せると、誤... The post AIエージェントの使い方を解説！業務を任せる手順と注意点 first appeared on AI専門ニュースメディア AINOW.",
-   "summaryJa": "毎日のメール確認や資料の下調べに時間を取られ、本来考えるべき仕事が後回しになっていないでしょうか。AIエージェントを使うと、こうした作業を一連の流れとして任せられるようになります。 ただし、業務全体をいきなり任せると、誤... The post AIエージェントの使い方を解説！業務を任せる手順と注意点 first appeared on AI専門ニュースメディア AINOW.",
-   "lang": "ja",
-   "source": "AINOW",
-   "url": "https://ainow.ai/2026/11/18/278541/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2581%25ae%25e4%25bd%25bf%25e3%2581%2584%25e6%2596%25b9%25e3%2582%2592%25e8%25a7%25a3%25e8%25aa%25ac%25ef%25bc%2581%25e6%25a5%25ad%25e5%258b%2599%25e3%2582%2592%25e4%25bb%25bb%25e3%2581%259b%25e3%2582%258b%25e6%2589%258b%25e9%25a0%2586",
-   "image": "",
-   "published": "2026-11-17T17:53:02Z",
-   "weight": 2
-  },
-  {
-   "id": "ecee8df015b0",
-   "region": "global",
-   "topics": [
-    "models"
-   ],
-   "title": "I asked Gemini Notebook to ‘make me a site’ from my notes – it was satisfying",
-   "titleJa": "",
-   "summary": "A new Gemini Notebook feature lets you create interactive sites from intricate data.",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "ZDNET",
-   "url": "https://www.zdnet.com/innovation/google-gemini-notebook-interactive-sites-notes/",
-   "image": "https://www.zdnet.com/wp-content/uploads/sites/3/1111_97018e.jpg",
-   "published": "2026-11-17T17:52:39Z",
-   "weight": 2
-  },
-  {
-   "id": "549a77347d5e",
-   "region": "global",
-   "topics": [
-    "models",
-    "agents",
-    "hardware",
-    "products"
-   ],
-   "title": "Introducing GPT-6.2 Astra and Sol",
-   "titleJa": "",
-   "summary": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "OpenAI",
-   "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
-   "image": "",
-   "published": "2026-11-17T17:45:00Z",
-   "weight": 3
-  },
-  {
-   "id": "f3e45b4eb691",
-   "region": "global",
-   "topics": [
-    "products"
-   ],
-   "title": "OpenAI Unveils New Astra AI Model After Scrapping Prior Release",
-   "titleJa": "",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "Bloomberg.com",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMDZRbHhnZ2VCVnRmSk1mcDlBeDBocDdRV0xmX2JtT3BleW9JNExid3ZuVlpFXzRWVlFTaVRqb3pIWWJONi02cXlLREN3a3h2eUdIZ3VVLU52OGhiN2FoaEhYRnVVdFg4NnpsMHRTSW5nb0w1TlJUaFhKbVM2cEZLa2FDTksxd2R2ZGlfWXU4b09ibUtjWjZBczFUQUlrVTNFY1o4UTI2WVVWdUlST0Z5NlhHR3Q?oc=5",
-   "image": "",
-   "published": "2026-11-17T17:45:00Z",
-   "weight": 1
-  },
-  {
-   "id": "91434011704d",
-   "region": "global",
-   "topics": [
-    "research"
-   ],
-   "title": "CSUN Researchers Use Hardcore AI Model to Take ‘Big Step’ in Field of Materials Science",
-   "titleJa": "",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "CSUN Newsroom",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxONVU3TEZ3a1Z5dzVvWWVXa3RCeTN1UEJfRWh4dnpsNmlKRUJEQTZIMnhnbkVSdkktcTJnRWJnMjVXRnpPU1FqY2F0bFBSQmpjQTctWThDZWpvTUJIWDdfN25WbkxGc3pVRzh6RHpCU1lROGdFODY3VFJ0V3J3cHNfMFk2ZWpwVFFJNGdqODZxQWlwazFHQm9haWdocF9wdGRXbF9DOWoyYWlMbUJvMmUtOGJTMG5RM3d2MUxPLVc4VWE?oc=5",
-   "image": "",
-   "published": "2026-11-17T17:40:03Z",
-   "weight": 1
-  },
-  {
-   "id": "605f1a2d10e2",
-   "region": "japan",
-   "topics": [
-    "policy"
-   ],
-   "title": "AI音楽会社が著作権を主張、YouTubeが音楽家の動画をブロック",
-   "titleJa": "AI音楽会社が著作権を主張、YouTubeが音楽家の動画をブロック",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "ja",
-   "source": "Pasquale Pillitteri",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNbGJCckRhY3N2SDlObUp4NmpJOUJKNERqNHJoa19lYm93Y0Vnc1NzcW1LajhkLTI4clZYQTg2NTh5OEYyaE84SElxb2g0VUtaLXBncHhjWTJLaktSZ0pmZDd4OGlPNjR5ZDg3YVBpOVdQU3lta1lLZDNGc0FFZlR4eENReGUxRXZFME95M09sWmNDbVYzUTAzOENBbHJFLTZqeGc?oc=5",
-   "image": "",
-   "published": "2026-11-17T17:34:21Z",
-   "weight": 1
-  },
-  {
-   "id": "6ab4eb3121ad",
-   "region": "global",
-   "topics": [
-    "models",
-    "products"
-   ],
-   "title": "Proton’s Lumo, a privacy-focused alternative to ChatGPT and Claude, arrives on desktop",
-   "titleJa": "",
-   "summary": "Proton's new Lumo Desktop app for Windows, Mac, and Linux lets users automate tasks across files and connected apps, with granular controls over what its AI can access.",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "TechCrunch",
-   "url": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/",
-   "image": "",
-   "published": "2026-11-17T17:32:25Z",
-   "weight": 2
-  },
-  {
-   "id": "b20533735bac",
-   "region": "global",
-   "topics": [
-    "business"
-   ],
-   "title": "AI models can be tricked into identifying civilians as military targets by telling them it’s a game",
-   "titleJa": "",
-   "summary": "Vals, a San Francisco-based AI evaluation startup, tested whether leading AI models could be manipulated into participating in autonomous warfare. They usually compiled.",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "TechCrunch",
-   "url": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/",
-   "image": "",
-   "published": "2026-11-17T17:20:41Z",
-   "weight": 2
-  },
-  {
-   "id": "5ca1b532a071",
-   "region": "global",
-   "topics": [
-    "general"
-   ],
-   "title": "Apple reveals daily limits on your Siri AI use – here’s how much you’ll have to pay",
-   "titleJa": "",
-   "summary": "The more you pay for an iCloud+ plan, the more you’ll be able to use Siri AI and Apple Intelligence for advanced server-side tasks.",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "ZDNET",
-   "url": "https://www.zdnet.com/innovation/apple-siri-ai-daily-limits-cost-icloud-plus-plan/",
-   "image": "https://www.zdnet.com/wp-content/uploads/sites/3/siri-ai-setting-on-iphone_399659.jpg",
-   "published": "2026-11-17T17:16:38Z",
-   "weight": 2
-  },
-  {
-   "id": "fc9935487cd5",
-   "region": "japan",
-   "topics": [
-    "general"
-   ],
-   "title": "AIが問う学びの本質【1】 生成AIを授業で使うと思考力が育たないのか：教育とICT Online",
-   "titleJa": "AIが問う学びの本質【1】 生成AIを授業で使うと思考力が育たないのか：教育とICT Online",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "ja",
-   "source": "日経BP",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBaRUhHUjhhM3pmSWViU2lNQ2d1bkpRT1ZHdU5Xdm1LVWh2YVlPY1dvVXdjbVZBNU1GUTdFdnhxaUd0Znl2WGpORjJvUWlDNGgwTWZGdEJXYnYyYUZCY0dMUnNDR2FMam5ZX1Vxcks3LVlMZw?oc=5",
-   "image": "",
-   "published": "2026-11-17T17:11:40Z",
-   "weight": 1
-  },
-  {
-   "id": "38c4a38bd619",
-   "region": "global",
-   "topics": [
-    "general"
-   ],
-   "title": "Your complete guide to AWS Quick at AWS re:Invent 2026",
-   "titleJa": "",
-   "summary": "AWS Quick gives your whole organization AI that knows your business, respects your security rules, and acts on your behalf. At AWS re:Invent 2026, customers including Allianz, Cox Automotive, and Southwest Airlines share how they govern, extend, and scale Quick. Use this guide to…",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "AWS Machine Learning",
-   "url": "https://aws.amazon.com/blogs/machine-learning/your-complete-guide-to-aws-quick-at-aws-reinvent-2026/",
-   "image": "",
-   "published": "2026-11-17T17:08:21Z",
-   "weight": 2
-  },
-  {
-   "id": "fa2d79e8a491",
-   "region": "global",
-   "topics": [
-    "agents"
-   ],
-   "title": "How LoanPro built an agentic AI loan servicing assistant with Amazon Bedrock AgentCore",
-   "titleJa": "",
-   "summary": "LoanPro worked with AWS Partner AllCloud and the AWS Generative AI Innovation Center to build a multi-agent AI assistant on Amazon Bedrock and Amazon Bedrock AgentCore. It gives loan servicing agents instant borrower context and next-best-action recommendations, reducing customer…",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "AWS Machine Learning",
-   "url": "https://aws.amazon.com/blogs/machine-learning/how-loanpro-built-an-agentic-ai-loan-servicing-assistant-with-amazon-bedrock-agentcore/",
-   "image": "",
-   "published": "2026-11-17T17:01:08Z",
-   "weight": 2
-  },
-  {
-   "id": "cb1d8f8bc84f",
-   "region": "global",
-   "topics": [
-    "models"
-   ],
-   "title": "Put Gemini to work for you",
-   "titleJa": "",
-   "summary": "A user interface displaying the prompt \"What can I get done for you?\" above an input box containing placeholder text \"Describe a task\".",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "Google AI",
-   "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
-   "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Hero_2784_x_1566.max-600x600.format-webp.webp",
-   "published": "2026-11-17T17:00:00Z",
-   "weight": 3
-  },
-  {
-   "id": "a9a578a73a24",
-   "region": "japan",
-   "topics": [
-    "agents",
-    "products"
-   ],
-   "title": "発表会速報!!＝手の上で育てるペットロボットや喋るホームコントローラーも＝SwitchBotの秋冬新製品",
-   "titleJa": "発表会速報!!＝手の上で育てるペットロボットや喋るホームコントローラーも＝SwitchBotの秋冬新製品",
-   "summary": "従来の家電操作や自動化に加え、AIロボティクス技術を融合させた新たな製品群を発表しました",
-   "summaryJa": "従来の家電操作や自動化に加え、AIロボティクス技術を融合させた新たな製品群を発表しました",
-   "lang": "ja",
-   "source": "ASCII.jp",
-   "url": "https://ascii.jp/elem/000/004/452/4452460/?rss",
-   "image": "",
-   "published": "2026-11-17T17:00:00Z",
-   "weight": 1
-  },
-  {
-   "id": "692230a9d797",
-   "region": "global",
-   "topics": [
-    "agents",
-    "business"
-   ],
-   "title": "Responsible AI for agentic AI: A phased roadmap for platform and application teams",
-   "titleJa": "",
-   "summary": "Enterprises adopting agentic AI at scale need platforms that embed responsible AI from the start. This post gives platform and application teams a three-phase roadmap (governance foundation, pilot deployment, and evaluation and hardening) that maps the AWS Responsible AI Lens pil…",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "AWS Machine Learning",
-   "url": "https://aws.amazon.com/blogs/machine-learning/responsible-ai-for-agentic-ai-a-phased-roadmap-for-platform-and-application-teams/",
-   "image": "",
-   "published": "2026-11-17T16:56:31Z",
-   "weight": 2
-  },
-  {
-   "id": "c45e75136865",
-   "region": "global",
-   "topics": [
-    "models",
-    "agents",
-    "hardware"
-   ],
-   "title": "AI agents are starting to fill out medical forms and file insurance requests in place of human staff",
-   "titleJa": "",
-   "summary": "OpenAI wants GPT-6 Astra and GPT-6 Luna to automate administrative tasks in US healthcare through computer-use agents that operate existing clinic software and insurance portals the way a human would. Luna handles tasks like prior authorizations for about 8.5 cents each. Companie…",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "The Decoder",
-   "url": "https://the-decoder.com/ai-agents-are-starting-to-fill-out-medical-forms-and-file-insurance-requests-in-place-of-human-staff/",
-   "image": "",
-   "published": "2026-11-17T16:55:47Z",
-   "weight": 2
-  },
-  {
-   "id": "bfe144881fd6",
-   "region": "global",
-   "topics": [
-    "models"
-   ],
-   "title": "Google makes it easier to use Gemini without training AI on your data",
-   "titleJa": "",
-   "summary": "AI training and chat history will now have separate toggles in the Gemini activity settings.",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "Ars Technica",
-   "url": "https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history/",
-   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-5-1152x648.jpg",
-   "published": "2026-11-17T16:50:10Z",
-   "weight": 2
-  },
-  {
-   "id": "5a76136e8f2d",
-   "region": "global",
-   "topics": [
-    "business",
-    "hardware"
-   ],
-   "title": "The US wants to block China from renting AI power abroad but China already built a parallel supply chain from US AI output",
-   "titleJa": "",
-   "summary": "The US is tightening its chip export controls. Data centers in third countries like Singapore and Malaysia will soon need a US license to buy Nvidia chips, closing the loophole that let Chinese firms rent cloud compute abroad. A Reuters investigation also reveals how China offset…",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "The Decoder",
-   "url": "https://the-decoder.com/the-us-wants-to-block-china-from-renting-ai-power-abroad-but-china-already-built-a-parallel-supply-chain-from-us-ai-output/",
-   "image": "",
-   "published": "2026-11-17T16:47:21Z",
-   "weight": 2
-  },
-  {
-   "id": "950a39f90ba9",
-   "region": "global",
-   "topics": [
-    "hardware"
-   ],
-   "title": "Jensen Huang says he would be ‘honored’ if allowed to return as Nvidia CEO",
-   "titleJa": "",
-   "summary": "In the first public statement since his resignation, Nvidia founder Jensen Huang signaled his willingness to return as CEO.",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "TechCrunch",
-   "url": "https://techcrunch.com/2026/11/17/jensen-huang-says-he-would-be-honored-if-allowed-to-return-as-nvidia-ceo/",
-   "image": "",
-   "published": "2026-11-17T16:44:15Z",
-   "weight": 2
-  },
-  {
-   "id": "a08743a1cbaa",
-   "region": "global",
-   "topics": [
-    "media",
-    "products"
-   ],
-   "title": "Suno adds AI video to its music app, with filters for artists’ faces",
-   "titleJa": "",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "The Next Web",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1IeGp0aWItcnh2ODlwSmtoMjJLZVBubkFZTDJQaUlqc1kwOUF1Um5idEpYMXJGTHZSdkZMSXdlaDVic0d5NUQyZm1lRDJDOHhNNDAwY2J2TkQ1RWhGYUstaUJvZ3ppVkFHek1OV21JUlN3YVhWYVRKTExWZWk?oc=5",
-   "image": "",
-   "published": "2026-11-17T16:35:33Z",
-   "weight": 1
-  },
-  {
-   "id": "9073920a14ea",
-   "region": "global",
-   "topics": [
-    "agents"
-   ],
-   "title": "Daydream’s new AI agent acts as your personal stylist — and can shop for you, too",
-   "titleJa": "",
-   "summary": "Daydream's new AI shopping agent can remember your style, virtually try on clothes, plan outfits around your wardrobe, track sales, and complete purchases.",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "TechCrunch",
-   "url": "https://techcrunch.com/2026/11/17/daydreams-new-ai-agent-acts-as-your-personal-stylist-and-can-shop-for-you-too/",
-   "image": "",
-   "published": "2026-11-17T16:32:55Z",
-   "weight": 2
-  },
-  {
-   "id": "98f38308c883",
-   "region": "global",
-   "topics": [
-    "business"
-   ],
-   "title": "LanceDB raises $57.5M to accelerate AI model training with multimodal data platform",
-   "titleJa": "",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "SiliconANGLE",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPcnQwMUhZbDZadEc5bms2NEpRTks1V196ZmR5MnpMZ005Z1JabmNwRjcxMmRZS3A4WG1zLVJFc0dEV1FjUHRKUTlMZkhqR0pleTM1cG8ybUZGUHhGUldqa3FQcGtCSnpoUlR1NFBWUTdUVm9GdEZ0N0FERUZ5dWxpY1RUY2V3WUE4cmptdFpseUNteWtlOXhLTFFMMTFRV1d6dEtsUElYODBNNnFfNXFzMlBfTGpNRHNfenFV?oc=5",
-   "image": "",
-   "published": "2026-11-17T16:30:00Z",
-   "weight": 1
-  },
-  {
-   "id": "ff12ab8b1b77",
-   "region": "global",
-   "topics": [
-    "media"
-   ],
-   "title": "IDCC: Cloud licensing and AI/video R&D broaden growth beyond smartphones",
-   "titleJa": "",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "TradingView",
-   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNOGFpajN3ajd0NFZuQmlxZGhicmVzTXNycXVBQ1RnYnpnNzJnT2l6eXk5WU1GV3hLNzZnMGdOTllPdm91UWRmVkR0aUFoV0tqdWUwMzFYSkZiTHJjaHNtdURhT2lHVUpfYXhnQlFESzFqbWp1OEFVamR4NWhEOW5YQmFkelNQbFdsR1E1S0hpV1ZzeGg0bTJKeGQ2VDdoUVVPODY5TnVCalFtb3lmbERldnlrNTBKRVQ0emhWSGxjbjNpUFlOTmxPMHZTejkzbVpycGRYeXZHNTZkeUw0ZThqWHl1T0NKNW9ZUUxqZTBEMA?oc=5",
-   "image": "",
-   "published": "2026-11-17T16:29:35Z",
-   "weight": 1
-  },
-  {
-   "id": "477baed1c248",
-   "region": "japan",
-   "topics": [
-    "media"
-   ],
-   "title": "Maison AIに画像・動画生成AIモデルを追加 AuthenticAI",
-   "titleJa": "Maison AIに画像・動画生成AIモデルを追加 AuthenticAI",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "ja",
-   "source": "Dellows News",
-   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE43UXdwUjFiT0J1OWJPRlRveDFzVUo3OE9qNVM3VmQ3RlFUdW0xTGJjaWVCOE90MF92T0dkVU44UEhLVE04SWJv?oc=5",
-   "image": "",
-   "published": "2026-11-17T16:26:25Z",
-   "weight": 1
-  },
-  {
-   "id": "ab37a763d428",
-   "region": "global",
-   "topics": [
-    "policy"
-   ],
-   "title": "What AI regulation could learn from the most hazardous industries in the world",
-   "titleJa": "",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "The Conversation",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdllRcDN4MW1DLTlWSmg3MmNKUUVzbFNRbnBseFE2SEVrak5NaHV2SmhEU1EwZWpzcWYwbGo4cGRWVk9VN0gzZUJmSVoxcjlWSnJzd1dPNFpWdlE2OE5YcThkSjdxcDVKaVRBbjJsaDZqSnluWG9kUWlvLXJyeHpFQWtIMHBFaEdvRm1lWlozVTl4UUNja2xtZlBBVGZvVFNxR0dOS1RHM1RYRGtiNE1UQzRTTQ?oc=5",
-   "image": "",
-   "published": "2026-11-17T16:25:49Z",
-   "weight": 1
-  },
-  {
-   "id": "ea55b8609196",
-   "region": "global",
-   "topics": [
-    "general"
-   ],
-   "title": "Own 2 Android phones? Google may let you switch service fast – like iPhone Handoff",
-   "titleJa": "",
-   "summary": "If Android Fast Switch works like iPhone Handoff, one eSIM can be quickly switched between two phones.",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "ZDNET",
-   "url": "https://www.zdnet.com/tech/android-fast-switch-like-iphone-handoff/",
-   "image": "https://www.zdnet.com/wp-content/uploads/sites/3/eac2e9bd-2af1-4f41-97bf-98e726de5a35-1-201-a.jpg",
-   "published": "2026-11-17T16:19:15Z",
-   "weight": 2
-  },
-  {
-   "id": "cb8293f821d9",
-   "region": "global",
-   "topics": [
-    "business",
-    "hardware"
-   ],
-   "title": "The DOJ says it’s investigating Megaspeed",
-   "titleJa": "",
-   "summary": "The Justice and Commerce Departments said that they are investigating Megaspeed, the Singapore-based data center company intertwined with the resignation of Nvidia CEO Jensen Huang, after reporting suggested an investigation had been halted last year. \"While we don't typically co…",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "The Verge",
-   "url": "https://www.theverge.com/policy/1035410/doj-megaspeed-nvidia-investigation-update",
-   "image": "",
-   "published": "2026-11-17T16:19:03Z",
-   "weight": 2
-  },
-  {
-   "id": "72bfe8ced2ac",
-   "region": "global",
-   "topics": [
-    "general"
-   ],
-   "title": "European game unions publish joint manifesto against generative AI",
-   "titleJa": "",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "Inven Global",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVVViekk1ZFl3T3FOb0dzUF9aQnc1cmFKbWhMa19ZYTNZcll5SURzOWJFQUVzZW0tTGxKWXZHYkx0bXZnZ2FqZkQ0OXJ3Q1FRdFh3ZXhXM252anhhbnNoR3NoenlpN243TUIza2daZ3FWSW10UnUyX3NXOGZ6QUtNZ18xeHg1SVJyVEFORjA0ZXlBSWJIU21kOHpLdFJlMGdieC04a2xqdE55MHJnWHc?oc=5",
-   "image": "",
-   "published": "2026-11-17T16:10:16Z",
-   "weight": 1
-  },
-  {
-   "id": "e0185595ee6e",
-   "region": "global",
-   "topics": [
-    "hardware"
-   ],
-   "title": "Jensen Huang says he’s willing to return as Nvidia CEO",
-   "titleJa": "",
-   "summary": "Jensen Huang, who resigned as Nvidia's CEO last week, would be willing to return as CEO if the company's board of directors wanted it, he said in a statement reported on by The Wall Street Journal. \"Since my departure, I've seen an outpouring of calls from Nvidia's employees, inv…",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "The Verge",
-   "url": "https://www.theverge.com/tech/1035420/jensen-huang-nvidia-return-as-ceo-statement",
-   "image": "",
-   "published": "2026-11-17T16:09:57Z",
-   "weight": 2
-  },
-  {
-   "id": "8eba9a65247b",
-   "region": "global",
-   "topics": [
-    "products"
-   ],
-   "title": "Oura’s new feature could help you kick jet lag – how to enable it",
-   "titleJa": "",
-   "summary": "Oura just launched a Jet Lag Plan to help you stay alert when you switch time zones, whether you’re traveling for business or pleasure.",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "ZDNET",
-   "url": "https://www.zdnet.com/tech/oura-jet-lag-plan/",
-   "image": "https://www.zdnet.com/wp-content/uploads/sites/3/screenshot-2026-07-01-at-11-09-24am_c37829.png",
-   "published": "2026-11-17T16:05:30Z",
-   "weight": 2
-  },
-  {
-   "id": "5b0b199a3f15",
-   "region": "global",
-   "topics": [
-    "general"
-   ],
-   "title": "How ArisGlobal scaled generative AI inference on Amazon Bedrock",
-   "titleJa": "",
-   "summary": "ArisGlobal runs NavaX, its life-sciences AI engine, on Amazon Bedrock. By caching the shared prompt prefix instead of each per-case document, ArisGlobal cut effective input cost by about 50% and overall monthly inference spend by about 40%, while onboarding more tenants without p…",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "AWS Machine Learning",
-   "url": "https://aws.amazon.com/blogs/machine-learning/how-arisglobal-scaled-generative-ai-inference-on-amazon-bedrock/",
-   "image": "",
-   "published": "2026-11-17T15:57:09Z",
-   "weight": 2
-  },
-  {
-   "id": "57dec7180ad6",
-   "region": "japan",
-   "topics": [
-    "general"
-   ],
-   "title": "AIはホワイトカラー職を奪う？ 最新統計が示すもの",
-   "titleJa": "AIはホワイトカラー職を奪う？ 最新統計が示すもの",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "ja",
-   "source": "毎日新聞",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE43YUZlOVI1N3hIOTFFV0lQYm8yWXlNM0JrYVZBNmVidHpCcDcwV3FzSDN5WjdDZ09FS1FDRjI1eF90bjV2NGFxNW1vSzZ2ZWZLMS10cG1BMlc1a0N3QnRhbnAyMzBTbVZqYVpyTlpNdE1ZaXd3WmxvTS03d1hfblU?oc=5",
-   "image": "",
-   "published": "2026-11-17T15:48:25Z",
-   "weight": 1
-  },
-  {
-   "id": "01831b510b28",
-   "region": "global",
-   "topics": [
-    "general"
-   ],
-   "title": "OTT Subscriptions Decline as Generative AI, Commerce Memberships Surge",
-   "titleJa": "生成AI、コマースメンバーシップの急増に伴い、OTTサブスクリプションが減少",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "조선일보",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNUHNqelAtY2Rld21jbEktY3Vfd1dsM0k5SllMZy00dldyM3FrNGZyd1JBYnBlNlItd0xJS3A4UGtoMWtJaTdwbFVzcDJjMFR5WFB6Uzd5Ui1DaUJUQXd0czRkVW9YOTUzUXY1SGxxVkhMcFgxX0xZdDRKWDUyUkNtckVVT1h5OWNvMC1Mc1Nn?oc=5",
-   "image": "",
-   "published": "2026-11-17T15:38:38Z",
-   "weight": 1
-  },
-  {
-   "id": "b5b1e8f149e4",
-   "region": "global",
-   "topics": [
-    "hardware"
-   ],
-   "title": "Ars Live: What do drone strikes on data centers mean for the future? Talk at 1 pm EST today",
-   "titleJa": "Ars Live：データセンターに対するドローン攻撃は、将来にどのような影響を及ぼすのでしょうか？本日午後1時（東部標準時）にトークイベント開催",
-   "summary": "Ars Live discussion is happening today, November 17, at 1 pm Eastern Time.",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "Ars Technica",
-   "url": "https://arstechnica.com/gadgets/2026/11/ars-live-can-the-cloud-survive-drone-strikes-on-data-centers/",
-   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Ukraine-data-center-under-attack-1152x648.jpg",
-   "published": "2026-11-17T15:28:59Z",
-   "weight": 2
-  },
-  {
-   "id": "b6215a0a09ed",
-   "region": "global",
-   "topics": [
-    "policy"
-   ],
-   "title": "Live from Georgetown University: AI Policy in 2027 with Alexandra Reeve Givens",
-   "titleJa": "",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "Lawfare",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMHdkV1pDczM4dHdSc2xhS2R3bDcwMVFxZzFqY3ZhYlZaMDlsek1DZTkwN1NqU09fOGJqcWcta3E3ZExtZVJHWVRQcFRCSmdmV0RibTlSWi1wakdxV3NLajZibXdVcF9BUm9jS2tHLXc3R1ktc3l6NTliV09QYUtIbnBGZ3MyV3BiZWpVMVNVdWxTaDRiYldvclpQaWx2UFN3RjVuV1BlS2dJbm5xay1SbnVlSFkyQQ?oc=5",
-   "image": "",
-   "published": "2026-11-17T15:22:23Z",
-   "weight": 1
-  },
-  {
-   "id": "0201bc25590d",
-   "region": "global",
-   "topics": [
-    "business"
-   ],
-   "title": "AI Startup Fermat Secures $8M to Streamline Fashion Tech Packs",
-   "titleJa": "AIスタートアップのFermatが、ファッションテックパックの合理化に向けて800万ドルを調達",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "WWD",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSFN6ZDZXbk5uNlZ5WThRd2o5UHNBNzU2WGlwQ01iejNrZGZ5VGcyUDlhWmZPMXFCVGYxSzBvcWpQUHJiZFJCMG43NXZWeEgtY1FsSFRhUFpndFgyQUlGMXVOd0dSWWRCTnNsZzVLTHh1OUR5SGRwTHZfNGdxRE9aU0hheFd4aGhzc0xJQVZZcU5GZmlyVUQtdzJnWmJ2TUhmdjdJ?oc=5",
-   "image": "",
-   "published": "2026-11-17T15:11:15Z",
-   "weight": 1
-  },
-  {
-   "id": "7cf9527f81c8",
-   "region": "global",
-   "topics": [
-    "media",
-    "business"
-   ],
-   "title": "Lemonpeel Raises $1 Million in Pre-Seed Round Led by Shastra VC to Build AI Video Production Infrastructure",
-   "titleJa": "",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "Indian Startup Times",
-   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQa0ZJQzBCODNoNnRQc21xR0VucVR6MUJ1ei1IWnNlN3JRNlZ1cGV5MGdBajlGVUZJOURnOFoxczNwMy1aNzVjNXdyaGRnYWctOWRNZTdUYTBiZDR2SHRqUkpISEpoSVQ1RWd4MHYzaXNKTzkzSzJoM0JXbWhXckVWV2NEemVGa1h1Q3ZvTExWZkhMSl8yNklQSTdob0pPQmQ0QkZtWXcxNUhQeXJJazdHYk9ST3dBM04zZnBibTdCbmp1bWFTcGMyYmpsLVp3eEJUOWVSNUhlOGxvZEh4SHZOcQ?oc=5",
-   "image": "",
-   "published": "2026-11-17T15:03:15Z",
-   "weight": 1
-  },
-  {
-   "id": "e1a87f9f921d",
-   "region": "global",
-   "topics": [
-    "policy"
-   ],
-   "title": "OpenAI opens its cybersecurity tool Daybreak to NATO and European governments",
-   "titleJa": "OpenAIがサイバーセキュリティツール「Daybreak」をNATOおよび欧州諸国政府に開放",
-   "summary": "OpenAI is opening its cybersecurity tool Daybreak to NATO and several European governments, including Germany, France, and Poland. The EU's cybersecurity agency ENISA has already used it to find real vulnerabilities in EU software. The NATO Communications and Information Agency (…",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "The Decoder",
-   "url": "https://the-decoder.com/openai-opens-its-cybersecurity-tool-daybreak-to-nato-and-european-governments/",
-   "image": "",
-   "published": "2026-11-17T15:02:03Z",
-   "weight": 2
-  },
-  {
-   "id": "df92921082e9",
-   "region": "global",
-   "topics": [
-    "business"
-   ],
-   "title": "Voyage Labs raises $12 million for a specialized AI travel assistant",
-   "titleJa": "Voyage Labsが、専門のAIトラベルアシスタント向けに1,200万ドルを調達",
-   "summary": "Voyage Labs’ flagship product is called Atlas, meant to work as a personal assistant for your trip-planning, available today in private beta.",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "TechCrunch",
-   "url": "https://techcrunch.com/2026/11/17/voyage-labs-raises-12-million-for-a-specialized-ai-travel-assistant/",
-   "image": "",
-   "published": "2026-11-17T15:00:00Z",
-   "weight": 2
-  },
-  {
-   "id": "81bb36f7d660",
-   "region": "japan",
-   "topics": [
-    "media"
-   ],
-   "title": "ネイティブタイアップ 自然な日本語も、4K 10bit HDRも扱える、動画生成「Kling AI」を体感せよ！",
-   "titleJa": "ネイティブタイアップ 自然な日本語も、4K 10bit HDRも扱える、動画生成「Kling AI」を体感せよ！",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "ja",
-   "source": "株式会社インプレス",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1FTjI0QUx5ZHRPbngwQVQxX3pSVWpPamhxdmo3M3pyTmpET1F0UmtGaUZqLUVlV3MxdGRJajFWUGR3YmFncU1lR1lGTWItNHhpT2l3bVBRaHhWaU96aEhYeXM1blVpelZjUUQ2Z01TRQ?oc=5",
-   "image": "",
-   "published": "2026-11-17T15:00:00Z",
-   "weight": 1
-  },
-  {
-   "id": "de54dba0191d",
-   "region": "global",
-   "topics": [
-    "general"
-   ],
-   "title": "Reports of AI-generated child sexual abuse material have surged more than 8,400 percent in two years",
-   "titleJa": "AI生成の児童性的虐待素材に関する報告が、2年間で8,400%以上急増",
-   "summary": "Edinburgh's Childlight Institute reports a more than 8,400 percent increase in AI-generated child sexual abuse material over two years, from about 4,700 reports in 2023 to over 400,000 in 2025. Abusers are using tools like nudify apps for blackmail. Childlight CEO Paul Stanfield…",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "The Decoder",
-   "url": "https://the-decoder.com/reports-of-ai-generated-child-sexual-abuse-material-have-surged-more-than-8400-percent-in-two-years/",
-   "image": "",
-   "published": "2026-11-17T14:59:50Z",
-   "weight": 2
-  },
-  {
-   "id": "f7e4a9ce098e",
-   "region": "global",
-   "topics": [
-    "business"
-   ],
-   "title": "Isomorphic Labs raises $5 billion in its second mega-round within six months",
-   "titleJa": "Isomorphic Labsが6か月以内に2回目のメガラウンドで50億ドルを調達",
-   "summary": "Isomorphic Labs has raised $5 billion, just six months after a $2.1 billion round. Alphabet's AI drug discovery company, led by Demis Hassabis, plans to use the funding to push its drug pipeline toward clinical trials. The company has no approved drugs yet. The article Isomorphic…",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "The Decoder",
-   "url": "https://the-decoder.com/isomorphic-labs-raises-5-billion-in-its-second-mega-round-within-six-months/",
-   "image": "",
-   "published": "2026-11-17T14:57:02Z",
-   "weight": 2
-  },
-  {
-   "id": "64497aa5406e",
-   "region": "global",
-   "topics": [
-    "products"
-   ],
-   "title": "California's attorney general sues OpenAI over rogue AI models that attacked Hugging Face",
-   "titleJa": "カリフォルニア州司法長官が、Hugging Faceを攻撃した悪質なAIモデルをめぐりOpenAIを提訴",
-   "summary": "California Attorney General Rob Bonta is suing OpenAI over a cyberattack that the company's out-of-control AI models launched against AI platform Hugging Face in July. The article California's attorney general sues OpenAI over rogue AI models that attacked Hugging Face appeared f…",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "The Decoder",
-   "url": "https://the-decoder.com/californias-attorney-general-sues-openai-over-rogue-ai-models-that-attacked-hugging-face/",
-   "image": "",
-   "published": "2026-11-17T14:54:10Z",
-   "weight": 2
-  },
-  {
-   "id": "ed47f6db4915",
-   "region": "global",
-   "topics": [
-    "business"
-   ],
-   "title": "Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials",
-   "titleJa": "Isomorphic Labsが50億ドルを調達。候補薬の臨床試験実施を目指す",
-   "summary": "Isomorphic Labs, the AI drug-discovery platform that was spun out of Google’s DeepMind in 2021, has raised $5 billion in a Series C funding round.",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "TechCrunch",
-   "url": "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/",
-   "image": "",
-   "published": "2026-11-17T14:50:58Z",
-   "weight": 2
-  },
-  {
-   "id": "a127bdd6bea9",
-   "region": "global",
-   "topics": [
-    "research"
-   ],
-   "title": "Research Reports",
-   "titleJa": "研究報告",
-   "summary": "To access a report, click on the corresponding image below.",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "MIT Technology Review",
-   "url": "https://www.technologyreview.com/2026/11/17/1148203/research-reports/",
-   "image": "",
-   "published": "2026-11-17T14:39:46Z",
-   "weight": 2
-  },
-  {
-   "id": "e71fca560a14",
-   "region": "global",
-   "topics": [
-    "general"
-   ],
-   "title": "IWGB Game Workers Union leads manifesto on generative AI use in the industry",
-   "titleJa": "IWGBゲーム労働者組合が、業界における生成AIの利用に関するマニフェストを主導",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "GamesIndustry.biz",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZjNPaC1wb2pWT3B6alBwOHVUUjdjeXp1M3RIQU44OW12bkVFNzZfNHFXNXNmaXZmaURaSUV0djNBdmJmMk9SRzhTVEZCSXhWSlhGX2xHZW5ONzg0ci1Ubzc2VkoxdlNvVjhVU2RPYjVXNDdHc1RMX3JJWmg0VndZOU5TRzRna0pubjkyWUNIME9rZTAxUEFtSWNaQjRSRld1OERXWi0yMEtqZw?oc=5",
-   "image": "",
-   "published": "2026-11-17T14:28:00Z",
-   "weight": 1
-  },
-  {
-   "id": "e44f11e2a14e",
-   "region": "global",
-   "topics": [
-    "policy"
-   ],
-   "title": "LACo Supervisors to Consider AI Policy",
-   "titleJa": "ロサンゼルス郡の監督委員がAIポリシーを検討",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "MyNewsLA.com",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTTlRVjlhY3Qxdi0wMy1Mbm1Ic242WmMzeVA5d3dCS25pMFdlUU1lZEVVcTlhc3QycWE3X0M3UEZrRm1TektmRjFfZkFLWV9aZjJhdV9OMzFaQ3FibmpMajZLUDNVY0JpZlQyM3YzMlRUQXptYmFzOU5JSktMUUM2MG8wZVVWeHFfalZzdWdJNjE?oc=5",
-   "image": "",
-   "published": "2026-11-17T14:28:00Z",
-   "weight": 1
-  },
-  {
-   "id": "6755813e5cbe",
-   "region": "global",
-   "topics": [
-    "business"
-   ],
-   "title": "Science Corporation’s brain tech is worth $3.5 billion after new funding",
-   "titleJa": "Science Corporationのブレインテック、新たな資金調達により35億ドル相当に",
-   "summary": "Science Corp. raised a $400 million Series D to scale up its anti-blindness business.",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "TechCrunch",
-   "url": "https://techcrunch.com/2026/11/17/science-corporations-brain-tech-is-worth-3-5-billion-after-new-funding/",
-   "image": "",
-   "published": "2026-11-17T14:26:46Z",
-   "weight": 2
-  },
-  {
-   "id": "86f88f43f6a7",
-   "region": "global",
-   "topics": [
-    "general"
-   ],
-   "title": "Portland Public Schools discusses generative AI use in classrooms",
-   "titleJa": "ポートランド公立学校が、教室での生成AIの使用について話し合う",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "KATU",
-   "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPZnBPbEJ3b2ZUVGZIUDk0Mlh2cGtZN2l3clRQSE9RUG10czFmZDd1dndvSU5DYU9vU2VpSE8xQnp2TUZBUlRISWpiR0RHamNsSnZsZkZqcDFIdTJlMEtnUTVCRXMzNTFldzVHb3hKWDZLTWNhRHhPdGhYaGx4Rk92WC16RjBFNlN5X0ZiM1dQYlpVTnlUSG1teXV3VUJ5bDBvdnFSTDE2RWRISGd5ZFFva0N1eUJXSW1rUjhiVk55RFdndFBUd0JlaGUwY1lsUTBCMFg1dWo3US1zZVp5V3dMWVV2dHZIYkFxRTh4ZzN4WE1tNFJrNXBoR3hOQ05TMEVQaXdDZjlWWEw0MkxIWWc?oc=5",
-   "image": "",
-   "published": "2026-11-17T14:25:38Z",
-   "weight": 1
-  },
-  {
-   "id": "b76dd8e1d356",
-   "region": "global",
-   "topics": [
-    "general"
-   ],
-   "title": "Archer integrates AI model into ForeFlight for ATC transcription",
-   "titleJa": "ArcherがAIモデルをForeFlightに統合し、ATCの文字起こしを実現",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "Investing.com",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOajBPRnM4Slo3RHJselB1LTJralVvQzE3MFY5ZkNpcm55VElNdnIxSGtORTNCak90cjR4TDd1ZF9NVGNkdzNnd0dMbkNoLUVPdXVtbExGRUVkSlYzWXNMSExDaFo5dkpPM2JQOUNvR0VkZ1ZLREZsbXFDNkpOLWQxeGZ1RnFET1k3MWtPOGV3NDB6NU1oSExidkwzc3VQU0luTjRiVHN4eVRzME9MRkFfZUEwV0ZiSFRreVdhWVVn?oc=5",
-   "image": "",
-   "published": "2026-11-17T14:17:33Z",
-   "weight": 1
-  },
-  {
-   "id": "b41d98fce266",
-   "region": "global",
-   "topics": [
-    "general"
-   ],
-   "title": "AI Model Shows Promise in Predicting PTSD Risk Following Trauma",
-   "titleJa": "AIモデルが、トラウマ後のPTSDリスク予測に有望な結果を示す",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "2 Minute Medicine",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPOWlOaGpQNFg4NVN4N1ZORm5hcTRkMWtWVE9SQ21fU0xtX0RiTGk5RWpJanV2dm9KT2Jwa2ROLVJwZGRBZllqZ253SnAwV3E2c2dXQUdhWm5BVjFILTBWNEhseGNSTjc1bnlyZXNyUDRaNm5fcW9oX1M1T3VYZGFVb2I5Ukc5YXc0M1Y4WVJwb3VJVllaRENzU2xHa3I?oc=5",
-   "image": "",
-   "published": "2026-11-17T14:15:10Z",
-   "weight": 1
-  },
-  {
-   "id": "2a8f3e96bb72",
-   "region": "global",
-   "topics": [
-    "hardware"
-   ],
-   "title": "Nvidia’s first big move after Jensen Huang’s exit targets national security",
-   "titleJa": "ジェンセン・ファン氏の退任後、Nvidiaの最初の大きな動きは国家安全保障をターゲットに",
-   "summary": "The new standing committee will give board-level oversight of national security policies, export control compliance, and global trade risks, the company said.",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "TechCrunch",
-   "url": "https://techcrunch.com/2026/11/17/nvidias-first-big-move-after-jensen-huangs-exit-targets-national-security/",
-   "image": "",
-   "published": "2026-11-17T14:05:30Z",
-   "weight": 2
-  },
-  {
-   "id": "58b280918720",
-   "region": "global",
-   "topics": [
-    "general"
-   ],
-   "title": "Tacton Expands Generative AI Innovation with AI Sales Assistant to Accelerate Complex Manufacturing Quotes",
-   "titleJa": "Tacton、AIセールスアシスタントによる生成AIイノベーションを拡大し、複雑な製造の見積もり作成を迅速化",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "The Joplin Globe",
-   "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxOVmtLWDhOTlBWckFweVpkV3RoUDFSR3ZiRklKdm01NVpKeUg0X3JKZ0FlVUctbVdnQVEtSnJNa1gzQlJBWGhReUpjb2hjLU1UeFVfczQxd1pFT1ZRdG1yV1M0Slg0M08zWGwwVG5CU25fZUdXbTRnd1hMajZMUm40WEJjN3dHaHJ6Wlk2MERZeG12Y3czNXpTY0VNd1FySGYtUUVfM3VvcHVSRW1BYlhlSU1PMkVYaWd4WTVqVXJQOW9TZ0ZzYzR0NElxTnNHc0xxZzNnekpMWUJKSGVWYmxRTTZtVjRiaHRpS0lDNjk1Y05faHBEZ0tDU3dZQm9vMFBwT1MxRmRzXzBPZ1BzdXcxNllxaGlxTjNxRGZ0dk43NjJOaER3NHZGc0F0cGd3SEZtT1Bz?oc=5",
-   "image": "",
-   "published": "2026-11-17T14:03:31Z",
-   "weight": 1
-  },
-  {
-   "id": "d426894cba90",
-   "region": "global",
-   "topics": [
-    "policy"
-   ],
-   "title": "The tax code already has an AI policy: It pays companies to borrow",
-   "titleJa": "税法にはすでにAIに関する方針があります。それは企業が借入を行う場合に支払うものです。",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "Brookings",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSEZiaV90QjFpdFJQN2NYbWJwWnBoa0I3NjNrVklPNlExdlJTa1FadktJUEVmMDFMVU1lbi1oQ2N5N1djcG9ONVVDcW5uRXAtM2lueF85N29VSTZDUW9JZy1XOFVwUUo0TzIyZkF1VE5BNkY2UmJFbGdONVZqdkVsOVRObUxic3VHTHVCSVJrQm8tS09haVVuNVFPR0lvaU85OUw4?oc=5",
-   "image": "",
-   "published": "2026-11-17T14:02:39Z",
-   "weight": 1
-  },
-  {
-   "id": "82a0f3f37665",
-   "region": "global",
-   "topics": [
-    "agents"
-   ],
-   "title": "Grok Bot took unapproved actions, ignored orders to stop, and then denied it",
-   "titleJa": "Grok Botが承認されていないアクションを実行し、停止するよう命じられても無視し、その後それを否定しました",
-   "summary": "AI agent takes unapproved actions even when laptop lid is closed and told not to.",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "Ars Technica",
-   "url": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it/",
-   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/grok-bot-barfs-code-1152x648.jpg",
-   "published": "2026-11-17T14:00:29Z",
-   "weight": 2
-  },
-  {
-   "id": "42dc8d902eed",
-   "region": "japan",
-   "topics": [
-    "general"
-   ],
-   "title": "アニメ『楽園追放』監督が語る生成AIへの期待と落胆「人間が考えたものの劣化版が出てくるだけになってしまってもったいない」",
-   "titleJa": "アニメ『楽園追放』監督が語る生成AIへの期待と落胆「人間が考えたものの劣化版が出てくるだけになってしまってもったいない」",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "ja",
-   "source": "Yahoo!ニュース",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBHZUx0Qm5Dc0dTeXFHY0Nmd2lOM2ViNjFUSmZ2R3Q0eXc0aDZTU3Y4QXMweVhTM2lkT09ISVVJeGp2aWdHQlZMX01mcVVtbFdrTTNsT2liWWx3Q0RLb2lLRF9yLUp2VTdvcDJmeE1CMFFSVG1BQ3duUmJzWnpzeUk?oc=5",
-   "image": "",
-   "published": "2026-11-17T14:00:19Z",
-   "weight": 1
-  },
-  {
-   "id": "dec08682255b",
-   "region": "global",
-   "topics": [
-    "agents",
-    "research",
-    "hardware"
-   ],
-   "title": "Ian Buck Kicks Off NVIDIA’s Week at SC26 as Science Enters the Age of Agents",
-   "titleJa": "",
-   "summary": "NVIDIA’s Ian Buck kicked off the company’s week at SC26 in Chicago on Monday with new tools for AI agents, software that can plan experiments, run code and check results on researchers’ own systems. In NVIDIA’s special address, Buck announced Nemotron for Science, the Rubin HPC G…",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "NVIDIA",
-   "url": "https://blogs.nvidia.com/blog/ian-buck-sc26/",
-   "image": "https://blogs.nvidia.com/wp-content/uploads/2026/11/Buck-Talk-SC26-scaled.jpeg",
-   "published": "2026-11-17T14:00:10Z",
-   "weight": 3
-  },
-  {
-   "id": "2f0718683799",
-   "region": "global",
-   "topics": [
-    "research",
-    "business"
-   ],
-   "title": "AI Is Giving Optical Computing Another Shot",
-   "titleJa": "AIが光コンピューティングに新たなチャンスをもたらす",
-   "summary": "The idea of computing with light has been around for over 70 years, but until recently it’s remained largely in the realm of research. Over the past few years, though, optical computing has emerged as a fast-growing industry: Market valuation of companies in this sector now total…",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "IEEE Spectrum",
-   "url": "https://spectrum.ieee.org/optical-computing-ai",
-   "image": "https://spectrum.ieee.org/media-library/close-up-of-a-green-circuit-board-with-a-central-microchip-and-intricate-traces.jpg?id=68692424&width=980",
-   "published": "2026-11-17T14:00:03Z",
-   "weight": 2
-  },
-  {
-   "id": "47464bcdd529",
-   "region": "global",
-   "topics": [
-    "products"
-   ],
-   "title": "Spotify’s new tool aims to stop deepfakes from being attributed to real artists",
-   "titleJa": "Spotifyの新しいツールは、ディープフェイクが実際のアーティストのものと誤認されるのを防ぐことを目的としています",
-   "summary": "The update comes as Billboard reported last month that Sony Music had requested the removal of more than 260,000 deepfake songs from digital platforms, nearly double the number the label disclosed in March.",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "TechCrunch",
-   "url": "https://techcrunch.com/2026/11/17/spotifys-new-tool-aims-to-stop-deepfakes-from-being-attributed-to-real-artists/",
-   "image": "",
-   "published": "2026-11-17T14:00:00Z",
-   "weight": 2
-  },
-  {
-   "id": "2c5ab5c01de1",
-   "region": "japan",
-   "topics": [
-    "hardware"
-   ],
-   "title": "VRAMが数百GBなくてもGPU1基でGLM-5.3-Flashを動かすことができる「Project Maya」",
-   "titleJa": "VRAMが数百GBなくてもGPU1基でGLM-5.3-Flashを動かすことができる「Project Maya」",
-   "summary": "AIモデルを自分のPCで動かす場合はモデルのデータをVRAMに読み込みますが、数千億パラメーター級の巨大なモデルを動かすのに必要なメモリは数百GB単位になるため自前環境で動かすことはほぼ不可能です。そこでVRAM・メインメモリ・SSDを組み合わせて条件をクリアすれば、GPU1基の環境でも巨大モデルを実行できるようにするための無料のオープンソースツールが「Project Maya」です。",
-   "summaryJa": "AIモデルを自分のPCで動かす場合はモデルのデータをVRAMに読み込みますが、数千億パラメーター級の巨大なモデルを動かすのに必要なメモリは数百GB単位になるため自前環境で動かすことはほぼ不可能です。そこでVRAM・メインメモリ・SSDを組み合わせて条件をクリアすれば、GPU1基の環境でも巨大モデルを実行できるようにするための無料のオープンソースツールが「Project Maya」です。",
-   "lang": "ja",
-   "source": "GIGAZINE",
-   "url": "https://gigazine.net/news/20261117-project-maya/",
-   "image": "",
-   "published": "2026-11-17T14:00:00Z",
-   "weight": 1
-  },
-  {
-   "id": "8958d9244cfd",
-   "region": "japan",
-   "topics": [
-    "models"
-   ],
-   "title": "グーグル、Geminiの「Gems」を廃止へ 独自AIボットは「Skills」に移行",
-   "titleJa": "グーグル、Geminiの「Gems」を廃止へ 独自AIボットは「Skills」に移行",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "ja",
-   "source": "BigGo ファイナンス",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5rSlU3U1NyX2JaSXZlMGx3OVNfV0pvZmc2OUZMeDJESUVpT19FRnhNZjdCZWcwR1hFS0NsMVI1NnZta1M3Z1d6eEtYNDJJbXNrNW5IdlhZOVM2QW9yUmFxMnRzSThDUUtxVmxjRk1SN1JnNHVO?oc=5",
-   "image": "",
-   "published": "2026-11-17T13:55:00Z",
-   "weight": 1
-  },
-  {
-   "id": "1bc48854a2a6",
-   "region": "global",
-   "topics": [
-    "models",
-    "products"
-   ],
-   "title": "Q.ANT Unveils NPU Gen 2+: Photonic Fourier Transforms Power Large Language Model",
-   "titleJa": "Q.ANTがNPU Gen 2+を発表：光フーリエ変換が大規模言語モデルを強化",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "TechPowerUp",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNNGxQOFB5UWdfTDlkUG9KNUZBVjlaQTlULTJhaVFfRjBtZFcyTjB0dU1hMHlyTGFQNFhJaC1sSVdVVTNuV2p3U2tMZzdTbkhTQjU5OU9ldHJacEZHSV9RcUMzQ0wwdnhTVVkzVHIwRTU3c25VdmdIVDBrWllKS3FoODFxaFRUcG5kU1FucDZBMlZyQmVTWUNud3p3WXdhQU9wbWMtcmlMOEduTkp3cUhMU2I3d9IBuAFBVV95cUxNWkVuTS1ZTDRhVXZEVGo5dFp1THN4QU16OVhzcFVvTFFHV3V1TDNLSlJxVkRGVGJjV0piNk9uOE8yOTUybDZJUWNGOUlpT2haSnY4Sm9WYVdHd1BBQ3I4cE9EQXJub3dlZENpX08zb0RXMjZxazYydS1obDdhcTlRTHBrUjFKS1BYVnNjU2s1elZnOHNSUlNqS1UtNUZySFR4T1l6VW9NcDcweW4yeXFIYUt5eXh5bHls?oc=5",
-   "image": "",
-   "published": "2026-11-17T13:35:53Z",
-   "weight": 1
-  },
-  {
-   "id": "41a52ec22425",
-   "region": "global",
-   "topics": [
-    "media",
-    "agents",
-    "products"
-   ],
-   "title": "SalesCloser launches AI video sales agent app f...",
-   "titleJa": "SalesCloserがAIビデオセールスエージェントアプリをリリース...",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "Pluang",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQSzd1X0FTLTY1Y2sySEFydl9zdHdvVXdfUHV0cnZzZE9fbFNTU1owalMyRVRlOXlNYS1RX2d5aE1UZHRYSUswS0JELTZqUVdXTEpVQWo4cUhseW93aklsZjF1akhHWlhkbWtnTFhnMGg4NFJoeTJLRnNCb3ZvUFBpd3hyTUdRcEkyX0lzdGM1akdWZHBtb1BnSmxmNGZqSDBFVU8zbw?oc=5",
-   "image": "",
-   "published": "2026-11-17T13:33:36Z",
-   "weight": 1
-  },
-  {
-   "id": "c5f6f7efb758",
-   "region": "global",
-   "topics": [
-    "media"
-   ],
-   "title": "AI Video Intelligence: Advancing European Fleet Safety Culture - Future Transport-News",
-   "titleJa": "AIビデオインテリジェンス：欧州の車両運行安全文化の推進 - Future Transport-News",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "Future Transport-News",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPRHBScjNMMFVBT2NRZlBYeko0Q2R2LWhtSWtpUWhXQndieVVBRE9KLXhlMzlFSTlMLTB2QThKMUo3UGs3dl9hSkM1bUgwZGJnbnpfc1UwMzV5NlFsN1JpUEV1SnZRT2hEVk9vZTMtSGZxMlczTWhUZ1RCSy1YLVBSdkw2R0ZYSVJxN2hYbWJPTEFJeThhSFh1NFA0eXVReDhHSUNUVg?oc=5",
-   "image": "",
-   "published": "2026-11-17T13:30:57Z",
-   "weight": 1
-  },
-  {
-   "id": "438b86da377b",
-   "region": "global",
-   "topics": [
-    "general"
-   ],
-   "title": "61% of warehouse operators have scaled generative AI, survey finds",
-   "titleJa": "調査によると、倉庫オペレーターの61%が生成AIを拡張していることが判明",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "FreshPlaza",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOQUc3NGVQQVVUQTJvM3hZX2p2ZWdJM3hCbk40VjBHbXl3UWp0SEdHYUswSkY0NFZsUXJxeXJXeUlydGQ1Z00wdkZ1X0NkbUZPQVNnc3Bvd2JKR01taF91YUJYQ1ZCLWZHaG1mTGRtSGN6VlJQVU15Z3NXcnNaUk5YR3FuNG5EV3ZUX1d6eENtMjZtRC12OGF2bXZsVVdBVWNjY2t0MnlfTURWX21iMTdmT1dyZEtjSnAwdkVOLXczOA?oc=5",
-   "image": "",
-   "published": "2026-11-17T13:19:21Z",
-   "weight": 1
-  },
-  {
-   "id": "c888e622e243",
-   "region": "global",
-   "topics": [
-    "products"
-   ],
-   "title": "OVHcloud launches first open-source AI model family",
-   "titleJa": "OVHcloudが初のオープンソースAIモデルファミリーを発表",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "IT Brief UK",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQRzdJYVRqRjN5NTZneFJLNVJ4M2htaXpxeE9Ka1k2U2tCVjZUUXdnRjVCZzV5djZfWGJrWHBYZzktNHp5V1M1WmhMMDJhdmJ2QjJ1N1k5SVlMSWhVWkFSU3ZzMF82ZzNrMDFveVhVZDAxWGJubU1nM0dEcld4Rlp1QVJQVXpwdw?oc=5",
-   "image": "",
-   "published": "2026-11-17T13:13:17Z",
-   "weight": 1
-  },
-  {
-   "id": "ea39638b4eb5",
-   "region": "global",
-   "topics": [
-    "policy"
-   ],
-   "title": "Five Steps for Amended EU AI Act Compliance",
-   "titleJa": "改正EU AI規制へのコンプライアンスのための5つのステップ",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "Jackson Lewis",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNRDIzdHByU3BqUkd5ZFlwRkg2LTVPU2EtVVBnLVdWMDAxZ1pvYUlxclI3WFBlNUV5QUd1cGtOa3hZcmtLRXRzeFIwZXkwNS1NSW1MekV3TjRGZHE2NnFDSTN1cThXOTJfM2lES2pTQ1UtNndvZXJYUjRESlVCRlNtY3BhUQ?oc=5",
-   "image": "",
-   "published": "2026-11-17T13:06:59Z",
-   "weight": 1
-  },
-  {
-   "id": "6df16256276a",
-   "region": "japan",
-   "topics": [
-    "models"
-   ],
-   "title": "Claude Fable 5.2を使って一発で指示通りのゲームを作成できた話",
-   "titleJa": "Claude Fable 5.2を使って一発で指示通りのゲームを作成できた話",
-   "summary": "甥っ子から「ゲームを作って」と頼まれた機械学習エンジニアが、AIの「Claude Fable 5.2」に1回指示を出すだけでゲームを完成させたとする体験談を共有しました。",
-   "summaryJa": "甥っ子から「ゲームを作って」と頼まれた機械学習エンジニアが、AIの「Claude Fable 5.2」に1回指示を出すだけでゲームを完成させたとする体験談を共有しました。",
-   "lang": "ja",
-   "source": "GIGAZINE",
-   "url": "https://gigazine.net/news/20261117-claude-made-dream-game/",
-   "image": "",
-   "published": "2026-11-17T13:00:00Z",
-   "weight": 1
-  },
-  {
-   "id": "ad88ab0032fe",
-   "region": "global",
-   "topics": [
-    "general"
-   ],
-   "title": "Generative AI can empower entrepreneurs, but also entrap them",
-   "titleJa": "生成 AI は起業家を支援する一方で、罠にはめる可能性もある",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "GlobeNewswire",
-   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPS1ljVmpyOFdaRmNrWHA1aFRyemdKRkkybFh6ODJoSHpyM1ZjeXQtU25ta2pXaVdjU20yUllmbkloSmQ1dy1ta2NGT2F4MmgzZGpmWVk3MzdDazhETDlvOHByRmpLTGQ0RnFTall0WXUwU0I4NkxhcVpIS29FRV9zOFN1V3pFZ1B4U2tjMzU5V29NVWNGZlBqRThUbjk0Z2Nxb2ZnVjh6MlBacVFrS3pwd0hBZFNGT0JueTI0LW9IVmFEbTd4bHFiQkdEaW4?oc=5",
-   "image": "",
-   "published": "2026-11-17T12:55:00Z",
-   "weight": 1
-  },
-  {
-   "id": "6f33170de309",
-   "region": "global",
-   "topics": [
-    "media",
-    "policy",
-    "products"
-   ],
-   "title": "BJP shares 'the door to Congress' success' AI video mocking Rahul Gandhi | 'This product is beyond launching & relaunching' | Inshorts",
-   "titleJa": "BJPが「議会の成功への扉」というAI動画をシェアし、ラフール・ガンジー氏を揶揄 | 「この製品はローンチや再ローンチの域を超えている」 | Inshorts",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "Inshorts",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSms0SnhpU3ZfZkZuS2VmMHdOUHMyelFCZWVLRzNmd05OeTdtejRwUUtfemlLckJBMk1MVWlUNjE3S0FkbUxSYlZfTk5KREk2TEZjSkgwTV9WQl83ckdaZnNyMmhIdkxkR2pXbXdNWmdzYVRxOVlMZ1ZYYTRoRHFBeUFHd2tHMTdJRFJzaHItSGw1aXdvV2w0V1IyWHlaQTNSd09RRlJUSFlNdUVmdkNDOGtCQ3huSWFIZWNr0gG7AUFVX3lxTE1KazRKeGlTdl9mRm5LZWYwd05QczJ6UUJlZUtHM2Z3Tk55N216NHBRS196aUtyQkEyTUxVaVQ2MTdLQWRtTFJiVl9OTkpESTZMRmNKSDBNX1ZCXzdyR1pmc3IyaEh2TGRHaldtd01aZ3NhVHE5WUxnVlhhNGhEcUF5QUd3a0cxN0lEUnNoci1IbDVpd29XbDRXUjJYeVpBM1J3T1FGUlRIWU11RWZ2Q0M4a0JDeG5JYUhlY2s?oc=5",
-   "image": "",
-   "published": "2026-11-17T12:46:31Z",
-   "weight": 1
-  },
-  {
-   "id": "e58dfaeb32c0",
-   "region": "global",
-   "topics": [
-    "media",
-    "agents",
-    "products"
-   ],
-   "title": "SalesCloser Launches Live AI Video Sales Agent for Shopify Stores",
-   "titleJa": "SalesCloserがShopifyストア向けライブAIビデオセールスエージェントをリリース",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "The Manila Times",
-   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQNDM2SFdRUVZPRWNUN3E4S3dxUkxlblJRTk82UF9DOVJMSVFBRDV5bjZBbFAxb1NnaXpIUFd6WHctMWstRW0zcjlMZ1J5bTFQMjBVcGNhWEhubFF5eTVfSndUNzVlU2dFVmR2Q3hKZFBWNUVIMk9yaGtOa3JkekpCSmktamYxRE1VaE0tcXZjZmstOFROaGFYZHBDSFFTOWxtR3hucW95czI0UkVUTE02S0pqMi1mM1dHcEl3SUthT0w5YlJXaG9ZVFctYTRyTFFHdG9YdGFB0gHbAUFVX3lxTFBvMngwT1Y2MVpzekh4ZHJZRThKTHNKMkhyMEltVmZudmY4a3Q3U252aENFdjZWckdoQVM4NFdwRDJQeXBleEZfNjY0OElFYy12bHk4M3UxOGROaXNsdnJTS2pkZnVzeXBiOWlMSDVBd2VwOEI2NC1JcG4yUlJrb1VEdnVZSHRCR3R2b0RpUU9BUVZXWXBORDNSWC1kZ1ZaSV9QUGhQNFljZHlTNENKNUlIZ1pGSFdwRm84TG91bzlTd3lvNEJJa1MzT2F6UFBqbzBwWDVSLUk1UEdYMA?oc=5",
-   "image": "",
-   "published": "2026-11-17T12:44:46Z",
-   "weight": 1
-  },
-  {
-   "id": "15fe62078a83",
-   "region": "global",
-   "topics": [
-    "media",
-    "agents",
-    "business"
-   ],
-   "title": "Ex-TVF director's AI video startup Lemonpeel raises $1 million to build its multi-agent video platform",
-   "titleJa": "元TVFディレクターのAIビデオスタートアップLemonpeelが、マルチエージェントビデオプラットフォームの構築のために100万ドルを調達",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "Indian Startup News",
-   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNVWd6MkZjU0RHTDFjOVZqeEhjM3FCeUV1SVowN2x4ZVJQbnhfMVI5WExUTkg1a3N3LUhHbzlxb3NRNktVOXZIc0VCSkFIeGNreUJUM0EzRmFlaHJyUHpqLVMtY1pOV096alp4c3lCYnk5eTBaYVBrQWRBTThKVUQyMjVvVjA2bFhyUDNqNDB6ZkVWTlpVN25tNmN6Ty1MWWxzQVlGYV94VVgtUnFSVGRrSjQ1ZGxnVmpFZG5LNExtbURSbFVmUlhleXRsbm1fa2N0TVBlc0pUVkJsdG1ScS1PdtIB4AFBVV95cUxNVWd6MkZjU0RHTDFjOVZqeEhjM3FCeUV1SVowN2x4ZVJQbnhfMVI5WExUTkg1a3N3LUhHbzlxb3NRNktVOXZIc0VCSkFIeGNreUJUM0EzRmFlaHJyUHpqLVMtY1pOV096alp4c3lCYnk5eTBaYVBrQWRBTThKVUQyMjVvVjA2bFhyUDNqNDB6ZkVWTlpVN25tNmN6Ty1MWWxzQVlGYV94VVgtUnFSVGRrSjQ1ZGxnVmpFZG5LNExtbURSbFVmUlhleXRsbm1fa2N0TVBlc0pUVkJsdG1ScS1Pdg?oc=5",
-   "image": "",
-   "published": "2026-11-17T12:40:48Z",
-   "weight": 1
-  },
-  {
-   "id": "fba3c3cca275",
-   "region": "japan",
-   "topics": [
-    "media"
-   ],
-   "title": "‍‍‍無料で普通の動画を一瞬でアニメ動画にできる動画生成AI {FcS-00}",
-   "titleJa": "‍‍‍無料で普通の動画を一瞬でアニメ動画にできる動画生成AI {FcS-00}",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "ja",
-   "source": "Comité Asesor de Vacunas de la AEP",
-   "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxOY2VVcWhfM21JUjF3Zm5rSmVoYmlzX1BHckotajZuTXh5UlY3RGQ0T1ZuLWUtQnVaeENMSE9WM2dXYWZvd0ptQ2VXbE5PbVRsN1BYRzZWZ0NHYWozMUNUU2g2a0xWQWRIWE1KYmZneVQzNFVmQV9RWHlOUTJ1TFY4ZEZ1UmZ4VlJRREMtU1d4OXRCTnZTSXVyS0FKbEdTdVotb1dfaHE1ckpZdjZLaW01LS1Qdmt2NHRPa2pGMEVxVzc3NEx6Qk5WNEpPODVjajZab1FSQzE2UWd2ZU1lRTFiMlNDb0dVVVBJVEJDaXFlaEZ5aVpFdjlzMUJ2WFJyMmhjaFJHMWdrMmtoSWMxSjdHbXRCRzF6aV91?oc=5",
-   "image": "",
-   "published": "2026-11-17T12:36:07Z",
-   "weight": 1
-  },
-  {
-   "id": "d419cbb182b0",
-   "region": "japan",
-   "topics": [
-    "general"
-   ],
-   "title": "‍‍‍生成 ai 画像 生成 {FcS-00}",
-   "titleJa": "‍‍‍生成 ai 画像 生成 {FcS-00}",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "ja",
-   "source": "Comité Asesor de Vacunas de la AEP",
-   "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPc19vajVuTXJMa0lWRDhNSjRJVEJjVVZKRGlwN2hyajNUZjJFeDZSRnF3WlpOMmZCejRzUE5zQmFTR1JLQTFXNkdHZFhPc1lWYkhDaGMweHNZRk9aWVEzNTcxVzNPMnhKdVBQWDVyTE9DckxvM3RYUU5vRXlBZ0NHRGwyS0lPVnBOb05BeTFaTGlWdlRQSDM0WUZsSFFobktTU2N6YU85Z0E0ek1ncnBoSVpCaXIwVTYzbHliaGlFdmt6aVUzLWJRc3MyeWhkelR5NGFiNW55QW9TdWRVc1FHamRLbUREYUpDQzd1cjRVZnBZcC1GRTBpRmo4UmZVSHpzQVJMMmV1RzdLbVM3WGRWTHp5NUx5S2Q3?oc=5",
-   "image": "",
-   "published": "2026-11-17T12:33:08Z",
-   "weight": 1
-  },
-  {
-   "id": "6903b1637c0e",
-   "region": "japan",
-   "topics": [
-    "general"
-   ],
-   "title": "‍‍‍画像 生成 ai {FcS-00}",
-   "titleJa": "‍‍‍画像 生成 ai {FcS-00}",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "ja",
-   "source": "Comité Asesor de Vacunas de la AEP",
-   "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNdGR5T0Y2ejNnU095b2tpRWhOZVVxanZoc0EzLVRCWVdLOVZ2LWdQTVRYVFlFdEplOWhMVVBqOGlZbVJmcDBiV295YnV5QjVsb212RW96SDhKMVdhVXBaLXJRT2JQUU9mN0doTzc5bFlvcW11TWpreUhkaFpDTzktUXdfSExJV0NCd2tvdHZVTHpiMkRBWnI3ZHp3UkZRLTdRd09ETUY5bE0tWXI2NC1FWVJYMGs4eE1zU3ZRUVJEbVUxUzVSMC1yZVY3WkpTVEp6bTAzM0VuaW9uTDNwZnpsT0lhNEs3SHBzRzUyWDQ3bnJPZW9jNTV2LUdDTVV0X182aFlLQko1TUNkTGVILUYtMjBmVVdESllD?oc=5",
-   "image": "",
-   "published": "2026-11-17T12:33:02Z",
-   "weight": 1
-  },
-  {
-   "id": "85c638a80ba2",
-   "region": "global",
-   "topics": [
-    "general"
-   ],
-   "title": "Roundhill Generative AI & Technology ETF (CHAT) Stock Price, News, Quote & History",
-   "titleJa": "",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "Yahoo! Finance Canada",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE81QTJsWGJ1NGVNQW5rb0dLOTlvdVRmTGUxenFkU1IxM096U0hXUXhBY2NrSVFGeERGM1RheTJlR3k4TWlKU3lWOWJDTHg3aEhxMGc?oc=5",
-   "image": "",
-   "published": "2026-11-17T12:28:47Z",
-   "weight": 1
-  },
-  {
-   "id": "59dbdac240e7",
-   "region": "global",
-   "topics": [
-    "products"
-   ],
-   "title": "OVHcloud launches European-trained open source AI model",
-   "titleJa": "OVHcloudが欧州でトレーニングされたオープンソースのAIモデルをリリース",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "IT Pro",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQT3lwNFZ4TGFxcnVRVm1RYTE4aXdDdkFxNE5XWHAyc3JfWTk1TzExR1NMUGZBRzRFR2lBaUNKSngzOHRvYVdkeHUwWTE1N081ZW1OYXFJdGF5anN6SllpQWRrRk1PWDVBajNBZWVJVHRWbG1PQ1p5OWwyN2tzcGg2eVFGZUdZRDlkVWlOd01OdWhGWFN0MXFTeXRVNC05b1U?oc=5",
-   "image": "",
-   "published": "2026-11-17T12:27:06Z",
-   "weight": 1
-  },
-  {
-   "id": "a4b08350102a",
-   "region": "global",
-   "topics": [
-    "media"
-   ],
-   "title": "‍‍‍Free AI Video Generator on Your PC {FcS-00}",
-   "titleJa": "",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "Comité Asesor de Vacunas de la AEP",
-   "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNYVlvbW8wZ3ZmVHY5MnBzcEJLWUd2cVVmSklPUkZ4czNSQnlacWExanozcllUMG1OcVhQNkxnTl9sclRfcGI1WE44cXFTNTNxTkw4RUhzY0hjV1l2UFNNRG9aanl3bDdYSmhDcjFYTjJHOWdFV29HVVl1bjRGdnA4V0FtQnFfWXNiNjhfQ3Y0UnBlN3pnZ2tkR0xtZl9ic01xREV4YUVMczRhRXdXY2FLNDAwWEozT0hhVEhaOHBkd3NobnZSUktySmJpR2c4eE8xaFpMYkFnY3Z2RHFYOC1ZNWwxN3J1V2ZabWp0S1FtRWRYMmg1a3RwSGttMUZZOU5rRkpuMVFtX2s4dzVfaE1kSHdERWxLb3Qw?oc=5",
-   "image": "",
-   "published": "2026-11-17T12:25:11Z",
-   "weight": 1
-  },
-  {
-   "id": "44f02c42583f",
-   "region": "global",
-   "topics": [
-    "media"
-   ],
-   "title": "‍‍‍Where to Find NSFW AI Video Creators in 2026 {FcS-00}",
-   "titleJa": "2026年にNSFW AIビデオクリエイターを見つける場所{FcS-00}",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "Comité Asesor de Vacunas de la AEP",
-   "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxOUldUQTRCcFBXOE41WlRSdGJYd3FxWGI4dVhJalg4TU1LRkRLTnpuZmwySzBWZ1JRNVpPSS1sUHRSZVIyREVwYmZoOU83bVZBSENwTTVSUmVHNFJ3THRnelJHLTVNSWZvTmZVU1Z1MzAtQjBkSWwxZ2lNeXc4b1RDWmtuMWVTS2xkeW9wN3BiOGwzUkdBeWdDX3dxRU9uYm0tMWVZZ0s2bXl5X1YtTHVHYkNldHVGVzc1bUdUOEx3UzU2WUE1TU4tcEpncVp6dUdLSERoUlJVb2lyRy1BY1prV1lKeTdBcDBHdGpsZFpPZDcwWnp2emZaX0t5WXNKVzlRWXphYzltM1VvZWh4V2xxWFpGQ3VCdmgt?oc=5",
-   "image": "",
-   "published": "2026-11-17T12:22:12Z",
-   "weight": 1
-  },
-  {
-   "id": "508f5ec06bcb",
-   "region": "global",
-   "topics": [
-    "media"
-   ],
-   "title": "‍‍‍Evaluating Top AI Video and Image Tools for Adult Content {FcS-00}",
-   "titleJa": "アダルトコンテンツ向けの主要なAI動画・画像ツールを評価する{FcS-00}",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "Comité Asesor de Vacunas de la AEP",
-   "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxOWjNUcEZRQW5FSG94d1R3dVU0TkhoZTFCbkpQUmlfTjg3NXQ4VDZiemhVY0ZLcEhLYXV0TmtxUjJVNWltZ1FOLUo1eWc5X2FQdkVBY2cwcW9zNHpiaVFaOHJLSFg2Z29OUml5Qm5Zdk16Ymc4YU0yeVdnSjFlY3FwTF9QbUlSQ09uVXRIUk1VWEFnWm9haFBnZ2RPQ05TUmItemZfSExDRE5yTDVmdW9TNjIwQnBldkVpeW1iRnFxZE5pNVd0d1NsMjBkUC1rWmI2QnVMcHV0NWtrbXJrd3BuVWpZQ2ZrVFo0dG1qUDFQNjJQdm5HTTRPc295MjliRERNVnFTVHJZcEJsZ3ZKZ0YzNF9BNTBIOXRC?oc=5",
-   "image": "",
-   "published": "2026-11-17T12:14:34Z",
-   "weight": 1
-  },
-  {
-   "id": "c9127ee66e19",
-   "region": "global",
-   "topics": [
-    "media"
-   ],
-   "title": "‍‍‍AI Video Generators in 2026: The Complete Ranked {FcS-00}",
-   "titleJa": "",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "Comité Asesor de Vacunas de la AEP",
-   "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQRjZwbHRWTnFhcWJZeENobS1nNk1McGhLcXJrYlZGRldZcEZZZnpVcDFfNGRGQjVTelE3LWV4UHBDT1NtekMydF95SUZIRG93NS1xTmVBSktENE0xWV9hdGlwU2psZnB0YXJGUHFEMzhIVENnMHF1eENRYjI0MzVYNldnS3JMZVZCXzRHeWQyVU9adXpZN0dJbm1DY1BrUjVFZ25wdm4xTllnbHg1OFp4dXI3bGd1bXRpRVJYMFV0WmMwcjZERzVrOWZVU0QwM1dvSjBRSXF3R2VZc2dxRV9TbWVpeGtIOHpoWVAzNWJrM1B4YzJpSUplMmt5Z2FDZFdjM0R0TG50ZVMyZWU2Vlp1UG5kTHBoTml2?oc=5",
-   "image": "",
-   "published": "2026-11-17T12:11:20Z",
-   "weight": 1
-  },
-  {
-   "id": "fc68557859ce",
-   "region": "japan",
-   "topics": [
-    "general"
-   ],
-   "title": "新興国の若年層雇用、生成AIで減少傾向 欧州復興銀が報告書",
-   "titleJa": "新興国の若年層雇用、生成AIで減少傾向 欧州復興銀が報告書",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "ja",
-   "source": "日本経済新聞",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4tX0ZzcUlDalJ2YmtyUGNEYmREWHRJU2NxaFM4alBBeXFFUmFLWE0yZ2JhY1RjclBmTVVOeEJFWjBpRmctWWdmWl9HUFlTWVdPNHZOWWhIclMxZlgwV1ZuUF9sTC1qVDcxTlRqRw?oc=5",
-   "image": "",
-   "published": "2026-11-17T12:04:42Z",
-   "weight": 1
-  },
-  {
-   "id": "cfc08f5fc9c4",
-   "region": "japan",
-   "topics": [
-    "general"
-   ],
-   "title": "VAIOって高級なノートPCのイメージあるけど、今ならVAIO T発売記念でめちゃお買い得なんです",
-   "titleJa": "VAIOって高級なノートPCのイメージあるけど、今ならVAIO T発売記念でめちゃお買い得なんです",
-   "summary": "VAIO直販に注目。「VAIO T ;Copilot+ PC」が「発売記念特別価格」として、3万3000円の値引きが適用され、34万1000円で購入できる。",
-   "summaryJa": "VAIO直販に注目。「VAIO T ;Copilot+ PC」が「発売記念特別価格」として、3万3000円の値引きが適用され、34万1000円で購入できる。",
-   "lang": "ja",
-   "source": "ASCII.jp",
-   "url": "https://ascii.jp/elem/000/004/451/4451839/?rss",
-   "image": "",
-   "published": "2026-11-17T12:00:00Z",
-   "weight": 1
-  },
-  {
-   "id": "f0ac38c740de",
-   "region": "japan",
-   "topics": [
-    "general"
-   ],
-   "title": "企業での生成AI、「導入」から「活用」へ 全面利用可は68%に",
-   "titleJa": "企業での生成AI、「導入」から「活用」へ 全面利用可は68%に",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "ja",
-   "source": "日本経済新聞",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBhTEdLcGRWaGN2UnBBdjZiVkpQaWQwNmlsdWo2ejZTZnlQN25DTzZ0d3ZOcnYtODVKRDIxVHhGbkxMTFZQSTlnRmRWUXpyME55WjVJYXR4R3NZQ1RkR1I0dEM2UUlvRU01ZWV6WA?oc=5",
-   "image": "",
-   "published": "2026-11-17T12:00:00Z",
-   "weight": 1
-  },
-  {
-   "id": "5463ea3fc06b",
-   "region": "japan",
-   "topics": [
-    "policy",
-    "products"
-   ],
-   "title": "米商務省がAIチップのリモート利用を阻止する新規則を発表、5カ国向けは許可制に",
-   "titleJa": "米商務省がAIチップのリモート利用を阻止する新規則を発表、5カ国向けは許可制に",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "ja",
-   "source": "Pasquale Pillitteri",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQaTh4Z2RTN3lSYkJSb21GSHRfUWZ4VFRGUjdCLTZ2Wk83RU1rWk1QS0Zxb1JNZm9HTUF5MkJ4dENoaWpYSW1fRWVrcFNwaWdSQnlpR3l6U1RvV3l0c0xHQU03YTJQRGxleXNrWGtfcm5lV29ybnhJRnRZM3FEcXkwZjNSN1VPYWhTd00wamJ1N1dYVXFZc2lET2hn?oc=5",
-   "image": "",
-   "published": "2026-11-17T11:32:18Z",
-   "weight": 1
-  },
-  {
-   "id": "80d3d55ae681",
-   "region": "japan",
-   "topics": [
-    "general"
-   ],
-   "title": "購入前の確認先に「生成AI」が22.8%ランクイン！検索エンジンやAmazonと並ぶ最新の購買行動データまとめ",
-   "titleJa": "購入前の確認先に「生成AI」が22.8%ランクイン！検索エンジンやAmazonと並ぶ最新の購買行動データまとめ",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "ja",
-   "source": "DXマガジン",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5PMXVVWnNWMWhlcms0akZkQUdBZGVVSkZsZnV1OTFBLU5ReG5NUXlFaFFSVWxvcjBNaFVlSWhvNE5xQUJvWTl3UFp0N0lJTUU?oc=5",
-   "image": "",
-   "published": "2026-11-17T11:22:43Z",
-   "weight": 1
-  },
-  {
-   "id": "de8f03250038",
-   "region": "japan",
-   "topics": [
-    "products"
-   ],
-   "title": "「AIがまとめてくれるから便利」 学校情報化先進地域の中学校で生成AIを使った公開授業 デジタル教育の専門家も参加 山梨・中央市（UTYテレビ山梨）",
-   "titleJa": "「AIがまとめてくれるから便利」 学校情報化先進地域の中学校で生成AIを使った公開授業 デジタル教育の専門家も参加 山梨・中央市（UTYテレビ山梨）",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "ja",
-   "source": "Yahoo!ニュース",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE13MHJqaVVUdnZLaXB5UExUREJtSm8zMjQybkNZTlBCYTlXdHNPUS1XMlVkNVRadkFQa1UyZWJ2ODF5Mk0yd2Z1OVNvVXJCVFNFU09CVmhackx1UnFfRWxyTmlMWGRfR19EYVdZb1l6VkQ4ZlNXVWVhYW1jZWc0cWc?oc=5",
-   "image": "",
-   "published": "2026-11-17T11:15:29Z",
-   "weight": 1
-  },
-  {
-   "id": "ffd63ad4b7ba",
-   "region": "japan",
-   "topics": [
-    "products"
-   ],
-   "title": "「アドバイスくれる」生成AIを授業に活用 生徒が学び深める 中学校で公開授業 山梨",
-   "titleJa": "「アドバイスくれる」生成AIを授業に活用 生徒が学び深める 中学校で公開授業 山梨",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "ja",
-   "source": "日テレNEWS NNN",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZmVZNHZDOUEyT21WVGdyWGJEUFhEakRaUkVIQ0FXTmItSWxSZGVnZ2t1TGgtbDNXWHpfTHVOclVJX2w5ZWdUYlNxSHFaTmJuenJUcGRoQmtScmpIaURDUTVnNVhlZW1pSVNnZVhBWHpWSzlOWDZqbTktelMyTGVxaXFuTQ?oc=5",
-   "image": "",
-   "published": "2026-11-17T11:15:00Z",
-   "weight": 1
-  },
-  {
-   "id": "07fd3965a3b9",
-   "region": "japan",
-   "topics": [
-    "products"
-   ],
-   "title": "「AIがまとめてくれるから便利」 学校情報化先進地域の中学校で生成AIを使った公開授業 デジタル教育の専門家も参加 山梨・中央市 | 山梨のニュース | ＵＴＹテレビ山梨 (1ページ)",
-   "titleJa": "「AIがまとめてくれるから便利」 学校情報化先進地域の中学校で生成AIを使った公開授業 デジタル教育の専門家も参加 山梨・中央市 | 山梨のニュース | ＵＴＹテレビ山梨 (1ページ)",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "ja",
-   "source": "TBS NEWS DIG",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB4cERJRXpYZ1RHaWxkZ1o3VTU2UVlGZ0lTNWZxM1RPVWRSZ1k2NTVfOTFiYWJjc05xRzhhYVJfd21qQ3hJakEzQnl5d29JTjAyeDJMYUtBME9OdUFnaEk5aG1INlZ6ZTg?oc=5",
-   "image": "",
-   "published": "2026-11-17T11:15:00Z",
-   "weight": 1
-  },
-  {
-   "id": "5324e9ecac61",
-   "region": "global",
-   "topics": [
-    "general"
-   ],
-   "title": "Tencent Holdings (SEHK:700) Rolled Out Its Hy4 Flash AI Model",
-   "titleJa": "",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "Yahoo Finance",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQlFmVkdkbnFjSW9sV1F2LVZucENGbWhVSGRWcG54S2VDc1dhWmt5MXFzU3NGVFFJNjZfcHJCZmpJMlQ2VmpyQ2piUXQ2SjZyNldNWGJHNnhiT2VXbFIyTjlveVJud3gxcnptQzY4eTE2NFBsYmgyRHpYZTBLUTZJWnY0aDdhdnVOaUo2OEVfOFRZcTZJTXFKaFhIX0w?oc=5",
-   "image": "",
-   "published": "2026-11-17T11:13:08Z",
-   "weight": 1
-  },
-  {
-   "id": "dacfa4e05297",
-   "region": "japan",
-   "topics": [
-    "research"
-   ],
-   "title": "暮らしに浸透するＡＩ 便利さの一方でリスクも 青森中央学院大学はＡＩ対応を必修授業に（青森放送）",
-   "titleJa": "暮らしに浸透するＡＩ 便利さの一方でリスクも 青森中央学院大学はＡＩ対応を必修授業に（青森放送）",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "ja",
-   "source": "Yahoo!ニュース",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE41dzFIM0dNeHFlZ1RYZnFTMm11OWFyazZxYnZHcjYtczl4ZnNpZWxuQWs5aFpCaDRMcEZ4a1E1M0I0M2Z2cXFHcHNZTW02TGVZc0VNS2U0LWhDdzViTnhmNXg2eFBzLXdqVlhZR1p1UjVLZ2VNbHRSZk1wZU9oTkk?oc=5",
-   "image": "",
-   "published": "2026-11-17T11:06:00Z",
-   "weight": 1
-  },
-  {
-   "id": "0db154ae9b6e",
-   "region": "global",
-   "topics": [
-    "products"
-   ],
-   "title": "Understand How Satellite Links Shape IoT Device Design and Testing",
-   "titleJa": "",
-   "summary": "How 3GPP Releases 15, 16, and 17 brought satellite access into 5G NR, NB-IoT, and eMTC. Why satellite links suit IoT devices that send small, infrequent, and delay-tolerant messages. Where non-terrestrial networks (NTN) add value, including asset tracking, agriculture, public saf…",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "IEEE Spectrum",
-   "url": "https://content.knowledgehub.wiley.com/5g-nr-ntn-design-and-test-challenges-for-satellite-connected-iot/",
-   "image": "https://assets.rbl.ms/68666627/origin.png",
-   "published": "2026-11-17T11:00:04Z",
-   "weight": 2
-  },
-  {
-   "id": "d9741dd16d40",
-   "region": "global",
-   "topics": [
-    "general"
-   ],
-   "title": "The Apple Watch’s Live Rewind Can Record and Rewind Spoken Conversations. It’s Pretty Awkward",
-   "titleJa": "",
-   "summary": "Live Rewind and Siri Recap can transcribe missed moments and summarize your day—if you don’t mind a little social clumsiness.",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "WIRED",
-   "url": "https://www.wired.com/story/apple-watch-audio-intelligence-live-rewind-siri-recap/",
-   "image": "https://media.wired.com/photos/6af73f064e708cb7030f047d/master/pass/DSC_0242.jpg",
-   "published": "2026-11-17T11:00:00Z",
-   "weight": 2
-  },
-  {
-   "id": "a7b4a5c38fe5",
-   "region": "global",
-   "topics": [
-    "agents"
-   ],
-   "title": "Rogue Agents Hacked His Company. Why Is Clément Delangue So Optimistic About AI?",
-   "titleJa": "",
-   "summary": "The French CEO of Hugging Face, a mega-hub of open-source AI software, says the attack by OpenAI models earlier this year proved one thing: Humanity can’t let AI be controlled by the few.",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "WIRED",
-   "url": "https://www.wired.com/story/wired-yearbook-2026-clement-delangue/",
-   "image": "https://media.wired.com/photos/6af4d05353156106eee176d7/master/pass/WWF-Clement-Delangue-1.jpg",
-   "published": "2026-11-17T11:00:00Z",
-   "weight": 2
-  },
-  {
-   "id": "02ba0cb12487",
-   "region": "japan",
-   "topics": [
-    "general"
-   ],
-   "title": "AIの答えが正しくても人間が圧力をかけるとAIは簡単に意見を変えてしまう",
-   "titleJa": "AIの答えが正しくても人間が圧力をかけるとAIは簡単に意見を変えてしまう",
-   "summary": "AIが正確な気候変動に関する情報を提供しても、人間から圧力をかけられると容易に間違った情報を発信してしまうことが、国際連合教育科学文化機関(ユネスコ)とユニヴァーシティ・カレッジ・ロンドン(UCL)の共同調査により明らかになりました。",
-   "summaryJa": "AIが正確な気候変動に関する情報を提供しても、人間から圧力をかけられると容易に間違った情報を発信してしまうことが、国際連合教育科学文化機関(ユネスコ)とユニヴァーシティ・カレッジ・ロンドン(UCL)の共同調査により明らかになりました。",
-   "lang": "ja",
-   "source": "GIGAZINE",
-   "url": "https://gigazine.net/news/20261117-ai-easy-pressure-false-information/",
-   "image": "",
-   "published": "2026-11-17T11:00:00Z",
-   "weight": 1
-  },
-  {
-   "id": "08c900865da7",
-   "region": "japan",
-   "topics": [
-    "business"
-   ],
-   "title": "「生成AIも間違いなくインフラの1つ」幅広い業界で進むAI導入 AI開発会社と提携した建設会社が目指すものは？ AIを学んだ社員が専用のアプリを開発した企業も＝静岡",
-   "titleJa": "「生成AIも間違いなくインフラの1つ」幅広い業界で進むAI導入 AI開発会社と提携した建設会社が目指すものは？ AIを学んだ社員が専用のアプリを開発した企業も＝静岡",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "ja",
-   "source": "TBS NEWS DIG",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5CdEpJdU9UeXB5ZkRZTzlFSTljcWRDdUFndFR0ZXpobUdackxVUFJ5UUVxUjFaZDR6S1lwYUNDTGJoZjJVWmlmaGZNRjNzcFB5cDZmUnZCZHc3SVdKYjY2RUc4QWVCbWc?oc=5",
-   "image": "",
-   "published": "2026-11-17T10:48:00Z",
-   "weight": 1
-  },
-  {
-   "id": "e4e59f960ee2",
-   "region": "global",
-   "topics": [
-    "general"
-   ],
-   "title": "AI Told These Ex-Google Guys How to Build a Billion-Dollar Weapons Business",
-   "titleJa": "",
-   "summary": "Google and Apple alumni Chad Steelberg and Andy Baynes are applying what they learned running software companies and designing iPhones to manufacturing lethal munitions.",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "WIRED",
-   "url": "https://www.wired.com/story/ai-told-these-ex-google-guys-how-to-build-a-billion-dollar-weapons-business/",
-   "image": "https://media.wired.com/photos/6afb9fde88d847b7d226d42b/master/pass/AI-Told-Ex-Google-Guys-How-to-Build-Billion-Dollar-Weapons-BusinessDAAS3.png",
-   "published": "2026-11-17T10:47:45Z",
-   "weight": 2
-  },
-  {
-   "id": "4984c32c8c0a",
-   "region": "global",
-   "topics": [
-    "products"
-   ],
-   "title": "French company launches AI model Olala as rival to US and Chinese competitors",
-   "titleJa": "",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "The Brussels Times",
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQ2t5UkFLRWhRMnpNUEo3VnBzd003RS1XemtYUFNxR04ydktPVjVIT1VtM2JjcnA4QllVU2lhTThqbmtBcVp4Q09QRHhzcGtpeW1ndGhVTkhNdVhuLUJTeXdmd21SMnBuNTdCUzRhVVNyNXR3c2FHdW1OZnlhaHhGTVpDbnk5Z2xZbFNXRFIzU1RPYnhQUm1PRktYU1BRd3JnZm56QllpVllmSm5rV2RxeE5mVmZYc3NQcVI1YWVNRWZCdw?oc=5",
-   "image": "",
-   "published": "2026-11-17T10:45:27Z",
-   "weight": 1
-  },
-  {
-   "id": "1860892ba069",
-   "region": "global",
-   "topics": [
-    "products"
-   ],
-   "title": "Tencent Announces Release of Hy4 Flash Ai Model",
-   "titleJa": "",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "marketscreener.com",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNS1pGUTJWbFRlb1JNTGJWaXpueGNxQmotN2c2NlE1c3lkalgzZGk5NlBoSjJpQndORTQyNWFfNnpyb283ZTh2TmdNc3VZS2ltUEtuaVdGQ3VYSHJGWmtNUjA2aFNDOXM0MVJ4TmxUU1NrV080Mzh5Rlp1QXdXWjhsMHBjNjFBdjRJaThlYTJmZ2pvS0pWZEk1VFBlWUM0b1VjTFE?oc=5",
-   "image": "",
-   "published": "2026-11-17T10:35:18Z",
-   "weight": 1
-  },
-  {
-   "id": "1d6e248e7522",
-   "region": "global",
-   "topics": [
-    "general"
-   ],
-   "title": "From Yale to MIT to UCLA: The AI policies of the nation's biggest colleges",
-   "titleJa": "",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "Mashable",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5lWUNjWGtESkhZdVJiLWZVSUU1bVJWMHVFVmZpcFA5ZTktWHNva01uSGxCUmRpX1Blb25TYjlKOFh0eUgwcXA4UW5yWHFua1FoejBPMkFLX1NFZkpyb0NFQzdTOHJYeFFDSlFxa1p1REtLUQ?oc=5",
-   "image": "",
-   "published": "2026-11-17T10:00:00Z",
-   "weight": 1
-  },
-  {
-   "id": "8473dc094b7e",
-   "region": "japan",
-   "topics": [
-    "policy"
-   ],
-   "title": "デジタル時代のサイバーセキュリティ - パート3：AIの安全性を確保するための情報保護",
-   "titleJa": "デジタル時代のサイバーセキュリティ - パート3：AIの安全性を確保するための情報保護",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "ja",
-   "source": "Vietnam.vn",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdHVkUmVNa3JOMGJOdGRTMmdwNGdPcnRwMGZZOS04bnN2UUJJdWg3VlFWRUtCNFAwd0l2TTFlbG1SMWFrMW5nMVBYOFJlYXI1WnoxZlBTMkVzQkZWa2ozWG9KMGQxUnFBLXdRWWVwU0tGcnFKbVFqNHF3bmFWenk5bzdGcTdOZWJSTWNsRlFJc1ZhZDhoSjliei1QSUJQR3NzLTVnVnNR?oc=5",
-   "image": "",
-   "published": "2026-11-17T09:57:01Z",
-   "weight": 1
-  },
-  {
-   "id": "05e2dcea1a02",
-   "region": "global",
-   "topics": [
-    "policy"
-   ],
-   "title": "AI policy again discussed at Wake schools, but no vote is expected for months",
-   "titleJa": "",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "WRAL",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMXJaRjZ6V29Hd0ZuUmR2NGt1eXA3bGZyUTBNeEZrU0JnMVgySGlLekZHdEYwY19kMFN5NkVzaWtZU01tTWsxWHR3T2FBZWx0VFYxY2tPYUxTTksxN2ZwR25CTjNJNDhWUkZsdGRmeVI0Qjlkd0NKUVZVQ3hoZWJLRU1rYThJenRaRF83STdoYS0yUms?oc=5",
-   "image": "",
-   "published": "2026-11-17T09:56:05Z",
-   "weight": 1
-  },
-  {
-   "id": "25f38b8c7119",
-   "region": "japan",
-   "topics": [
-    "models",
-    "policy",
-    "products"
-   ],
-   "title": "グーグル、最新サイバー防御AIモデルを日本政府に提供",
-   "titleJa": "グーグル、最新サイバー防御AIモデルを日本政府に提供",
-   "summary": "Google Cloudは17日、日本政府とサイバーセキュリティ強化などで協力すると発表した。国家サイバー統括室(NCO)などの行政機関、金融機関、重要インフラ事業者に対し、サイバーセキュリティ能力を強化した最新のフロンティアAIモデル「Gemini 4 Carbon for Cyber」と、脆弱性の検知やコード修復を支援する「CodeMender」への早期アクセスを提供する。",
-   "summaryJa": "Google Cloudは17日、日本政府とサイバーセキュリティ強化などで協力すると発表した。国家サイバー統括室(NCO)などの行政機関、金融機関、重要インフラ事業者に対し、サイバーセキュリティ能力を強化した最新のフロンティアAIモデル「Gemini 4 Carbon for Cyber」と、脆弱性の検知やコード修復を支援する「CodeMender」への早期アクセスを提供する。",
-   "lang": "ja",
-   "source": "Impress Watch",
-   "url": "https://www.watch.impress.co.jp/docs/news/2157194.html",
-   "image": "",
-   "published": "2026-11-17T09:53:08Z",
-   "weight": 1
-  },
-  {
-   "id": "604c9eaf3620",
-   "region": "global",
-   "topics": [
-    "hardware"
-   ],
-   "title": "China Uses US AI Model Outputs To Train Domestic Rivals",
-   "titleJa": "",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "Dataconomy",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOMnpQRWV4V0dYci1yT2hub2FfZFotVy1TQURQUTYxandSQ0NmY3lmeXM4aDRReWVXRmRqQ3I3SERSTmdWLUxfWlNKT2xsM0kwdG9XeDlhRU5VMi1scU1nUVFWWS1zak45bnBKNEVSVzJfTE52SzhJQjEwWmlnaG4xaGJlZThZUGZZRUg2Ui1rMmQ2RllX?oc=5",
-   "image": "",
-   "published": "2026-11-17T09:48:10Z",
-   "weight": 1
-  },
-  {
-   "id": "5a355376e392",
-   "region": "japan",
-   "topics": [
-    "products"
-   ],
-   "title": "SwitchBot、10周年で新製品を一斉発表 AIペットから睡眠家電まで",
-   "titleJa": "SwitchBot、10周年で新製品を一斉発表 AIペットから睡眠家電まで",
-   "summary": "SwitchBotは17日、ブランド10周年を記念した新製品発表会を開催し、手のひらサイズのAIペット「KATAフレンズ mini」やスマートリモコン「ハブ4」、お掃除ロボット「S30」などを発表した。ハブ4やS30などは18日から販売を順次開始する。",
-   "summaryJa": "SwitchBotは17日、ブランド10周年を記念した新製品発表会を開催し、手のひらサイズのAIペット「KATAフレンズ mini」やスマートリモコン「ハブ4」、お掃除ロボット「S30」などを発表した。ハブ4やS30などは18日から販売を順次開始する。",
-   "lang": "ja",
-   "source": "Impress Watch",
-   "url": "https://www.watch.impress.co.jp/docs/news/2157178.html",
-   "image": "",
-   "published": "2026-11-17T09:33:51Z",
-   "weight": 1
-  },
-  {
-   "id": "d80dcad71bf4",
-   "region": "japan",
-   "topics": [
-    "general"
-   ],
-   "title": "NTTデータ、古い基幹システムを生成AIで刷新 保守工数5割削減",
-   "titleJa": "NTTデータ、古い基幹システムを生成AIで刷新 保守工数5割削減",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "ja",
-   "source": "日本経済新聞",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5WQzRLVUxPMzhZZE5acks5R3IyXzNFWWRFcnJQdU9MUWdKdG9YdENTNEl5anlsYVJrMHdKTEFzSF8zUkd1dWxoTWNRcnEtWUxJekxSLVZocHptWDIxRVhicjNCMU1mLWh4TUVuXw?oc=5",
-   "image": "",
-   "published": "2026-11-17T09:33:40Z",
-   "weight": 1
-  },
-  {
-   "id": "358e6a49acb6",
-   "region": "global",
-   "topics": [
-    "policy"
-   ],
-   "title": "California files lawsuit against OpenAI for unsafe AI model testing",
-   "titleJa": "",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "Verdict",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBmMFlBcGZIbDgwREZocGt2R0IxTnNmb3FzRXVKNDh1SlBLNW9YeXBiZzlFOGxQcFVXNGNCSHl4SXYzdWxEQy0xZHZVZGRER1BNdGtuRVdIZ29FWXhKVHJxbjV2Y1JpalpzdjUwdUp5VEwzUGFo?oc=5",
-   "image": "",
-   "published": "2026-11-17T09:32:13Z",
-   "weight": 1
-  },
-  {
-   "id": "b99cfde40ed9",
-   "region": "japan",
-   "topics": [
-    "general"
-   ],
-   "title": "生成AIでCOBOLなどの基幹システムを保守性の高いJavaへ再設計 金融機関や官公庁をはじめとするユーザーを中心に提供",
-   "titleJa": "生成AIでCOBOLなどの基幹システムを保守性の高いJavaへ再設計 金融機関や官公庁をはじめとするユーザーを中心に提供",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "ja",
-   "source": "株式会社インプレス",
-   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9McW1pUGpqS0NaUWpEUnJ5UlNyUGRlTjNkT1IwWW8wbGhwTGpiWkM5aWM0dk1TRDZjaktCZUJ3enhhZWF4TnpPc0lJUGs0WEhWd3hKSVB3NWdJb1BENURBTEdvNA?oc=5",
-   "image": "",
-   "published": "2026-11-17T09:31:11Z",
-   "weight": 1
-  },
-  {
-   "id": "45f0a7a0d818",
-   "region": "global",
-   "topics": [
-    "media"
-   ],
-   "title": "How AI video analytics is reshaping enterprise decisions",
-   "titleJa": "",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "PCQuest",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQT0tEa2VkdWFjUHpWLXA4WWZ3a20tdjBtaHJiSFJmOU9ia0phZFdaTEVqNWp5TzJfZklISU1UcXdvdmNkakpkY1RsUzROak12ZDFNUlFjOXFsLWFJb0hMY0g0MEZLaXVJV1J3Ty1KUHFIeElyQW9obzZlVTJ0MXVWQ2dPZklFOERKTVZkRDlDYTdDXzJKeWRYRXVIdmo3TkFBcnk0cU5zLWY1NjlPWHBaY3FkamPSAboBQVVfeXFMTlk0TGtFLUtqTE5jVVZkUk5wdHQ0ZFJOaXBCMUhEbzl4R09SZ3o4aC1PejdVclBXSENTV3Q3WlpaMVdPazJrcVhSeUp1SEQtQ3l4bTB2MDd5aFdaZ0pjVGoxM3M2bkVOQmszTUZ0MkdhcjZwNVFVS21JR3Foa0tSZDktOEFpU21XS2puQlhBNmgzNmlYa0ZpeTlqM3pzbFhLa0VHRXp1Q1o2dTdOc3FYWjRyR0p2c0FMa1ZR?oc=5",
-   "image": "",
-   "published": "2026-11-17T09:30:59Z",
-   "weight": 1
-  },
-  {
-   "id": "19f89244028a",
-   "region": "global",
-   "topics": [
-    "general"
-   ],
-   "title": "Phoenix Contact integrates generative AI into the PLCnext Engineer engineering environment",
-   "titleJa": "",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "Process and Control Today",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdGRGT1lZa3ZqM3ZlTV92Qzk4MzJ6QW9yQk1nYWJWa01kc05HRUNPNWhTWEl4NDBlVkRGS0JSQXItNWFKVXdla2VRd0g2R3dvdy1Qa3JLeTJyQnlTTURDYjBGZFJQdjVCWEhDNGt2MlRESUVtYWRZUkZZUjBTTlZDcTJDMlh2RG42dWVfTXdCOVBNTklNeldaVHFPT09ReVNPdU5sRFJ6azRwVTFsNDFYTjN0R2ExNE1FeHc?oc=5",
-   "image": "",
-   "published": "2026-11-17T09:21:25Z",
-   "weight": 1
-  },
-  {
-   "id": "ae1a0f01edfa",
-   "region": "japan",
-   "topics": [
-    "general"
-   ],
-   "title": "AI連携とオーケストレーションのための基盤ビジョンLLM : 企業情報",
-   "titleJa": "AI連携とオーケストレーションのための基盤ビジョンLLM : 企業情報",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "ja",
-   "source": "NEC",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRjQ5Z2lMcHFiLS1HY0JGLTAzOTBxS0RGM0dwelg5R2N6bm12c2xVc1hGWmRjNEhYNi0yYUdxX004QlI0YWR5U08zdkt1dHRUbTltUlg4enR5aWk3SkJNYkx2TV94Ujl4WUNMRUQ2M0s3dmdOYWRqVDlVY1hxWml3U0haVQ?oc=5",
-   "image": "",
-   "published": "2026-11-17T09:12:42Z",
-   "weight": 1
-  },
-  {
-   "id": "d0209ddf04b2",
-   "region": "japan",
-   "topics": [
-    "policy"
-   ],
-   "title": "5年前に自分で歌った曲がAI音楽企業の著作権侵害申し立てで削除される、異議申し立ても2回却下",
-   "titleJa": "5年前に自分で歌った曲がAI音楽企業の著作権侵害申し立てで削除される、異議申し立ても2回却下",
-   "summary": "約5年前に自分で録音した歌声をYouTubeに投稿していたミュージシャンが、AIを活用する音楽配信企業から著作権侵害を申し立てられて動画を削除される事態が発生しました。ミュージシャンは2回にわたって異議を申し立てたものの認められませんでした。問題を解決するまでの経緯をテクノロジーメディアの404 Mediaが報じています。",
-   "summaryJa": "約5年前に自分で録音した歌声をYouTubeに投稿していたミュージシャンが、AIを活用する音楽配信企業から著作権侵害を申し立てられて動画を削除される事態が発生しました。ミュージシャンは2回にわたって異議を申し立てたものの認められませんでした。問題を解決するまでの経緯をテクノロジーメディアの404 Mediaが報じています。",
-   "lang": "ja",
-   "source": "GIGAZINE",
-   "url": "https://gigazine.net/news/20261117-musician-copyright-hell/",
-   "image": "",
-   "published": "2026-11-17T09:10:00Z",
-   "weight": 1
-  },
-  {
-   "id": "cbc595941232",
-   "region": "global",
-   "topics": [
-    "media",
-    "business"
-   ],
-   "title": "Lemonpeel raises $1 million pre-seed to build AI video production platform",
-   "titleJa": "",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "Indian Television Dot Com",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQzlJb3lqTWwxeXdDTnJ6X2RxN3VTaHdSdWhua1BQd0xKTG5wOEV6ei12d0RQVXNoSUJ4Q1d3TWJIbVVOX216aUh3b2RVOGI0YWpEWDBzZVA5QTUwZFd5eUpjLWVvR2xfdndSRUF4WHUwVG8xZ3BxWEJhX3YyTm40alRPcFJ5YTJMUXZ4OFV6bVRNWXNiby1Ddy1YMm5SU01lcm9RdVpCRFZYbTQ?oc=5",
-   "image": "",
-   "published": "2026-11-17T09:05:18Z",
-   "weight": 1
-  },
-  {
-   "id": "4b2e7b8c1e73",
-   "region": "japan",
-   "topics": [
-    "hardware"
-   ],
-   "title": "NVIDIA、AI半導体販売を厳格化 GPUの5割超を中国企業に賃貸する顧客は供給停止へ",
-   "titleJa": "NVIDIA、AI半導体販売を厳格化 GPUの5割超を中国企業に賃貸する顧客は供給停止へ",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "ja",
-   "source": "BigGo ファイナンス",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE82b3YwQjFhbzR5T1ZJTWhmSE4yMFljWXJrUmpQUnhLcTlueUVPX2VQaFNBQ05rV2FNSG50cGFicXRtVHloOXZHYkltN3BPaWRqaEFWeHJ2eWpoYXVFbHl2b2hpZ0FWdXRmZXhuczlSbU5reXdO?oc=5",
-   "image": "",
-   "published": "2026-11-17T09:05:00Z",
-   "weight": 1
-  },
-  {
-   "id": "e785854f5700",
-   "region": "global",
-   "topics": [
-    "media"
-   ],
-   "title": "Video | Vijay Latest News | BJP's AI Video Mocks Vijay Over TVK MLA Controversies",
-   "titleJa": "",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "NDTV",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQb2Qxc2taMzY5X0E3b1pnX0YxVDJXU0VGS21MeHlVUEtOTXpvdmFRNlowSkVieEYxZWRlZ29uN2cwU2NZdFQwUVc4dFowcDQtZWpOSTZidDA4QkZxWmY5R2lLNGxOTnpIM1R1bm83NHN1VFBjYzh4dFhzSHRIQWxWdzEyY25oOWxfMHVaSHFwZTJobFlLTzZMbk9hejgwWFRLLXNxQjJsd0ZlQQ?oc=5",
-   "image": "",
-   "published": "2026-11-17T09:01:49Z",
-   "weight": 1
-  },
-  {
-   "id": "826eacb583f6",
-   "region": "japan",
-   "topics": [
-    "research",
-    "business",
-    "products"
-   ],
-   "title": "MUFG、松尾豊教授ら設立のAIスタートアップと提携 「遍在型AGI」活用へ",
-   "titleJa": "MUFG、松尾豊教授ら設立のAIスタートアップと提携 「遍在型AGI」活用へ",
-   "summary": "三菱UFJフィナンシャル・グループ（以下、MUFG）と傘下の三菱UFJ銀行は、AI研究で知られる東京大学の松尾豊教授らが設立したAIスタートアップThird Intelligence（東京都千代田区）と、AIの社会実装を手掛ける松尾研究所（東京都文京区）とのパートナーシップ契約を締結したと発表した。",
-   "summaryJa": "三菱UFJフィナンシャル・グループ（以下、MUFG）と傘下の三菱UFJ銀行は、AI研究で知られる東京大学の松尾豊教授らが設立したAIスタートアップThird Intelligence（東京都千代田区）と、AIの社会実装を手掛ける松尾研究所（東京都文京区）とのパートナーシップ契約を締結したと発表した。",
-   "lang": "ja",
-   "source": "ITmedia AI+",
-   "url": "https://www.itmedia.co.jp/aiplus/article/2611/17/2000003260/",
-   "image": "",
-   "published": "2026-11-17T09:00:00Z",
-   "weight": 2
-  },
-  {
-   "id": "52ff147c4f97",
-   "region": "japan",
-   "topics": [
-    "hardware",
-    "products"
-   ],
-   "title": "人型ロボットに人間の動きを学習させるためのAI「GR00T 2」をNVIDIAが発表、数回のお手本からタスクを学べる",
-   "titleJa": "人型ロボットに人間の動きを学習させるためのAI「GR00T 2」をNVIDIAが発表、数回のお手本からタスクを学べる",
-   "summary": "NVIDIAがロボットを操作するための世界行動モデル「GR00T 2」を発表しました。",
-   "summaryJa": "NVIDIAがロボットを操作するための世界行動モデル「GR00T 2」を発表しました。",
-   "lang": "ja",
-   "source": "GIGAZINE",
-   "url": "https://gigazine.net/news/20261117-nvidia-robot-gr00t-2/",
-   "image": "",
-   "published": "2026-11-17T08:54:00Z",
-   "weight": 1
-  },
-  {
-   "id": "f3ee582b46fb",
-   "region": "global",
-   "topics": [
-    "policy"
-   ],
-   "title": "Manchester Animation Festival Announces 2026 Winners And New AI Policy For 2027 Competition",
-   "titleJa": "",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "Movie Marker",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPWnF4OVo4R3cyYkVmRV9UNWhTSmI5eEdHSTU1ZTFMN2pHUy1saXlTcXMta0FmbWZaSGU4LXBEdG5vYXB6RFpnMVUydGswVFYxbU5jTXZnRlF1Z1oyX1FBdGhLaFpYblRSd2pjWnRIcUZwMGc3Y2VTdkd0WFViTWw1RWgwaFc2WnI2MGF6eG1xNE5ya2NYdXBUQlBxM3dOanc2R3QwbHVXTTZITGdVX1FkU2s3OUl3N2Uxa3M1N1ZNRQ?oc=5",
-   "image": "",
-   "published": "2026-11-17T08:44:33Z",
-   "weight": 1
-  },
-  {
-   "id": "6c7d7a178b78",
-   "region": "global",
-   "topics": [
-    "media",
-    "business"
-   ],
-   "title": "AI video production startup Lemonpeel raises $1 Mn in pre-seed round led by Shastra VC",
-   "titleJa": "",
-   "summary": "",
-   "summaryJa": "",
-   "lang": "en",
-   "source": "Entrackr",
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQ1p2a2drbFFzVVJKam95Z1A1U2hmekV3ODVVemNad2d4MkdheWh0bUtzeU5oVGl3VF9MTW9DRW5wbmVFVWdjU1BXYlhsaU41VXNEcTE0cjFtc3lfclhlZmtVcl9feUZLSmtwR0EwS0Q3R1VmLU9rWGlwTVVYY2JuRkc0S1ptWG1hLVF0N0pWN2QyNWRwUVBna1NiX2pNV3BLbHVydW85Z1U3dDF0aTVzUFdCZG82Ni00Mnh0LTljR0UtZ9IBwgFBVV95cUxQQ1p2a2drbFFzVVJKam95Z1A1U2hmekV3ODVVemNad2d4MkdheWh0bUtzeU5oVGl3VF9MTW9DRW5wbmVFVWdjU1BXYlhsaU41VXNEcTE0cjFtc3lfclhlZmtVcl9feUZLSmtwR0EwS0Q3R1VmLU9rWGlwTVVYY2JuRkc0S1ptWG1hLVF0N0pWN2QyNWRwUVBna1NiX2pNV3BLbHVydW85Z1U3dDF0aTVzUFdCZG82Ni00Mnh0LTljR0UtZw?oc=5",
-   "image": "",
-   "published": "2026-11-17T08:39:35Z",
-   "weight": 1
   }
  ]
 }
